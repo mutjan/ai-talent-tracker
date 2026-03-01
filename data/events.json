@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-048",
+    "person_name": "沈鹏飞",
+    "from_company": "百度",
+    "to_company": "零一万物(01.AI)",
+    "role": "高管",
+    "event_type": "join",
+    "source_url": "https://stcn.com/article/detail/3426476.html",
+    "date_discovered": "2026-03-02",
+    "date_event": "2026-02-01",
+    "summary": "零一万物引入前百度高管沈鹏飞，增强大厂基因与实战能力。"
+  },
+  {
     "id": "evt-024",
     "person_name": "Yann LeCun",
     "from_company": "Meta",
