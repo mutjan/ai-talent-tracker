@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-021",
+    "person_name": "Ruoming Pang",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "AI Researcher / Model Lead",
+    "event_type": "join",
+    "source_url": "https://www.reuters.com/technology/openai-hires-meta-ai-researcher-who-previously-led-apples-models-team-2026-02-26/",
+    "date_discovered": "2026-03-01",
+    "date_event": "2026-02-26",
+    "summary": "Ruoming Pang left Meta (where he was reportedly offered a $200M package) to join OpenAI. He previously led Apple's models team before being poached by Meta."
+  },
+  {
+    "id": "evt-022",
+    "person_name": "Soumith Chintala",
+    "from_company": "Meta",
+    "to_company": "Thinking Machines Lab",
+    "role": "CTO",
+    "event_type": "join",
+    "source_url": "https://www.businessinsider.com/meta-soumith-chintala-mira-murati-thinking-machines-lab-pytorch-ai-2025-11",
+    "date_discovered": "2026-03-01",
+    "date_event": "2025-11-06",
+    "summary": "Soumith Chintala, creator of PyTorch and Meta VP, left Meta to join Mira Murati's Thinking Machines Lab as CTO."
+  },
+  {
+    "id": "evt-023",
+    "person_name": "David Silver",
+    "from_company": "Google DeepMind",
+    "to_company": "Ineffable Intelligence",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://fortune.com/2026/01/30/google-deepmind-ai-researcher-david-silver-leaves-to-found-ai-startup-ineffable-intelligence/",
+    "date_discovered": "2026-03-01",
+    "date_event": "2026-01-30",
+    "summary": "David Silver, AlphaGo creator and legendary DeepMind researcher, left Google DeepMind to found Ineffable Intelligence, seeking $1B funding for superhuman AI research."
+  },
+  {
     "id": "evt-001",
     "person_name": "Ilya Sutskever",
     "from_company": "OpenAI",
