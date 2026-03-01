@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI Talent Tracker</title>
+<title>AI 人才追踪器</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
@@ -571,42 +571,42 @@ footer a:hover { text-decoration: underline; }
 <div class="container">
   <!-- HEADER -->
   <header>
-    <div class="logo-badge">◆ Intelligence Feed</div>
-    <h1>AI Talent Tracker</h1>
-    <p class="subtitle">Tracking personnel movements across major AI companies</p>
-    <p class="last-updated"><span class="pulse"></span>Last updated: <span id="lastUpdated">Loading...</span></p>
+    <div class="logo-badge">◆ 情报流</div>
+    <h1>AI 人才追踪器</h1>
+    <p class="subtitle">追踪主要 AI 公司的人员变动</p>
+    <p class="last-updated"><span class="pulse"></span>最后更新: <span id="lastUpdated">加载中...</span></p>
   </header>
 
   <!-- STATS -->
   <div class="stats-bar">
     <div class="stat-card">
-      <div class="stat-label">Total Events</div>
+      <div class="stat-label">总事件数</div>
       <div class="stat-value" id="statTotal">—</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Companies</div>
+      <div class="stat-label">公司数量</div>
       <div class="stat-value" id="statCompanies">—</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">Departures</div>
+      <div class="stat-label">离职人数</div>
       <div class="stat-value" id="statLeave">—</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">New Joins</div>
+      <div class="stat-label">入职人数</div>
       <div class="stat-value" id="statJoin">—</div>
     </div>
   </div>
 
   <!-- FILTERS -->
   <div class="filters">
-    <input type="text" class="search-input" id="searchInput" placeholder="Search by name, company, or role...">
+    <input type="text" class="search-input" id="searchInput" placeholder="搜索姓名、公司或职位...">
     <div class="filter-pills">
-      <button class="pill active" data-filter="all">All</button>
-      <button class="pill join-pill" data-filter="join">Join</button>
-      <button class="pill leave-pill" data-filter="leave">Leave</button>
+      <button class="pill active" data-filter="all">全部</button>
+      <button class="pill join-pill" data-filter="join">入职</button>
+      <button class="pill leave-pill" data-filter="leave">离职</button>
     </div>
     <select class="company-select" id="companySelect">
-      <option value="">All Companies</option>
+      <option value="">所有公司</option>
     </select>
   </div>
 
@@ -614,25 +614,25 @@ footer a:hover { text-decoration: underline; }
   <div class="timeline-section">
     <div id="loading" class="loading">
       <div class="loading-dots"><span></span><span></span><span></span></div>
-      <p style="margin-top: 16px; font-family: var(--font-display); font-size: 12px; letter-spacing: 1px;">LOADING DATA</p>
+      <p style="margin-top: 16px; font-family: var(--font-display); font-size: 12px; letter-spacing: 1px;">加载数据中</p>
     </div>
     <div id="noResults" class="no-results" style="display: none;">
       <div class="no-results-icon">∅</div>
-      <p>No matching events found</p>
+      <p>未找到匹配的事件</p>
     </div>
     <div class="timeline" id="timeline"></div>
   </div>
 
   <!-- FLOW NETWORK -->
   <div class="network-section">
-    <h2>Talent <span>Flow Network</span></h2>
+    <h2>人才 <span>流向网络</span></h2>
     <div class="flow-grid" id="flowGrid"></div>
   </div>
 
   <!-- FOOTER -->
   <footer>
-    <p>Data updated daily via automated search.</p>
-    <p class="footer-line">Powered by <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">LobsterAI</a> · <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">GitHub</a></p>
+    <p>数据通过自动化搜索每日更新</p>
+    <p class="footer-line">由 <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">LobsterAI</a> 驱动 · <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">GitHub</a></p>
   </footer>
 </div>
 
@@ -662,11 +662,11 @@ async function loadData() {
     // Update timestamp
     const dates = allEvents.map(e => e.date_discovered || e.date_event).filter(Boolean).sort();
     document.getElementById('lastUpdated').textContent = dates.length
-      ? new Date(dates[dates.length - 1]).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
-      : 'Unknown';
+      ? new Date(dates[dates.length - 1]).toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
+      : '未知';
 
   } catch (err) {
-    document.getElementById('loading').innerHTML = '<div class="no-results-icon">⚠</div><p>Failed to load data: ' + err.message + '</p>';
+    document.getElementById('loading').innerHTML = '<div class="no-results-icon">⚠</div><p>加载数据失败: ' + err.message + '</p>';
   }
 }
 
@@ -749,10 +749,10 @@ function renderTimeline() {
   timeline.innerHTML = filtered.map((e, i) => {
     const type = e.event_type === 'hire' ? 'join' : (e.event_type || 'leave');
     const badgeClass = type === 'join' ? 'badge-join' : 'badge-leave';
-    const badgeText = type === 'join' ? 'JOINED' : 'DEPARTED';
+    const badgeText = type === 'join' ? '已入职' : '已离职';
     const from = e.from_company || '—';
     const to = e.to_company || '—';
-    const date = e.date_event ? new Date(e.date_event).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'Unknown';
+    const date = e.date_event ? new Date(e.date_event).toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' }) : '未知';
 
     return `
       <div class="event-card type-${type}" style="animation-delay: ${i * 0.05}s">
@@ -769,7 +769,7 @@ function renderTimeline() {
         <div class="event-summary">${escapeHtml(e.summary || '')}</div>
         <div class="event-meta">
           <span class="event-date">${date}</span>
-          ${e.source_url ? `<span class="event-source"><a href="${escapeHtml(e.source_url)}" target="_blank" rel="noopener">SOURCE ↗</a></span>` : ''}
+          ${e.source_url ? `<span class="event-source"><a href="${escapeHtml(e.source_url)}" target="_blank" rel="noopener">来源 ↗</a></span>` : ''}
         </div>
       </div>
     `;
