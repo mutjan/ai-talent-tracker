@@ -275,6 +275,33 @@ h1 {
 
 .company-select option { background: var(--bg-secondary); }
 
+.sort-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  padding: 10px 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.sort-btn:hover { color: var(--text-primary); border-color: var(--blue-dim); }
+.sort-btn.active { color: var(--blue); border-color: var(--blue-dim); }
+
+.sort-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 14px;
+}
+
+.sort-btn.asc .sort-icon { transform: rotate(180deg); }
+
 /* ═══ TIMELINE ═══ */
 .timeline-section {
   padding: 32px 0;
@@ -608,6 +635,9 @@ footer a:hover { text-decoration: underline; }
     <select class="company-select" id="companySelect">
       <option value="">所有公司</option>
     </select>
+    <button class="sort-btn" id="sortBtn" title="切换时间排序">
+      <span class="sort-icon">↓</span> 最新优先
+    </button>
   </div>
 
   <!-- TIMELINE -->
@@ -641,6 +671,7 @@ let allEvents = [];
 let currentFilter = 'all';
 let currentSearch = '';
 let currentCompany = '';
+let currentSortOrder = 'desc'; // 'desc' = 最新优先, 'asc' = 最早优先
 
 // Load data
 async function loadData() {
@@ -704,7 +735,7 @@ function populateCompanyFilter() {
 }
 
 function getFilteredEvents() {
-  return allEvents.filter(e => {
+  const filtered = allEvents.filter(e => {
     // Type filter
     if (currentFilter !== 'all') {
       const type = e.event_type || '';
@@ -731,6 +762,15 @@ function getFilteredEvents() {
 
     return true;
   });
+
+  // Sort by date
+  filtered.sort((a, b) => {
+    const da = a.date_event || '';
+    const db = b.date_event || '';
+    return currentSortOrder === 'desc' ? db.localeCompare(da) : da.localeCompare(db);
+  });
+
+  return filtered;
 }
 
 function renderTimeline() {
@@ -830,6 +870,16 @@ document.getElementById('searchInput').addEventListener('input', e => {
 
 document.getElementById('companySelect').addEventListener('change', e => {
   currentCompany = e.target.value;
+  renderTimeline();
+});
+
+document.getElementById('sortBtn').addEventListener('click', () => {
+  const btn = document.getElementById('sortBtn');
+  currentSortOrder = currentSortOrder === 'desc' ? 'asc' : 'desc';
+  btn.classList.toggle('asc', currentSortOrder === 'asc');
+  btn.innerHTML = currentSortOrder === 'desc'
+    ? '<span class="sort-icon">↓</span> 最新优先'
+    : '<span class="sort-icon">↓</span> 最早优先';
   renderTimeline();
 });
 
