@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>关键洞察 | AI 人才追踪器</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #06060c;
+  --bg-secondary: #0d0d18;
+  --bg-card: #111122;
+  --bg-card-hover: #161633;
+  --border: #1a1a3e;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888aa;
+  --text-muted: #555570;
+  --blue: #00d4ff;
+  --blue-dim: #00d4ff33;
+  --amber: #ffaa00;
+  --amber-dim: #ffaa0033;
+  --green: #00ff88;
+  --green-dim: #00ff8822;
+  --red: #ff4466;
+  --red-dim: #ff446622;
+  --purple: #8b5cf6;
+  --purple-dim: #8b5cf622;
+  --font-display: 'Space Mono', monospace;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ═══ HEADER ═══ */
+header {
+  padding: 60px 0 40px;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, var(--blue), var(--purple), transparent);
+}
+
+.nav-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-display);
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin-bottom: 24px;
+  transition: color 0.2s;
+}
+
+.nav-back:hover { color: var(--blue); }
+
+.logo-badge {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--amber);
+  border: 1px solid var(--amber-dim);
+  padding: 6px 16px;
+  border-radius: 2px;
+  background: var(--amber-dim);
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(28px, 4vw, 42px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+/* ═══ INSIGHTS LOG ═══ */
+.insights-section {
+  padding: 40px 0;
+}
+
+.insight-entry {
+  position: relative;
+  padding-left: 32px;
+  padding-bottom: 48px;
+  border-left: 1px solid var(--border);
+}
+
+.insight-entry:last-child {
+  padding-bottom: 0;
+  border-left: 1px solid transparent;
+}
+
+.insight-entry::before {
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: 4px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--blue);
+  box-shadow: 0 0 0 3px var(--bg-primary), 0 0 0 4px var(--blue-dim);
+}
+
+.insight-entry.highlight::before {
+  background: var(--amber);
+  box-shadow: 0 0 0 3px var(--bg-primary), 0 0 0 4px var(--amber-dim);
+}
+
+.insight-entry.alert::before {
+  background: var(--red);
+  box-shadow: 0 0 0 3px var(--bg-primary), 0 0 0 4px var(--red-dim);
+}
+
+.insight-entry.success::before {
+  background: var(--green);
+  box-shadow: 0 0 0 3px var(--bg-primary), 0 0 0 4px var(--green-dim);
+}
+
+.insight-date {
+  font-family: var(--font-display);
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.insight-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.insight-card:hover {
+  border-color: var(--blue-dim);
+  background: var(--bg-card-hover);
+}
+
+.insight-entry.highlight .insight-card:hover {
+  border-color: var(--amber-dim);
+}
+
+.insight-entry.alert .insight-card:hover {
+  border-color: var(--red-dim);
+}
+
+.insight-entry.success .insight-card:hover {
+  border-color: var(--green-dim);
+}
+
+.insight-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.insight-tag {
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.tag-trend { background: var(--blue-dim); color: var(--blue); }
+.tag-alert { background: var(--red-dim); color: var(--red); }
+.tag-highlight { background: var(--amber-dim); color: var(--amber); }
+.tag-success { background: var(--green-dim); color: var(--green); }
+.tag-china { background: var(--purple-dim); color: var(--purple); }
+
+.insight-title {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.insight-content {
+  font-size: 15px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.insight-content p {
+  margin-bottom: 12px;
+}
+
+.insight-content p:last-child {
+  margin-bottom: 0;
+}
+
+.insight-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stat-pill {
+  font-family: var(--font-display);
+  font-size: 11px;
+  padding: 6px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+
+.stat-pill strong {
+  color: var(--text-primary);
+}
+
+.insight-people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.person-chip {
+  font-family: var(--font-display);
+  font-size: 11px;
+  padding: 5px 12px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-primary);
+}
+
+.person-chip .company {
+  color: var(--text-muted);
+  font-size: 10px;
+}
+
+.insight-source {
+  font-size: 12px;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 16px;
+}
+
+.insight-source a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.insight-source a:hover {
+  text-decoration: underline;
+}
+
+/* ═══ SUMMARY BOX ═══ */
+.summary-box {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 40px;
+}
+
+.summary-title {
+  font-family: var(--font-display);
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 16px;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.summary-item {
+  padding: 16px;
+  background: var(--bg-primary);
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+.summary-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.summary-value {
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.summary-value.up { color: var(--red); }
+.summary-value.down { color: var(--green); }
+
+/* ═══ FOOTER ═══ */
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+footer a:hover { text-decoration: underline; }
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 768px) {
+  .container { padding: 0 16px; }
+  header { padding: 40px 0 24px; }
+  .insight-entry { padding-left: 24px; }
+  .insight-card { padding: 20px; }
+  .summary-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="nav-back">← 返回追踪器</a>
+    <div class="logo-badge">◆ 分析日志</div>
+    <h1>关键洞察</h1>
+    <p class="subtitle">AI 人才流动趋势分析与深度观察</p>
+  </header>
+
+  <!-- SUMMARY -->
+  <div class="summary-box">
+    <div class="summary-title">本期更新概览 · 2026年3月1日</div>
+    <div class="summary-grid">
+      <div class="summary-item">
+        <div class="summary-label">新增事件</div>
+        <div class="summary-value">+12</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">数据库总量</div>
+        <div class="summary-value">48</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">xAI 创始团队剩余</div>
+        <div class="summary-value up">5/12</div>
+      </div>
+      <div class="summary-item">
+        <div class="summary-label">Meta MSL 新加入</div>
+        <div class="summary-value down">+3</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- INSIGHTS LOG -->
+  <div class="insights-section">
+
+    <!-- Entry 1 -->
+    <div class="insight-entry alert">
+      <div class="insight-date">2026-03-01 · 本期重点</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-alert">人才流失警报</span>
+          <span class="insight-title">xAI 创始团队流失过半</span>
+        </div>
+        <div class="insight-content">
+          <p>Elon Musk 的 xAI 正经历严重的人才流失危机。自 2026 年 2 月以来，已有 <strong>3 位联合创始人</strong>相继离职，包括 Jimmy Ba、Tony Wu (Yuhuai Wu) 和 Toby Pohlen。至此，xAI 原有的 12 位联合创始人中已有 <strong>7 人离开</strong>，仅剩 5 人。</p>
+          <p>Tony Wu 曾直接汇报给 Musk，领导 xAI 的推理团队；Jimmy Ba 是深度学习领域知名研究者；Toby Pohlen 则在离职时感谢 Musk 教会他"关于执行、速度和产品完美主义的一切"。</p>
+        </div>
+        <div class="insight-people">
+          <span class="person-chip">Jimmy Ba <span class="company">xAI</span></span>
+          <span class="person-chip">Tony Wu <span class="company">xAI</span></span>
+          <span class="person-chip">Toby Pohlen <span class="company">xAI</span></span>
+          <span class="person-chip">Igor Babuschkin <span class="company">xAI</span></span>
+          <span class="person-chip">Greg Yang <span class="company">xAI</span></span>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2" target="_blank">Business Insider</a>,
+          <a href="https://arstechnica.com/ai/2026/02/grok-maker-xai-loses-another-co-founder/" target="_blank">Ars Technica</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 2 -->
+    <div class="insight-entry highlight">
+      <div class="insight-date">2026-03-01 · 本期重点</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-highlight">重磅挖角</span>
+          <span class="insight-title">Meta 超级智能实验室疯狂揽才</span>
+        </div>
+        <div class="insight-content">
+          <p>Mark Zuckerberg 的 <strong>Meta Superintelligence Labs (MSL)</strong> 正在以惊人的速度吸纳顶级 AI 人才。短短数周内，MSL 已招募多位行业重量级人物：</p>
+          <p><strong>Alexandr Wang</strong> — Scale AI 创始人兼 CEO，Meta 以 140 亿美元收购 Scale AI 后，Wang 加入领导 MSL。</p>
+          <p><strong>Nat Friedman</strong> — GitHub 前 CEO，与长期合作伙伴 Daniel Gross 一同加入。</p>
+          <p><strong>Daniel Gross</strong> — 从 Ilya Sutskever 的 Safe Superintelligence (SSI) 离职加入 Meta，领导 AI 产品部门。Meta 此前曾试图直接收购 SSI 但未成功。</p>
+        </div>
+        <div class="insight-stats">
+          <span class="stat-pill">收购金额: <strong>$14B</strong> (Scale AI)</span>
+          <span class="stat-pill">新加入: <strong>3位CEO级别</strong></span>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.cnbc.com/2025/06/30/mark-zuckerberg-creating-meta-superintelligence-labs-read-the-memo.html" target="_blank">CNBC</a>,
+          <a href="https://www.reuters.com/business/zuckerbergs-meta-superintelligence-labs-poaches-top-ai-talent-silicon-valley-2025-07-08/" target="_blank">Reuters</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 3 -->
+    <div class="insight-entry alert">
+      <div class="insight-date">2026-03-01 · 安全关切</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-alert">安全警报</span>
+          <span class="insight-title">Anthropic 安全团队动荡："世界正处于危险之中"</span>
+        </div>
+        <div class="insight-content">
+          <p>Anthropic 的 AI 安全团队正经历一波离职潮。<strong>Mrinank Sharma</strong>，Safeguards Research 团队负责人，在离职信中警告："世界正处于危险之中"（"the world is in peril"）。</p>
+          <p>同时，研究员 <strong>Harsh Mehta</strong> 和 AI 科学家 <strong>Behnam Neyshabur</strong> 也宣布离开 Anthropic 去"开始新的事业"。</p>
+          <p>这一系列离职引发了对 Anthropic 安全研究方向的担忧。值得注意的是，Sharma 表示他离开是因为"很难真正让我们的价值观指导行动"。</p>
+        </div>
+        <div class="insight-people">
+          <span class="person-chip">Mrinank Sharma <span class="company">Anthropic</span></span>
+          <span class="person-chip">Harsh Mehta <span class="company">Anthropic</span></span>
+          <span class="person-chip">Behnam Neyshabur <span class="company">Anthropic</span></span>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.forbes.com/sites/conormurray/2026/02/09/anthropic-ai-safety-researcher-warns-of-world-in-peril-in-resignation/" target="_blank">Forbes</a>,
+          <a href="https://www.businessinsider.com/read-exit-letter-by-an-anthropic-ai-safety-leader-2026-2" target="_blank">Business Insider</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 4 -->
+    <div class="insight-entry">
+      <div class="insight-date">2026-03-01 · 人才流入</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-trend">持续扩张</span>
+          <span class="insight-title">OpenAI 持续吸纳顶尖人才</span>
+        </div>
+        <div class="insight-content">
+          <p>尽管近期也有不少离职，OpenAI 仍在积极招募顶级人才：</p>
+          <p><strong>Sachin Katti</strong> — Intel 首席技术官兼首席 AI 官离开 Intel 加入 OpenAI 基础设施团队。Katti 在 Intel 工作约 4 年，此前领导网络部门。</p>
+          <p><strong>Dylan Scandinaro</strong> — 从 Anthropic 技术团队加入 OpenAI，担任新设立的 Preparedness（准备）团队负责人。</p>
+          <p><strong>Ruoming Pang</strong> — 从 Meta 被挖角（此前 Meta  reportedly 提供了 2 亿美元 package），他曾在 Apple 领导模型团队。</p>
+        </div>
+        <div class="insight-people">
+          <span class="person-chip">Sachin Katti <span class="company">Intel → OpenAI</span></span>
+          <span class="person-chip">Dylan Scandinaro <span class="company">Anthropic → OpenAI</span></span>
+          <span class="person-chip">Ruoming Pang <span class="company">Meta → OpenAI</span></span>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.crn.com/news/components-peripherals/2025/intel-ai-leader-sachin-katti-decamps-to-openai" target="_blank">CRN</a>,
+          <a href="https://medial.app/news/openai-brings-in-ex-anthropic-talent-7df75421d1735" target="_blank">Medial</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 5 -->
+    <div class="insight-entry success">
+      <div class="insight-date">2026-03-01 · 创业动态</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-success">创业追踪</span>
+          <span class="insight-title">前 OpenAI 研究员 Jerry Tworek 创立 Core Automation</span>
+        </div>
+        <div class="insight-content">
+          <p>前 OpenAI VP of Research <strong>Jerry Tworek</strong> 离开公司后创立了新公司 <strong>Core Automation</strong>，目标是开发新型 AI。Tworek 是 OpenAI o1 模型的关键开发者之一。</p>
+          <p>据悉，Core Automation 正在寻求 <strong>5 亿至 10 亿美元</strong>的融资，显示出资本市场对前 OpenAI 人才创业的高度认可。</p>
+        </div>
+        <div class="insight-stats">
+          <span class="stat-pill">融资目标: <strong>$500M - $1B</strong></span>
+          <span class="stat-pill">创始人背景: <strong>OpenAI o1 模型</strong></span>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.theinformation.com/articles/ex-openai-researchers-startup-targets-1-billion-funding-develop-new-type-ai" target="_blank">The Information</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 6 -->
+    <div class="insight-entry china">
+      <div class="insight-date">2026-03-01 · 中国动态</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-china">中国 AI</span>
+          <span class="insight-title">旷视科技联合创始人印奇加入阶跃星辰任董事长</span>
+        </div>
+        <div class="insight-content">
+          <p>中国 AI 领域迎来重要人事变动。<strong>印奇</strong>，旷视科技（Megvii）联合创始人、千里科技董事长，正式加入 <strong>阶跃星辰（StepFun）</strong> 担任董事长。</p>
+          <p>印奇将与 CEO 姜大昕、首席科学家张祥雨、CTO 朱亦博形成"1+3"核心班底。阶跃星辰近期完成超 50 亿元 B+ 轮融资，并计划年内港股上市。</p>
+          <p>同时，阶跃星辰发布开源 Agent 基座模型 Step 3.5 Flash，推理速度可达每秒 350 个 token，在 AIME 2026 测评中以 96.67% 的成绩获国产模型第一。</p>
+        </div>
+        <div class="insight-stats">
+          <span class="stat-pill">阶跃星辰融资: <strong>50亿元+</strong></span>
+          <span class="stat-pill">计划上市: <strong>港股 2026</strong></span>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.qbitai.com/2026/02/382747.html" target="_blank">量子位</a>,
+          <a href="http://yuanchuang.caijing.com.cn/2026/0227/5143534.shtml" target="_blank">财经网</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 7 -->
+    <div class="insight-entry">
+      <div class="insight-date">2026-03-01 · 人事变动</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-trend">高管离职</span>
+          <span class="insight-title">多位高管离职动向更新</span>
+        </div>
+        <div class="insight-content">
+          <p><strong>David Luan</strong> — Amazon AGI Lab 负责人于 2026 年 2 月底离职，表示要"cook up something new"（酝酿新事业）。他此前领导了 Nova Act AI agent 的开发。</p>
+          <p><strong>Julia Villagra</strong> — OpenAI 首席人力官（CPO）于 2025 年 9 月离职。她于 2024 年 2 月加入 OpenAI，此前曾在 Stripe 担任人力主管。</p>
+          <p><strong>Greg Yang</strong> — xAI 联合创始人因确诊莱姆病，从日常运营退居顾问角色，表示要"以创始人模式关注自己的健康"。</p>
+        </div>
+        <div class="insight-people">
+          <span class="person-chip">David Luan <span class="company">Amazon</span></span>
+          <span class="person-chip">Julia Villagra <span class="company">OpenAI</span></span>
+          <span class="person-chip">Greg Yang <span class="company">xAI</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Entry 8 -->
+    <div class="insight-entry success">
+      <div class="insight-date">2026-03-01 · 新创公司</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-success">新创公司</span>
+          <span class="insight-title">Humans&：全明星创始团队的新冒险</span>
+        </div>
+        <div class="insight-content">
+          <p>一家名为 <strong>Humans&</strong> 的新创公司浮出水面，其创始团队堪称全明星阵容 —— 由来自 Anthropic、Meta、OpenAI、xAI 和 Google DeepMind 的校友共同创立。</p>
+          <p>该公司致力于构建下一代基础模型，专注于"协作而非聊天"（collaboration, not chat），认为协调（coordination）是 AI 的下一个前沿领域。</p>
+        </div>
+        <div class="insight-source">
+          来源: <a href="https://www.facebook.com/techcrunch/posts/humans-a-new-startup-founded-by-alumni-of-anthropic-meta-openai-xai-and-google-d/1241977954462736/" target="_blank">TechCrunch</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>洞察基于自动化搜索与人工分析生成</p>
+    <p>由 <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">LobsterAI</a> 驱动 · <a href="index.html">返回追踪器</a></p>
+  </footer>
+</div>
+
+</body>
+</html>
