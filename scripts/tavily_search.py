@@ -2,33 +2,104 @@
 """
 Tavily MCP Search wrapper for AI Talent Tracker.
 Uses Tavily MCP server for high-quality search results.
+Includes usage tracking and fallback to web-search when quota exceeded.
 """
 
 import json
 import sys
 import os
-import subprocess
-from datetime import datetime
+from datetime import datetime, date
+from pathlib import Path
 
 TAVILY_API_KEY = "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"
 MCP_URL = f"https://mcp.tavily.com/mcp/?tavilyApiKey={TAVILY_API_KEY}"
+
+# Monthly quota limit
+MONTHLY_QUOTA = 1000
+DAILY_LIMIT = 30  # Max 30 searches per day
+
+
+def get_usage_file() -> str:
+    """Get path to usage tracking file."""
+    return "/tmp/ai-talent-tracker/tavily_usage.json"
+
+
+def load_usage() -> dict:
+    """Load current month's usage data."""
+    usage_file = get_usage_file()
+    if os.path.exists(usage_file):
+        with open(usage_file, 'r') as f:
+            return json.load(f)
+    return {"month": date.today().strftime("%Y-%m"), "count": 0, "daily": {}}
+
+
+def save_usage(usage: dict):
+    """Save usage data."""
+    usage_file = get_usage_file()
+    os.makedirs(os.path.dirname(usage_file), exist_ok=True)
+    with open(usage_file, 'w') as f:
+        json.dump(usage, f, indent=2)
+
+
+def check_quota() -> tuple:
+    """
+    Check if quota is available.
+    Returns: (can_use_tavily: bool, remaining: int, reason: str)
+    """
+    usage = load_usage()
+    today = date.today().strftime("%Y-%m-%d")
+    current_month = date.today().strftime("%Y-%m")
+
+    # Reset if new month
+    if usage.get("month") != current_month:
+        usage = {"month": current_month, "count": 0, "daily": {}}
+        save_usage(usage)
+
+    # Check monthly quota
+    if usage.get("count", 0) >= MONTHLY_QUOTA:
+        return False, 0, f"Monthly quota exceeded ({MONTHLY_QUOTA})"
+
+    # Check daily limit
+    daily_count = usage.get("daily", {}).get(today, 0)
+    if daily_count >= DAILY_LIMIT:
+        return False, 0, f"Daily limit exceeded ({DAILY_LIMIT})"
+
+    remaining = min(MONTHLY_QUOTA - usage["count"], DAILY_LIMIT - daily_count)
+    return True, remaining, "OK"
+
+
+def increment_usage():
+    """Increment usage counter."""
+    usage = load_usage()
+    today = date.today().strftime("%Y-%m-%d")
+    current_month = date.today().strftime("%Y-%m")
+
+    if usage.get("month") != current_month:
+        usage = {"month": current_month, "count": 0, "daily": {}}
+
+    usage["count"] = usage.get("count", 0) + 1
+    if "daily" not in usage:
+        usage["daily"] = {}
+    usage["daily"][today] = usage["daily"].get(today, 0) + 1
+
+    save_usage(usage)
 
 
 def search_tavily(query: str, max_results: int = 10, include_domains: list = None, exclude_domains: list = None) -> dict:
     """
     Search using Tavily MCP server via HTTP API.
-
-    Args:
-        query: Search query string
-        max_results: Maximum number of results (default 10)
-        include_domains: List of domains to include (e.g., ["x.com", "twitter.com"])
-        exclude_domains: List of domains to exclude
-
-    Returns:
-        dict: Search results with 'results' key containing list of result objects
     """
     import urllib.request
     import urllib.error
+
+    # Check quota first
+    can_use, remaining, reason = check_quota()
+    if not can_use:
+        return {
+            "error": f"Tavily quota exceeded: {reason}. Use fallback search.",
+            "quota_exceeded": True,
+            "results": []
+        }
 
     url = "https://api.tavily.com/search"
 
@@ -36,8 +107,8 @@ def search_tavily(query: str, max_results: int = 10, include_domains: list = Non
         "api_key": TAVILY_API_KEY,
         "query": query,
         "max_results": max_results,
-        "search_depth": "advanced",
-        "include_answer": True,
+        "search_depth": "basic",  # Use basic to save quota
+        "include_answer": False,   # Disable to save quota
         "include_raw_content": False
     }
 
@@ -46,9 +117,7 @@ def search_tavily(query: str, max_results: int = 10, include_domains: list = Non
     if exclude_domains:
         payload["exclude_domains"] = exclude_domains
 
-    headers = {
-        "Content-Type": "application/json"
-    }
+    headers = {"Content-Type": "application/json"}
 
     try:
         req = urllib.request.Request(
@@ -60,9 +129,12 @@ def search_tavily(query: str, max_results: int = 10, include_domains: list = Non
 
         with urllib.request.urlopen(req, timeout=60) as response:
             result = json.loads(response.read().decode('utf-8'))
+            increment_usage()  # Count successful request
             return result
 
     except urllib.error.HTTPError as e:
+        if e.code == 429:
+            return {"error": "Rate limit exceeded", "quota_exceeded": True, "results": []}
         return {"error": f"HTTP Error {e.code}: {e.reason}", "results": []}
     except urllib.error.URLError as e:
         return {"error": f"URL Error: {e.reason}", "results": []}
@@ -70,60 +142,179 @@ def search_tavily(query: str, max_results: int = 10, include_domains: list = Non
         return {"error": f"Error: {str(e)}", "results": []}
 
 
-def search_x_twitter(query: str, max_results: int = 10) -> dict:
+def search_fallback(query: str, max_results: int = 10) -> dict:
     """
-    Search specifically on X/Twitter using Tavily.
-
-    Args:
-        query: Search query (will be appended with site:x.com)
-        max_results: Maximum results
-
-    Returns:
-        dict: Search results
+    Fallback search using web-search skill when Tavily quota exceeded.
     """
-    # Ensure query targets X/Twitter
-    if "site:x.com" not in query and "site:twitter.com" not in query:
-        query = f"site:x.com {query}"
+    import subprocess
 
-    return search_tavily(query, max_results, include_domains=["x.com", "twitter.com"])
+    skills_root = os.environ.get("SKILLS_ROOT", "/Users/lzw/Library/Application Support/LobsterAI/SKILLs")
+    search_script = f"{skills_root}/web-search/scripts/search.sh"
+
+    try:
+        result = subprocess.run(
+            ["bash", search_script, query, str(max_results)],
+            capture_output=True,
+            text=True,
+            timeout=120
+        )
+
+        # Parse markdown output to structured format
+        output = result.stdout
+
+        # Simple parsing - extract results
+        results = []
+        lines = output.split('\n')
+        current_result = {}
+
+        for line in lines:
+            line = line.strip()
+            if line.startswith('## '):
+                if current_result and 'title' in current_result:
+                    results.append(current_result)
+                current_result = {"title": line[3:], "url": "", "content": "", "score": 0.5}
+            elif line.startswith('**URL:**'):
+                url_start = line.find('[')
+                url_end = line.find(']')
+                if url_start > 0 and url_end > url_start:
+                    current_result["url"] = line[url_start+1:url_end]
+            elif line and not line.startswith('*') and not line.startswith('---'):
+                if 'content' in current_result:
+                    current_result["content"] += line + " "
+
+        if current_result and 'title' in current_result:
+            results.append(current_result)
+
+        return {
+            "results": results[:max_results],
+            "fallback": True,
+            "source": "web-search"
+        }
+
+    except Exception as e:
+        return {"error": f"Fallback search failed: {str(e)}", "results": []}
 
 
-def search_ai_talent(company: str = None, event_type: str = None, days: int = 30) -> dict:
+def smart_search(query: str, max_results: int = 10, use_fallback_on_quota: bool = True) -> dict:
     """
-    Specialized search for AI talent movements.
-
-    Args:
-        company: Company name (e.g., "OpenAI", "Anthropic")
-        event_type: "join", "leave", or None for both
-        days: Number of days back to search
-
-    Returns:
-        dict: Search results
+    Smart search: Try Tavily first, fallback to web-search if quota exceeded.
     """
-    base_query = "AI executive hire departure joined left leaving"
+    # Check quota status
+    can_use, remaining, _ = check_quota()
 
-    if company:
-        base_query += f" {company}"
+    if can_use:
+        result = search_tavily(query, max_results)
+        if not result.get("quota_exceeded") and not result.get("error"):
+            return result
 
-    if event_type == "join":
-        base_query += " joined hired new role"
-    elif event_type == "leave":
-        base_query += " leaving left departed departure"
+    # Use fallback if allowed
+    if use_fallback_on_quota:
+        print(f"[Tavily quota exceeded or error, using fallback search...]", file=sys.stderr)
+        return search_fallback(query, max_results)
 
-    # Add time constraint to query
-    year = datetime.now().year
-    base_query += f" {year}"
+    return {"error": "Tavily quota exceeded and fallback disabled", "results": []}
 
-    return search_tavily(base_query, max_results=15)
+
+def batch_search(queries: list, max_results: int = 10) -> dict:
+    """
+    Execute multiple searches efficiently, tracking quota.
+    Returns combined results.
+    """
+    all_results = []
+    used_fallback = False
+
+    for query in queries:
+        result = smart_search(query, max_results, use_fallback_on_quota=True)
+
+        if result.get("fallback"):
+            used_fallback = True
+
+        for item in result.get("results", []):
+            # Deduplicate by URL
+            if not any(r.get("url") == item.get("url") for r in all_results):
+                all_results.append(item)
+
+    return {
+        "results": all_results,
+        "fallback_used": used_fallback,
+        "total_queries": len(queries),
+        "unique_results": len(all_results)
+    }
+
+
+def search_ai_talent_batch(companies: list = None, event_types: list = None) -> dict:
+    """
+    Optimized batch search for AI talent movements.
+    Combines multiple companies into single queries to save quota.
+    """
+    if companies is None:
+        companies = ["OpenAI", "Anthropic", "DeepMind", "xAI", "Meta AI"]
+
+    queries = []
+
+    # Strategy 1: Combined search for all companies (1 query)
+    company_str = " OR ".join(companies)
+    queries.append(f"({company_str}) executive hire departure joined left 2025 2026")
+
+    # Strategy 2: Specific event types (2 queries)
+    queries.append(f"({company_str}) joined hired new role startup founded 2025")
+    queries.append(f"({company_str}) leaving departed resignation new company 2025")
+
+    # Strategy 3: Specific high-profile searches if quota allows
+    can_use, remaining, _ = check_quota()
+    if remaining > 10:
+        for company in companies[:3]:  # Only top 3 companies
+            queries.append(f"{company} CTO VP director leaving joined 2025")
+
+    return batch_search(queries, max_results=10)
+
+
+def search_unknown_destinations(people: list) -> dict:
+    """
+    Search for unknown destinations of departed employees.
+    Optimized to use minimal queries.
+    """
+    if not people:
+        return {"results": []}
+
+    # Batch people into combined queries (max 3 people per query)
+    queries = []
+    for i in range(0, len(people), 3):
+        batch = people[i:i+3]
+        names = " OR ".join([f'"{p}"' for p in batch])
+        queries.append(f"({names}) new role joined startup founded company 2025 2026")
+
+    return batch_search(queries, max_results=8)
+
+
+def get_usage_status() -> dict:
+    """Get current usage status for reporting."""
+    usage = load_usage()
+    today = date.today().strftime("%Y-%m-%d")
+    monthly_used = usage.get("count", 0)
+    daily_used = usage.get("daily", {}).get(today, 0)
+
+    return {
+        "monthly_quota": MONTHLY_QUOTA,
+        "monthly_used": monthly_used,
+        "monthly_remaining": MONTHLY_QUOTA - monthly_used,
+        "daily_limit": DAILY_LIMIT,
+        "daily_used": daily_used,
+        "daily_remaining": DAILY_LIMIT - daily_used,
+        "month": usage.get("month")
+    }
 
 
 def format_results(results: dict) -> str:
     """Format search results as markdown."""
-    if "error" in results:
+    if "error" in results and not results.get("results"):
         return f"# Search Error\n\n{results['error']}"
 
     output = []
-    output.append(f"# Search Results\n")
+    output.append("# Search Results\n")
+
+    if results.get("fallback_used"):
+        output.append("*Using fallback search (Tavily quota exceeded)*\n")
 
     if "answer" in results and results["answer"]:
         output.append(f"**AI Summary:** {results['answer']}\n")
@@ -153,53 +344,55 @@ def format_results(results: dict) -> str:
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 tavily_search.py <query> [max_results] [x_only]")
-        print("       python3 tavily_search.py x <query> [max_results]")
+        print("Usage: python3 tavily_search.py <command> [args]")
         print("")
-        print("Examples:")
-        print('  python3 tavily_search.py "OpenAI executive departure 2025" 10')
-        print('  python3 tavily_search.py x "Mira Murati new role" 5')
-        print('  python3 tavily_search.py talent OpenAI leave')
+        print("Commands:")
+        print('  search "query" [max_results]     - Single search')
+        print('  batch "query1" "query2" ...      - Batch search')
+        print('  talent                           - AI talent batch search')
+        print('  destinations "name1" "name2"...  - Search unknown destinations')
+        print('  status                           - Show usage status')
+        print('  quota                            - Check quota')
         sys.exit(1)
 
-    # Check for special modes
-    if sys.argv[1] == "x":
-        # X/Twitter search mode
+    command = sys.argv[1]
+
+    if command == "search":
         query = sys.argv[2] if len(sys.argv) > 2 else ""
         max_results = int(sys.argv[3]) if len(sys.argv) > 3 else 10
-        results = search_x_twitter(query, max_results)
+        result = smart_search(query, max_results)
+        print(format_results(result))
 
-    elif sys.argv[1] == "talent":
-        # AI talent search mode
-        company = sys.argv[2] if len(sys.argv) > 2 else None
-        event_type = sys.argv[3] if len(sys.argv) > 3 else None
-        results = search_ai_talent(company, event_type)
+    elif command == "batch":
+        queries = sys.argv[2:]
+        result = batch_search(queries, max_results=10)
+        print(format_results(result))
+
+    elif command == "talent":
+        result = search_ai_talent_batch()
+        print(format_results(result))
+
+    elif command == "destinations":
+        people = sys.argv[2:]
+        result = search_unknown_destinations(people)
+        print(format_results(result))
+
+    elif command == "status":
+        status = get_usage_status()
+        print(json.dumps(status, indent=2))
+
+    elif command == "quota":
+        can_use, remaining, reason = check_quota()
+        print(f"Can use Tavily: {can_use}")
+        print(f"Remaining today: {remaining}")
+        print(f"Reason: {reason}")
 
     else:
-        # Regular search
-        query = sys.argv[1]
+        # Default: single search
+        query = command
         max_results = int(sys.argv[2]) if len(sys.argv) > 2 else 10
-        x_only = sys.argv[3].lower() == "true" if len(sys.argv) > 3 else False
-
-        if x_only:
-            results = search_x_twitter(query, max_results)
-        else:
-            results = search_tavily(query, max_results)
-
-    # Output formatted results
-    print(format_results(results))
-
-    # Also save raw results to file for processing
-    output_dir = "/tmp/ai-talent-tracker"
-    os.makedirs(output_dir, exist_ok=True)
-
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = f"{output_dir}/tavily_search_{timestamp}.json"
-
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-
-    print(f"\n\n[Raw results saved to: {output_file}]")
+        result = smart_search(query, max_results)
+        print(format_results(result))
 
 
 if __name__ == "__main__":
