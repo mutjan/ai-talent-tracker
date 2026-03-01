@@ -275,6 +275,26 @@ h1 {
 
 .company-select option { background: var(--bg-secondary); }
 
+.date-select {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  min-width: 120px;
+}
+
+.date-select:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px var(--blue-dim);
+}
+
+.date-select option { background: var(--bg-secondary); }
+
 .sort-btn {
   display: flex;
   align-items: center;
@@ -635,6 +655,12 @@ footer a:hover { text-decoration: underline; }
     <select class="company-select" id="companySelect">
       <option value="">所有公司</option>
     </select>
+    <select class="date-select" id="yearSelect">
+      <option value="">所有年份</option>
+    </select>
+    <select class="date-select" id="monthSelect">
+      <option value="">所有月份</option>
+    </select>
     <button class="sort-btn" id="sortBtn" title="切换时间排序">
       <span class="sort-icon">↓</span> 最新优先
     </button>
@@ -671,6 +697,8 @@ let allEvents = [];
 let currentFilter = 'all';
 let currentSearch = '';
 let currentCompany = '';
+let currentYear = '';
+let currentMonth = '';
 let currentSortOrder = 'desc'; // 'desc' = 最新优先, 'asc' = 最早优先
 
 // Load data
@@ -685,6 +713,7 @@ async function loadData() {
 
     updateStats();
     populateCompanyFilter();
+    populateDateFilters();
     renderTimeline();
     renderFlowNetwork();
 
@@ -734,6 +763,41 @@ function populateCompanyFilter() {
   });
 }
 
+function populateDateFilters() {
+  // Extract years and months from events
+  const years = new Set();
+  const months = new Set();
+
+  allEvents.forEach(e => {
+    if (e.date_event) {
+      const date = new Date(e.date_event);
+      if (!isNaN(date)) {
+        years.add(date.getFullYear());
+        months.add(date.getMonth() + 1); // 1-12
+      }
+    }
+  });
+
+  // Populate year select
+  const yearSelect = document.getElementById('yearSelect');
+  [...years].sort((a, b) => b - a).forEach(year => {
+    const opt = document.createElement('option');
+    opt.value = year;
+    opt.textContent = year + '年';
+    yearSelect.appendChild(opt);
+  });
+
+  // Populate month select
+  const monthSelect = document.getElementById('monthSelect');
+  const monthNames = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月'];
+  [...months].sort((a, b) => a - b).forEach(month => {
+    const opt = document.createElement('option');
+    opt.value = month;
+    opt.textContent = monthNames[month - 1];
+    monthSelect.appendChild(opt);
+  });
+}
+
 function getFilteredEvents() {
   const filtered = allEvents.filter(e => {
     // Type filter
@@ -758,6 +822,18 @@ function getFilteredEvents() {
         e.person_name, e.from_company, e.to_company, e.role, e.summary
       ].filter(Boolean).join(' ').toLowerCase();
       if (!haystack.includes(q)) return false;
+    }
+
+    // Year filter
+    if (currentYear && e.date_event) {
+      const eventYear = new Date(e.date_event).getFullYear();
+      if (String(eventYear) !== currentYear) return false;
+    }
+
+    // Month filter
+    if (currentMonth && e.date_event) {
+      const eventMonth = new Date(e.date_event).getMonth() + 1;
+      if (String(eventMonth) !== currentMonth) return false;
     }
 
     return true;
@@ -870,6 +946,16 @@ document.getElementById('searchInput').addEventListener('input', e => {
 
 document.getElementById('companySelect').addEventListener('change', e => {
   currentCompany = e.target.value;
+  renderTimeline();
+});
+
+document.getElementById('yearSelect').addEventListener('change', e => {
+  currentYear = e.target.value;
+  renderTimeline();
+});
+
+document.getElementById('monthSelect').addEventListener('change', e => {
+  currentMonth = e.target.value;
   renderTimeline();
 });
 
