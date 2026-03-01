@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-049",
+    "person_name": "Arvind KC",
+    "from_company": "Roblox",
+    "to_company": "OpenAI",
+    "role": "Chief People Officer",
+    "event_type": "join",
+    "source_url": "https://economictimes.indiatimes.com/tech/technology/openai-hires-former-roblox-executive-as-chief-people-officer/articleshow/128768460.cms",
+    "date_discovered": "2026-03-02",
+    "date_event": "2026-02-25",
+    "summary": "OpenAI任命前Roblox高管Arvind KC为首席人力官，接替去年9月离职的Julia Villagra。"
+  },
+  {
+    "id": "evt-050",
+    "person_name": "段楠",
+    "from_company": "阶跃星辰(StepFun)",
+    "to_company": "京东",
+    "role": "Tech Fellow / 视觉与多模态实验室负责人",
+    "event_type": "leave",
+    "source_url": "https://m.36kr.com/p/3340730105297157",
+    "date_discovered": "2026-03-02",
+    "date_event": "2025-06-01",
+    "summary": "阶跃星辰Tech Fellow段楠离职，加入京东探索研究院担任视觉与多模态实验室负责人。"
+  },
+  {
     "id": "evt-048",
     "person_name": "沈鹏飞",
     "from_company": "百度",
