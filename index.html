@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Talent Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-primary: #06060c;
+  --bg-secondary: #0d0d18;
+  --bg-card: #111122;
+  --bg-card-hover: #161633;
+  --border: #1a1a3e;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888aa;
+  --text-muted: #555570;
+  --blue: #00d4ff;
+  --blue-dim: #00d4ff33;
+  --amber: #ffaa00;
+  --amber-dim: #ffaa0033;
+  --green: #00ff88;
+  --green-dim: #00ff8822;
+  --red: #ff4466;
+  --red-dim: #ff446622;
+  --purple: #8b5cf6;
+  --purple-dim: #8b5cf622;
+  --font-display: 'Space Mono', monospace;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Noise overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* Grid background */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 80px 80px;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+/* ═══ HEADER ═══ */
+header {
+  padding: 60px 0 40px;
+  text-align: center;
+  position: relative;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--blue), transparent);
+}
+
+.logo-badge {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--blue);
+  border: 1px solid var(--blue-dim);
+  padding: 6px 16px;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  background: var(--blue-dim);
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, var(--blue), var(--purple), var(--amber));
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 8s ease infinite;
+  margin-bottom: 12px;
+}
+
+@keyframes gradientShift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.subtitle {
+  font-size: 16px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.last-updated {
+  font-family: var(--font-display);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.last-updated .pulse {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  margin-right: 6px;
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 var(--green); }
+  50% { opacity: 0.6; box-shadow: 0 0 0 4px var(--green-dim); }
+}
+
+/* ═══ STATS BAR ═══ */
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  padding: 32px 0;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-secondary));
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px 24px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+  border-color: var(--blue-dim);
+  transform: translateY(-2px);
+}
+
+.stat-label {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.stat-value {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.stat-card:nth-child(2) .stat-value { color: var(--amber); }
+.stat-card:nth-child(3) .stat-value { color: var(--green); }
+.stat-card:nth-child(4) .stat-value { color: var(--purple); }
+
+/* ═══ FILTERS ═══ */
+.filters {
+  padding: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.search-input {
+  flex: 1;
+  min-width: 260px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 16px 10px 40px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23555570' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 14px center;
+}
+
+.search-input:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px var(--blue-dim);
+}
+
+.search-input::placeholder { color: var(--text-muted); }
+
+.filter-pills {
+  display: flex;
+  gap: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.pill {
+  font-family: var(--font-display);
+  font-size: 12px;
+  padding: 7px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+  color: var(--text-secondary);
+  transition: all 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.pill:hover { color: var(--text-primary); }
+.pill.active { background: var(--blue-dim); color: var(--blue); }
+.pill.active.leave-pill { background: var(--red-dim); color: var(--red); }
+.pill.active.join-pill { background: var(--green-dim); color: var(--green); }
+
+.company-select {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 16px;
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  min-width: 160px;
+}
+
+.company-select:focus {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 3px var(--blue-dim);
+}
+
+.company-select option { background: var(--bg-secondary); }
+
+/* ═══ TIMELINE ═══ */
+.timeline-section {
+  padding: 32px 0;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--blue-dim), var(--border), transparent);
+}
+
+.event-card {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 16px;
+  transition: all 0.3s ease;
+  animation: fadeInUp 0.5s ease both;
+}
+
+.event-card:hover {
+  border-color: var(--blue-dim);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+.event-card.type-leave { border-left: 3px solid var(--red); }
+.event-card.type-leave:hover { box-shadow: -4px 0 20px var(--red-dim); }
+.event-card.type-join { border-left: 3px solid var(--green); }
+.event-card.type-join:hover { box-shadow: -4px 0 20px var(--green-dim); }
+
+/* Timeline dot */
+.event-card::before {
+  content: '';
+  position: absolute;
+  left: -33px;
+  top: 28px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-primary);
+  z-index: 2;
+}
+
+.event-card.type-leave::before { background: var(--red); box-shadow: 0 0 8px var(--red-dim); }
+.event-card.type-join::before { background: var(--green); box-shadow: 0 0 8px var(--green-dim); }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  gap: 16px;
+}
+
+.person-name {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.event-type-badge {
+  font-family: var(--font-display);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 2px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.badge-leave { background: var(--red-dim); color: var(--red); border: 1px solid var(--red); }
+.badge-join { background: var(--green-dim); color: var(--green); border: 1px solid var(--green); }
+
+.event-role {
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+}
+
+.event-flow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.company-tag {
+  font-family: var(--font-display);
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.flow-arrow {
+  font-size: 18px;
+  color: var(--amber);
+}
+
+.event-summary {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.event-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.event-date {
+  font-family: var(--font-display);
+  font-size: 12px;
+}
+
+.event-source a {
+  color: var(--blue);
+  text-decoration: none;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.event-source a:hover { opacity: 1; text-decoration: underline; }
+
+/* ═══ FLOW NETWORK ═══ */
+.network-section {
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+}
+
+.network-section h2 {
+  font-family: var(--font-display);
+  font-size: 18px;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.network-section h2 span {
+  color: var(--amber);
+}
+
+.flow-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.flow-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.flow-item:hover {
+  border-color: var(--amber-dim);
+  background: var(--bg-card-hover);
+}
+
+.flow-from, .flow-to {
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.flow-arrow-sm {
+  color: var(--amber);
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.flow-count {
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--amber);
+  margin-left: auto;
+  background: var(--amber-dim);
+  padding: 2px 10px;
+  border-radius: 10px;
+}
+
+/* ═══ EMPTY & LOADING ═══ */
+.loading, .no-results {
+  text-align: center;
+  padding: 80px 24px;
+  color: var(--text-muted);
+}
+
+.loading-dots span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--blue);
+  margin: 0 4px;
+  animation: loadBounce 1.4s ease infinite;
+}
+
+.loading-dots span:nth-child(2) { animation-delay: 0.2s; }
+.loading-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes loadBounce {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+  40% { transform: scale(1); opacity: 1; }
+}
+
+.no-results-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.3;
+}
+
+/* ═══ FOOTER ═══ */
+footer {
+  text-align: center;
+  padding: 40px 0;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+footer a:hover { text-decoration: underline; }
+
+.footer-line {
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+/* ═══ RESPONSIVE ═══ */
+@media (max-width: 768px) {
+  .container { padding: 0 16px; }
+  header { padding: 40px 0 24px; }
+  .timeline { padding-left: 28px; }
+  .timeline::before { left: 8px; }
+  .event-card::before { left: -26px; }
+  .event-header { flex-direction: column; gap: 8px; }
+  .filters { flex-direction: column; }
+  .search-input { min-width: 100%; }
+  .stats-bar { grid-template-columns: repeat(2, 1fr); }
+  .flow-grid { grid-template-columns: 1fr; }
+}
+
+/* ═══ SCROLLBAR ═══ */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <!-- HEADER -->
+  <header>
+    <div class="logo-badge">◆ Intelligence Feed</div>
+    <h1>AI Talent Tracker</h1>
+    <p class="subtitle">Tracking personnel movements across major AI companies</p>
+    <p class="last-updated"><span class="pulse"></span>Last updated: <span id="lastUpdated">Loading...</span></p>
+  </header>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat-card">
+      <div class="stat-label">Total Events</div>
+      <div class="stat-value" id="statTotal">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Companies</div>
+      <div class="stat-value" id="statCompanies">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Departures</div>
+      <div class="stat-value" id="statLeave">—</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">New Joins</div>
+      <div class="stat-value" id="statJoin">—</div>
+    </div>
+  </div>
+
+  <!-- FILTERS -->
+  <div class="filters">
+    <input type="text" class="search-input" id="searchInput" placeholder="Search by name, company, or role...">
+    <div class="filter-pills">
+      <button class="pill active" data-filter="all">All</button>
+      <button class="pill join-pill" data-filter="join">Join</button>
+      <button class="pill leave-pill" data-filter="leave">Leave</button>
+    </div>
+    <select class="company-select" id="companySelect">
+      <option value="">All Companies</option>
+    </select>
+  </div>
+
+  <!-- TIMELINE -->
+  <div class="timeline-section">
+    <div id="loading" class="loading">
+      <div class="loading-dots"><span></span><span></span><span></span></div>
+      <p style="margin-top: 16px; font-family: var(--font-display); font-size: 12px; letter-spacing: 1px;">LOADING DATA</p>
+    </div>
+    <div id="noResults" class="no-results" style="display: none;">
+      <div class="no-results-icon">∅</div>
+      <p>No matching events found</p>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+
+  <!-- FLOW NETWORK -->
+  <div class="network-section">
+    <h2>Talent <span>Flow Network</span></h2>
+    <div class="flow-grid" id="flowGrid"></div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Data updated daily via automated search.</p>
+    <p class="footer-line">Powered by <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">LobsterAI</a> · <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">GitHub</a></p>
+  </footer>
+</div>
+
+<script>
+let allEvents = [];
+let currentFilter = 'all';
+let currentSearch = '';
+let currentCompany = '';
+
+// Load data
+async function loadData() {
+  try {
+    const res = await fetch('data/events.json');
+    if (!res.ok) throw new Error('Failed to load data');
+    allEvents = await res.json();
+
+    // Sort by date (newest first)
+    allEvents.sort((a, b) => (b.date_event || '').localeCompare(a.date_event || ''));
+
+    updateStats();
+    populateCompanyFilter();
+    renderTimeline();
+    renderFlowNetwork();
+
+    document.getElementById('loading').style.display = 'none';
+
+    // Update timestamp
+    const dates = allEvents.map(e => e.date_discovered || e.date_event).filter(Boolean).sort();
+    document.getElementById('lastUpdated').textContent = dates.length
+      ? new Date(dates[dates.length - 1]).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+      : 'Unknown';
+
+  } catch (err) {
+    document.getElementById('loading').innerHTML = '<div class="no-results-icon">⚠</div><p>Failed to load data: ' + err.message + '</p>';
+  }
+}
+
+function updateStats() {
+  document.getElementById('statTotal').textContent = allEvents.length;
+
+  const companies = new Set();
+  allEvents.forEach(e => {
+    if (e.from_company) companies.add(e.from_company);
+    if (e.to_company) companies.add(e.to_company);
+  });
+  document.getElementById('statCompanies').textContent = companies.size;
+
+  const leaves = allEvents.filter(e => e.event_type === 'leave').length;
+  const joins = allEvents.filter(e => e.event_type === 'join' || e.event_type === 'hire').length;
+  document.getElementById('statLeave').textContent = leaves;
+  document.getElementById('statJoin').textContent = joins;
+}
+
+function populateCompanyFilter() {
+  const companies = new Set();
+  allEvents.forEach(e => {
+    if (e.from_company) companies.add(e.from_company);
+    if (e.to_company) companies.add(e.to_company);
+  });
+
+  const select = document.getElementById('companySelect');
+  [...companies].sort().forEach(c => {
+    if (!c) return;
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    select.appendChild(opt);
+  });
+}
+
+function getFilteredEvents() {
+  return allEvents.filter(e => {
+    // Type filter
+    if (currentFilter !== 'all') {
+      const type = e.event_type || '';
+      if (currentFilter === 'join' && type !== 'join' && type !== 'hire') return false;
+      if (currentFilter === 'leave' && type !== 'leave') return false;
+    }
+
+    // Company filter
+    if (currentCompany) {
+      const from = (e.from_company || '').toLowerCase();
+      const to = (e.to_company || '').toLowerCase();
+      const filter = currentCompany.toLowerCase();
+      if (!from.includes(filter) && !to.includes(filter)) return false;
+    }
+
+    // Search filter
+    if (currentSearch) {
+      const q = currentSearch.toLowerCase();
+      const haystack = [
+        e.person_name, e.from_company, e.to_company, e.role, e.summary
+      ].filter(Boolean).join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+
+    return true;
+  });
+}
+
+function renderTimeline() {
+  const timeline = document.getElementById('timeline');
+  const noResults = document.getElementById('noResults');
+  const filtered = getFilteredEvents();
+
+  if (filtered.length === 0) {
+    timeline.innerHTML = '';
+    noResults.style.display = 'block';
+    return;
+  }
+
+  noResults.style.display = 'none';
+
+  timeline.innerHTML = filtered.map((e, i) => {
+    const type = e.event_type === 'hire' ? 'join' : (e.event_type || 'leave');
+    const badgeClass = type === 'join' ? 'badge-join' : 'badge-leave';
+    const badgeText = type === 'join' ? 'JOINED' : 'DEPARTED';
+    const from = e.from_company || '—';
+    const to = e.to_company || '—';
+    const date = e.date_event ? new Date(e.date_event).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }) : 'Unknown';
+
+    return `
+      <div class="event-card type-${type}" style="animation-delay: ${i * 0.05}s">
+        <div class="event-header">
+          <div class="person-name">${escapeHtml(e.person_name)}</div>
+          <span class="event-type-badge ${badgeClass}">${badgeText}</span>
+        </div>
+        <div class="event-role">${escapeHtml(e.role || '')}</div>
+        <div class="event-flow">
+          <span class="company-tag">${escapeHtml(from)}</span>
+          <span class="flow-arrow">→</span>
+          <span class="company-tag">${escapeHtml(to)}</span>
+        </div>
+        <div class="event-summary">${escapeHtml(e.summary || '')}</div>
+        <div class="event-meta">
+          <span class="event-date">${date}</span>
+          ${e.source_url ? `<span class="event-source"><a href="${escapeHtml(e.source_url)}" target="_blank" rel="noopener">SOURCE ↗</a></span>` : ''}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function renderFlowNetwork() {
+  const flows = {};
+  allEvents.forEach(e => {
+    const from = e.from_company;
+    const to = e.to_company;
+    if (from && to) {
+      const key = `${from}|||${to}`;
+      flows[key] = (flows[key] || 0) + 1;
+    }
+  });
+
+  const sorted = Object.entries(flows)
+    .map(([key, count]) => {
+      const [from, to] = key.split('|||');
+      return { from, to, count };
+    })
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 12);
+
+  const grid = document.getElementById('flowGrid');
+  grid.innerHTML = sorted.map(f => `
+    <div class="flow-item">
+      <span class="flow-from">${escapeHtml(f.from)}</span>
+      <span class="flow-arrow-sm">→</span>
+      <span class="flow-to">${escapeHtml(f.to)}</span>
+      <span class="flow-count">${f.count}</span>
+    </div>
+  `).join('');
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+// Event listeners
+document.querySelectorAll('.pill').forEach(pill => {
+  pill.addEventListener('click', () => {
+    document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+    pill.classList.add('active');
+    currentFilter = pill.dataset.filter;
+    renderTimeline();
+  });
+});
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  currentSearch = e.target.value;
+  renderTimeline();
+});
+
+document.getElementById('companySelect').addEventListener('change', e => {
+  currentCompany = e.target.value;
+  renderTimeline();
+});
+
+// Init
+loadData();
+</script>
+</body>
+</html>
