@@ -400,6 +400,38 @@ h1 {
   color: var(--text-primary);
 }
 
+.person-name-link {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s;
+}
+
+.person-name-link:hover {
+  color: var(--blue);
+  border-bottom-color: var(--blue);
+}
+
+.company-tag-link {
+  font-family: var(--font-display);
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.company-tag-link:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
 .event-type-badge {
   font-family: var(--font-display);
   font-size: 10px;
@@ -875,17 +907,21 @@ function renderTimeline() {
     const to = e.to_company || '—';
     const date = e.date_event ? new Date(e.date_event).toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' }) : '未知';
 
+    const personLink = e.person_name ? `<a href="detail.html?type=person&name=${encodeURIComponent(e.person_name)}" class="person-name-link">${escapeHtml(e.person_name)}</a>` : '';
+    const fromLink = from !== '—' ? `<a href="detail.html?type=company&name=${encodeURIComponent(from)}" class="company-tag-link">${escapeHtml(from)}</a>` : '<span class="company-tag">—</span>';
+    const toLink = to !== '—' ? `<a href="detail.html?type=company&name=${encodeURIComponent(to)}" class="company-tag-link">${escapeHtml(to)}</a>` : '<span class="company-tag">—</span>';
+
     return `
       <div class="event-card type-${type}" style="animation-delay: ${i * 0.05}s">
         <div class="event-header">
-          <div class="person-name">${escapeHtml(e.person_name)}</div>
+          <div class="person-name">${personLink}</div>
           <span class="event-type-badge ${badgeClass}">${badgeText}</span>
         </div>
         <div class="event-role">${escapeHtml(e.role || '')}</div>
         <div class="event-flow">
-          <span class="company-tag">${escapeHtml(from)}</span>
+          ${fromLink}
           <span class="flow-arrow">→</span>
-          <span class="company-tag">${escapeHtml(to)}</span>
+          ${toLink}
         </div>
         <div class="event-summary">${escapeHtml(e.summary || '')}</div>
         <div class="event-meta">
