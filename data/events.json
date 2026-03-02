@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-051",
+    "person_name": "stdrc (Kimi CLI Author)",
+    "from_company": "月之暗面(Moonshot AI)",
+    "to_company": "",
+    "role": "Kimi CLI Author / Developer",
+    "event_type": "leave",
+    "source_url": "https://x.com/istdrc/status/2028064559475687863",
+    "date_discovered": "2026-03-02",
+    "date_event": "2026-03-01",
+    "summary": "月之暗面Kimi CLI的作者stdrc宣布离职，表示'有义务去构建更疯狂的东西'，暗示可能创业。"
+  },
+  {
     "id": "evt-049",
     "person_name": "Arvind KC",
     "from_company": "Roblox",
