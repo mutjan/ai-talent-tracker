@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-058",
+    "person_name": "Simon Zhai",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-02-09",
+    "summary": "Simon Zhai，xAI技术团队成员，于2月9日宣布离职。他于2025年10月加入xAI。"
+  },
+  {
+    "id": "evt-057",
+    "person_name": "Andrew Ma",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://www.aol.com/articles/key-xai-figures-departed-recent-132554711.html",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-02-11",
+    "summary": "Andrew Ma，xAI技术团队成员，于2月11日宣布本周离开xAI。他于2024年加入xAI。"
+  },
+  {
+    "id": "evt-056",
+    "person_name": "Vahid Kazemi",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://www.aol.com/articles/key-xai-figures-departed-recent-132554711.html",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-02-11",
+    "summary": "Vahid Kazemi，xAI技术团队成员，于2月11日宣布几周前已离开xAI。"
+  },
+  {
     "id": "evt-055",
     "person_name": "Weihua Hu",
     "from_company": "Perplexity",
@@ -458,14 +494,14 @@
   {
     "id": "evt-003",
     "person_name": "John Schulman",
-    "from_company": "OpenAI",
-    "to_company": "Anthropic",
+    "from_company": "Anthropic",
+    "to_company": "Thinking Machines Lab",
     "role": "Co-founder & Alignment Lead",
     "event_type": "leave",
-    "source_url": "https://www.theverge.com/2024/8/6/24214575/openai-co-founder-john-schulman-anthropic",
-    "date_discovered": "2024-08-06",
-    "date_event": "2024-08-05",
-    "summary": "John Schulman, OpenAI co-founder and head of alignment, left to join Anthropic for AI safety research."
+    "source_url": "https://fortune.com/2025/02/06/openai-john-schulman-mira-muratis-startup-anthropic/",
+    "date_discovered": "2026-03-04",
+    "date_event": "2025-02-06",
+    "summary": "John Schulman离开Anthropic，加入Mira Murati创立的Thinking Machines Lab。他此前从OpenAI加入Anthropic仅5个月。"
   },
   {
     "id": "evt-006",
