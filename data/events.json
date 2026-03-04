@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-054",
+    "person_name": "林俊旸 (Junyang Lin)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "通义千问大模型负责人 / 阿里最年轻P10",
+    "event_type": "leave",
+    "source_url": "https://x.com/JustinLin610/status/2028865835373359513",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-03-03",
+    "summary": "阿里千问核心负责人林俊旸宣布卸任，发文\"me stepping down. bye my beloved qwen\"。他是阿里最年轻P10技术负责人，1993年生，北大计算机本科+语言学硕士，2019年加入达摩院，2022年起负责千问系列。同事称\"离开不是他的选择\"，去向尚未公布。"
+  },
+  {
     "id": "evt-051",
     "person_name": "Richard Chien (Yuchao Qian / stdrc)",
     "from_company": "月之暗面(Moonshot AI)",
