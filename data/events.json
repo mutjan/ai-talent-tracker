@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-055",
+    "person_name": "Weihua Hu",
+    "from_company": "Perplexity",
+    "to_company": "Anthropic",
+    "role": "Knowledge Team",
+    "event_type": "join",
+    "source_url": "https://x.com/weihua916/status/2028992808300982561",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-03-04",
+    "summary": "Weihua Hu从Perplexity加入Anthropic Knowledge团队，负责深度研究(deep research)和多跳网络搜索(multi-hop web search)相关的模型能力开发。"
+  },
+  {
     "id": "evt-054",
     "person_name": "林俊旸 (Junyang Lin)",
     "from_company": "阿里巴巴(阿里千问/Qwen)",
