@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-059",
+    "person_name": "Bob McGrew",
+    "from_company": "OpenAI",
+    "to_company": "Arda",
+    "role": "Chief Research Officer / Founder",
+    "event_type": "leave",
+    "source_url": "https://x.com/MeghanBobrowsky/status/2029229858036076949",
+    "date_discovered": "2026-03-05",
+    "date_event": "2026-03-04",
+    "summary": "前OpenAI首席研究官Bob McGrew创立新创企Arda，正以7亿美元估值融资7000万美元。该公司旨在利用AI自动化制造业。"
+  },
+  {
     "id": "evt-058",
     "person_name": "Simon Zhai",
     "from_company": "xAI",
