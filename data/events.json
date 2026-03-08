@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-068",
+    "person_name": "DeepSeek CTO(未具名)",
+    "from_company": "DeepSeek",
+    "to_company": "",
+    "role": "CTO/核心高管",
+    "event_type": "leave",
+    "source_url": "https://news.mydrivers.com/1/1052/1052769.htm",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-06-09",
+    "summary": "DeepSeek核心高管（原CTO）已于半年前悄然离职创业，瞄准Agent赛道，计划于2025年圣诞节前后发布Agent产品。据悉其创业项目已获得IDG资本融资。"
+  },
+  {
+    "id": "evt-066",
+    "person_name": "焦可",
+    "from_company": "百川智能(Baichuan)",
+    "to_company": "",
+    "role": "联合创始人/互联网业务负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-03-17",
+    "summary": "百川智能联合创始人焦可离职，投身AI语音方向创业。焦可是百川智能早期创始团队成员，本科毕业于清华大学计算机专业，在百川期间主要负责互联网业务。"
+  },
+  {
+    "id": "evt-067",
+    "person_name": "陈炜鹏",
+    "from_company": "百川智能(Baichuan)",
+    "to_company": "",
+    "role": "联合创始人/大语言模型核心技术研发负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-03-17",
+    "summary": "百川智能联合创始人陈炜鹏即将离职，正在筹备AI Coding方向的创业项目。陈炜鹏在百川负责大语言模型核心技术研发，2012年毕业于哈尔滨工业大学，曾在搜狗担任搜索研发总经理。"
+  },
+  {
     "id": "evt-060",
     "person_name": "Max Schwarzer",
     "from_company": "OpenAI",
