@@ -1,5 +1,65 @@
 [
   {
+    "id": "evt-069",
+    "person_name": "于博文 (Yu Bowen)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "Qwen后训练负责人",
+    "event_type": "leave",
+    "source_url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-03-04",
+    "summary": "阿里巴巴通义千问后训练负责人于博文于3月3日辞职，与林俊旸同日离职。据LatePost报道，这是今年第三位离职的Qwen高管。"
+  },
+  {
+    "id": "evt-070",
+    "person_name": "李开心 (Kaixin Li)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "Qwen高管",
+    "event_type": "leave",
+    "source_url": "https://mlq.ai/news/key-researcher-steps-down-from-alibabas-qwen-ai-project/",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-03-03",
+    "summary": "阿里巴巴Qwen团队高管李开心离职，与林俊旸离职时间相近。"
+  },
+  {
+    "id": "evt-071",
+    "person_name": "周畅 (Zhou Chang)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "前Qwen技术负责人",
+    "event_type": "leave",
+    "source_url": "https://eu.36kr.com/en/p/3708425301749891",
+    "date_discovered": "2026-03-09",
+    "date_event": "2025-12-01",
+    "summary": "周畅是阿里巴巴Qwen前技术负责人，在林俊旸2022年接管之前负责Qwen团队。据36Kr报道已离职。"
+  },
+  {
+    "id": "evt-072",
+    "person_name": "Harsh Mehta",
+    "from_company": "Anthropic",
+    "to_company": "新创企业(与Behnam Neyshabur共同创立)",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://open.substack.com/pub/shanakaanslemperera/p/the-departure?r=6p7b5o&utm_medium=ios",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-02-06",
+    "summary": "Harsh Mehta离开Anthropic，与Behnam Neyshabur一起创立新公司。"
+  },
+  {
+    "id": "evt-073",
+    "person_name": "Behnam Neyshabur",
+    "from_company": "Anthropic",
+    "to_company": "新创企业(与Harsh Mehta共同创立)",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://www.instagram.com/reel/DUipbaGjSYx/",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-02-06",
+    "summary": "Behnam Neyshabur离开Anthropic，与Harsh Mehta一起创业。Instagram资料显示其状态为'something new'。"
+  },
+  {
     "id": "evt-068",
     "person_name": "DeepSeek CTO(未具名)",
     "from_company": "DeepSeek",
