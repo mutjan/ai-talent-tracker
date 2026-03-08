@@ -246,9 +246,10 @@ def search_ai_talent_batch(companies: list = None, event_types: list = None) -> 
     """
     Optimized batch search for AI talent movements.
     Combines multiple companies into single queries to save quota.
+    Covers both "leaving from" and "joining to" perspectives.
     """
-    # International AI companies
-    intl_companies = ["OpenAI", "Anthropic", "DeepMind", "xAI", "Meta AI",
+    # International AI companies - split into sources and destinations for better coverage
+    intl_companies = ["OpenAI", "Anthropic", "Google DeepMind", "xAI", "Meta AI",
                       "Mistral", "Cohere", "Stability AI"]
     # Chinese AI companies
     cn_companies = ["DeepSeek", "月之暗面 Moonshot", "智谱AI Zhipu",
@@ -261,25 +262,30 @@ def search_ai_talent_batch(companies: list = None, event_types: list = None) -> 
 
     queries = []
 
-    # Strategy 1: International companies combined (1 query)
-    intl_str = " OR ".join(intl_companies[:5])
-    queries.append(f"({intl_str}) executive hire departure joined left 2025 2026")
+    # Strategy 1: International companies - DEPARTURES (1 query)
+    intl_str = " OR ".join([f'"{c}"' for c in intl_companies[:6]])
+    queries.append(f"({intl_str}) executive leaving departed resignation CTO VP director 2025 2026")
 
-    # Strategy 2: International event types (2 queries)
-    queries.append(f"({intl_str}) joined hired new role startup founded 2025")
-    queries.append(f"({intl_str}) leaving departed resignation new company 2025")
+    # Strategy 2: International companies - ARRIVALS (关键改进：谁加入了这些公司)
+    queries.append(f"joined ({intl_str}) hired new role appointed 2025 2026")
+    queries.append(f"({intl_str}) new hire researcher scientist engineer joined from 2025")
 
     # Strategy 3: Chinese AI companies (2 queries, Chinese keywords)
     cn_str_en = "DeepSeek OR Moonshot OR Zhipu OR Baichuan OR 01.AI OR StepFun OR MiniMax"
     queries.append(f"({cn_str_en}) executive hire departure joined left 2025 2026")
     queries.append(f"DeepSeek OR 月之暗面 OR 智谱 OR 百川智能 OR 零一万物 OR 阶跃星辰 OR MiniMax OR 字节跳动 OR 百度 OR 商汤 离职 入职 加入 创始人 高管变动 2025 2026")
 
-    # Strategy 4: Specific high-profile searches if quota allows
+    # Strategy 4: Cross-company movement patterns (high-value hires)
     can_use, remaining, _ = check_quota()
-    if remaining > 15:
-        for company in intl_companies[:3]:
-            queries.append(f"{company} CTO VP director leaving joined 2025")
-    if remaining > 20:
+    if remaining > 12:
+        # Track moves between major labs
+        queries.append(f"joined OpenAI from Google OR Meta OR DeepMind researcher 2025")
+        queries.append(f"joined Anthropic from OpenAI OR Google researcher 2025")
+        queries.append(f"joined DeepMind from OpenAI OR Meta OR xAI researcher 2025")
+    if remaining > 18:
+        for company in ["OpenAI", "Anthropic", "Google DeepMind", "xAI", "Meta AI"][:3]:
+            queries.append(f"{company} new hire director principal researcher 2025")
+    if remaining > 22:
         queries.append(f"昆仑万维 OR 面壁智能 OR 字节跳动 OR 百度 AI高管 离职 加入 2025 2026")
 
     return batch_search(queries, max_results=10)
