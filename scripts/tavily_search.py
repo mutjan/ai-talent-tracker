@@ -245,50 +245,40 @@ def batch_search(queries: list, max_results: int = 10) -> dict:
 def search_ai_talent_batch(companies: list = None, event_types: list = None) -> dict:
     """
     Optimized batch search for AI talent movements.
-    Combines multiple companies into single queries to save quota.
+    Uses combined company + action keyword queries for maximum coverage with minimal quota usage.
     Covers both "leaving from" and "joining to" perspectives.
     """
-    # International AI companies - split into sources and destinations for better coverage
-    intl_companies = ["OpenAI", "Anthropic", "Google DeepMind", "xAI", "Meta AI",
-                      "Mistral", "Cohere", "Stability AI"]
-    # Chinese AI companies
-    cn_companies = ["DeepSeek", "月之暗面 Moonshot", "智谱AI Zhipu",
-                    "百川智能 Baichuan", "零一万物 01.AI", "阶跃星辰 StepFun",
-                    "MiniMax", "字节跳动 ByteDance", "百度AI Baidu",
-                    "商汤科技 SenseTime", "昆仑万维", "面壁智能"]
-
-    if companies is None:
-        companies = intl_companies
-
     queries = []
 
-    # Strategy 1: International companies - DEPARTURES (1 query)
-    intl_str = " OR ".join([f'"{c}"' for c in intl_companies[:6]])
-    queries.append(f"({intl_str}) executive leaving departed resignation CTO VP director 2025 2026")
+    # Strategy 1: International companies - Combined query with action keywords (高效覆盖)
+    # 格式: (公司1 OR 公司2 OR ...) AND (动作1 OR 动作2 OR ...) + 时间
+    intl_companies = ['"OpenAI"', '"Anthropic"', '"Google DeepMind"', '"xAI"', '"Meta AI"',
+                      '"Mistral"', '"Cohere"', '"Stability AI"']
+    intl_str = " OR ".join(intl_companies)
+    action_keywords = "join OR leave OR \"step down\" OR departure OR resign OR hired OR appointed OR leaving OR departed"
+    queries.append(f"({intl_str}) {action_keywords} 2025 2026")
 
-    # Strategy 2: International companies - ARRIVALS (关键改进：谁加入了这些公司)
-    queries.append(f"joined ({intl_str}) hired new role appointed 2025 2026")
-    queries.append(f"({intl_str}) new hire researcher scientist engineer joined from 2025")
+    # Strategy 2: International - Cross-company movements (谁加入了X)
+    queries.append(f"joined ({intl_str}) from 2025 2026")
 
-    # Strategy 3: Chinese AI companies (2 queries, Chinese keywords)
-    cn_str_en = "DeepSeek OR Moonshot OR Zhipu OR Baichuan OR 01.AI OR StepFun OR MiniMax"
-    queries.append(f"({cn_str_en}) executive hire departure joined left 2025 2026")
-    queries.append(f"DeepSeek OR 月之暗面 OR 智谱 OR 百川智能 OR 零一万物 OR 阶跃星辰 OR MiniMax OR 字节跳动 OR 百度 OR 商汤 离职 入职 加入 创始人 高管变动 2025 2026")
+    # Strategy 3: Chinese companies - Combined query
+    cn_companies = ['"字节跳动"', '"ByteDance"', '"阿里巴巴"', '"Alibaba"', '"百度"', '"Baidu"',
+                    '"腾讯"', '"Tencent"', '"月之暗面"', '"Moonshot"', '"智谱"', '"Zhipu"',
+                    '"百川"', '"Baichuan"', '"DeepSeek"', '"MiniMax"', '"阶跃星辰"', '"StepFun"']
+    cn_str = " OR ".join(cn_companies)
+    cn_actions = "离职 OR 入职 OR 加入 OR 离开 OR 高管 OR 负责人"
+    queries.append(f"({cn_str}) {cn_actions} 2025 2026")
 
-    # Strategy 4: Cross-company movement patterns (high-value hires)
+    # Strategy 4: Specific high-value cross-company patterns (if quota allows)
     can_use, remaining, _ = check_quota()
-    if remaining > 12:
-        # Track moves between major labs
+    if remaining > 10:
         queries.append(f"joined OpenAI from Google OR Meta OR DeepMind researcher 2025")
         queries.append(f"joined Anthropic from OpenAI OR Google researcher 2025")
         queries.append(f"joined DeepMind from OpenAI OR Meta OR xAI researcher 2025")
-    if remaining > 18:
-        for company in ["OpenAI", "Anthropic", "Google DeepMind", "xAI", "Meta AI"][:3]:
-            queries.append(f"{company} new hire director principal researcher 2025")
-    if remaining > 22:
-        queries.append(f"昆仑万维 OR 面壁智能 OR 字节跳动 OR 百度 AI高管 离职 加入 2025 2026")
+    if remaining > 15:
+        queries.append(f"昆仑万维 OR 面壁智能 OR 商汤科技 AI高管 离职 加入 2025 2026")
 
-    return batch_search(queries, max_results=10)
+    return batch_search(queries, max_results=15)
 
 
 def search_unknown_destinations(people: list) -> dict:
