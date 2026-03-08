@@ -1,5 +1,77 @@
 [
   {
+    "id": "evt-060",
+    "person_name": "Max Schwarzer",
+    "from_company": "OpenAI",
+    "to_company": "Anthropic",
+    "role": "VP of Research",
+    "event_type": "leave",
+    "source_url": "https://www.storyboard18.com/trending/openai-vp-joins-anthropic-says-people-he-trusts-most-and-respects-moved-there-91303.htm",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-03-07",
+    "summary": "OpenAI研究副总裁Max Schwarzer宣布离职加入Anthropic，表示希望回归IC研究岗位，专注于强化学习研究。他过去一年领导OpenAI的后训练团队。"
+  },
+  {
+    "id": "evt-061",
+    "person_name": "赵明",
+    "from_company": "荣耀(Honor)",
+    "to_company": "千里科技",
+    "role": "CEO",
+    "event_type": "join",
+    "source_url": "https://www.eet-china.com/mp/a477426.html",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-03-05",
+    "summary": "荣耀前CEO赵明加入千里科技，将与印奇、李书福共同推进智能驾驶和AI业务。"
+  },
+  {
+    "id": "evt-062",
+    "person_name": "Jeff Huang",
+    "from_company": "Meta",
+    "to_company": "Google DeepMind",
+    "role": "Lead Engineer / Gemini App",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/news/story/engineering-lead-exits-meta-for-google-deepmind-8106730/",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-03-06",
+    "summary": "Meta资深工程师Jeff Huang在任职14年后离职，加入Google DeepMind负责Gemini应用开发。"
+  },
+  {
+    "id": "evt-063",
+    "person_name": "Dave Citron",
+    "from_company": "Google DeepMind",
+    "to_company": "Microsoft",
+    "role": "Corporate VP of AI",
+    "event_type": "join",
+    "source_url": "https://www.geekwire.com/2025/microsoft-poaches-more-google-deepmind-talent-as-dave-citron-joins-as-new-corporate-vp/",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-08-01",
+    "summary": "前Google DeepMind产品高级总监Dave Citron加入Microsoft AI团队担任企业副总裁。这是Mustafa Suleyman从DeepMind招募的又一位高管。"
+  },
+  {
+    "id": "evt-064",
+    "person_name": "Zhou Hao (周浩)",
+    "from_company": "Google DeepMind",
+    "to_company": "阿里巴巴(阿里千问/Qwen)",
+    "role": "Senior Scientist",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/b9b950d8-e604-4d55-970a-468c515d4aba",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-02-01",
+    "summary": "Google DeepMind高级科学家周浩加入阿里巴巴通义千问团队。"
+  },
+  {
+    "id": "evt-065",
+    "person_name": "王翛",
+    "from_company": "字节跳动",
+    "to_company": "",
+    "role": "多维表格AI产品负责人",
+    "event_type": "leave",
+    "source_url": "https://m.dtm.com.cn/news/202507/120146.html",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-02-15",
+    "summary": "字节跳动多维表格AI产品负责人王翛离职，投身AI硬件领域创业，已获得顶级机构投资支持。"
+  },
+  {
     "id": "evt-059",
     "person_name": "Bob McGrew",
     "from_company": "OpenAI",
