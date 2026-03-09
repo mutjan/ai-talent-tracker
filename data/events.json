@@ -1,101 +1,5 @@
 [
   {
-    "id": "evt-069",
-    "person_name": "于博文 (Yu Bowen)",
-    "from_company": "阿里巴巴(阿里千问/Qwen)",
-    "to_company": "",
-    "role": "Qwen后训练负责人",
-    "event_type": "leave",
-    "source_url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-03-04",
-    "summary": "阿里巴巴通义千问后训练负责人于博文于3月3日辞职，与林俊旸同日离职。据LatePost报道，这是今年第三位离职的Qwen高管。"
-  },
-  {
-    "id": "evt-070",
-    "person_name": "李开心 (Kaixin Li)",
-    "from_company": "阿里巴巴(阿里千问/Qwen)",
-    "to_company": "",
-    "role": "Qwen高管",
-    "event_type": "leave",
-    "source_url": "https://mlq.ai/news/key-researcher-steps-down-from-alibabas-qwen-ai-project/",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-03-03",
-    "summary": "阿里巴巴Qwen团队高管李开心离职，与林俊旸离职时间相近。"
-  },
-  {
-    "id": "evt-071",
-    "person_name": "周畅 (Zhou Chang)",
-    "from_company": "阿里巴巴(阿里千问/Qwen)",
-    "to_company": "",
-    "role": "前Qwen技术负责人",
-    "event_type": "leave",
-    "source_url": "https://eu.36kr.com/en/p/3708425301749891",
-    "date_discovered": "2026-03-09",
-    "date_event": "2025-12-01",
-    "summary": "周畅是阿里巴巴Qwen前技术负责人，在林俊旸2022年接管之前负责Qwen团队。据36Kr报道已离职。"
-  },
-  {
-    "id": "evt-072",
-    "person_name": "Harsh Mehta",
-    "from_company": "Anthropic",
-    "to_company": "新创企业(与Behnam Neyshabur共同创立)",
-    "role": "Co-founder",
-    "event_type": "leave",
-    "source_url": "https://open.substack.com/pub/shanakaanslemperera/p/the-departure?r=6p7b5o&utm_medium=ios",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-02-06",
-    "summary": "Harsh Mehta离开Anthropic，与Behnam Neyshabur一起创立新公司。"
-  },
-  {
-    "id": "evt-073",
-    "person_name": "Behnam Neyshabur",
-    "from_company": "Anthropic",
-    "to_company": "新创企业(与Harsh Mehta共同创立)",
-    "role": "Co-founder",
-    "event_type": "leave",
-    "source_url": "https://www.instagram.com/reel/DUipbaGjSYx/",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-02-06",
-    "summary": "Behnam Neyshabur离开Anthropic，与Harsh Mehta一起创业。Instagram资料显示其状态为'something new'。"
-  },
-  {
-    "id": "evt-068",
-    "person_name": "DeepSeek CTO(未具名)",
-    "from_company": "DeepSeek",
-    "to_company": "",
-    "role": "CTO/核心高管",
-    "event_type": "leave",
-    "source_url": "https://news.mydrivers.com/1/1052/1052769.htm",
-    "date_discovered": "2026-03-08",
-    "date_event": "2025-06-09",
-    "summary": "DeepSeek核心高管（原CTO）已于半年前悄然离职创业，瞄准Agent赛道，计划于2025年圣诞节前后发布Agent产品。据悉其创业项目已获得IDG资本融资。"
-  },
-  {
-    "id": "evt-066",
-    "person_name": "焦可",
-    "from_company": "百川智能(Baichuan)",
-    "to_company": "",
-    "role": "联合创始人/互联网业务负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
-    "date_discovered": "2026-03-08",
-    "date_event": "2025-03-17",
-    "summary": "百川智能联合创始人焦可离职，投身AI语音方向创业。焦可是百川智能早期创始团队成员，本科毕业于清华大学计算机专业，在百川期间主要负责互联网业务。"
-  },
-  {
-    "id": "evt-067",
-    "person_name": "陈炜鹏",
-    "from_company": "百川智能(Baichuan)",
-    "to_company": "",
-    "role": "联合创始人/大语言模型核心技术研发负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
-    "date_discovered": "2026-03-08",
-    "date_event": "2025-03-17",
-    "summary": "百川智能联合创始人陈炜鹏即将离职，正在筹备AI Coding方向的创业项目。陈炜鹏在百川负责大语言模型核心技术研发，2012年毕业于哈尔滨工业大学，曾在搜狗担任搜索研发总经理。"
-  },
-  {
     "id": "evt-060",
     "person_name": "Max Schwarzer",
     "from_company": "OpenAI",
@@ -106,18 +10,6 @@
     "date_discovered": "2026-03-08",
     "date_event": "2026-03-07",
     "summary": "OpenAI研究副总裁Max Schwarzer宣布离职加入Anthropic，表示希望回归IC研究岗位，专注于强化学习研究。他过去一年领导OpenAI的后训练团队。"
-  },
-  {
-    "id": "evt-061",
-    "person_name": "赵明",
-    "from_company": "荣耀(Honor)",
-    "to_company": "千里科技",
-    "role": "CEO",
-    "event_type": "join",
-    "source_url": "https://www.eet-china.com/mp/a477426.html",
-    "date_discovered": "2026-03-08",
-    "date_event": "2026-03-05",
-    "summary": "荣耀前CEO赵明加入千里科技，将与印奇、李书福共同推进智能驾驶和AI业务。"
   },
   {
     "id": "evt-062",
@@ -132,40 +24,28 @@
     "summary": "Meta资深工程师Jeff Huang在任职14年后离职，加入Google DeepMind负责Gemini应用开发。"
   },
   {
-    "id": "evt-063",
-    "person_name": "Dave Citron",
-    "from_company": "Google DeepMind",
-    "to_company": "Microsoft",
-    "role": "Corporate VP of AI",
+    "id": "evt-061",
+    "person_name": "赵明",
+    "from_company": "荣耀(Honor)",
+    "to_company": "千里科技",
+    "role": "CEO",
     "event_type": "join",
-    "source_url": "https://www.geekwire.com/2025/microsoft-poaches-more-google-deepmind-talent-as-dave-citron-joins-as-new-corporate-vp/",
+    "source_url": "https://www.eet-china.com/mp/a477426.html",
     "date_discovered": "2026-03-08",
-    "date_event": "2025-08-01",
-    "summary": "前Google DeepMind产品高级总监Dave Citron加入Microsoft AI团队担任企业副总裁。这是Mustafa Suleyman从DeepMind招募的又一位高管。"
+    "date_event": "2026-03-05",
+    "summary": "荣耀前CEO赵明加入千里科技，将与印奇、李书福共同推进智能驾驶和AI业务。"
   },
   {
-    "id": "evt-064",
-    "person_name": "Zhou Hao (周浩)",
-    "from_company": "Google DeepMind",
-    "to_company": "阿里巴巴(阿里千问/Qwen)",
-    "role": "Senior Scientist",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/b9b950d8-e604-4d55-970a-468c515d4aba",
-    "date_discovered": "2026-03-08",
-    "date_event": "2026-02-01",
-    "summary": "Google DeepMind高级科学家周浩加入阿里巴巴通义千问团队。"
-  },
-  {
-    "id": "evt-065",
-    "person_name": "王翛",
-    "from_company": "字节跳动",
+    "id": "evt-069",
+    "person_name": "于博文 (Yu Bowen)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
     "to_company": "",
-    "role": "多维表格AI产品负责人",
+    "role": "Qwen后训练负责人",
     "event_type": "leave",
-    "source_url": "https://m.dtm.com.cn/news/202507/120146.html",
-    "date_discovered": "2026-03-08",
-    "date_event": "2026-02-15",
-    "summary": "字节跳动多维表格AI产品负责人王翛离职，投身AI硬件领域创业，已获得顶级机构投资支持。"
+    "source_url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-03-04",
+    "summary": "阿里巴巴通义千问后训练负责人于博文于3月3日辞职，与林俊旸同日离职。据LatePost报道，这是今年第三位离职的Qwen高管。"
   },
   {
     "id": "evt-059",
@@ -180,42 +60,6 @@
     "summary": "前OpenAI首席研究官Bob McGrew创立新创企Arda，正以7亿美元估值融资7000万美元。该公司旨在利用AI自动化制造业。"
   },
   {
-    "id": "evt-058",
-    "person_name": "Simon Zhai",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Member of Technical Staff",
-    "event_type": "leave",
-    "source_url": "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2",
-    "date_discovered": "2026-03-04",
-    "date_event": "2026-02-09",
-    "summary": "Simon Zhai，xAI技术团队成员，于2月9日宣布离职。他于2025年10月加入xAI。"
-  },
-  {
-    "id": "evt-057",
-    "person_name": "Andrew Ma",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Member of Technical Staff",
-    "event_type": "leave",
-    "source_url": "https://www.aol.com/articles/key-xai-figures-departed-recent-132554711.html",
-    "date_discovered": "2026-03-04",
-    "date_event": "2026-02-11",
-    "summary": "Andrew Ma，xAI技术团队成员，于2月11日宣布本周离开xAI。他于2024年加入xAI。"
-  },
-  {
-    "id": "evt-056",
-    "person_name": "Vahid Kazemi",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Member of Technical Staff",
-    "event_type": "leave",
-    "source_url": "https://www.aol.com/articles/key-xai-figures-departed-recent-132554711.html",
-    "date_discovered": "2026-03-04",
-    "date_event": "2026-02-11",
-    "summary": "Vahid Kazemi，xAI技术团队成员，于2月11日宣布几周前已离开xAI。"
-  },
-  {
     "id": "evt-055",
     "person_name": "Weihua Hu",
     "from_company": "Perplexity",
@@ -226,6 +70,18 @@
     "date_discovered": "2026-03-04",
     "date_event": "2026-03-04",
     "summary": "Weihua Hu从Perplexity加入Anthropic Knowledge团队，负责深度研究(deep research)和多跳网络搜索(multi-hop web search)相关的模型能力开发。"
+  },
+  {
+    "id": "evt-070",
+    "person_name": "李开心 (Kaixin Li)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "Qwen高管",
+    "event_type": "leave",
+    "source_url": "https://mlq.ai/news/key-researcher-steps-down-from-alibabas-qwen-ai-project/",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-03-03",
+    "summary": "阿里巴巴Qwen团队高管李开心离职，与林俊旸离职时间相近。"
   },
   {
     "id": "evt-054",
@@ -324,6 +180,18 @@
     "summary": "Charles Porch在Meta工作15年后加入OpenAI，担任新设立的全球创意合作副总裁。他此前负责Instagram的合作业务。"
   },
   {
+    "id": "evt-065",
+    "person_name": "王翛",
+    "from_company": "字节跳动",
+    "to_company": "",
+    "role": "多维表格AI产品负责人",
+    "event_type": "leave",
+    "source_url": "https://m.dtm.com.cn/news/202507/120146.html",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-02-15",
+    "summary": "字节跳动多维表格AI产品负责人王翛离职，投身AI硬件领域创业，已获得顶级机构投资支持。"
+  },
+  {
     "id": "evt-030",
     "person_name": "Zoë Hitzig",
     "from_company": "OpenAI",
@@ -372,6 +240,30 @@
     "summary": "OpenClaw创始人Peter Steinberger加入OpenAI，负责下一代个人智能体开发。OpenClaw将转为开源基金会继续运营。"
   },
   {
+    "id": "evt-057",
+    "person_name": "Andrew Ma",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://www.aol.com/articles/key-xai-figures-departed-recent-132554711.html",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-02-11",
+    "summary": "Andrew Ma，xAI技术团队成员，于2月11日宣布本周离开xAI。他于2024年加入xAI。"
+  },
+  {
+    "id": "evt-056",
+    "person_name": "Vahid Kazemi",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://www.aol.com/articles/key-xai-figures-departed-recent-132554711.html",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-02-11",
+    "summary": "Vahid Kazemi，xAI技术团队成员，于2月11日宣布几周前已离开xAI。"
+  },
+  {
     "id": "evt-040",
     "person_name": "Harsh Mehta",
     "from_company": "Anthropic",
@@ -394,6 +286,18 @@
     "date_discovered": "2026-03-01",
     "date_event": "2026-02-10",
     "summary": "Behnam Neyshabur离开Anthropic，与Harsh Mehta一起创业。他是领先的AI科学家，在Anthropic工作期间为AI安全研究做出重要贡献。"
+  },
+  {
+    "id": "evt-058",
+    "person_name": "Simon Zhai",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://www.businessinsider.com/xai-key-departures-list-elon-musk-startup-cofounders-exodus-2026-2",
+    "date_discovered": "2026-03-04",
+    "date_event": "2026-02-09",
+    "summary": "Simon Zhai，xAI技术团队成员，于2月9日宣布离职。他于2025年10月加入xAI。"
   },
   {
     "id": "evt-025",
@@ -430,6 +334,42 @@
     "date_discovered": "2026-03-01",
     "date_event": "2026-02-09",
     "summary": "Mrinank Sharma离开Anthropic，他曾领导公司的Safeguards Research团队。他在离职信中警告'世界正处于危险之中'，表示要离开去追求更符合个人价值观的工作。"
+  },
+  {
+    "id": "evt-072",
+    "person_name": "Harsh Mehta",
+    "from_company": "Anthropic",
+    "to_company": "新创企业(与Behnam Neyshabur共同创立)",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://open.substack.com/pub/shanakaanslemperera/p/the-departure?r=6p7b5o&utm_medium=ios",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-02-06",
+    "summary": "Harsh Mehta离开Anthropic，与Behnam Neyshabur一起创立新公司。"
+  },
+  {
+    "id": "evt-073",
+    "person_name": "Behnam Neyshabur",
+    "from_company": "Anthropic",
+    "to_company": "新创企业(与Harsh Mehta共同创立)",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://www.instagram.com/reel/DUipbaGjSYx/",
+    "date_discovered": "2026-03-09",
+    "date_event": "2026-02-06",
+    "summary": "Behnam Neyshabur离开Anthropic，与Harsh Mehta一起创业。Instagram资料显示其状态为'something new'。"
+  },
+  {
+    "id": "evt-064",
+    "person_name": "Zhou Hao (周浩)",
+    "from_company": "Google DeepMind",
+    "to_company": "阿里巴巴(阿里千问/Qwen)",
+    "role": "Senior Scientist",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/b9b950d8-e604-4d55-970a-468c515d4aba",
+    "date_discovered": "2026-03-08",
+    "date_event": "2026-02-01",
+    "summary": "Google DeepMind高级科学家周浩加入阿里巴巴通义千问团队。"
   },
   {
     "id": "evt-048",
@@ -504,6 +444,18 @@
     "summary": "Hannah Wong于2026年1月离开OpenAI，她自2021年加入公司，在2024年8月升任首席传播官，领导公司度过了Altman被短暂罢免的危机。"
   },
   {
+    "id": "evt-071",
+    "person_name": "周畅 (Zhou Chang)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "前Qwen技术负责人",
+    "event_type": "leave",
+    "source_url": "https://eu.36kr.com/en/p/3708425301749891",
+    "date_discovered": "2026-03-09",
+    "date_event": "2025-12-01",
+    "summary": "周畅是阿里巴巴Qwen前技术负责人，在林俊旸2022年接管之前负责Qwen团队。据36Kr报道已离职。"
+  },
+  {
     "id": "evt-039",
     "person_name": "Sachin Katti",
     "from_company": "Intel",
@@ -576,6 +528,18 @@
     "summary": "Joëlle Pineau从Meta加入Cohere担任首席AI官，她曾是Meta LLaMA模型项目的联合负责人和Meta AI Research主管。"
   },
   {
+    "id": "evt-063",
+    "person_name": "Dave Citron",
+    "from_company": "Google DeepMind",
+    "to_company": "Microsoft",
+    "role": "Corporate VP of AI",
+    "event_type": "join",
+    "source_url": "https://www.geekwire.com/2025/microsoft-poaches-more-google-deepmind-talent-as-dave-citron-joins-as-new-corporate-vp/",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-08-01",
+    "summary": "前Google DeepMind产品高级总监Dave Citron加入Microsoft AI团队担任企业副总裁。这是Mustafa Suleyman从DeepMind招募的又一位高管。"
+  },
+  {
     "id": "evt-047",
     "person_name": "Igor Babuschkin",
     "from_company": "xAI",
@@ -624,6 +588,18 @@
     "summary": "Daniel Gross离开SSI (Safe Superintelligence) CEO职位加入Meta，领导AI产品部门。Meta曾试图收购SSI但未成功。"
   },
   {
+    "id": "evt-068",
+    "person_name": "DeepSeek CTO(未具名)",
+    "from_company": "DeepSeek",
+    "to_company": "",
+    "role": "CTO/核心高管",
+    "event_type": "leave",
+    "source_url": "https://news.mydrivers.com/1/1052/1052769.htm",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-06-09",
+    "summary": "DeepSeek核心高管（原CTO）已于半年前悄然离职创业，瞄准Agent赛道，计划于2025年圣诞节前后发布Agent产品。据悉其创业项目已获得IDG资本融资。"
+  },
+  {
     "id": "evt-050",
     "person_name": "段楠",
     "from_company": "阶跃星辰(StepFun)",
@@ -634,6 +610,42 @@
     "date_discovered": "2026-03-02",
     "date_event": "2025-06-01",
     "summary": "阶跃星辰Tech Fellow段楠离职，加入京东探索研究院担任视觉与多模态实验室负责人。"
+  },
+  {
+    "id": "evt-066",
+    "person_name": "焦可",
+    "from_company": "百川智能(Baichuan)",
+    "to_company": "",
+    "role": "联合创始人/互联网业务负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-03-17",
+    "summary": "百川智能联合创始人焦可离职，投身AI语音方向创业。焦可是百川智能早期创始团队成员，本科毕业于清华大学计算机专业，在百川期间主要负责互联网业务。"
+  },
+  {
+    "id": "evt-067",
+    "person_name": "陈炜鹏",
+    "from_company": "百川智能(Baichuan)",
+    "to_company": "",
+    "role": "联合创始人/大语言模型核心技术研发负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
+    "date_discovered": "2026-03-08",
+    "date_event": "2025-03-17",
+    "summary": "百川智能联合创始人陈炜鹏即将离职，正在筹备AI Coding方向的创业项目。陈炜鹏在百川负责大语言模型核心技术研发，2012年毕业于哈尔滨工业大学，曾在搜狗担任搜索研发总经理。"
+  },
+  {
+    "id": "evt-003",
+    "person_name": "John Schulman",
+    "from_company": "Anthropic",
+    "to_company": "Thinking Machines Lab",
+    "role": "Co-founder & Alignment Lead",
+    "event_type": "leave",
+    "source_url": "https://fortune.com/2025/02/06/openai-john-schulman-mira-muratis-startup-anthropic/",
+    "date_discovered": "2026-03-04",
+    "date_event": "2025-02-06",
+    "summary": "John Schulman离开Anthropic，加入Mira Murati创立的Thinking Machines Lab。他此前从OpenAI加入Anthropic仅5个月。"
   },
   {
     "id": "evt-020",
@@ -670,18 +682,6 @@
     "date_discovered": "2024-09-25",
     "date_event": "2024-09-25",
     "summary": "Mira Murati departed OpenAI as CTO, later founded Thinking Machines Lab, an AI startup."
-  },
-  {
-    "id": "evt-003",
-    "person_name": "John Schulman",
-    "from_company": "Anthropic",
-    "to_company": "Thinking Machines Lab",
-    "role": "Co-founder & Alignment Lead",
-    "event_type": "leave",
-    "source_url": "https://fortune.com/2025/02/06/openai-john-schulman-mira-muratis-startup-anthropic/",
-    "date_discovered": "2026-03-04",
-    "date_event": "2025-02-06",
-    "summary": "John Schulman离开Anthropic，加入Mira Murati创立的Thinking Machines Lab。他此前从OpenAI加入Anthropic仅5个月。"
   },
   {
     "id": "evt-006",
