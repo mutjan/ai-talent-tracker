@@ -147,13 +147,13 @@
     "id": "evt-029",
     "person_name": "Hieu Pham",
     "from_company": "OpenAI",
-    "to_company": "",
+    "to_company": "休息/返回越南",
     "role": "Member of Technical Staff",
     "event_type": "leave",
     "source_url": "https://www.techloy.com/openai-researcher-who-once-scoffed-at-mental-health-quits-citing-burnout/",
     "date_discovered": "2026-03-01",
     "date_event": "2026-02-26",
-    "summary": "Hieu Pham于2026年2月26日宣布离开OpenAI， citing burnout。他于2025年8月加入，此前曾在xAI、Google Brain工作。"
+    "summary": "Hieu Pham于2026年2月26日宣布离开OpenAI，citing burnout。他返回越南休息恢复，此前曾在xAI、Google Brain工作。"
   },
   {
     "id": "evt-021",
@@ -231,13 +231,13 @@
     "id": "evt-046",
     "person_name": "Greg Yang",
     "from_company": "xAI",
-    "to_company": "",
+    "to_company": "xAI(顾问角色)",
     "role": "Co-founder (Advisory)",
     "event_type": "leave",
     "source_url": "https://www.aol.com/articles/xai-cofounder-taking-step-back-050122445.html",
     "date_discovered": "2026-03-01",
     "date_event": "2026-02-15",
-    "summary": "Greg Yang因确诊莱姆病从xAI日常运营退居顾问角色。他表示要'以创始人模式关注自己的健康'。"
+    "summary": "Greg Yang因确诊莱姆病，从xAI日常运营退居顾问角色，表示要\"以创始人模式关注自己的健康\"。"
   },
   {
     "id": "evt-052",
@@ -327,13 +327,13 @@
     "id": "evt-026",
     "person_name": "Tony Wu (Yuhuai Wu)",
     "from_company": "xAI",
-    "to_company": "",
+    "to_company": "Integrated Bio(生物技术)",
     "role": "Co-founder / Reasoning Team Lead",
     "event_type": "leave",
     "source_url": "https://techcrunch.com/2026/02/10/okay-now-exactly-half-of-xais-founding-team-has-left-the-company/",
     "date_discovered": "2026-03-01",
     "date_event": "2026-02-09",
-    "summary": "Tony Wu离开xAI，他曾领导xAI的推理团队。他表示'一个配备AI的小团队可以移山并重新定义可能性'。"
+    "summary": "Tony Wu离开xAI，转向衰老和光遗传学领域的生物技术研究，加入Integrated Bio。"
   },
   {
     "id": "evt-037",
@@ -555,7 +555,7 @@
     "id": "evt-047",
     "person_name": "Igor Babuschkin",
     "from_company": "xAI",
-    "to_company": "",
+    "to_company": "AI安全投资公司(自创立)",
     "role": "Co-founder",
     "event_type": "leave",
     "source_url": "https://arstechnica.com/ai/2026/02/grok-maker-xai-loses-another-co-founder/",
