@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-074",
+    "person_name": "Caitlin Kalinowski",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Head of Robotics / Hardware Lead",
+    "event_type": "leave",
+    "source_url": "https://www.reuters.com/business/openai-robotics-head-resigns-after-deal-with-pentagon-2026-03-07/",
+    "date_discovered": "2026-03-10",
+    "date_event": "2026-03-07",
+    "summary": "OpenAI机器人与硬件负责人Caitlin Kalinowski因公司与Pentagon的AI合同宣布辞职。她在LinkedIn发文表示辞职是因为'深深关心OpenAI的技术如何被使用'，对Pentagon监控和自主武器应用表示担忧。"
+  },
+  {
     "id": "evt-060",
     "person_name": "Max Schwarzer",
     "from_company": "OpenAI",
