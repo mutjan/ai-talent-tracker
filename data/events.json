@@ -1114,5 +1114,17 @@
     "date_discovered": "2019-01-01",
     "date_event": "2019-01-01",
     "summary": "Aidan Gomez, co-author of 'Attention Is All You Need', co-founded Cohere for enterprise LLM solutions."
+  },
+  {
+    "id": "evt-094",
+    "person_name": "Giovanni D'Antonio",
+    "from_company": "DeepMind",
+    "to_company": "Thinking Machines Lab",
+    "role": "Member of Technical Staff",
+    "event_type": "join",
+    "source_url": "https://x.com/regulargio/status/2031852806584639519",
+    "date_discovered": "2026-03-12",
+    "date_event": "2026-03-11",
+    "summary": "Giovanni D'Antonio加入Thinking Machines Lab担任技术团队成员，与Mira Murati、John Schulman、Soumith Chintala、Neal Wu等前OpenAI/Meta研究员共事。他此前在DeepMind工作，是2003年出生的年轻AI研究员，目前在哈佛大学就读。"
   }
 ]
