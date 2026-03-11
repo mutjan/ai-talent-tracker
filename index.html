@@ -254,6 +254,7 @@ h1 {
 .pill.active { background: var(--blue-dim); color: var(--blue); }
 .pill.active.leave-pill { background: var(--red-dim); color: var(--red); }
 .pill.active.join-pill { background: var(--green-dim); color: var(--green); }
+.pill.active.jump-pill { background: var(--amber-dim); color: var(--amber); }
 
 .company-select {
   background: var(--bg-card);
@@ -363,6 +364,8 @@ h1 {
 .event-card.type-leave:hover { box-shadow: -4px 0 20px var(--red-dim); }
 .event-card.type-join { border-left: 3px solid var(--green); }
 .event-card.type-join:hover { box-shadow: -4px 0 20px var(--green-dim); }
+.event-card.type-jump { border-left: 3px solid var(--amber); }
+.event-card.type-jump:hover { box-shadow: -4px 0 20px var(--amber-dim); }
 
 /* Timeline dot */
 .event-card::before {
@@ -379,6 +382,7 @@ h1 {
 
 .event-card.type-leave::before { background: var(--red); box-shadow: 0 0 8px var(--red-dim); }
 .event-card.type-join::before { background: var(--green); box-shadow: 0 0 8px var(--green-dim); }
+.event-card.type-jump::before { background: var(--amber); box-shadow: 0 0 8px var(--amber-dim); }
 
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -445,6 +449,7 @@ h1 {
 
 .badge-leave { background: var(--red-dim); color: var(--red); border: 1px solid var(--red); }
 .badge-join { background: var(--green-dim); color: var(--green); border: 1px solid var(--green); }
+.badge-jump { background: var(--amber-dim); color: var(--amber); border: 1px solid var(--amber); }
 
 .event-role {
   font-size: 14px;
@@ -688,6 +693,7 @@ footer a:hover { text-decoration: underline; }
       <button class="pill active" data-filter="all">全部</button>
       <button class="pill join-pill" data-filter="join">入职</button>
       <button class="pill leave-pill" data-filter="leave">离职</button>
+      <button class="pill jump-pill" data-filter="jump">跳槽</button>
     </div>
     <select class="company-select" id="companySelect">
       <option value="">所有公司</option>
@@ -840,8 +846,12 @@ function getFilteredEvents() {
     // Type filter
     if (currentFilter !== 'all') {
       const type = e.event_type || '';
-      if (currentFilter === 'join' && type !== 'join' && type !== 'hire') return false;
+      const hasFrom = !!e.from_company;
+      const hasTo = !!e.to_company;
+
+      if (currentFilter === 'join' && (type !== 'join' && type !== 'hire')) return false;
       if (currentFilter === 'leave' && type !== 'leave') return false;
+      if (currentFilter === 'jump' && !(hasFrom && hasTo)) return false;
     }
 
     // Company filter
@@ -901,8 +911,27 @@ function renderTimeline() {
 
   timeline.innerHTML = filtered.map((e, i) => {
     const type = e.event_type === 'hire' ? 'join' : (e.event_type || 'leave');
-    const badgeClass = type === 'join' ? 'badge-join' : 'badge-leave';
-    const badgeText = type === 'join' ? '已入职' : '已离职';
+
+    // Determine display type and badge based on from/to companies
+    const hasFrom = !!e.from_company;
+    const hasTo = !!e.to_company;
+    let displayType = type;
+    let badgeClass, badgeText;
+
+    if (hasFrom && hasTo) {
+      // 跳槽: 既有from又有to
+      displayType = 'jump';
+      badgeClass = 'badge-jump';
+      badgeText = '已跳槽';
+    } else if (type === 'join' || type === 'hire') {
+      displayType = 'join';
+      badgeClass = 'badge-join';
+      badgeText = '已入职';
+    } else {
+      displayType = 'leave';
+      badgeClass = 'badge-leave';
+      badgeText = '已离职';
+    }
     const from = e.from_company || '—';
     const to = e.to_company || '—';
     const date = e.date_event ? new Date(e.date_event).toLocaleDateString('zh-CN', { year: 'numeric', month: 'short', day: 'numeric' }) : '未知';
@@ -912,7 +941,7 @@ function renderTimeline() {
     const toLink = to !== '—' ? `<a href="detail.html?type=company&name=${encodeURIComponent(to)}" class="company-tag-link">${escapeHtml(to)}</a>` : '<span class="company-tag">—</span>';
 
     return `
-      <div class="event-card type-${type}" style="animation-delay: ${i * 0.05}s">
+      <div class="event-card type-${displayType}" style="animation-delay: ${i * 0.05}s">
         <div class="event-header">
           <div class="person-name">${personLink}</div>
           <span class="event-type-badge ${badgeClass}">${badgeText}</span>
