@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-098",
+    "person_name": "Devendra Chaplot",
+    "from_company": "Mistral AI",
+    "to_company": "SpaceX/xAI",
+    "role": "AI Researcher / Founding Team",
+    "event_type": "join",
+    "source_url": "https://x.com/dchaplot/status/2032596951435456797",
+    "date_discovered": "2026-03-14",
+    "date_event": "2026-03-13",
+    "summary": "Devendra Chaplot宣布加入SpaceX和xAI，与Elon Musk及团队紧密合作构建超级智能。他此前是Mistral AI和Thinking Machines Lab (TML)的创始团队成员，专注于机器人研究和AI模型开发。"
+  },
+  {
     "id": "evt-094",
     "person_name": "Giovanni D'Antonio",
     "from_company": "DeepMind",
