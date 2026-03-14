@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-100",
+    "person_name": "Yuchen Jin",
+    "from_company": "Hyperbolic Labs",
+    "to_company": "",
+    "role": "Co-founder & CTO",
+    "event_type": "leave",
+    "source_url": "https://x.com/Yuchenj_UW/status/2032502156788646311",
+    "date_discovered": "2026-03-15",
+    "date_event": "2026-03-14",
+    "summary": "Yuchen Jin宣布辞去Hyperbolic Labs联合创始人兼CTO职位。他在X上表示'离开一家你共同创立并倾注心血的公司并不容易'。Yuchen此前在华盛顿大学获得计算机科学博士学位，曾参与构建Apache TVM编译器，并在OctoAI（被NVIDIA收购）工作过。"
+  },
+  {
     "id": "evt-099",
     "person_name": "Zitong Yang",
     "from_company": "",
@@ -87,13 +99,13 @@
     "id": "evt-069",
     "person_name": "于博文 (Yu Bowen)",
     "from_company": "阿里巴巴(阿里千问/Qwen)",
-    "to_company": "",
-    "role": "Qwen后训练负责人",
-    "event_type": "leave",
+    "to_company": "字节跳动(ByteDance) Seed团队",
+    "role": "Qwen后训练负责人 / Seed视觉模型后训练负责人",
+    "event_type": "move",
     "source_url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-03-04",
-    "summary": "阿里巴巴通义千问后训练负责人于博文于3月3日辞职，与林俊旸同日离职。据LatePost报道，这是今年第三位离职的Qwen高管。"
+    "date_discovered": "2026-03-15",
+    "date_event": "2026-03-12",
+    "summary": "于博文从阿里巴巴Qwen团队离职后已加入字节跳动Seed团队，担任视觉模型和多模态交互团队的后训练负责人。他此前是阿里通义千问后训练负责人，2022年通过'阿里星'精英校招加入达摩院，是Qwen Chat模型系列的核心开发者。"
   },
   {
     "id": "evt-059",
