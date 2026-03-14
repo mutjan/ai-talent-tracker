@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-101",
+    "person_name": "Andrew Lampinen",
+    "from_company": "",
+    "to_company": "Anthropic",
+    "role": "Alignment Team",
+    "event_type": "join",
+    "source_url": "https://x.com/AndrewLampinen/status/2032850994904903793",
+    "date_discovered": "2026-03-15",
+    "date_event": "2026-03-14",
+    "summary": "Andrew Lampinen宣布加入Anthropic对齐团队(alignment team)，他表示这是一个'令人兴奋的地方，正处于令人兴奋的时刻'。"
+  },
+  {
     "id": "evt-100",
     "person_name": "Yuchen Jin",
     "from_company": "Hyperbolic Labs",
