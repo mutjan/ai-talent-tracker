@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-099",
+    "person_name": "Zitong Yang",
+    "from_company": "",
+    "to_company": "Thinking Machines Lab",
+    "role": "AI Researcher",
+    "event_type": "join",
+    "source_url": "https://x.com/ZitongYang0/status/2032283896004690199",
+    "date_discovered": "2026-03-14",
+    "date_event": "2026-03-13",
+    "summary": "Zitong Yang宣布加入Thinking Machines Lab，感谢Mira Murati、Lilian Weng和John Schulman的教导。他在X上分享了关于multi-turn+tool-use范式转变的思考，认为这可能需要重写整个预训练语料库。"
+  },
+  {
     "id": "evt-098",
     "person_name": "Devendra Chaplot",
     "from_company": "Mistral AI",
