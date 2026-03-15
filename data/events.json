@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-102",
+    "person_name": "Dustin Tran",
+    "from_company": "Google DeepMind",
+    "to_company": "xAI",
+    "role": "Senior Researcher / Gemini Core Contributor",
+    "event_type": "join",
+    "source_url": "https://mashdigi.com/en/dustin-tran-a-key-contributor-to-gemini-and-a-senior-researcher-at-google-deepmind-has-joined-xai/",
+    "date_discovered": "2026-03-16",
+    "date_event": "2025-09-19",
+    "summary": "Dustin Tran在Google DeepMind工作8年后加入xAI，成为Grok模型开发团队的关键成员。他是Gemini项目的核心开发者之一，曾领导Gemini后训练评估工作。Tran表示xAI的Colossus 2超算平台和数据优势是他转投的主要原因。"
+  },
+  {
+    "id": "evt-103",
+    "person_name": "Trapit Bansal",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "Research Scientist / AI Reasoning",
+    "event_type": "join",
+    "source_url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models/",
+    "date_discovered": "2026-03-16",
+    "date_event": "2025-06-26",
+    "summary": "Trapit Bansal从OpenAI加入Meta Superintelligence Labs，负责AI推理模型开发。他是OpenAI o1模型的联合创作者之一，IIT-Kanpur校友，2022年加入OpenAI后与Ilya Sutskever合作进行强化学习推理研究。据报道Meta提供了高达1亿美元的签约奖金。"
+  },
+  {
     "id": "evt-101",
     "person_name": "Andrew Lampinen",
     "from_company": "",
