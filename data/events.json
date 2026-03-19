@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-110",
+    "person_name": "Jasjeet Sekhon",
+    "from_company": "Bridgewater Associates",
+    "to_company": "Google DeepMind",
+    "role": "Chief Strategy Officer / Chief Scientist",
+    "event_type": "join",
+    "source_url": "https://www.reuters.com/business/finance/bridgewaters-chief-scientist-sekhon-join-googles-deepmind-ai-unit-2026-03-18/",
+    "date_discovered": "2026-03-20",
+    "date_event": "2026-03-18",
+    "summary": "Bridgewater Associates 首席科学家 Jasjeet Sekhon 宣布加入 Google DeepMind 担任首席战略官。Sekhon 表示对直接与 DeepMind CEO Demis Hassabis 合作感到兴奋，这是金融量化领域顶尖人才流向 AI 实验室的又一重要案例。"
+  },
+  {
+    "id": "evt-109",
+    "person_name": "Aman Gottumukkala",
+    "from_company": "Firebender AI",
+    "to_company": "xAI / SpaceX",
+    "role": "AI Coding Engineer / Co-founder",
+    "event_type": "join",
+    "source_url": "https://pulse2.com/aman-gottumukkala-joins-spacex-and-xai-to-build-coding-ai/",
+    "date_discovered": "2026-03-20",
+    "date_event": "2026-03-16",
+    "summary": "印度裔AI工程师 Aman Gottumukkala 宣布加入 xAI 和 SpaceX，目标是构建'最好的编程AI'。他是 AI 编程工具 Firebender 的联合创始人，该工具仅凭3人团队即取得百万美元营收。Elon Musk 亲自在 X 上发文欢迎他加入。"
+  },
+  {
     "id": "evt-108",
     "person_name": "Jonathan Uesato",
     "from_company": "Thinking Machines Lab",
