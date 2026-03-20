@@ -1,5 +1,53 @@
 [
   {
+    "id": "evt-114",
+    "person_name": "Zihang Dai",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://seekingalpha.com/article/4796041-xai-cofounder-zihang-dai-departs",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-12",
+    "summary": "xAI联合创始人Zihang Dai于2026年3月12日宣布离职，是继Jimmy Ba、Tony Wu、Toby Pohlen之后，又一位离开的xAI创始团队成员。Musk随后发帖承认xAI'没有被正确搭建'并宣布重建公司，这是xAI创始团队持续外流的最新案例。"
+  },
+  {
+    "id": "evt-113",
+    "person_name": "Ke Yang",
+    "from_company": "Apple",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "AI Search Lead / Researcher",
+    "event_type": "join",
+    "source_url": "https://9to5mac.com/2025/10/15/meta-poaches-apples-newly-appointed-head-of-ai-search-project/",
+    "date_discovered": "2026-03-21",
+    "date_event": "2025-10-15",
+    "summary": "Apple新晋AI搜索项目负责人Ke Yang加入Meta Superintelligence Labs，她刚被任命为苹果类ChatGPT搜索功能的负责人即被Meta挖走。这是2025年苹果AI高管集体出走浪潮（共6人以上）中的重要一环，主要流向Meta和Google。"
+  },
+  {
+    "id": "evt-112",
+    "person_name": "Bowen Zhang",
+    "from_company": "Apple",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "Foundation Models Researcher",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/apple-foundation-models-bowen-zhang-meta",
+    "date_discovered": "2026-03-21",
+    "date_event": "2025-07-30",
+    "summary": "Bowen Zhang是苹果Foundation Models Group (AFM)的关键成员，于2025年7月底加入Meta Superintelligence Labs，成为苹果AI团队在2025年夏天向Meta流失的第四位顶尖研究员。"
+  },
+  {
+    "id": "evt-111",
+    "person_name": "姚顺宇 (Yao Shunyu)",
+    "from_company": "Anthropic",
+    "to_company": "腾讯(Tencent)",
+    "role": "首席AI科学家 / Chief AI Scientist",
+    "event_type": "join",
+    "source_url": "https://techcrunch.com/2025/12/17/tencent-names-former-openai-researcher-chief-ai-scientist/",
+    "date_discovered": "2026-03-21",
+    "date_event": "2025-09-12",
+    "summary": "姚顺宇（Yao Shunyu）是ReAct框架作者，曾任职于OpenAI约2年并加入Anthropic，因Anthropic'反中国'立场于2025年9月离职，加入腾讯担任首席AI科学家，向腾讯总裁刘炽平直接汇报，负责腾讯新成立的AI基础设施部门。时年仅28岁，被视为腾讯AI战略的核心押注。"
+  },
+  {
     "id": "evt-110",
     "person_name": "Jasjeet Sekhon",
     "from_company": "Bridgewater Associates",
@@ -975,13 +1023,13 @@
     "id": "evt-093",
     "person_name": "Avi Verma, Ethan Knight",
     "from_company": "Meta",
-    "to_company": "",
+    "to_company": "OpenAI",
     "role": "AI Researchers / Superintelligence Labs",
     "event_type": "leave",
     "source_url": "https://sherwood.news/tech/three-recent-meta-superintelligence-labs-hires-have-already-reportedly-left/",
     "date_discovered": "2026-03-12",
     "date_event": "2025-06-01",
-    "summary": "Avi Verma和Ethan Knight在加入Meta Superintelligence Labs后不久即离职，Verma和Knight据报道前往其他公司。"
+    "summary": "Avi Verma和Ethan Knight在加入Meta Superintelligence Labs不足一个月即离职，双双返回OpenAI。Wired报道Ethan Knight此前曾在xAI工作。这是Meta Superintelligence Labs建立初期就出现人才快速流失的典型案例，凸显了Meta在顶尖AI研究员中留住人才的困难。"
   },
   {
     "id": "evt-050",
