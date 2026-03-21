@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-115",
+    "person_name": "Bingyi Kang",
+    "from_company": "",
+    "to_company": "AMI Labs",
+    "role": "Founding Team",
+    "event_type": "join",
+    "source_url": "https://x.com/bingyikang/status/2035030850346328350",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-21",
+    "summary": "康冰怡（Bingyi Kang）宣布加入AMI Labs创始团队。AMI Labs（Advanced Machine Intelligence）是一家新成立的AI公司，致力于构建能够理解世界、具有持久记忆、能够推理和规划、且可控安全的新型AI系统。该公司于2026年3月宣布完成10.3亿美元融资，由Yann LeCun等人创立。"
+  },
+  {
     "id": "evt-114",
     "person_name": "Zihang Dai",
     "from_company": "xAI",
