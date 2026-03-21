@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-120",
+    "person_name": "alilbitmo (Monique)",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Human Data Lead (Imagine Team)",
+    "event_type": "leave",
+    "source_url": "https://x.com/alilbitofmo/status/2035246347779994066",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-21",
+    "summary": "alilbitmo (@alilbitofmo)宣布离开xAI。她在xAI工作了一年多，负责Imagine团队的人类数据工作，支持图像和视频人类数据团队。她提到工作既鼓舞人心又艰辛，在不可能的时间表上交付了成果。"
+  },
+  {
     "id": "evt-119",
     "person_name": "Wilhelm",
     "from_company": "xAI",
