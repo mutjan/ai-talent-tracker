@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-119",
+    "person_name": "Wilhelm",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "",
+    "event_type": "leave",
+    "source_url": "https://x.com/search?q=%22last+day+at%22+%40xAI",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-21",
+    "summary": "Wilhelm (@WilderW)宣布离开xAI。他在xAI工作了一年多，推文表示过去的一年\"非常出色\"，与优秀的团队共事。"
+  },
+  {
     "id": "evt-118",
     "person_name": "Jaime Alonso",
     "from_company": "xAI",
