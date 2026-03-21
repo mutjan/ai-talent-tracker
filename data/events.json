@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-116",
+    "person_name": "Ebby Amir",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Product/Brand Lead",
+    "event_type": "leave",
+    "source_url": "https://x.com/ebbyamir/status/2035223383173210199",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-21",
+    "summary": "Ebby Amir宣布离开xAI。他在过去两年负责Grok的品牌推广、产品设计、语音模式开发和团队建设。这是继Zihang Dai离职后，xAI近期的又一位重要成员离开。"
+  },
+  {
     "id": "evt-115",
     "person_name": "Bingyi Kang",
     "from_company": "",
