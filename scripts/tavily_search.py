@@ -269,13 +269,21 @@ def search_ai_talent_batch(companies: list = None, event_types: list = None) -> 
     cn_actions = "离职 OR 入职 OR 加入 OR 离开 OR 高管 OR 负责人"
     queries.append(f"({cn_str}) {cn_actions} 2025 2026")
 
-    # Strategy 4: Specific high-value cross-company patterns (if quota allows)
+    # Strategy 4: "Last day" + company handles (Twitter/X announcements)
+    # 专门捕捉 "last day at @company" 格式的离职推文
+    company_handles = ['@xAI', '@OpenAI', '@Anthropic', '@DeepMind', '@GoogleAI', '@MetaAI', 
+                       '@MistralAI', '@Cohere', '@StabilityAI', '@AIatMeta']
+    handles_str = " OR ".join(company_handles)
+    queries.append(f'"last day at" ({handles_str})')
+    queries.append(f'"last day" ({handles_str}) "team" OR "company"')
+
+    # Strategy 5: Specific high-value cross-company patterns (if quota allows)
     can_use, remaining, _ = check_quota()
-    if remaining > 10:
+    if remaining > 12:
         queries.append(f"joined OpenAI from Google OR Meta OR DeepMind researcher 2025")
         queries.append(f"joined Anthropic from OpenAI OR Google researcher 2025")
         queries.append(f"joined DeepMind from OpenAI OR Meta OR xAI researcher 2025")
-    if remaining > 15:
+    if remaining > 18:
         queries.append(f"昆仑万维 OR 面壁智能 OR 商汤科技 AI高管 离职 加入 2025 2026")
 
     return batch_search(queries, max_results=15)
