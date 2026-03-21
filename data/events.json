@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-118",
+    "person_name": "Jaime Alonso",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Engineer (API & Grok.com)",
+    "event_type": "leave",
+    "source_url": "https://x.com/JaimeAlns/status/2034768050197537045",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-20",
+    "summary": "Jaime Alonso宣布离开xAI。他在xAI负责API和Grok.com的开发工作，与Toby Pohlen及伦敦团队合作。这是xAI近期人才流失潮中的又一案例。"
+  },
+  {
+    "id": "evt-117",
+    "person_name": "Jiayi Pan",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Researcher/Engineer",
+    "event_type": "leave",
+    "source_url": "https://x.com/jiayi_pirate/status/2026733283518906703",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-02-26",
+    "summary": "Jiayi Pan宣布离开xAI。她在xAI工作了一年，参与前沿技术构建。推文引用《银河系漫游指南》经典语句'So long, and thanks for all the fish!'告别。"
+  },
+  {
     "id": "evt-116",
     "person_name": "Ebby Amir",
     "from_company": "xAI",
