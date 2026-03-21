@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-121",
+    "person_name": "Guodong Zhang",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Co-founder / Image Generation Product Lead",
+    "event_type": "leave",
+    "source_url": "https://futurism.com/artificial-intelligence/elon-musk-screwed-up-xai-rebuilding",
+    "date_discovered": "2026-03-22",
+    "date_event": "2026-03-13",
+    "summary": "Guodong Zhang（张国栋），xAI联合创始人之一、图像生成产品负责人，于2026年3月13日宣布离职，在X上发文\"Wild journey past three years but excited about next chapter\"（精彩的三年旅程，期待下一章）。他的离职使xAI原始12位联合创始人中仅剩3人，共有9位已离开。Bloomberg报道，Musk随后宣布xAI将\"从基础开始重建\"（rebuilt from the foundations up）。这是继Zihang Dai之后，2026年3月第二位离开xAI的联合创始人。"
+  },
+  {
+    "id": "evt-122",
+    "person_name": "郁博文",
+    "from_company": "Alibaba (Qwen)",
+    "to_company": "",
+    "role": "Qwen 后训练负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html",
+    "date_discovered": "2026-03-22",
+    "date_event": "2026-03-04",
+    "summary": "郁博文，阿里巴巴Qwen后训练负责人，于2026年3月4日离职。他是Qwen大模型后训练（RLHF/对齐）的核心负责人。其离职紧随Qwen团队领军人物林俊旸（3月3日离职），是阿里Qwen团队组织架构重组后核心成员集体流失的一部分。去向未公开。"
+  },
+  {
     "id": "evt-120",
     "person_name": "alilbitmo (Monique)",
     "from_company": "xAI",
