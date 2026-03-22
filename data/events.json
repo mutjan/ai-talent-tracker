@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-124",
+    "person_name": "颜水成 (Yan Shuicheng)",
+    "from_company": "昆仑万维(KunlunTech)",
+    "to_company": "",
+    "role": "昆仑万维2050全球研究院院长 / 天工智能联席CEO",
+    "event_type": "leave",
+    "source_url": "https://wap.zhengguannews.cn/html/zgh/271536.html",
+    "date_discovered": "2026-03-23",
+    "date_event": "2024-11-10",
+    "summary": "AI大牛颜水成（\"水哥\"）于2024年11月10日宣布不再担任昆仑万维2050全球研究院院长，同时辞去天工智能联席CEO职务，转任昆仑万维荣誉顾问。颜水成2023年加入昆仑万维，仅14个月即离职。他毕业于北京大学数学系，获数学博士学位，曾任360集团副总裁兼首席科学家、依图科技CTO、Shopee高管。据悉，昆仑万维正在寻找其继任者。颜水成本人回应称'已完成既定使命，是时候开始新的人生征程'。"
+  },
+  {
+    "id": "evt-123",
+    "person_name": "张岭 (Zhang Ling)",
+    "from_company": "云从科技(Cloudwalk Technology)",
+    "to_company": "",
+    "role": "副总裁 / AI平台中心负责人 / 核心技术人员",
+    "event_type": "leave",
+    "source_url": "https://www.chnfund.com/article/ARfe0b4937-16b3-70e8-62d4-3a176d148526",
+    "date_discovered": "2026-03-23",
+    "date_event": "2025-01-12",
+    "summary": "云从科技（AI四小龙之一，科创板AI第一股）核心技术人员张岭于2025年1月12日因个人原因辞职，离职后不再担任公司任何职务。张岭是云从科技3名核心技术人员之一，担任副总裁、AI平台中心负责人，主持开发了人机协同操作系统、AIoT设备管理平台、数字人平台等产品。他生于1973年，上海交通大学计算机博士，曾在IBM中国开发中心担任高级技术主管。这是云从科技上市后第二名核心技术人员离职（首位为2023年9月离职的姜迅）。"
+  },
+  {
     "id": "evt-121",
     "person_name": "Guodong Zhang",
     "from_company": "xAI",
