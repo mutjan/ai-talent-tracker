@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-125",
+    "person_name": "Andrea Santilli",
+    "from_company": "Nous Research",
+    "to_company": "NVIDIA",
+    "role": "Senior Research Engineer, Frontier AI Evaluation",
+    "event_type": "join",
+    "source_url": "https://x.com/teelinsan/status/2035768216660664345",
+    "date_discovered": "2026-03-23",
+    "date_event": "2026-03-22",
+    "summary": "Andrea Santilli (@teelinsan), Italian NLP/LLM researcher with PhD from Sapienza University of Rome (2025), joined NVIDIA Zurich as Senior Research Engineer on the Frontier AI Evaluation team. Previously at Nous Research (research scientist, post-training & alignment), Apple MLR (Barcelona, robustness of foundation models), and BigScience/Hugging Face. Known for Parallel Jacobi Decoding (ACL 2023, ~2x LLM inference speedup), BigScience BLOOM/T0 instruction tuning contributions. Covered by MIT Technology Review and listed among '500 Italians who matter in AI' by La Repubblica (2024)."
+  },
+  {
     "id": "evt-124",
     "person_name": "颜水成 (Yan Shuicheng)",
     "from_company": "昆仑万维(KunlunTech)",
