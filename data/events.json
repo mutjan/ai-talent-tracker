@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-126",
+    "person_name": "荣顶 (Wang Rongding)",
+    "from_company": "",
+    "to_company": "智谱 AI (Zhipu AI)",
+    "role": "桌面端 Agent 开发工程师",
+    "event_type": "join",
+    "source_url": "https://x.com/wangrongding/status/2035977272600256879",
+    "date_discovered": "2026-03-23",
+    "date_event": "2026-03-23",
+    "summary": "荣顶 (@wangrongding) 宣布加入智谱 AI (Zhipu AI)，从事桌面端 Agent 开发工作。荣顶是一位活跃的开源开发者和技术博主，在 GitHub 上有较高影响力，曾开发多个热门开源项目。"
+  },
+  {
     "id": "evt-125",
     "person_name": "Andrea Santilli",
     "from_company": "Nous Research",
