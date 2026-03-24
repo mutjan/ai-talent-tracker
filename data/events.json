@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-130",
+    "person_name": "Hayden Bleasel",
+    "from_company": "Vercel",
+    "to_company": "OpenAI",
+    "role": "Member of Technical Staff",
+    "event_type": "join",
+    "source_url": "https://x.com/haydenbleasel/status/2036465962518716690",
+    "date_discovered": "2026-03-25",
+    "date_event": "2026-03-24",
+    "summary": "Hayden Bleasel (@haydenbleasel) 宣布加入 OpenAI 担任技术团队成员 (Member of Technical Staff)。他此前是 Vercel 的 DX (Developer Experience) 工程师，专注于 AI SDK 和设计工程领域。"
+  },
+  {
     "id": "evt-129",
     "person_name": "Enrique Santos",
     "from_company": "Dreamer",
