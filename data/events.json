@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-129",
+    "person_name": "Enrique Santos",
+    "from_company": "Dreamer",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "未公开具体职位",
+    "event_type": "join",
+    "source_url": "https://x.com/dps/status/1903844959438385507",
+    "date_discovered": "2026-03-24",
+    "date_event": "2026-03-24",
+    "summary": "Enrique Santos (@alcor) 作为 Dreamer 团队核心成员，与 David Singleton、Hugo Barra 及整个团队一同加入 Meta Superintelligence Labs。"
+  },
+  {
+    "id": "evt-128",
+    "person_name": "Hugo Barra",
+    "from_company": "Dreamer",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "未公开具体职位",
+    "event_type": "join",
+    "source_url": "https://x.com/dps/status/1903844959438385507",
+    "date_discovered": "2026-03-24",
+    "date_event": "2026-03-24",
+    "summary": "Hugo Barra (@hbarra) 加入 Meta Superintelligence Labs。Barra 是科技行业资深高管，曾任 Google Android 产品管理副总裁、小米全球副总裁、Facebook/Meta VR 业务负责人（Oculus）。此次作为 Dreamer 团队核心成员加入 Meta Superintelligence Labs。"
+  },
+  {
+    "id": "evt-127",
+    "person_name": "David Singleton",
+    "from_company": "Dreamer",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "未公开具体职位",
+    "event_type": "join",
+    "source_url": "https://x.com/dps/status/1903844959438385507",
+    "date_discovered": "2026-03-24",
+    "date_event": "2026-03-24",
+    "summary": "David Singleton (@dps) 宣布与 Hugo Barra (@hbarra)、Enrique Santos (@alcor) 以及整个 Dreamer 团队加入 Meta Superintelligence Labs。Dreamer 是一个让用户用自然语言（英语）构建个人智能软件的平台，于一个月前发布测试版。Meta 获得了 Dreamer 技术的授权。Singleton 表示与 Mark Zuckerberg 和 Nat Friedman 有共同愿景：让数十亿人能够创建改善生活的软件。"
+  },
+  {
     "id": "evt-126",
     "person_name": "荣顶 (Wang Rongding)",
     "from_company": "",
