@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-136",
+    "person_name": "Benji Taylor",
+    "from_company": "",
+    "to_company": "X (Twitter)",
+    "role": "Head of Design",
+    "event_type": "join",
+    "source_url": "https://x.com/benjitaylor/status/2036882102420201832",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-25",
+    "summary": "Benji Taylor宣布加入X（Twitter）担任设计负责人（Head of Design）。他表示将与Elon Musk、Nikita Bier等人紧密合作，认为这是世界上最重要的平台，期待帮助塑造未来。"
+  },
+  {
     "id": "evt-135",
     "person_name": "Manuel Kroiss",
     "from_company": "xAI",
