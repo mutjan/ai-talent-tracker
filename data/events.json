@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-134",
+    "person_name": "Lauren",
+    "from_company": "Meta (React Team)",
+    "to_company": "Cursor",
+    "role": "Engineer",
+    "event_type": "join",
+    "source_url": "https://x.com/potetotes/status/2036536104468488654",
+    "date_discovered": "2026-03-25",
+    "date_event": "2026-03-24",
+    "summary": "Lauren (@potetotes) 宣布加入 Cursor。她此前在 Meta 的 React 团队工作 6 年，曾参与 React Compiler 的开发并在 React Conf 发布。她表示很兴奋能成为 Cursor 团队的一员，共同 usher in AI 软件开发的第三个时代。"
+  },
+  {
     "id": "evt-133",
     "person_name": "Andrew Dai",
     "from_company": "Google DeepMind",
