@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-131",
+    "person_name": "Dake",
+    "from_company": "OpenAI",
+    "to_company": "Unknown",
+    "role": "未公开具体职位",
+    "event_type": "leave",
+    "source_url": "https://x.com/prodmarketfit/status/2036558036140171589",
+    "date_discovered": "2026-03-25",
+    "date_event": "2026-03-24",
+    "summary": "Dake (@prodmarketfit) 宣布离开 OpenAI。他在推文中表示这是一个艰难的决定，过去三天是一段非常激烈的'战壕'经历，是他人生中最紧张的战场之一。他学到了很多，正准备进入下一场战斗。"
+  },
+  {
     "id": "evt-130",
     "person_name": "Hayden Bleasel",
     "from_company": "Vercel",
