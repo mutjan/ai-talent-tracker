@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-133",
+    "person_name": "Andrew Dai",
+    "from_company": "Google DeepMind",
+    "to_company": "Elorian",
+    "role": "Co-founder",
+    "event_type": "join",
+    "source_url": "https://x.com/FadeCapital/status/2036590973225177222",
+    "date_discovered": "2026-03-25",
+    "date_event": "2026-03-25",
+    "summary": "前 Google DeepMind 研究员 Andrew Dai（曾领导 Gemini 数据团队）正在与 General Catalyst 会面，为其秘密创业项目 Elorian 融资。Elorian 正在构建视觉推理 AI 系统，能够同时处理文本、图像和视频。"
+  },
+  {
     "id": "evt-132",
     "person_name": "Rich Zou",
     "from_company": "xAI",
