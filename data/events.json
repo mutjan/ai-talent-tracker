@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-132",
+    "person_name": "Rich Zou",
+    "from_company": "xAI",
+    "to_company": "Unknown",
+    "role": "未公开具体职位",
+    "event_type": "leave",
+    "source_url": "https://x.com/richzou/status/2036281469858095209",
+    "date_discovered": "2026-03-25",
+    "date_event": "2026-03-24",
+    "summary": "Rich Zou 宣布离开 xAI。他表示这是一个艰难的决定，过去三个月是一段非常激烈的'战壕'经历，是他人生中最紧张的战场之一。他提到当前环境不利于他的成长，虽然他一直敬仰 Elon Musk 并相信 xAI 会成功，但如果无法在当前环境中成长100倍，离开是正确的选择。他表示会先休息，然后寻找下一个值得战斗的战壕。"
+  },
+  {
     "id": "evt-131",
     "person_name": "Dake",
     "from_company": "OpenAI",
