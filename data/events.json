@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-135",
+    "person_name": "Manuel Kroiss",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Co-founder / Pretraining Lead",
+    "event_type": "leave",
+    "source_url": "https://www.businessinsider.com/manuel-kroiss-xai-cofounder-departure-elon-musk-2026-3",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-24",
+    "summary": "Manuel Kroiss（昵称'Makro'），xAI第10位离职的联合创始人，于2026年3月24日宣布离开xAI。他负责领导公司的预训练（pretraining）工作，直接向Elon Musk汇报。Kroiss还参与了xAI代码模型的改进工作。他的离职使xAI原始12位联合创始人中仅剩2人（除Musk外），共有10位已离开。这是继Zihang Dai和Guodong Zhang之后，2026年3月第三位离职的xAI联合创始人。"
+  },
+  {
     "id": "evt-134",
     "person_name": "Lauren",
     "from_company": "Meta (React Team)",
