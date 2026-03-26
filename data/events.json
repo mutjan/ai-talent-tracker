@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-143",
+    "person_name": "Etash Guha",
+    "from_company": "",
+    "to_company": "Anthropic",
+    "role": "Pretraining Team",
+    "event_type": "join",
+    "source_url": "https://x.com/etash_guha/status/2037183771775295991",
+    "date_discovered": "2026-03-27",
+    "date_event": "2026-03-26",
+    "summary": "Etash Guha宣布加入Anthropic预训练团队(pretraining team)。他在X上表示期待向Anthropic所有才华横溢、富有创造力的人学习，一起训练模型。"
+  },
+  {
     "id": "evt-142",
     "person_name": "Ashley Alexander",
     "from_company": "Meta (Instagram)",
