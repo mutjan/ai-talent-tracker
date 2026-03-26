@@ -1,5 +1,65 @@
 [
   {
+    "id": "evt-142",
+    "person_name": "Ashley Alexander",
+    "from_company": "Meta (Instagram)",
+    "to_company": "OpenAI",
+    "role": "Head of Health Products",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2025-08-01",
+    "summary": "Ashley Alexander，Instagram前产品联席负责人，于2025年8月加入OpenAI担任健康产品负责人。ChatGPT在健康领域已被广泛使用，OpenAI于2026年1月发布了一系列面向消费者和医生的健康产品，并投放了强调人们如何使用ChatGPT促进健康和福祉的广告。"
+  },
+  {
+    "id": "evt-141",
+    "person_name": "Kevin Weil",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "Head of OpenAI for Science",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2025-09-01",
+    "summary": "Kevin Weil于约2025年9月加入OpenAI，领导新成立的OpenAI for Science部门。他在X上将其描述为'加速科学发现的AI驱动平台'。Weil是科技行业资深高管，曾任Meta首席产品官，也是Facebook加密货币部门Novi的联合创始人之一，于2021年离开Meta，2024年加入OpenAI担任首席产品官后转任此职。"
+  },
+  {
+    "id": "evt-140",
+    "person_name": "Fidji Simo",
+    "from_company": "Meta / Instacart",
+    "to_company": "OpenAI",
+    "role": "CEO of Applications",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2025-08-01",
+    "summary": "Fidji Simo于2025年8月正式加入OpenAI担任Applications部门CEO。她此前是Facebook应用负责人和Instacart CEO。在Meta期间，她在构建Facebook广告业务和扩展移动广告方面发挥了关键作用。这一任命表明OpenAI正在加强其广告商业化能力，为可能的IPO做准备。"
+  },
+  {
+    "id": "evt-139",
+    "person_name": "David Dugan",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "Head of Ad Sales",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-01",
+    "summary": "David Dugan于2026年3月加入OpenAI担任广告销售负责人。这是OpenAI本月从Meta挖角的第二位高管，标志着OpenAI正准备进行大规模商业化推广。在过去七个月中，至少有五位前Meta高管加入OpenAI，显示OpenAI不仅招募AI研究员，还从Meta各业务线（包括广告和创作者合作）挖掘人才。"
+  },
+  {
+    "id": "evt-138",
+    "person_name": "Charles Porch",
+    "from_company": "Meta (Instagram)",
+    "to_company": "OpenAI",
+    "role": "VP of Global Creative Partnerships",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-01",
+    "summary": "Charles Porch于2026年3月初加入OpenAI，担任新设立的全球创意合作副总裁。他是拥有15年Meta/Instagram资历的资深高管，曾帮助众多名人入驻Instagram。此次加入OpenAI显示该公司正寻求在娱乐行业建立更多合作关系，为可能的IPO储备经验丰富的领导人才。"
+  },
+  {
     "id": "evt-137",
     "person_name": "Ivan Leo",
     "from_company": "Manus AI",
