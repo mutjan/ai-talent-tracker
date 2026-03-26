@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-137",
+    "person_name": "Ivan Leo",
+    "from_company": "Manus AI",
+    "to_company": "Google DeepMind",
+    "role": "Developer Experience",
+    "event_type": "join",
+    "source_url": "https://x.com/ivanleomk/status/2036906271711035690",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-25",
+    "summary": "Ivan Leo宣布搬到旧金山并加入Google DeepMind，担任Developer Experience职位。他此前在Manus AI工作约5个月，专注于AI开发体验。"
+  },
+  {
     "id": "evt-136",
     "person_name": "Benji Taylor",
     "from_company": "",
