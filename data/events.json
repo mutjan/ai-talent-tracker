@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-144",
+    "person_name": "Yuan Cao",
+    "from_company": "Google DeepMind",
+    "to_company": "Unreasonable Labs",
+    "role": "Co-founder & CEO",
+    "event_type": "leave",
+    "source_url": "https://www.businesswire.com/news/home/20260310429321/en/Unreasonable-Labs-Raises-13.5M-Funding-Round-to-Scale-Superintelligence-for-Knowledge-Discovery",
+    "date_discovered": "2026-03-28",
+    "date_event": "2026-03-10",
+    "summary": "前Google DeepMind高级研究员Yuan Cao离开DeepMind，共同创立Unreasonable Labs并担任CEO。该公司于2026年3月10日宣布完成1350万美元种子轮融资，由Playground Global领投。Unreasonable Labs致力于构建用于科学知识发现的超级智能系统，旨在通过AI推理和模拟连接跨学科的科学概念，加速科学发现。"
+  },
+  {
     "id": "evt-143",
     "person_name": "Etash Guha",
     "from_company": "",
