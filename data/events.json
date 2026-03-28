@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-146",
+    "person_name": "Daniel Imms (Tyriar)",
+    "from_company": "Microsoft",
+    "to_company": "",
+    "role": "VS Code Core Developer",
+    "event_type": "leave",
+    "source_url": "https://x.com/Tyriar/status/2037542609082876167?s=20",
+    "date_discovered": "2026-03-28",
+    "date_event": "2026-03-26",
+    "summary": "Daniel Imms（@Tyriar）宣布从微软离职，他在微软工作了10年，是VS Code项目的核心开发者。他表示接下来会公布新的计划，目前尚未透露具体去向。"
+  },
+  {
     "id": "evt-145",
     "person_name": "David Fan",
     "from_company": "Meta (FAIR)",
