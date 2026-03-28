@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-145",
+    "person_name": "David Fan",
+    "from_company": "Meta (FAIR)",
+    "to_company": "AMI Labs",
+    "role": "Founding Member (NYC Lab)",
+    "event_type": "join",
+    "source_url": "https://x.com/DavidJFan/status/2037659311485145166",
+    "date_discovered": "2026-03-28",
+    "date_event": "2026-03-10",
+    "summary": "David Fan宣布加入AMI Labs作为纽约实验室的创始成员。他在X上表示期待构建真正理解物理世界的AI系统，并从零开始建立研究议程、文化和团队。Fan在Meta FAIR工作了约2年，参与了V-JEPA 2、WebSSL、MetaMorph、DexWM等开源项目，并加入了Meta NYC管弦乐团演奏单簧管。"
+  },
+  {
     "id": "evt-144",
     "person_name": "Yuan Cao",
     "from_company": "Google DeepMind",
