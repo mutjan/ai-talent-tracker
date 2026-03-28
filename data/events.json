@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-148",
+    "person_name": "Ross Nordeen",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Co-founder & COO",
+    "event_type": "leave",
+    "source_url": "https://finance.yahoo.com/sectors/technology/articles/elon-musk-last-co-founder-161116585.html",
+    "date_discovered": "2026-03-29",
+    "date_event": "2026-03-28",
+    "summary": "Ross Nordeen，xAI联合创始人兼首席运营官，于2026年3月28日宣布离职。他是Elon Musk的'右手操盘手'，从特斯拉加入xAI，之前曾参与Twitter收购后的大规模裁员计划。他的离职标志着xAI最初的11位联合创始人已全部离开公司（除Musk本人外），Musk此前承认xAI'从一开始就没有正确搭建'，正在从基础层面重建公司。"
+  },
+  {
+    "id": "evt-147",
+    "person_name": "David Sacks",
+    "from_company": "White House",
+    "to_company": "President's Council of Advisors on Science and Technology (PCAST)",
+    "role": "AI and Crypto Czar",
+    "event_type": "move",
+    "source_url": "https://www.reuters.com/world/us/white-house-ai-czar-sacks-step-down-moves-advisory-role-2026-03-27/",
+    "date_discovered": "2026-03-29",
+    "date_event": "2026-03-26",
+    "summary": "白宫AI和加密货币沙皇David Sacks于2026年3月26日宣布辞去政府职务，转任总统科学技术顾问委员会（PCAST）顾问角色。他在任期间推动了特朗普政府的AI政策框架制定，并曾公开呼吁美国\"宣布胜利并退出\"伊朗战争。Sacks表示将继续协助推进政府的AI政策工作。"
+  },
+  {
     "id": "evt-146",
     "person_name": "Daniel Imms (Tyriar)",
     "from_company": "Microsoft",
