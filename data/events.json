@@ -36,30 +36,6 @@
     "summary": "Daniel Imms（@Tyriar）宣布从微软离职，他在微软工作了10年，是VS Code项目的核心开发者。他表示接下来会公布新的计划，目前尚未透露具体去向。"
   },
   {
-    "id": "evt-145",
-    "person_name": "David Fan",
-    "from_company": "Meta (FAIR)",
-    "to_company": "AMI Labs",
-    "role": "Founding Member (NYC Lab)",
-    "event_type": "join",
-    "source_url": "https://x.com/DavidJFan/status/2037659311485145166",
-    "date_discovered": "2026-03-28",
-    "date_event": "2026-03-10",
-    "summary": "David Fan宣布加入AMI Labs作为纽约实验室的创始成员。他在X上表示期待构建真正理解物理世界的AI系统，并从零开始建立研究议程、文化和团队。Fan在Meta FAIR工作了约2年，参与了V-JEPA 2、WebSSL、MetaMorph、DexWM等开源项目，并加入了Meta NYC管弦乐团演奏单簧管。"
-  },
-  {
-    "id": "evt-144",
-    "person_name": "Yuan Cao",
-    "from_company": "Google DeepMind",
-    "to_company": "Unreasonable Labs",
-    "role": "Co-founder & CEO",
-    "event_type": "leave",
-    "source_url": "https://www.businesswire.com/news/home/20260310429321/en/Unreasonable-Labs-Raises-13.5M-Funding-Round-to-Scale-Superintelligence-for-Knowledge-Discovery",
-    "date_discovered": "2026-03-28",
-    "date_event": "2026-03-10",
-    "summary": "前Google DeepMind高级研究员Yuan Cao离开DeepMind，共同创立Unreasonable Labs并担任CEO。该公司于2026年3月10日宣布完成1350万美元种子轮融资，由Playground Global领投。Unreasonable Labs致力于构建用于科学知识发现的超级智能系统，旨在通过AI推理和模拟连接跨学科的科学概念，加速科学发现。"
-  },
-  {
     "id": "evt-143",
     "person_name": "Etash Guha",
     "from_company": "",
@@ -70,66 +46,6 @@
     "date_discovered": "2026-03-27",
     "date_event": "2026-03-26",
     "summary": "Etash Guha宣布加入Anthropic预训练团队(pretraining team)。他在X上表示期待向Anthropic所有才华横溢、富有创造力的人学习，一起训练模型。"
-  },
-  {
-    "id": "evt-142",
-    "person_name": "Ashley Alexander",
-    "from_company": "Meta (Instagram)",
-    "to_company": "OpenAI",
-    "role": "Head of Health Products",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
-    "date_discovered": "2026-03-26",
-    "date_event": "2025-08-01",
-    "summary": "Ashley Alexander，Instagram前产品联席负责人，于2025年8月加入OpenAI担任健康产品负责人。ChatGPT在健康领域已被广泛使用，OpenAI于2026年1月发布了一系列面向消费者和医生的健康产品，并投放了强调人们如何使用ChatGPT促进健康和福祉的广告。"
-  },
-  {
-    "id": "evt-141",
-    "person_name": "Kevin Weil",
-    "from_company": "Meta",
-    "to_company": "OpenAI",
-    "role": "Head of OpenAI for Science",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
-    "date_discovered": "2026-03-26",
-    "date_event": "2025-09-01",
-    "summary": "Kevin Weil于约2025年9月加入OpenAI，领导新成立的OpenAI for Science部门。他在X上将其描述为'加速科学发现的AI驱动平台'。Weil是科技行业资深高管，曾任Meta首席产品官，也是Facebook加密货币部门Novi的联合创始人之一，于2021年离开Meta，2024年加入OpenAI担任首席产品官后转任此职。"
-  },
-  {
-    "id": "evt-140",
-    "person_name": "Fidji Simo",
-    "from_company": "Meta / Instacart",
-    "to_company": "OpenAI",
-    "role": "CEO of Applications",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
-    "date_discovered": "2026-03-26",
-    "date_event": "2025-08-01",
-    "summary": "Fidji Simo于2025年8月正式加入OpenAI担任Applications部门CEO。她此前是Facebook应用负责人和Instacart CEO。在Meta期间，她在构建Facebook广告业务和扩展移动广告方面发挥了关键作用。这一任命表明OpenAI正在加强其广告商业化能力，为可能的IPO做准备。"
-  },
-  {
-    "id": "evt-139",
-    "person_name": "David Dugan",
-    "from_company": "Meta",
-    "to_company": "OpenAI",
-    "role": "Head of Ad Sales",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
-    "date_discovered": "2026-03-26",
-    "date_event": "2026-03-01",
-    "summary": "David Dugan于2026年3月加入OpenAI担任广告销售负责人。这是OpenAI本月从Meta挖角的第二位高管，标志着OpenAI正准备进行大规模商业化推广。在过去七个月中，至少有五位前Meta高管加入OpenAI，显示OpenAI不仅招募AI研究员，还从Meta各业务线（包括广告和创作者合作）挖掘人才。"
-  },
-  {
-    "id": "evt-138",
-    "person_name": "Charles Porch",
-    "from_company": "Meta (Instagram)",
-    "to_company": "OpenAI",
-    "role": "VP of Global Creative Partnerships",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
-    "date_discovered": "2026-03-26",
-    "date_event": "2026-03-01",
-    "summary": "Charles Porch于2026年3月初加入OpenAI，担任新设立的全球创意合作副总裁。他是拥有15年Meta/Instagram资历的资深高管，曾帮助众多名人入驻Instagram。此次加入OpenAI显示该公司正寻求在娱乐行业建立更多合作关系，为可能的IPO储备经验丰富的领导人才。"
   },
   {
     "id": "evt-137",
@@ -156,6 +72,18 @@
     "summary": "Benji Taylor宣布加入X（Twitter）担任设计负责人（Head of Design）。他表示将与Elon Musk、Nikita Bier等人紧密合作，认为这是世界上最重要的平台，期待帮助塑造未来。"
   },
   {
+    "id": "evt-133",
+    "person_name": "Andrew Dai",
+    "from_company": "Google DeepMind",
+    "to_company": "Elorian",
+    "role": "Co-founder",
+    "event_type": "join",
+    "source_url": "https://x.com/FadeCapital/status/2036590973225177222",
+    "date_discovered": "2026-03-25",
+    "date_event": "2026-03-25",
+    "summary": "前 Google DeepMind 研究员 Andrew Dai（曾领导 Gemini 数据团队）正在与 General Catalyst 会面，为其秘密创业项目 Elorian 融资。Elorian 正在构建视觉推理 AI 系统，能够同时处理文本、图像和视频。"
+  },
+  {
     "id": "evt-135",
     "person_name": "Manuel Kroiss",
     "from_company": "xAI",
@@ -178,18 +106,6 @@
     "date_discovered": "2026-03-25",
     "date_event": "2026-03-24",
     "summary": "Lauren (@potetotes) 宣布加入 Cursor。她此前在 Meta 的 React 团队工作 6 年，曾参与 React Compiler 的开发并在 React Conf 发布。她表示很兴奋能成为 Cursor 团队的一员，共同 usher in AI 软件开发的第三个时代。"
-  },
-  {
-    "id": "evt-133",
-    "person_name": "Andrew Dai",
-    "from_company": "Google DeepMind",
-    "to_company": "Elorian",
-    "role": "Co-founder",
-    "event_type": "join",
-    "source_url": "https://x.com/FadeCapital/status/2036590973225177222",
-    "date_discovered": "2026-03-25",
-    "date_event": "2026-03-25",
-    "summary": "前 Google DeepMind 研究员 Andrew Dai（曾领导 Gemini 数据团队）正在与 General Catalyst 会面，为其秘密创业项目 Elorian 融资。Elorian 正在构建视觉推理 AI 系统，能够同时处理文本、图像和视频。"
   },
   {
     "id": "evt-132",
@@ -288,54 +204,6 @@
     "summary": "Andrea Santilli (@teelinsan), Italian NLP/LLM researcher with PhD from Sapienza University of Rome (2025), joined NVIDIA Zurich as Senior Research Engineer on the Frontier AI Evaluation team. Previously at Nous Research (research scientist, post-training & alignment), Apple MLR (Barcelona, robustness of foundation models), and BigScience/Hugging Face. Known for Parallel Jacobi Decoding (ACL 2023, ~2x LLM inference speedup), BigScience BLOOM/T0 instruction tuning contributions. Covered by MIT Technology Review and listed among '500 Italians who matter in AI' by La Repubblica (2024)."
   },
   {
-    "id": "evt-124",
-    "person_name": "颜水成 (Yan Shuicheng)",
-    "from_company": "昆仑万维(KunlunTech)",
-    "to_company": "",
-    "role": "昆仑万维2050全球研究院院长 / 天工智能联席CEO",
-    "event_type": "leave",
-    "source_url": "https://wap.zhengguannews.cn/html/zgh/271536.html",
-    "date_discovered": "2026-03-23",
-    "date_event": "2024-11-10",
-    "summary": "AI大牛颜水成（\"水哥\"）于2024年11月10日宣布不再担任昆仑万维2050全球研究院院长，同时辞去天工智能联席CEO职务，转任昆仑万维荣誉顾问。颜水成2023年加入昆仑万维，仅14个月即离职。他毕业于北京大学数学系，获数学博士学位，曾任360集团副总裁兼首席科学家、依图科技CTO、Shopee高管。据悉，昆仑万维正在寻找其继任者。颜水成本人回应称'已完成既定使命，是时候开始新的人生征程'。"
-  },
-  {
-    "id": "evt-123",
-    "person_name": "张岭 (Zhang Ling)",
-    "from_company": "云从科技(Cloudwalk Technology)",
-    "to_company": "",
-    "role": "副总裁 / AI平台中心负责人 / 核心技术人员",
-    "event_type": "leave",
-    "source_url": "https://www.chnfund.com/article/ARfe0b4937-16b3-70e8-62d4-3a176d148526",
-    "date_discovered": "2026-03-23",
-    "date_event": "2025-01-12",
-    "summary": "云从科技（AI四小龙之一，科创板AI第一股）核心技术人员张岭于2025年1月12日因个人原因辞职，离职后不再担任公司任何职务。张岭是云从科技3名核心技术人员之一，担任副总裁、AI平台中心负责人，主持开发了人机协同操作系统、AIoT设备管理平台、数字人平台等产品。他生于1973年，上海交通大学计算机博士，曾在IBM中国开发中心担任高级技术主管。这是云从科技上市后第二名核心技术人员离职（首位为2023年9月离职的姜迅）。"
-  },
-  {
-    "id": "evt-121",
-    "person_name": "Guodong Zhang",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Co-founder / Image Generation Product Lead",
-    "event_type": "leave",
-    "source_url": "https://futurism.com/artificial-intelligence/elon-musk-screwed-up-xai-rebuilding",
-    "date_discovered": "2026-03-22",
-    "date_event": "2026-03-13",
-    "summary": "Guodong Zhang（张国栋），xAI联合创始人之一、图像生成产品负责人，于2026年3月13日宣布离职，在X上发文\"Wild journey past three years but excited about next chapter\"（精彩的三年旅程，期待下一章）。他的离职使xAI原始12位联合创始人中仅剩3人，共有9位已离开。Bloomberg报道，Musk随后宣布xAI将\"从基础开始重建\"（rebuilt from the foundations up）。这是继Zihang Dai之后，2026年3月第二位离开xAI的联合创始人。"
-  },
-  {
-    "id": "evt-122",
-    "person_name": "郁博文",
-    "from_company": "Alibaba (Qwen)",
-    "to_company": "",
-    "role": "Qwen 后训练负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html",
-    "date_discovered": "2026-03-22",
-    "date_event": "2026-03-04",
-    "summary": "郁博文，阿里巴巴Qwen后训练负责人，于2026年3月4日离职。他是Qwen大模型后训练（RLHF/对齐）的核心负责人。其离职紧随Qwen团队领军人物林俊旸（3月3日离职），是阿里Qwen团队组织架构重组后核心成员集体流失的一部分。去向未公开。"
-  },
-  {
     "id": "evt-120",
     "person_name": "alilbitmo (Monique)",
     "from_company": "xAI",
@@ -358,30 +226,6 @@
     "date_discovered": "2026-03-21",
     "date_event": "2026-03-21",
     "summary": "Wilhelm (@WilderW)宣布离开xAI。他在xAI工作了一年多，推文表示过去的一年\"非常出色\"，与优秀的团队共事。"
-  },
-  {
-    "id": "evt-118",
-    "person_name": "Jaime Alonso",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Engineer (API & Grok.com)",
-    "event_type": "leave",
-    "source_url": "https://x.com/JaimeAlns/status/2034768050197537045",
-    "date_discovered": "2026-03-21",
-    "date_event": "2026-03-20",
-    "summary": "Jaime Alonso宣布离开xAI。他在xAI负责API和Grok.com的开发工作，与Toby Pohlen及伦敦团队合作。这是xAI近期人才流失潮中的又一案例。"
-  },
-  {
-    "id": "evt-117",
-    "person_name": "Jiayi Pan",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Researcher/Engineer",
-    "event_type": "leave",
-    "source_url": "https://x.com/jiayi_pirate/status/2026733283518906703",
-    "date_discovered": "2026-03-21",
-    "date_event": "2026-02-26",
-    "summary": "Jiayi Pan宣布离开xAI。她在xAI工作了一年，参与前沿技术构建。推文引用《银河系漫游指南》经典语句'So long, and thanks for all the fish!'告别。"
   },
   {
     "id": "evt-116",
@@ -408,52 +252,16 @@
     "summary": "康冰怡（Bingyi Kang）宣布加入AMI Labs创始团队。AMI Labs（Advanced Machine Intelligence）是一家新成立的AI公司，致力于构建能够理解世界、具有持久记忆、能够推理和规划、且可控安全的新型AI系统。该公司于2026年3月宣布完成10.3亿美元融资，由Yann LeCun等人创立。"
   },
   {
-    "id": "evt-114",
-    "person_name": "Zihang Dai",
+    "id": "evt-118",
+    "person_name": "Jaime Alonso",
     "from_company": "xAI",
     "to_company": "",
-    "role": "Co-founder",
+    "role": "Engineer (API & Grok.com)",
     "event_type": "leave",
-    "source_url": "https://seekingalpha.com/article/4796041-xai-cofounder-zihang-dai-departs",
+    "source_url": "https://x.com/JaimeAlns/status/2034768050197537045",
     "date_discovered": "2026-03-21",
-    "date_event": "2026-03-12",
-    "summary": "xAI联合创始人Zihang Dai于2026年3月12日宣布离职，是继Jimmy Ba、Tony Wu、Toby Pohlen之后，又一位离开的xAI创始团队成员。Musk随后发帖承认xAI'没有被正确搭建'并宣布重建公司，这是xAI创始团队持续外流的最新案例。"
-  },
-  {
-    "id": "evt-113",
-    "person_name": "Ke Yang",
-    "from_company": "Apple",
-    "to_company": "Meta Superintelligence Labs",
-    "role": "AI Search Lead / Researcher",
-    "event_type": "join",
-    "source_url": "https://9to5mac.com/2025/10/15/meta-poaches-apples-newly-appointed-head-of-ai-search-project/",
-    "date_discovered": "2026-03-21",
-    "date_event": "2025-10-15",
-    "summary": "Apple新晋AI搜索项目负责人Ke Yang加入Meta Superintelligence Labs，她刚被任命为苹果类ChatGPT搜索功能的负责人即被Meta挖走。这是2025年苹果AI高管集体出走浪潮（共6人以上）中的重要一环，主要流向Meta和Google。"
-  },
-  {
-    "id": "evt-112",
-    "person_name": "Bowen Zhang",
-    "from_company": "Apple",
-    "to_company": "Meta Superintelligence Labs",
-    "role": "Foundation Models Researcher",
-    "event_type": "join",
-    "source_url": "https://www.linkedin.com/posts/apple-foundation-models-bowen-zhang-meta",
-    "date_discovered": "2026-03-21",
-    "date_event": "2025-07-30",
-    "summary": "Bowen Zhang是苹果Foundation Models Group (AFM)的关键成员，于2025年7月底加入Meta Superintelligence Labs，成为苹果AI团队在2025年夏天向Meta流失的第四位顶尖研究员。"
-  },
-  {
-    "id": "evt-111",
-    "person_name": "姚顺宇 (Yao Shunyu)",
-    "from_company": "Anthropic",
-    "to_company": "腾讯(Tencent)",
-    "role": "首席AI科学家 / Chief AI Scientist",
-    "event_type": "join",
-    "source_url": "https://techcrunch.com/2025/12/17/tencent-names-former-openai-researcher-chief-ai-scientist/",
-    "date_discovered": "2026-03-21",
-    "date_event": "2025-09-12",
-    "summary": "姚顺宇（Yao Shunyu）是ReAct框架作者，曾任职于OpenAI约2年并加入Anthropic，因Anthropic'反中国'立场于2025年9月离职，加入腾讯担任首席AI科学家，向腾讯总裁刘炽平直接汇报，负责腾讯新成立的AI基础设施部门。时年仅28岁，被视为腾讯AI战略的核心押注。"
+    "date_event": "2026-03-20",
+    "summary": "Jaime Alonso宣布离开xAI。他在xAI负责API和Grok.com的开发工作，与Toby Pohlen及伦敦团队合作。这是xAI近期人才流失潮中的又一案例。"
   },
   {
     "id": "evt-110",
@@ -480,90 +288,6 @@
     "summary": "印度裔AI工程师 Aman Gottumukkala 宣布加入 xAI 和 SpaceX，目标是构建'最好的编程AI'。他是 AI 编程工具 Firebender 的联合创始人，该工具仅凭3人团队即取得百万美元营收。Elon Musk 亲自在 X 上发文欢迎他加入。"
   },
   {
-    "id": "evt-108",
-    "person_name": "Jonathan Uesato",
-    "from_company": "Thinking Machines Lab",
-    "to_company": "OpenAI",
-    "role": "Research Scientist / Alignment",
-    "event_type": "join",
-    "source_url": "https://www.bloomberg.com/news/articles/2026-01-15/openai-hires-three-staffers-from-mira-murati-s-ai-startup",
-    "date_discovered": "2026-03-19",
-    "date_event": "2026-01-15",
-    "summary": "Jonathan Uesato从Thinking Machines Lab加入OpenAI。他是TML的核心研究人员之一，专注于对齐研究和安全领域。"
-  },
-  {
-    "id": "evt-107",
-    "person_name": "Luke Metz",
-    "from_company": "Thinking Machines Lab",
-    "to_company": "OpenAI",
-    "role": "Research Scientist",
-    "event_type": "join",
-    "source_url": "https://www.wired.com/story/thinking-machines-lab-cofounders-leave-for-openai/",
-    "date_discovered": "2026-03-19",
-    "date_event": "2026-01-15",
-    "summary": "Luke Metz从Thinking Machines Lab回到OpenAI。他是TML的联合创始人之一，此前也是OpenAI的研究员，参与过多个重要模型的开发工作。"
-  },
-  {
-    "id": "evt-106",
-    "person_name": "Barret Zoph",
-    "from_company": "Thinking Machines Lab",
-    "to_company": "OpenAI",
-    "role": "Research Lead, Post-training",
-    "event_type": "join",
-    "source_url": "https://www.wired.com/story/thinking-machines-lab-cofounders-leave-for-openai/",
-    "date_discovered": "2026-03-19",
-    "date_event": "2026-01-15",
-    "summary": "Barret Zoph从Thinking Machines Lab回到OpenAI。他此前在2023年从Google Brain加入OpenAI，后又加入Mira Murati创立的TML，现在重新回归OpenAI担任后训练团队研究负责人。"
-  },
-  {
-    "id": "evt-104",
-    "person_name": "惠彬原 (Hui Binyuan)",
-    "from_company": "阿里巴巴(阿里千问/Qwen)",
-    "to_company": "",
-    "role": "Qwen Code 负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html?vt=4",
-    "date_discovered": "2026-03-19",
-    "date_event": "2026-01-15",
-    "summary": "阿里千问团队Qwen Code负责人惠彬原于2026年1月离职。他是林俊旸麾下核心骨干之一，其离职与阿里组织架构从\"垂直整合\"转向\"水平分工\"的调整有关，被视为林俊旸团队集体出走的前兆。"
-  },
-  {
-    "id": "evt-105",
-    "person_name": "郁博文 (Yu Bowen)",
-    "from_company": "阿里巴巴(阿里千问/Qwen)",
-    "to_company": "字节跳动(ByteDance) Seed团队",
-    "role": "后训练负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html?vt=4",
-    "date_discovered": "2026-03-19",
-    "date_event": "2026-03-04",
-    "summary": "阿里千问团队后训练(post-training)负责人郁博文于2026年3月4日离职。他与林俊旸、惠彬原等人同为阿里培养的应届生，参与了Qwen模型的早期训练。其离职是阿里千问团队核心人才流失的最新案例。"
-  },
-  {
-    "id": "evt-102",
-    "person_name": "Dustin Tran",
-    "from_company": "Google DeepMind",
-    "to_company": "xAI",
-    "role": "Senior Researcher / Gemini Core Contributor",
-    "event_type": "join",
-    "source_url": "https://mashdigi.com/en/dustin-tran-a-key-contributor-to-gemini-and-a-senior-researcher-at-google-deepmind-has-joined-xai/",
-    "date_discovered": "2026-03-16",
-    "date_event": "2025-09-19",
-    "summary": "Dustin Tran在Google DeepMind工作8年后加入xAI，成为Grok模型开发团队的关键成员。他是Gemini项目的核心开发者之一，曾领导Gemini后训练评估工作。Tran表示xAI的Colossus 2超算平台和数据优势是他转投的主要原因。"
-  },
-  {
-    "id": "evt-103",
-    "person_name": "Trapit Bansal",
-    "from_company": "OpenAI",
-    "to_company": "Meta",
-    "role": "Research Scientist / AI Reasoning",
-    "event_type": "join",
-    "source_url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models/",
-    "date_discovered": "2026-03-16",
-    "date_event": "2025-06-26",
-    "summary": "Trapit Bansal从OpenAI加入Meta Superintelligence Labs，负责AI推理模型开发。他是OpenAI o1模型的联合创作者之一，IIT-Kanpur校友，2022年加入OpenAI后与Ilya Sutskever合作进行强化学习推理研究。据报道Meta提供了高达1亿美元的签约奖金。"
-  },
-  {
     "id": "evt-101",
     "person_name": "Andrew Lampinen",
     "from_company": "",
@@ -586,6 +310,18 @@
     "date_discovered": "2026-03-15",
     "date_event": "2026-03-14",
     "summary": "Yuchen Jin宣布辞去Hyperbolic Labs联合创始人兼CTO职位。他在X上表示'离开一家你共同创立并倾注心血的公司并不容易'。Yuchen此前在华盛顿大学获得计算机科学博士学位，曾参与构建Apache TVM编译器，并在OctoAI（被NVIDIA收购）工作过。"
+  },
+  {
+    "id": "evt-121",
+    "person_name": "Guodong Zhang",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Co-founder / Image Generation Product Lead",
+    "event_type": "leave",
+    "source_url": "https://futurism.com/artificial-intelligence/elon-musk-screwed-up-xai-rebuilding",
+    "date_discovered": "2026-03-22",
+    "date_event": "2026-03-13",
+    "summary": "Guodong Zhang（张国栋），xAI联合创始人之一、图像生成产品负责人，于2026年3月13日宣布离职，在X上发文\"Wild journey past three years but excited about next chapter\"（精彩的三年旅程，期待下一章）。他的离职使xAI原始12位联合创始人中仅剩3人，共有9位已离开。Bloomberg报道，Musk随后宣布xAI将\"从基础开始重建\"（rebuilt from the foundations up）。这是继Zihang Dai之后，2026年3月第二位离开xAI的联合创始人。"
   },
   {
     "id": "evt-099",
@@ -612,6 +348,30 @@
     "summary": "Devendra Chaplot宣布加入SpaceX和xAI，与Elon Musk及团队紧密合作构建超级智能。他此前是Mistral AI和Thinking Machines Lab (TML)的创始团队成员，专注于机器人研究和AI模型开发。"
   },
   {
+    "id": "evt-114",
+    "person_name": "Zihang Dai",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Co-founder",
+    "event_type": "leave",
+    "source_url": "https://seekingalpha.com/article/4796041-xai-cofounder-zihang-dai-departs",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-03-12",
+    "summary": "xAI联合创始人Zihang Dai于2026年3月12日宣布离职，是继Jimmy Ba、Tony Wu、Toby Pohlen之后，又一位离开的xAI创始团队成员。Musk随后发帖承认xAI'没有被正确搭建'并宣布重建公司，这是xAI创始团队持续外流的最新案例。"
+  },
+  {
+    "id": "evt-069",
+    "person_name": "于博文 (Yu Bowen)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "字节跳动(ByteDance) Seed团队",
+    "role": "Qwen后训练负责人 / Seed视觉模型后训练负责人",
+    "event_type": "move",
+    "source_url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
+    "date_discovered": "2026-03-15",
+    "date_event": "2026-03-12",
+    "summary": "于博文从阿里巴巴Qwen团队离职后已加入字节跳动Seed团队，担任视觉模型和多模态交互团队的后训练负责人。他此前是阿里通义千问后训练负责人，2022年通过'阿里星'精英校招加入达摩院，是Qwen Chat模型系列的核心开发者。"
+  },
+  {
     "id": "evt-094",
     "person_name": "Giovanni D'Antonio",
     "from_company": "DeepMind",
@@ -622,6 +382,30 @@
     "date_discovered": "2026-03-12",
     "date_event": "2026-03-11",
     "summary": "Giovanni D'Antonio加入Thinking Machines Lab担任技术团队成员，与Mira Murati、John Schulman、Soumith Chintala、Neal Wu等前OpenAI/Meta研究员共事。他此前在DeepMind工作，是2003年出生的年轻AI研究员，目前在哈佛大学就读。"
+  },
+  {
+    "id": "evt-145",
+    "person_name": "David Fan",
+    "from_company": "Meta (FAIR)",
+    "to_company": "AMI Labs",
+    "role": "Founding Member (NYC Lab)",
+    "event_type": "join",
+    "source_url": "https://x.com/DavidJFan/status/2037659311485145166",
+    "date_discovered": "2026-03-28",
+    "date_event": "2026-03-10",
+    "summary": "David Fan宣布加入AMI Labs作为纽约实验室的创始成员。他在X上表示期待构建真正理解物理世界的AI系统，并从零开始建立研究议程、文化和团队。Fan在Meta FAIR工作了约2年，参与了V-JEPA 2、WebSSL、MetaMorph、DexWM等开源项目，并加入了Meta NYC管弦乐团演奏单簧管。"
+  },
+  {
+    "id": "evt-144",
+    "person_name": "Yuan Cao",
+    "from_company": "Google DeepMind",
+    "to_company": "Unreasonable Labs",
+    "role": "Co-founder & CEO",
+    "event_type": "leave",
+    "source_url": "https://www.businesswire.com/news/home/20260310429321/en/Unreasonable-Labs-Raises-13.5M-Funding-Round-to-Scale-Superintelligence-for-Knowledge-Discovery",
+    "date_discovered": "2026-03-28",
+    "date_event": "2026-03-10",
+    "summary": "前Google DeepMind高级研究员Yuan Cao离开DeepMind，共同创立Unreasonable Labs并担任CEO。该公司于2026年3月10日宣布完成1350万美元种子轮融资，由Playground Global领投。Unreasonable Labs致力于构建用于科学知识发现的超级智能系统，旨在通过AI推理和模拟连接跨学科的科学概念，加速科学发现。"
   },
   {
     "id": "evt-074",
@@ -672,16 +456,28 @@
     "summary": "荣耀前CEO赵明加入千里科技，将与印奇、李书福共同推进智能驾驶和AI业务。"
   },
   {
-    "id": "evt-069",
-    "person_name": "于博文 (Yu Bowen)",
+    "id": "evt-122",
+    "person_name": "郁博文",
+    "from_company": "Alibaba (Qwen)",
+    "to_company": "",
+    "role": "Qwen 后训练负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html",
+    "date_discovered": "2026-03-22",
+    "date_event": "2026-03-04",
+    "summary": "郁博文，阿里巴巴Qwen后训练负责人，于2026年3月4日离职。他是Qwen大模型后训练（RLHF/对齐）的核心负责人。其离职紧随Qwen团队领军人物林俊旸（3月3日离职），是阿里Qwen团队组织架构重组后核心成员集体流失的一部分。去向未公开。"
+  },
+  {
+    "id": "evt-105",
+    "person_name": "郁博文 (Yu Bowen)",
     "from_company": "阿里巴巴(阿里千问/Qwen)",
     "to_company": "字节跳动(ByteDance) Seed团队",
-    "role": "Qwen后训练负责人 / Seed视觉模型后训练负责人",
-    "event_type": "move",
-    "source_url": "https://www.reuters.com/world/asia-pacific/head-alibabas-qwen-ai-division-resigns-2026-03-04/",
-    "date_discovered": "2026-03-15",
-    "date_event": "2026-03-12",
-    "summary": "于博文从阿里巴巴Qwen团队离职后已加入字节跳动Seed团队，担任视觉模型和多模态交互团队的后训练负责人。他此前是阿里通义千问后训练负责人，2022年通过'阿里星'精英校招加入达摩院，是Qwen Chat模型系列的核心开发者。"
+    "role": "后训练负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html?vt=4",
+    "date_discovered": "2026-03-19",
+    "date_event": "2026-03-04",
+    "summary": "阿里千问团队后训练(post-training)负责人郁博文于2026年3月4日离职。他与林俊旸、惠彬原等人同为阿里培养的应届生，参与了Qwen模型的早期训练。其离职是阿里千问团队核心人才流失的最新案例。"
   },
   {
     "id": "evt-059",
@@ -732,6 +528,30 @@
     "summary": "阿里千问核心负责人林俊旸宣布卸任，发文\"me stepping down. bye my beloved qwen\"。他是阿里最年轻P10技术负责人，1993年生，北大计算机本科+语言学硕士，2019年加入达摩院，2022年起负责千问系列。同事称\"离开不是他的选择\"，去向尚未公布。"
   },
   {
+    "id": "evt-139",
+    "person_name": "David Dugan",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "Head of Ad Sales",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-01",
+    "summary": "David Dugan于2026年3月加入OpenAI担任广告销售负责人。这是OpenAI本月从Meta挖角的第二位高管，标志着OpenAI正准备进行大规模商业化推广。在过去七个月中，至少有五位前Meta高管加入OpenAI，显示OpenAI不仅招募AI研究员，还从Meta各业务线（包括广告和创作者合作）挖掘人才。"
+  },
+  {
+    "id": "evt-138",
+    "person_name": "Charles Porch",
+    "from_company": "Meta (Instagram)",
+    "to_company": "OpenAI",
+    "role": "VP of Global Creative Partnerships",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2026-03-01",
+    "summary": "Charles Porch于2026年3月初加入OpenAI，担任新设立的全球创意合作副总裁。他是拥有15年Meta/Instagram资历的资深高管，曾帮助众多名人入驻Instagram。此次加入OpenAI显示该公司正寻求在娱乐行业建立更多合作关系，为可能的IPO储备经验丰富的领导人才。"
+  },
+  {
     "id": "evt-051",
     "person_name": "Richard Chien (Yuchao Qian / stdrc)",
     "from_company": "月之暗面(Moonshot AI)",
@@ -766,6 +586,18 @@
     "date_discovered": "2026-03-01",
     "date_event": "2026-02-27",
     "summary": "Toby Pohlen离开xAI，这是第七位离职的联合创始人。他感谢Elon Musk让他学到了关于执行、速度和产品完美主义的知识。"
+  },
+  {
+    "id": "evt-117",
+    "person_name": "Jiayi Pan",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Researcher/Engineer",
+    "event_type": "leave",
+    "source_url": "https://x.com/jiayi_pirate/status/2026733283518906703",
+    "date_discovered": "2026-03-21",
+    "date_event": "2026-02-26",
+    "summary": "Jiayi Pan宣布离开xAI。她在xAI工作了一年，参与前沿技术构建。推文引用《银河系漫游指南》经典语句'So long, and thanks for all the fish!'告别。"
   },
   {
     "id": "evt-029",
@@ -1044,6 +876,54 @@
     "summary": "Andrea Vallone于2026年1月离开OpenAI加入竞争对手Anthropic。她曾负责保护用户对ChatGPT产生情感依恋的心理健康工作。"
   },
   {
+    "id": "evt-108",
+    "person_name": "Jonathan Uesato",
+    "from_company": "Thinking Machines Lab",
+    "to_company": "OpenAI",
+    "role": "Research Scientist / Alignment",
+    "event_type": "join",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-01-15/openai-hires-three-staffers-from-mira-murati-s-ai-startup",
+    "date_discovered": "2026-03-19",
+    "date_event": "2026-01-15",
+    "summary": "Jonathan Uesato从Thinking Machines Lab加入OpenAI。他是TML的核心研究人员之一，专注于对齐研究和安全领域。"
+  },
+  {
+    "id": "evt-107",
+    "person_name": "Luke Metz",
+    "from_company": "Thinking Machines Lab",
+    "to_company": "OpenAI",
+    "role": "Research Scientist",
+    "event_type": "join",
+    "source_url": "https://www.wired.com/story/thinking-machines-lab-cofounders-leave-for-openai/",
+    "date_discovered": "2026-03-19",
+    "date_event": "2026-01-15",
+    "summary": "Luke Metz从Thinking Machines Lab回到OpenAI。他是TML的联合创始人之一，此前也是OpenAI的研究员，参与过多个重要模型的开发工作。"
+  },
+  {
+    "id": "evt-106",
+    "person_name": "Barret Zoph",
+    "from_company": "Thinking Machines Lab",
+    "to_company": "OpenAI",
+    "role": "Research Lead, Post-training",
+    "event_type": "join",
+    "source_url": "https://www.wired.com/story/thinking-machines-lab-cofounders-leave-for-openai/",
+    "date_discovered": "2026-03-19",
+    "date_event": "2026-01-15",
+    "summary": "Barret Zoph从Thinking Machines Lab回到OpenAI。他此前在2023年从Google Brain加入OpenAI，后又加入Mira Murati创立的TML，现在重新回归OpenAI担任后训练团队研究负责人。"
+  },
+  {
+    "id": "evt-104",
+    "person_name": "惠彬原 (Hui Binyuan)",
+    "from_company": "阿里巴巴(阿里千问/Qwen)",
+    "to_company": "",
+    "role": "Qwen Code 负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.cn/stock/jdts/2026-03-04/detail-inhpvaym0170593.d.html?vt=4",
+    "date_discovered": "2026-03-19",
+    "date_event": "2026-01-15",
+    "summary": "阿里千问团队Qwen Code负责人惠彬原于2026年1月离职。他是林俊旸麾下核心骨干之一，其离职与阿里组织架构从\"垂直整合\"转向\"水平分工\"的调整有关，被视为林俊旸团队集体出走的前兆。"
+  },
+  {
     "id": "evt-031",
     "person_name": "Jerry Tworek",
     "from_company": "OpenAI",
@@ -1078,6 +958,42 @@
     "date_discovered": "2026-03-01",
     "date_event": "2026-01-15",
     "summary": "Hannah Wong于2026年1月离开OpenAI，她自2021年加入公司，在2024年8月升任首席传播官，领导公司度过了Altman被短暂罢免的危机。"
+  },
+  {
+    "id": "evt-163",
+    "person_name": "Jonathan Ross",
+    "from_company": "Groq",
+    "to_company": "英伟达",
+    "role": "创始人兼CEO",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-12-01",
+    "summary": "2025年12月，英伟达与Groq达成价值200亿美元的授权协议，将其核心推理技术、创始人兼CEO Jonathan Ross及多名核心高管统统打包带走。"
+  },
+  {
+    "id": "evt-188",
+    "person_name": "齐俊元",
+    "from_company": "字节跳动",
+    "to_company": "阶跃星辰",
+    "role": "端云协同AI架构负责人",
+    "event_type": "move",
+    "source_url": "https://m.36kr.com/p/3626559340119041",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-12-01",
+    "summary": "齐俊元，前字节跳动旗下豆包PC负责人，于2025年12月加盟阶跃星辰，助力公司在端云协同AI架构与硬件AI助手领域的产品创新和商业化推进。"
+  },
+  {
+    "id": "evt-191",
+    "person_name": "张予彤",
+    "from_company": "金沙江创投",
+    "to_company": "月之暗面",
+    "role": "总裁",
+    "event_type": "join",
+    "source_url": "https://m.36kr.com/p/3626559340119041",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-12-01",
+    "summary": "张予彤，前金沙江创投合伙人，于2025年12月出任月之暗面总裁。"
   },
   {
     "id": "evt-071",
@@ -1128,6 +1044,18 @@
     "summary": "Soumith Chintala, creator of PyTorch and Meta VP, left Meta to join Mira Murati's Thinking Machines Lab as CTO."
   },
   {
+    "id": "evt-113",
+    "person_name": "Ke Yang",
+    "from_company": "Apple",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "AI Search Lead / Researcher",
+    "event_type": "join",
+    "source_url": "https://9to5mac.com/2025/10/15/meta-poaches-apples-newly-appointed-head-of-ai-search-project/",
+    "date_discovered": "2026-03-21",
+    "date_event": "2025-10-15",
+    "summary": "Apple新晋AI搜索项目负责人Ke Yang加入Meta Superintelligence Labs，她刚被任命为苹果类ChatGPT搜索功能的负责人即被Meta挖走。这是2025年苹果AI高管集体出走浪潮（共6人以上）中的重要一环，主要流向Meta和Google。"
+  },
+  {
     "id": "evt-053",
     "person_name": "Andrew Tulloch",
     "from_company": "Thinking Machines Lab",
@@ -1138,6 +1066,42 @@
     "date_discovered": "2026-03-04",
     "date_event": "2025-10-11",
     "summary": "Thinking Machines Lab联合创始人Andrew Tulloch离职加入Meta的TBD Labs。此前Meta曾试图收购TML但未成功。"
+  },
+  {
+    "id": "evt-192",
+    "person_name": "沈鹏飞",
+    "from_company": "百度智能云",
+    "to_company": "零一万物",
+    "role": "联合创始人",
+    "event_type": "move",
+    "source_url": "https://m.36kr.com/p/3626559340119041",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-10-01",
+    "summary": "沈鹏飞，前百度智能云中国区副总经理，于2025年10月以联合创始人的身份加入零一万物。"
+  },
+  {
+    "id": "evt-102",
+    "person_name": "Dustin Tran",
+    "from_company": "Google DeepMind",
+    "to_company": "xAI",
+    "role": "Senior Researcher / Gemini Core Contributor",
+    "event_type": "join",
+    "source_url": "https://mashdigi.com/en/dustin-tran-a-key-contributor-to-gemini-and-a-senior-researcher-at-google-deepmind-has-joined-xai/",
+    "date_discovered": "2026-03-16",
+    "date_event": "2025-09-19",
+    "summary": "Dustin Tran在Google DeepMind工作8年后加入xAI，成为Grok模型开发团队的关键成员。他是Gemini项目的核心开发者之一，曾领导Gemini后训练评估工作。Tran表示xAI的Colossus 2超算平台和数据优势是他转投的主要原因。"
+  },
+  {
+    "id": "evt-111",
+    "person_name": "姚顺宇 (Yao Shunyu)",
+    "from_company": "Anthropic",
+    "to_company": "腾讯(Tencent)",
+    "role": "首席AI科学家 / Chief AI Scientist",
+    "event_type": "join",
+    "source_url": "https://techcrunch.com/2025/12/17/tencent-names-former-openai-researcher-chief-ai-scientist/",
+    "date_discovered": "2026-03-21",
+    "date_event": "2025-09-12",
+    "summary": "姚顺宇（Yao Shunyu）是ReAct框架作者，曾任职于OpenAI约2年并加入Anthropic，因Anthropic'反中国'立场于2025年9月离职，加入腾讯担任首席AI科学家，向腾讯总裁刘炽平直接汇报，负责腾讯新成立的AI基础设施部门。时年仅28岁，被视为腾讯AI战略的核心押注。"
   },
   {
     "id": "evt-036",
@@ -1152,6 +1116,30 @@
     "summary": "Julia Villagra于2025年9月6日离开OpenAI首席人力官职位。她于2024年2月加入OpenAI，此前曾在Stripe担任人力主管。"
   },
   {
+    "id": "evt-169",
+    "person_name": "Mat Velloso",
+    "from_company": "Meta",
+    "to_company": "",
+    "role": "开发者平台负责人",
+    "event_type": "leave",
+    "source_url": "https://hub.baai.ac.cn/view/53176",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-09-01",
+    "summary": "Mat Velloso，开发者平台负责人，从谷歌DeepMind加入Meta，数月后宣布离职，去向未知。"
+  },
+  {
+    "id": "evt-141",
+    "person_name": "Kevin Weil",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "Head of OpenAI for Science",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2025-09-01",
+    "summary": "Kevin Weil于约2025年9月加入OpenAI，领导新成立的OpenAI for Science部门。他在X上将其描述为'加速科学发现的AI驱动平台'。Weil是科技行业资深高管，曾任Meta首席产品官，也是Facebook加密货币部门Novi的联合创始人之一，于2021年离开Meta，2024年加入OpenAI担任首席产品官后转任此职。"
+  },
+  {
     "id": "evt-028",
     "person_name": "Joëlle Pineau",
     "from_company": "Meta",
@@ -1162,6 +1150,78 @@
     "date_discovered": "2026-03-01",
     "date_event": "2025-08-14",
     "summary": "Joëlle Pineau从Meta加入Cohere担任首席AI官，她曾是Meta LLaMA模型项目的联合负责人和Meta AI Research主管。"
+  },
+  {
+    "id": "evt-157",
+    "person_name": "Avi Verma",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "高级机器学习工程师",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-08-01",
+    "summary": "Avi Verma曾在Tesla担任高级机器学习工程师，于2024年6月入职OpenAI，被小扎以天价薪酬挖来Meta不到一个月后，于2025年8月重返OpenAI。"
+  },
+  {
+    "id": "evt-158",
+    "person_name": "Ethan Knight",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "研究员",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-08-01",
+    "summary": "Ethan Knight曾在OpenAI实习，后加入马斯克的xAI，再被Meta挖走，但很快于2025年8月回到OpenAI。"
+  },
+  {
+    "id": "evt-159",
+    "person_name": "Chaya Nayak",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "生成式AI产品管理总监",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-08-01",
+    "summary": "Chaya Nayak在Meta工作近9年，曾担任生成式AI产品管理总监，负责选举透明度项目、数据共享计划，并参与Llama大语言模型开发；2025年8月宣布加入OpenAI，负责特别项目。"
+  },
+  {
+    "id": "evt-160",
+    "person_name": "Bert Maher",
+    "from_company": "Meta",
+    "to_company": "Anthropic",
+    "role": "资深工程师",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-08-01",
+    "summary": "Bert Maher是在Meta工作了12年的资深工程师，曾参与开发PyTorch（全球广泛使用的AI训练工具）和Triton（优化AI模型运行的编程语言与编译器）。2025年8月官宣加入Anthropic，致力于让Claude“跑得更快”。"
+  },
+  {
+    "id": "evt-142",
+    "person_name": "Ashley Alexander",
+    "from_company": "Meta (Instagram)",
+    "to_company": "OpenAI",
+    "role": "Head of Health Products",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2025-08-01",
+    "summary": "Ashley Alexander，Instagram前产品联席负责人，于2025年8月加入OpenAI担任健康产品负责人。ChatGPT在健康领域已被广泛使用，OpenAI于2026年1月发布了一系列面向消费者和医生的健康产品，并投放了强调人们如何使用ChatGPT促进健康和福祉的广告。"
+  },
+  {
+    "id": "evt-140",
+    "person_name": "Fidji Simo",
+    "from_company": "Meta / Instacart",
+    "to_company": "OpenAI",
+    "role": "CEO of Applications",
+    "event_type": "join",
+    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
+    "date_discovered": "2026-03-26",
+    "date_event": "2025-08-01",
+    "summary": "Fidji Simo于2025年8月正式加入OpenAI担任Applications部门CEO。她此前是Facebook应用负责人和Instacart CEO。在Meta期间，她在构建Facebook广告业务和扩展移动广告方面发挥了关键作用。这一任命表明OpenAI正在加强其广告商业化能力，为可能的IPO做准备。"
   },
   {
     "id": "evt-063",
@@ -1186,6 +1246,210 @@
     "date_discovered": "2026-03-01",
     "date_event": "2025-08-01",
     "summary": "Igor Babuschkin于2025年8月离开xAI，创立自己的AI安全-focused风险投资公司。"
+  },
+  {
+    "id": "evt-112",
+    "person_name": "Bowen Zhang",
+    "from_company": "Apple",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "Foundation Models Researcher",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/apple-foundation-models-bowen-zhang-meta",
+    "date_discovered": "2026-03-21",
+    "date_event": "2025-07-30",
+    "summary": "Bowen Zhang是苹果Foundation Models Group (AFM)的关键成员，于2025年7月底加入Meta Superintelligence Labs，成为苹果AI团队在2025年夏天向Meta流失的第四位顶尖研究员。"
+  },
+  {
+    "id": "evt-149",
+    "person_name": "Shengjia Zhao (赵晟佳)",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "研究科学家",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "赵晟佳（Shengjia Zhao）自2022年加入OpenAI，深度参与GPT-4训练架构优化，并先后参与了GPT-4o和OpenAI o1、o3 mini的研究工作，于2025年7月离职加入Meta超级智能实验室担任首席科学家。"
+  },
+  {
+    "id": "evt-150",
+    "person_name": "Jiahui Yu (余家辉)",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "感知团队负责人",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "余家辉（Jiahui Yu）是OpenAI感知团队的领导人，曾以研究负责人的形式参与OpenAI o3、o4 mini、GPT-4.1的研究工作，也曾以感知技术研究负责人的身份参与GPT-4o的研究，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-151",
+    "person_name": "Shuchao Bi (毕树超)",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "多模态后训练负责人",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "毕树超（Shuchao Bi）是OpenAI多模态后训练工作的负责人，主要负责探索人类反馈强化学习（RLHF）的新范式、多模态推理与高算力强化学习等工作，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-152",
+    "person_name": "Hongyu Ren (任泓宇)",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "o3/o4 mini后训练负责人",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "任泓宇（Hongyu Ren）是OpenAI o3和o4 mini模型以及开源模型的后训练负责人，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-153",
+    "person_name": "Trapit Bansal",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "o1模型推理专家",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Trapit Bansal是OpenAI负责o1模型的推理专家，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-154",
+    "person_name": "Lucas Beyer",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "苏黎世研究团队研究员",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Lucas Beyer是OpenAI苏黎世研究团队成员，2024年底才在苏黎世设立了OpenAI办公室，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-155",
+    "person_name": "Alexander Kolesnikov",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "苏黎世研究团队研究员",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Alexander Kolesnikov是OpenAI苏黎世研究团队成员，2024年底才在苏黎世设立了OpenAI办公室，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-156",
+    "person_name": "Xiaohua Zhai",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "苏黎世研究团队研究员",
+    "event_type": "move",
+    "source_url": "https://www.stcn.com/article/detail/2326825.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Xiaohua Zhai是OpenAI苏黎世研究团队成员，2024年底才在苏黎世设立了OpenAI办公室，于2025年7月离职加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-161",
+    "person_name": "庞若鸣",
+    "from_company": "苹果",
+    "to_company": "Meta",
+    "role": "超级智能实验室AI基础设施负责人",
+    "event_type": "move",
+    "source_url": "https://hub.baai.ac.cn/view/53176",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "庞若鸣，上海交通大学本科，普林斯顿大学博士，在谷歌深耕15年，随后主导苹果核心AI基础模型从零到一的建设，是整个硅谷AI基础设施领域最稀缺的华人大牛之一。2025年7月，扎克伯格用两亿美元的多年薪酬包将其从苹果挖来，出任MSL（Meta超级智能实验室）的AI基础设施负责人。"
+  },
+  {
+    "id": "evt-162",
+    "person_name": "Varun Mohan",
+    "from_company": "Windsurf",
+    "to_company": "Google DeepMind",
+    "role": "联合创始人",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "2025年7月，谷歌斥资24亿美元获得Windsurf的技术授权，将其联合创始人Varun Mohan及研究团队并入DeepMind。"
+  },
+  {
+    "id": "evt-164",
+    "person_name": "Jack Rae",
+    "from_company": "Google DeepMind",
+    "to_company": "Meta",
+    "role": "研究员",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Jack Rae来自DeepMind，曾负责Gemini模型和多模态推理系统，于2025年加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-165",
+    "person_name": "Pei Sun",
+    "from_company": "Google DeepMind",
+    "to_company": "Meta",
+    "role": "研究员",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Pei Sun来自DeepMind，曾负责Gemini模型和多模态推理系统，于2025年加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-166",
+    "person_name": "Joel Pobar",
+    "from_company": "Anthropic",
+    "to_company": "Meta",
+    "role": "高级工程师",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Joel Pobar是来自Anthropic的高级工程师，此前曾在Meta任职11年，于2025年加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-167",
+    "person_name": "Huiwen Chang",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "研究员",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Huiwen Chang是OpenAI语音与图像模型的重要推动者，于2025年加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-168",
+    "person_name": "Ji Lin",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "研究员",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "Ji Lin是OpenAI语音与图像模型的重要推动者，于2025年加入Meta超级智能实验室。"
+  },
+  {
+    "id": "evt-179",
+    "person_name": "张帆",
+    "from_company": "智谱",
+    "to_company": "元理智能YooLee.AI",
+    "role": "首席运营官",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-07-01",
+    "summary": "张帆，智谱首席运营官，曾负责智谱的商业化。2025年7月离职后，在AI Agent领域创业，创立元理智能YooLee.AI，该项目是智谱MaaS平台生态的一部分，将帮助智谱模型完成“最后一公里”的转化，已获得智谱投资支持。"
   },
   {
     "id": "evt-075",
@@ -1332,6 +1596,18 @@
     "summary": "Nat Friedman，GitHub前CEO，加入Meta Superintelligence Labs担任顾问。他与Daniel Gross一起被Meta招募。"
   },
   {
+    "id": "evt-103",
+    "person_name": "Trapit Bansal",
+    "from_company": "OpenAI",
+    "to_company": "Meta",
+    "role": "Research Scientist / AI Reasoning",
+    "event_type": "join",
+    "source_url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models/",
+    "date_discovered": "2026-03-16",
+    "date_event": "2025-06-26",
+    "summary": "Trapit Bansal从OpenAI加入Meta Superintelligence Labs，负责AI推理模型开发。他是OpenAI o1模型的联合创作者之一，IIT-Kanpur校友，2022年加入OpenAI后与Ilya Sutskever合作进行强化学习推理研究。据报道Meta提供了高达1亿美元的签约奖金。"
+  },
+  {
     "id": "evt-044",
     "person_name": "Daniel Gross",
     "from_company": "SSI",
@@ -1366,6 +1642,30 @@
     "date_discovered": "2026-03-08",
     "date_event": "2025-06-09",
     "summary": "DeepSeek核心高管（原CTO）已于半年前悄然离职创业，瞄准Agent赛道，计划于2025年圣诞节前后发布Agent产品。据悉其创业项目已获得IDG资本融资。"
+  },
+  {
+    "id": "evt-187",
+    "person_name": "段楠",
+    "from_company": "阶跃星辰",
+    "to_company": "京东",
+    "role": "探索研究院视觉与多模态实验室负责人",
+    "event_type": "move",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-06-01",
+    "summary": "段楠，阶跃星辰视频生成模型负责人，曾任微软亚洲研究院资深首席研究员、自然语言计算团队研究经理。2025年6月离职加入京东，担任探索研究院视觉与多模态实验室负责人，聚焦视觉和多模态基础模型研发。"
+  },
+  {
+    "id": "evt-193",
+    "person_name": "庞天宇",
+    "from_company": "Sea AI Lab",
+    "to_company": "腾讯",
+    "role": "混元多模态强化学习首席研究员",
+    "event_type": "move",
+    "source_url": "https://www.qbitai.com/2026/02/377976.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-06-01",
+    "summary": "庞天宇，前Sea AI Lab研究员，2025年加盟腾讯，担任腾讯混元多模态强化学习首席研究员及技术负责人，主要负责强化学习前沿算法探索。他曾在ICML、NeurIPS、ICLR等顶级AI会议发表多篇论文，谷歌学术引用超15000次。"
   },
   {
     "id": "evt-076",
@@ -1464,6 +1764,42 @@
     "summary": "Robert Fergus离开任职约5年的Google DeepMind研究总监职位，回到Meta领导基础AI研究实验室(FAIR)。"
   },
   {
+    "id": "evt-180",
+    "person_name": "彭建标",
+    "from_company": "智谱",
+    "to_company": "",
+    "role": "CFO（首席财务官）",
+    "event_type": "leave",
+    "source_url": "https://m.36kr.com/p/3626559340119041",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-05-01",
+    "summary": "彭建标，智谱CFO（首席财务官），于2025年5月离职，此时正值智谱冲击IPO的关键时期。"
+  },
+  {
+    "id": "evt-185",
+    "person_name": "谷雪梅",
+    "from_company": "零一万物",
+    "to_company": "筹备创业",
+    "role": "联合创始人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-05-01",
+    "summary": "谷雪梅，零一万物联合创始人，与李开复最早相识于谷歌，是前谷歌中国女工程师，也是李开复组建大模型创业团队的核心人物。她曾在零一万物负责模型与训练和C端产品，曾主导推出出海AI办公应用PopAi、出海情感陪伴产品Mona。2025年5月离职，筹备创业。"
+  },
+  {
+    "id": "evt-186",
+    "person_name": "戴宗宏",
+    "from_company": "零一万物",
+    "to_company": "创业",
+    "role": "联合创始人、技术副总裁",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-05-01",
+    "summary": "戴宗宏，零一万物联合创始人、技术副总裁，2025年5月宣布离职，在创新工场支持下再次创业。他曾在零一万物负责AI Infra团队，主要解决大批量并行训练时的系统瓶颈，在加入零一万物之前，他先后担任华为云AI CTO及技术创新部长、阿里达摩院AI Infra总监。"
+  },
+  {
     "id": "evt-078",
     "person_name": "Rothfuss",
     "from_company": "Google DeepMind",
@@ -1500,6 +1836,42 @@
     "summary": "百川智能联合创始人陈炜鹏即将离职，正在筹备AI Coding方向的创业项目。陈炜鹏在百川负责大语言模型核心技术研发，2012年毕业于哈尔滨工业大学，曾在搜狗担任搜索研发总经理。"
   },
   {
+    "id": "evt-172",
+    "person_name": "陈炜鹏",
+    "from_company": "百川智能",
+    "to_company": "AI Coding方向创业",
+    "role": "联合创始人、模型研发负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-03-01",
+    "summary": "陈炜鹏，百川智能联合创始人、模型研发负责人，在百川智能创立早期就加入公司，曾与王小川在搜狗共事，担任搜狗搜索研发总经理，负责通用搜索、垂直搜索和推荐系统的研发。2025年3月被曝离职，筹备AI Coding方向的创业项目。"
+  },
+  {
+    "id": "evt-173",
+    "person_name": "邓江",
+    "from_company": "百川智能",
+    "to_company": "",
+    "role": "金融事业群总裁",
+    "event_type": "leave",
+    "source_url": "https://news.qq.com/rain/a/20250306A09I7K00",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-03-01",
+    "summary": "邓江，百川智能商业合作人兼金融事业群总裁，2025年3月百川智能负责金融行业To B业务的B端组被裁撤，员工均在当天签署离职协议，邓江去向未知。"
+  },
+  {
+    "id": "evt-183",
+    "person_name": "魏伟",
+    "from_company": "MiniMax",
+    "to_company": "",
+    "role": "合伙人、公司副总裁、开放平台负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-03-01",
+    "summary": "魏伟，MiniMax合伙人、公司副总裁、开放平台负责人，在公司负责To B商业化，2025年3月离职，新动向未公开。"
+  },
+  {
     "id": "evt-085",
     "person_name": "Neil Houlsby",
     "from_company": "Google DeepMind",
@@ -1522,6 +1894,42 @@
     "date_discovered": "2026-03-04",
     "date_event": "2025-02-06",
     "summary": "John Schulman离开Anthropic，加入Mira Murati创立的Thinking Machines Lab。他此前从OpenAI加入Anthropic仅5个月。"
+  },
+  {
+    "id": "evt-178",
+    "person_name": "李惠子",
+    "from_company": "智谱",
+    "to_company": "",
+    "role": "应用AI与合作副总裁",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-02-01",
+    "summary": "李惠子，智谱应用AI与合作副总裁，于2025年2月离职，她于2024年7月加入，负责战略规划和C端产品商业合作，不到半年时间就宣布离职，新动向尚未公开。加入智谱之前，她曾在美团担任投资总监，负责过智谱的项目投资。"
+  },
+  {
+    "id": "evt-184",
+    "person_name": "蓝雨川",
+    "from_company": "零一万物",
+    "to_company": "SparkView AI视频编辑工具创业",
+    "role": "AI视频混剪项目负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-02-01",
+    "summary": "蓝雨川，零一万物AI视频混剪项目负责人，于2025年2月离职，新项目SparkView为AI视频编辑工具，目前已经开启融资。"
+  },
+  {
+    "id": "evt-190",
+    "person_name": "罗福莉",
+    "from_company": "DeepSeek",
+    "to_company": "",
+    "role": "核心开发者",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-02-01",
+    "summary": "罗福莉，DeepSeek-V2核心开发者之一，2024年底被曝小米以千万年薪挖角，2025年2月已入职新公司，未提及是否正式入职小米，具体去向未知。"
   },
   {
     "id": "evt-086",
@@ -1548,6 +1956,66 @@
     "summary": "Lilian Weng departed OpenAI as VP of Research to co-found Thinking Machines Lab alongside Mira Murati and other former OpenAI researchers."
   },
   {
+    "id": "evt-123",
+    "person_name": "张岭 (Zhang Ling)",
+    "from_company": "云从科技(Cloudwalk Technology)",
+    "to_company": "",
+    "role": "副总裁 / AI平台中心负责人 / 核心技术人员",
+    "event_type": "leave",
+    "source_url": "https://www.chnfund.com/article/ARfe0b4937-16b3-70e8-62d4-3a176d148526",
+    "date_discovered": "2026-03-23",
+    "date_event": "2025-01-12",
+    "summary": "云从科技（AI四小龙之一，科创板AI第一股）核心技术人员张岭于2025年1月12日因个人原因辞职，离职后不再担任公司任何职务。张岭是云从科技3名核心技术人员之一，担任副总裁、AI平台中心负责人，主持开发了人机协同操作系统、AIoT设备管理平台、数字人平台等产品。他生于1973年，上海交通大学计算机博士，曾在IBM中国开发中心担任高级技术主管。这是云从科技上市后第二名核心技术人员离职（首位为2023年9月离职的姜迅）。"
+  },
+  {
+    "id": "evt-176",
+    "person_name": "张阔",
+    "from_company": "智谱",
+    "to_company": "",
+    "role": "首席战略官",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-01-01",
+    "summary": "张阔，智谱首席战略官，于2025年1月离职，曾在2024年负责智谱不同分拆业务的融资过程，目前新动向未知。"
+  },
+  {
+    "id": "evt-177",
+    "person_name": "曲滕",
+    "from_company": "智谱",
+    "to_company": "",
+    "role": "副总裁",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-01-01",
+    "summary": "曲滕，智谱副总裁，于2025年1月离职，曾在2024年负责智谱不同分拆业务的融资过程，目前新动向未知。"
+  },
+  {
+    "id": "evt-181",
+    "person_name": "王玥婷",
+    "from_company": "Midjourney",
+    "to_company": "智谱",
+    "role": "多模态产品和市场负责人",
+    "event_type": "join",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-01-01",
+    "summary": "王玥婷，Midjourney前亚洲副总裁，于2025年1月加入智谱，负责多模态产品和市场，这可能意味着智谱将发力C端市场。"
+  },
+  {
+    "id": "evt-189",
+    "person_name": "DeepSeek原CTO",
+    "from_company": "DeepSeek",
+    "to_company": "创业（Agent产品）",
+    "role": "CTO（首席技术官）",
+    "event_type": "leave",
+    "source_url": "https://www.epochtimes.com/b5/25/6/10/n14528215.htm",
+    "date_discovered": "2026-03-30",
+    "date_event": "2025-01-01",
+    "summary": "DeepSeek原CTO，2024年12月至2025年1月DeepSeek最火热时期悄然离职创业，将于2025年圣诞节前后发布Agent产品，创业项目已拿到某头部VC融资。"
+  },
+  {
     "id": "evt-087",
     "person_name": "Nicholas Carlini",
     "from_company": "Google DeepMind",
@@ -1558,6 +2026,66 @@
     "date_discovered": "2026-03-12",
     "date_event": "2025-01-01",
     "summary": "Nicholas Carlini离开Google DeepMind加入Anthropic从事安全与安保研究一年，他表示DeepMind领导层让他难以开展研究工作。"
+  },
+  {
+    "id": "evt-170",
+    "person_name": "洪涛",
+    "from_company": "百川智能",
+    "to_company": "",
+    "role": "联合创始人、商业化负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2024-12-01",
+    "summary": "洪涛，百川智能联合创始人、商业化负责人，于2024年12月离职，去向未知。"
+  },
+  {
+    "id": "evt-171",
+    "person_name": "焦可",
+    "from_company": "百川智能",
+    "to_company": "AI语音方向创业",
+    "role": "互联网业务负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2024-12-01",
+    "summary": "焦可，百川智能互联网业务负责人，于2024年12月离职，投身AI语音方向创业。"
+  },
+  {
+    "id": "evt-124",
+    "person_name": "颜水成 (Yan Shuicheng)",
+    "from_company": "昆仑万维(KunlunTech)",
+    "to_company": "",
+    "role": "昆仑万维2050全球研究院院长 / 天工智能联席CEO",
+    "event_type": "leave",
+    "source_url": "https://wap.zhengguannews.cn/html/zgh/271536.html",
+    "date_discovered": "2026-03-23",
+    "date_event": "2024-11-10",
+    "summary": "AI大牛颜水成（\"水哥\"）于2024年11月10日宣布不再担任昆仑万维2050全球研究院院长，同时辞去天工智能联席CEO职务，转任昆仑万维荣誉顾问。颜水成2023年加入昆仑万维，仅14个月即离职。他毕业于北京大学数学系，获数学博士学位，曾任360集团副总裁兼首席科学家、依图科技CTO、Shopee高管。据悉，昆仑万维正在寻找其继任者。颜水成本人回应称'已完成既定使命，是时候开始新的人生征程'。"
+  },
+  {
+    "id": "evt-174",
+    "person_name": "王冠",
+    "from_company": "月之暗面",
+    "to_company": "离职创业",
+    "role": "大模型产品负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2024-11-01",
+    "summary": "王冠，月之暗面大模型产品负责人，于2024年11月离职创业。"
+  },
+  {
+    "id": "evt-175",
+    "person_name": "明超平",
+    "from_company": "月之暗面",
+    "to_company": "离职创业",
+    "role": "Noisee产品负责人",
+    "event_type": "leave",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2024-11-01",
+    "summary": "明超平，月之暗面Noisee产品负责人，于2024年11月离职创业。"
   },
   {
     "id": "evt-010",
@@ -1642,6 +2170,18 @@
     "date_discovered": "2024-02-13",
     "date_event": "2024-02-13",
     "summary": "Andrej Karpathy departed OpenAI for the second time to found Eureka Labs, an AI education company."
+  },
+  {
+    "id": "evt-182",
+    "person_name": "胡云华",
+    "from_company": "阿里达摩院",
+    "to_company": "智谱",
+    "role": "C端应用“智谱清言”负责人",
+    "event_type": "move",
+    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
+    "date_discovered": "2026-03-30",
+    "date_event": "2024-01-01",
+    "summary": "胡云华，前微软亚洲研究院研究员、阿里达摩院资深技术专家、支付宝中国首席数据官，于2024年加入智谱，担任C端应用“智谱清言”的负责人。"
   },
   {
     "id": "evt-013",
