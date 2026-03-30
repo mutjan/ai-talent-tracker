@@ -1264,12 +1264,12 @@
     "person_name": "Shengjia Zhao (赵晟佳)",
     "from_company": "OpenAI",
     "to_company": "Meta",
-    "role": "研究科学家",
+    "role": "首席科学家 / Meta超级智能实验室",
     "event_type": "move",
     "source_url": "https://www.stcn.com/article/detail/2326825.html",
     "date_discovered": "2026-03-30",
     "date_event": "2025-07-01",
-    "summary": "赵晟佳（Shengjia Zhao）自2022年加入OpenAI，深度参与GPT-4训练架构优化，并先后参与了GPT-4o和OpenAI o1、o3 mini的研究工作，于2025年7月离职加入Meta超级智能实验室担任首席科学家。"
+    "summary": "赵晟佳（Shengjia Zhao）自2022年加入OpenAI，深度参与GPT-4训练架构优化，并先后参与了GPT-4o和OpenAI o1、o3 mini的研究工作，于2025年7月离职加入Meta超级智能实验室担任首席科学家，直接向Mark Zuckerberg汇报。"
   },
   {
     "id": "evt-150",
@@ -1522,18 +1522,6 @@
     "date_discovered": "2026-03-12",
     "date_event": "2025-07-01",
     "summary": "Shuchao Bi是GPT-4o核心贡献者之一，于2025年7月离开OpenAI加入Meta。"
-  },
-  {
-    "id": "evt-084",
-    "person_name": "Shengjia Zhao",
-    "from_company": "OpenAI",
-    "to_company": "Meta",
-    "role": "Chief AI Scientist / Meta Superintelligence Lab",
-    "event_type": "join",
-    "source_url": "https://timesofindia.indiatimes.com/technology/tech-news/shengjia-zhao-jason-wei-and-list-of-other-executives-ai-researchers-who-quit-openai-in-2025/articleshow/126192959.cms",
-    "date_discovered": "2026-03-12",
-    "date_event": "2025-07-01",
-    "summary": "Shengjia Zhao是ChatGPT和GPT-4的联合创作者之一，离开OpenAI加入Meta担任首席科学家，直接向Mark Zuckerberg汇报。"
   },
   {
     "id": "evt-095",
