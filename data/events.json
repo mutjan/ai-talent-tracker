@@ -108,54 +108,6 @@
     "summary": "Andrew Milich从AI编程创业公司Cursor加入xAI/SpaceX，直接向Elon Musk汇报。他与Jason Ginsberg一同被招募，负责重建xAI的代码能力，替代近期离职的多位联合创始人。"
   },
   {
-    "id": "evt-166",
-    "person_name": "Christian Szegedy",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Co-founder / Researcher",
-    "event_type": "leave",
-    "source_url": "https://networkustad.com/news/elon-musks-last-xai-co-founder-christian-szegedy-departs-amid-leadership-shakeup/",
-    "date_discovered": "2026-03-31",
-    "date_event": "2026-03-26",
-    "summary": "Christian Szegedy，前Google研究员、xAI联合创始人，于2026年3月离开xAI。他是xAI最后离开的联合创始人之一，标志着xAI原始11位联合创始人（除Musk外）全部离开公司。他的离职加速了xAI向Musk综合生态系统的转型。"
-  },
-  {
-    "id": "evt-165",
-    "person_name": "Toby Pohlen",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Founding Member / Former Google DeepMind Staff Research Engineer",
-    "event_type": "leave",
-    "source_url": "https://pressinsider.com/news/xai-loses-another-original-co-founder/",
-    "date_discovered": "2026-03-31",
-    "date_event": "2026-02-26",
-    "summary": "Toby Pohlen于2026年2月下旬离开xAI，他是第7位离职的联合创始人。他此前是Google DeepMind的高级研究工程师，是xAI的创始成员之一。他的离职是xAI联合创始人大规模离职潮的一部分，此前Jimmy Ba和Tony Wu也在同月早些时候离职。"
-  },
-  {
-    "id": "evt-164",
-    "person_name": "Zihang Dai",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Co-founder / Technical Staff",
-    "event_type": "leave",
-    "source_url": "https://markets.businessinsider.com/news/stocks/elon-musk-s-xai-loses-yet-another-founder-1035925960",
-    "date_discovered": "2026-03-31",
-    "date_event": "2026-03-13",
-    "summary": "Zihang Dai，xAI联合创始人，于2026年3月离开xAI。他的X个人资料上的xAI徽章已被移除。他是2026年3月离开xAI的第三位联合创始人，此前已有Tony Wu、Toby Pohlen、Jimmy Ba和Greg Yang等人离开。"
-  },
-  {
-    "id": "evt-163",
-    "person_name": "Guodong Zhang",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Co-founder / Head of Imagine Team",
-    "event_type": "leave",
-    "source_url": "https://markets.businessinsider.com/news/stocks/elon-musk-s-xai-loses-yet-another-founder-1035925960",
-    "date_discovered": "2026-03-31",
-    "date_event": "2026-03-13",
-    "summary": "Guodong Zhang，xAI联合创始人兼Imagine团队负责人，于2026年3月13日宣布离开xAI。他此前在Google DeepMind工作，在xAI负责Grok Code和Grok Imagine项目。据报道称，他因代码产品问题被Musk解除主要职责后决定离职。"
-  },
-  {
     "id": "evt-162",
     "person_name": "Matt Knight",
     "from_company": "OpenAI",
