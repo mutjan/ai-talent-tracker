@@ -636,18 +636,6 @@
     "summary": "OpenAI任命前Roblox高管Arvind KC为首席人力官，接替去年9月离职的Julia Villagra。"
   },
   {
-    "id": "evt-033",
-    "person_name": "Charles Porch",
-    "from_company": "Meta",
-    "to_company": "OpenAI",
-    "role": "VP of Global Creative Partnerships",
-    "event_type": "join",
-    "source_url": "https://scouts.yutori.com/bb69b72c-17ef-436f-ace0-53ef0dc06449",
-    "date_discovered": "2026-03-01",
-    "date_event": "2026-02-18",
-    "summary": "Charles Porch在Meta工作15年后加入OpenAI，担任新设立的全球创意合作副总裁。他此前负责Instagram的合作业务。"
-  },
-  {
     "id": "evt-065",
     "person_name": "王翛",
     "from_company": "字节跳动",
@@ -804,30 +792,6 @@
     "summary": "Mrinank Sharma离开Anthropic，他曾领导公司的Safeguards Research团队。他在离职信中警告'世界正处于危险之中'，表示要离开去追求更符合个人价值观的工作。"
   },
   {
-    "id": "evt-072",
-    "person_name": "Harsh Mehta",
-    "from_company": "Anthropic",
-    "to_company": "Mirendil",
-    "role": "Co-founder",
-    "event_type": "leave",
-    "source_url": "https://open.substack.com/pub/shanakaanslemperera/p/the-departure?r=6p7b5o&utm_medium=ios",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-02-06",
-    "summary": "Harsh Mehta离开Anthropic，与Behnam Neyshabur一起创立新公司。"
-  },
-  {
-    "id": "evt-073",
-    "person_name": "Behnam Neyshabur",
-    "from_company": "Anthropic",
-    "to_company": "Mirendil",
-    "role": "Co-founder",
-    "event_type": "leave",
-    "source_url": "https://www.instagram.com/reel/DUipbaGjSYx/",
-    "date_discovered": "2026-03-09",
-    "date_event": "2026-02-06",
-    "summary": "Behnam Neyshabur离开Anthropic，与Harsh Mehta一起创业。Instagram资料显示其状态为'something new'。"
-  },
-  {
     "id": "evt-064",
     "person_name": "Zhou Hao (周浩)",
     "from_company": "Google DeepMind",
@@ -838,18 +802,6 @@
     "date_discovered": "2026-03-08",
     "date_event": "2026-02-01",
     "summary": "Google DeepMind高级科学家周浩加入阿里巴巴通义千问团队。"
-  },
-  {
-    "id": "evt-048",
-    "person_name": "沈鹏飞",
-    "from_company": "百度",
-    "to_company": "零一万物(01.AI)",
-    "role": "高管",
-    "event_type": "join",
-    "source_url": "https://stcn.com/article/detail/3426476.html",
-    "date_discovered": "2026-03-02",
-    "date_event": "2026-02-01",
-    "summary": "零一万物引入前百度高管沈鹏飞，增强大厂基因与实战能力。"
   },
   {
     "id": "evt-023",
@@ -1584,18 +1536,6 @@
     "summary": "Nat Friedman，GitHub前CEO，加入Meta Superintelligence Labs担任顾问。他与Daniel Gross一起被Meta招募。"
   },
   {
-    "id": "evt-103",
-    "person_name": "Trapit Bansal",
-    "from_company": "OpenAI",
-    "to_company": "Meta",
-    "role": "Research Scientist / AI Reasoning",
-    "event_type": "join",
-    "source_url": "https://techcrunch.com/2025/06/26/meta-hires-key-openai-researcher-to-work-on-ai-reasoning-models/",
-    "date_discovered": "2026-03-16",
-    "date_event": "2025-06-26",
-    "summary": "Trapit Bansal从OpenAI加入Meta Superintelligence Labs，负责AI推理模型开发。他是OpenAI o1模型的联合创作者之一，IIT-Kanpur校友，2022年加入OpenAI后与Ilya Sutskever合作进行强化学习推理研究。据报道Meta提供了高达1亿美元的签约奖金。"
-  },
-  {
     "id": "evt-044",
     "person_name": "Daniel Gross",
     "from_company": "SSI",
@@ -1606,18 +1546,6 @@
     "date_discovered": "2026-03-01",
     "date_event": "2025-06-19",
     "summary": "Daniel Gross离开SSI (Safe Superintelligence) CEO职位加入Meta，领导AI产品部门。Meta曾试图收购SSI但未成功。"
-  },
-  {
-    "id": "evt-088",
-    "person_name": "Jack Rae",
-    "from_company": "Google DeepMind",
-    "to_company": "Meta",
-    "role": "Principal Researcher / Superintelligence Team",
-    "event_type": "join",
-    "source_url": "https://www.bloomberg.com/news/articles/2025-06-11/meta-hires-top-researchers-from-google-sesame-for-new-ai-lab",
-    "date_discovered": "2026-03-12",
-    "date_event": "2025-06-11",
-    "summary": "Jack Rae从Google DeepMind首席研究员职位加入Meta Superintelligence团队。"
   },
   {
     "id": "evt-068",
@@ -1728,18 +1656,6 @@
     "summary": "Avi Verma和Ethan Knight在加入Meta Superintelligence Labs不足一个月即离职，双双返回OpenAI。Wired报道Ethan Knight此前曾在xAI工作。这是Meta Superintelligence Labs建立初期就出现人才快速流失的典型案例，凸显了Meta在顶尖AI研究员中留住人才的困难。"
   },
   {
-    "id": "evt-050",
-    "person_name": "段楠",
-    "from_company": "阶跃星辰(StepFun)",
-    "to_company": "京东",
-    "role": "Tech Fellow / 视觉与多模态实验室负责人",
-    "event_type": "leave",
-    "source_url": "https://m.36kr.com/p/3340730105297157",
-    "date_discovered": "2026-03-02",
-    "date_event": "2025-06-01",
-    "summary": "阶跃星辰Tech Fellow段楠离职，加入京东探索研究院担任视觉与多模态实验室负责人。"
-  },
-  {
     "id": "evt-089",
     "person_name": "Robert Fergus",
     "from_company": "Google DeepMind",
@@ -1810,18 +1726,6 @@
     "date_discovered": "2026-03-08",
     "date_event": "2025-03-17",
     "summary": "百川智能联合创始人焦可离职，投身AI语音方向创业。焦可是百川智能早期创始团队成员，本科毕业于清华大学计算机专业，在百川期间主要负责互联网业务。"
-  },
-  {
-    "id": "evt-067",
-    "person_name": "陈炜鹏",
-    "from_company": "百川智能(Baichuan)",
-    "to_company": "",
-    "role": "联合创始人/大语言模型核心技术研发负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.com.cn/jjxw/2025-03-17/doc-inepxqht3738963.shtml",
-    "date_discovered": "2026-03-08",
-    "date_event": "2025-03-17",
-    "summary": "百川智能联合创始人陈炜鹏即将离职，正在筹备AI Coding方向的创业项目。陈炜鹏在百川负责大语言模型核心技术研发，2012年毕业于哈尔滨工业大学，曾在搜狗担任搜索研发总经理。"
   },
   {
     "id": "evt-172",
@@ -2028,18 +1932,6 @@
     "summary": "洪涛，百川智能联合创始人、商业化负责人，于2024年12月离职，去向未知。"
   },
   {
-    "id": "evt-171",
-    "person_name": "焦可",
-    "from_company": "百川智能",
-    "to_company": "AI语音方向创业",
-    "role": "互联网业务负责人",
-    "event_type": "leave",
-    "source_url": "https://finance.sina.com.cn/stock/t/2025-06-16/doc-infahqye9525074.shtml",
-    "date_discovered": "2026-03-30",
-    "date_event": "2024-12-01",
-    "summary": "焦可，百川智能互联网业务负责人，于2024年12月离职，投身AI语音方向创业。"
-  },
-  {
     "id": "evt-124",
     "person_name": "颜水成 (Yan Shuicheng)",
     "from_company": "昆仑万维(KunlunTech)",
@@ -2218,30 +2110,6 @@
     "date_discovered": "2023-04-01",
     "date_event": "2023-04-01",
     "summary": "杨植麟从 CMU 和 Google Brain 创立月之暗面（Moonshot AI），打造 Kimi 智能助手。"
-  },
-  {
-    "id": "evt-019",
-    "person_name": "Barret Zoph",
-    "from_company": "Google Brain",
-    "to_company": "OpenAI",
-    "role": "Research Lead, Post-training",
-    "event_type": "join",
-    "source_url": "https://openai.com/blog/research-team",
-    "date_discovered": "2023-03-10",
-    "date_event": "2023-03-01",
-    "summary": "Barret Zoph joined OpenAI from Google Brain to lead post-training efforts for GPT models."
-  },
-  {
-    "id": "evt-016",
-    "person_name": "David Luan",
-    "from_company": "OpenAI",
-    "to_company": "Adept AI",
-    "role": "CEO & Co-founder",
-    "event_type": "leave",
-    "source_url": "https://www.adept.ai/blog/announcing-adept",
-    "date_discovered": "2022-04-26",
-    "date_event": "2022-04-26",
-    "summary": "David Luan left OpenAI as VP of Engineering to co-found Adept AI, building AI agents for software tools."
   },
   {
     "id": "evt-012",
