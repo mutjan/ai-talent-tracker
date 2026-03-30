@@ -866,7 +866,7 @@ function getFilteredEvents() {
     if (currentSearch) {
       const q = currentSearch.toLowerCase();
       const haystack = [
-        e.person_name, e.from_company, e.to_company, e.role, e.summary
+        e.person_name, e.from_company, e.to_company, e.role
       ].filter(Boolean).join(' ').toLowerCase();
       if (!haystack.includes(q)) return false;
     }
