@@ -1,0 +1,38 @@
+# Temporary directories
+.cowork-temp/
+.temp/
+.tmp/
+
+# Editor directories and files
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs/
+
+# Data files (if needed)
+# data/*.json
+# data/*.csv
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
