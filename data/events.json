@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-151",
+    "person_name": "张弛",
+    "from_company": "ByteDance (Seed)",
+    "to_company": "Tencent",
+    "role": "AI Infra Engineer",
+    "event_type": "move",
+    "source_url": "https://www.yicai.com/brief/103102292.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2026-03-27",
+    "summary": "原字节Seed Infra团队张弛近期入职腾讯AI Infra部，负责大模型Infra相关工作，向腾讯首席AI科学家姚顺雨汇报。这是腾讯从字节Seed团队挖角的多位核心成员之一，同期加入的还有视觉AI平台团队负责人肖学锋、训练Infra组负责人黄启。"
+  },
+  {
+    "id": "evt-150",
+    "person_name": "黄启",
+    "from_company": "ByteDance (Seed)",
+    "to_company": "Tencent",
+    "role": "Training Infra Lead",
+    "event_type": "move",
+    "source_url": "https://www.yicai.com/brief/103102292.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2026-03-27",
+    "summary": "原字节Seed训练Infra组负责人黄启近期入职腾讯AI Infra部，担任训练Infra组负责人，向腾讯首席AI科学家姚顺雨汇报。这是腾讯从字节Seed团队挖角的多位核心成员之一，同期加入的还有视觉AI平台团队负责人肖学锋、Infra团队张弛。"
+  },
+  {
+    "id": "evt-149",
+    "person_name": "肖学锋",
+    "from_company": "ByteDance (Seed)",
+    "to_company": "Tencent",
+    "role": "AI Infra Assistant Head",
+    "event_type": "move",
+    "source_url": "https://www.yicai.com/brief/103102292.html",
+    "date_discovered": "2026-03-30",
+    "date_event": "2026-03-27",
+    "summary": "原字节Seed视觉AI平台团队负责人肖学锋近期低调入职腾讯，担任AI Infra部助理负责人，向腾讯首席AI科学家姚顺雨汇报。2025年底腾讯升级大模型研发架构，新成立AI Infra部，由姚顺雨担任部门负责人。这是腾讯从字节Seed团队挖角的多位骨干之一，同期加入的还有Infra团队张弛、训练Infra组负责人黄启。"
+  },
+  {
     "id": "evt-148",
     "person_name": "Ross Nordeen",
     "from_company": "xAI",
