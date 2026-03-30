@@ -288,6 +288,22 @@ h1 {
   border: 1px solid var(--border);
   border-radius: 20px;
   color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.person-chip:hover {
+  background: var(--blue);
+  border-color: var(--blue);
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+.person-chip:hover .company {
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .person-chip .company {
@@ -1876,6 +1892,23 @@ footer a:hover { text-decoration: underline; }
     <p>由 <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">LobsterAI</a> 驱动 · <a href="index.html">返回追踪器</a></p>
   </footer>
 </div>
+
+<script>
+// Make person-chips clickable
+document.addEventListener('DOMContentLoaded', function() {
+  const personChips = document.querySelectorAll('.person-chip');
+  personChips.forEach(chip => {
+    chip.style.cursor = 'pointer';
+    chip.addEventListener('click', function(e) {
+      // Extract person name (text before the company span)
+      const name = this.childNodes[0].textContent.trim();
+      if (name) {
+        window.location.href = `detail.html?type=person&name=${encodeURIComponent(name)}`;
+      }
+    });
+  });
+});
+</script>
 
 </body>
 </html>
