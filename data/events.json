@@ -12,6 +12,18 @@
     "summary": "华为盘古大模型负责人王云鹤在执掌一年后离职。8天前他还参与盘古全尺寸参数矩阵开源官方活动。这是继阿里通义千问负责人林俊旸离职后，又一国内大厂大模型负责人离职事件。"
   },
   {
+    "id": "evt-667180d1",
+    "person_name": "Chaya Nayak",
+    "from_company": "Meta",
+    "to_company": "OpenAI",
+    "role": "AI高管",
+    "event_type": "move",
+    "source_url": "https://medial.app/news/another-high-profile-openai-researcher-departs-for-meta-ea468f37cfe02",
+    "date_discovered": "2026-04-01",
+    "date_event": "2026-03-28",
+    "summary": "Meta资深AI高管Chaya Nayak在工作9年后离职加入OpenAI，是Meta近期流失的多位核心AI人才之一。Meta正面临高端AI人才流失问题，尽管其以高薪从竞争对手挖角，但同时也有多位关键人物流向OpenAI和特斯拉等公司。"
+  },
+  {
     "id": "evt-a77daa11",
     "person_name": "Ross Nordeen",
     "from_company": "xAI",
