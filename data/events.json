@@ -1,5 +1,24 @@
 [
   {
+    "id": "evt-933abf06",
+    "person_name": "Zhen Li",
+    "event_type": "join",
+    "from_company": "Replit",
+    "to_company": "DeepSeek",
+    "role": "Agent Core团队工程师",
+    "source_url": "https://x.com/zhenthebuilder/status/2039374995898650947?s=20",
+    "date_discovered": "2026-04-02",
+    "date_event": "2026-04-01",
+    "summary": "Zhen Li加入DeepSeek的Agent Core团队，负责构建下一代代码智能体。他此前在Replit构建了Replit Agent，新团队将开发基于TypeScript的下一代智能体调度器（agent conductor），内置伙伴系统，致力于打造更好的开源模型和开源智能体。",
+    "tags": [
+      "DeepSeek",
+      "Agent Core",
+      "代码智能体",
+      "TypeScript",
+      "开源"
+    ]
+  },
+  {
     "id": "evt-eac9d930",
     "person_name": "Ryan Rong",
     "from_company": "xAI",
