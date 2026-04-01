@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-eac9d930",
+    "person_name": "Ryan Rong",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Post Training团队工程师",
+    "event_type": "leave",
+    "source_url": "https://x.com/RyanNeverWrong/status/2039114585949774201?s=20",
+    "date_discovered": "2026-04-01",
+    "date_event": "2026-03-31",
+    "summary": "xAI Post Training团队工程师Ryan Rong宣布离职，将开启新的项目。他是斯坦福大学CS专业学生，此前曾在Uber和Google DeepMind实习，2025年从斯坦福休学加入xAI。"
+  },
+  {
     "id": "evt-587cb809",
     "person_name": "王云鹤",
     "from_company": "Huawei",
