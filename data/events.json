@@ -1642,5 +1642,21 @@
     "date_discovered": "2019-01-01",
     "date_event": "2019-01-01",
     "summary": "Aidan Gomez, co-author of 'Attention Is All You Need', co-founded Cohere for enterprise LLM solutions."
+  },
+  {
+    "id": "evt-a98c2217",
+    "person": "Awni Hannun",
+    "type": "join",
+    "date": "2026-03-19",
+    "from": "",
+    "to": "Anthropic",
+    "role": "Technical Staff",
+    "source": "https://x.com/awnihannun/status/2034450989844165118?s=20",
+    "summary": "Awni Hannun加入Anthropic担任技术人员，致力于前沿建模工作。他将在这家拥有坚定价值观和时代使命的公司开展工作。",
+    "tags": [
+      "Anthropic",
+      "前沿建模",
+      "技术人员"
+    ]
   }
 ]
