@@ -655,6 +655,25 @@
     "summary": "阿里千问核心负责人林俊旸宣布卸任，发文\"me stepping down. bye my beloved qwen\"。他是阿里最年轻P10技术负责人，1993年生，北大计算机本科+语言学硕士，2019年加入达摩院，2022年起负责千问系列。同事称\"离开不是他的选择\"，去向尚未公布。"
   },
   {
+    "id": "evt-07eac017",
+    "person_name": "Tim Brooks",
+    "event_type": "move",
+    "from_company": "Google DeepMind",
+    "to_company": "Meta",
+    "role": "AI研究员",
+    "source_url": "https://time.com/7327244/meta-google-ai-researcher-world-models",
+    "date_discovered": "2026-04-02",
+    "date_event": "2026-03-01",
+    "summary": "Tim Brooks从Google DeepMind加入Meta Superintelligence Labs，担任AI研究员，专注于多模态生成模型和世界模型研究。他曾是OpenAI Sora团队联合负责人，2024年从OpenAI加入Google DeepMind，此次加入Meta将助力其世界模型和AGI相关研究。",
+    "tags": [
+      "Meta",
+      "Google DeepMind",
+      "世界模型",
+      "AGI",
+      "Sora"
+    ]
+  },
+  {
     "id": "evt-885f1cf0",
     "person_name": "Richard Chien (Yuchao Qian / stdrc)",
     "from_company": "月之暗面(Moonshot AI)",
