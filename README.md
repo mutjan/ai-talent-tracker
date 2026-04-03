@@ -157,7 +157,7 @@ ai-talent-tracker/
 
 项目配置了每日自动爬虫，通过Tavily搜索最新AI人才新闻，自动解析并添加到数据库中。人工审核后更新洞察页面。
 
-## 🔗 相关链接
+## 🔗 在线访问
 
-- [洞察更新指南](INSIGHTS_UPDATE_GUIDE.md) - 洞察页面更新详细规范
-- [任务说明](TASK_INSTRUCTIONS_WEB_ACCESS.md) - 网络搜索任务指引
+- [人才追踪器主页](https://mutjan.github.io/ai-talent-tracker/)
+- [关键洞察页面](https://mutjan.github.io/ai-talent-tracker/insights.html)
