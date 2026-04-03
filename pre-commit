@@ -1,0 +1,54 @@
+#!/bin/bash
+#
+# Git pre-commit hook for AI Talent Tracker
+# 在提交前自动运行去重脚本
+#
+
+set -e
+
+echo "=== Running pre-commit checks ==="
+
+# 获取仓库根目录
+REPO_ROOT=$(git rev-parse --show-toplevel)
+cd "$REPO_ROOT"
+
+# 检查 events.json 是否被修改
+if git diff --cached --name-only | grep -q "^data/events.json$"; then
+    echo "📋 data/events.json 已修改，运行去重检查..."
+
+    # 运行去重脚本
+    if python3 scripts/deduplicate.py; then
+        echo "✅ 去重检查通过"
+
+        # 检查是否有新的更改（去重可能修改了文件）
+        if git diff --name-only | grep -q "^data/events.json$"; then
+            echo "⚠️  去重脚本修改了 events.json"
+            echo "请重新添加文件并提交:"
+            echo "  git add data/events.json"
+            echo "  git commit -m 'your message'"
+            exit 1
+        fi
+    else
+        echo "❌ 去重检查失败，请修复问题后再提交"
+        exit 1
+    fi
+fi
+
+# 检查文件格式
+if git diff --cached --name-only | grep -q "\.json$"; then
+    echo "📋 检查 JSON 文件格式..."
+
+    for file in $(git diff --cached --name-only | grep "\.json$"); do
+        if [ -f "$file" ]; then
+            if ! python3 -c "import json; json.load(open('$file'))" 2>/dev/null; then
+                echo "❌ JSON 格式错误: $file"
+                exit 1
+            fi
+        fi
+    done
+
+    echo "✅ JSON 文件格式检查通过"
+fi
+
+echo "=== 所有检查通过 ==="
+exit 0
