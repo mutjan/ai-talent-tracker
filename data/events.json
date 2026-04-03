@@ -18,23 +18,6 @@
     ]
   },
   {
-    "id": "evt-b07414fe",
-    "person_name": "Will Depue",
-    "event_type": "join",
-    "from_company": "",
-    "to_company": "DeepSeek",
-    "role": "多元化招聘负责人",
-    "source_url": "https://x.com/willdepue/status/2039240236723793936",
-    "date_discovered": "2026-04-03",
-    "date_event": "2026-04-01",
-    "summary": "Will Depue宣布加入DeepSeek，成为公司首位多元化招聘员工，将负责全球人才招聘工作，工作地点位于杭州和香港，公司为其提供1024块B200芯片作为工作支持。",
-    "tags": [
-      "DeepSeek",
-      "招聘",
-      "中国AI"
-    ]
-  },
-  {
     "id": "evt-ae7ed508",
     "person_name": "Xiaolong Wang",
     "event_type": "move",
