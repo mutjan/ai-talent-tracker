@@ -982,18 +982,6 @@
     "summary": "Max Schwarzer于2026年3月3日宣布离开OpenAI，加入Anthropic。他此前担任OpenAI研究副总裁，领导后训练(post-training)团队，曾主导GPT-5、o1、o3等模型的开发。他表示渴望重新开始并回归个人贡献者(IC)的研究工作，特别提到Anthropic的人才、研究品味和价值观吸引了他，并指出多位信任的同事已经加入Anthropic。"
   },
   {
-    "id": "evt-02314b49",
-    "person_name": "Max Schwarzer",
-    "from_company": "OpenAI",
-    "to_company": "Anthropic",
-    "role": "VP of Research",
-    "event_type": "leave",
-    "source_url": "https://www.storyboard18.com/trending/openai-vp-joins-anthropic-says-people-he-trusts-most-and-respects-moved-there-91303.htm",
-    "date_discovered": "2026-03-08",
-    "date_event": "2026-03-07",
-    "summary": "OpenAI研究副总裁Max Schwarzer宣布离职加入Anthropic，表示希望回归IC研究岗位，专注于强化学习研究。他过去一年领导OpenAI的后训练团队。"
-  },
-  {
     "id": "evt-367bd844",
     "person_name": "Mira Murati",
     "from_company": "OpenAI",
