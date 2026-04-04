@@ -1881,5 +1881,23 @@
       "视频世界模型",
       "Jim Fan"
     ]
+  },
+  {
+    "id": "1775262578291",
+    "person_name": "Kath Korevec",
+    "event_type": "join",
+    "date_event": "2026-04-03",
+    "from_company": "",
+    "to_company": "OpenAI",
+    "role": "Codex 团队工程师",
+    "source_url": "https://x.com/simpsoka/status/2040144952550969516?s=20",
+    "date_discovered": "2026-04-04",
+    "summary": "Kath Korevec 宣布将加入 OpenAI 的 Codex 团队，负责 Codex 相关开发工作，希望听取用户对 Codex 的喜好和改进建议，团队进展迅速，开放私信交流。",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "AI 代码生成",
+      "Kath Korevec"
+    ]
   }
 ]
