@@ -1899,5 +1899,23 @@
       "AI 代码生成",
       "Kath Korevec"
     ]
+  },
+  {
+    "id": "1775265513395",
+    "person_name": "Scott Fitzgerald",
+    "event_type": "leave",
+    "date_event": "2026-04-03",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "语音体验团队工程师",
+    "source_url": "https://x.com/BigFitzEnergy/status/2040221400095682910?s=20",
+    "date_discovered": "2026-04-04",
+    "summary": "Scott Fitzgerald 宣布从 xAI 离职，他在 xAI 工作了一年，参与构建了行业领先的语音体验产品，对团队取得的成就感到自豪，并感谢同事们的支持，xAI 团队的深厚友谊是公司最大的优势之一。",
+    "tags": [
+      "xAI",
+      "语音技术",
+      "AI 助手",
+      "Scott Fitzgerald"
+    ]
   }
 ]
