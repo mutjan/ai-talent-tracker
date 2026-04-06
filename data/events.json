@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-ff3d9f31",
+    "person_name": "Joanne Jang",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Model Behavior Lead / OpenAI Labs Founder",
+    "event_type": "leave",
+    "source_url": "https://x.com/joannejang/status/2041267523107299557",
+    "date_discovered": "2026-04-07",
+    "date_event": "2026-04-07",
+    "summary": "OpenAI模型行为负责人、OpenAI Labs创始人Joanne Jang于2026年4月7日宣布离职，结束4.5年的OpenAI生涯。她主导了GPT-4、DALL-E 2、语音合成、Chat API和记忆功能的模型行为设计，并创立了OpenAI Labs。她在离职信中表示OpenAI从来不是一家普通公司，希望它永远不会变得太普通。"
+  },
+  {
     "id": "evt-ff3d9f32",
     "person_name": "Kate Rouch",
     "from_company": "OpenAI",
