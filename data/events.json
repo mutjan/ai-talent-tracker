@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-ff3d9f2f",
+    "person_name": "Maaz",
+    "from_company": "",
+    "to_company": "Thinking Machines Lab",
+    "role": "",
+    "event_type": "join",
+    "source_url": "https://x.com/mmaaz_98/status/2041352964556951996",
+    "date_discovered": "2026-04-07",
+    "date_event": "2026-04-07",
+    "summary": "Maaz于2026年4月7日宣布加入Thinking Machines Lab（由前OpenAI CTO Mira Murati创立），感谢Mira Murati给予的机会。他表示这是一个令人惊叹的团队，正在发生一些非常令人兴奋的事情。"
+  },
+  {
     "id": "evt-ff3d9f30",
     "person_name": "Mark Saroufim",
     "from_company": "Meta",
