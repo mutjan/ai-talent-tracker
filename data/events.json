@@ -1,5 +1,29 @@
 [
   {
+    "id": "evt-ff3d9f38",
+    "person_name": "Eric Boyd",
+    "from_company": "Microsoft",
+    "to_company": "Anthropic",
+    "role": "Head of Infrastructure",
+    "event_type": "join",
+    "source_url": "https://www.theinformation.com/briefings/microsoft-cloud-exec-joins-anthropic-head-infrastructure",
+    "date_discovered": "2026-04-08",
+    "date_event": "2026-04-07",
+    "summary": " longtime Microsoft高管Eric Boyd（在微软工作18年）于2026年4月7日宣布加入Anthropic，担任基础设施负责人。他将负责构建和扩展Anthropic所需的基础设施，以支持其AI产品的不断增长的应用需求。"
+  },
+  {
+    "id": "evt-ff3d9f39",
+    "person_name": "Kyle Kosic",
+    "from_company": "OpenAI",
+    "to_company": "Project Prometheus",
+    "role": "AI Infrastructure Lead",
+    "event_type": "join",
+    "source_url": "https://the-decoder.com/bezos-project-prometheus-hires-xai-co-founder-from-openai/",
+    "date_discovered": "2026-04-08",
+    "date_event": "2026-04-07",
+    "summary": "xAI联合创始人Kyle Kosic离开OpenAI，加入Jeff Bezos的AI创业公司Project Prometheus，担任AI基础设施负责人。Kosic此前领导了xAI Colossus超级计算机的基础设施建设工作。"
+  },
+  {
     "id": "evt-ff3d9f2f",
     "person_name": "Maaz",
     "from_company": "",
