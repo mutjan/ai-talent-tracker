@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-ff3d9f30",
+    "person_name": "Mark Saroufim",
+    "from_company": "Meta",
+    "to_company": "",
+    "role": "PyTorch Team",
+    "event_type": "leave",
+    "source_url": "https://x.com/marksaroufim/status/2041299778479493494",
+    "date_discovered": "2026-04-07",
+    "date_event": "2026-04-07",
+    "summary": "Meta PyTorch团队核心成员Mark Saroufim于2026年4月7日宣布离职，结束5年Meta生涯。他表示在Meta完成了最好的工作，与业界最聪明、最拥抱开源的工程师共事。他透露下一步仍专注于系统、开源（但不是全部），将加入一个拥有大量GPU的小团队。"
+  },
+  {
     "id": "evt-ff3d9f31",
     "person_name": "Joanne Jang",
     "from_company": "OpenAI",
