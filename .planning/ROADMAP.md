@@ -26,7 +26,7 @@
 **Plans:** 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Create unified scripts/search.py with SEARCH_CONFIG and all helper functions
+- [x] 01-01-PLAN.md — Create unified scripts/search.py with SEARCH_CONFIG and all helper functions
 - [ ] 01-02-PLAN.md — Create pytest test infrastructure, verify, and delete old scripts
 
 ### Phase 2: 跨批次去重

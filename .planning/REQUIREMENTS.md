@@ -7,10 +7,10 @@
 
 ### Consolidate (脚本整合)
 
-- [ ] **CONS-01**: 合并 talent_search.py 和 tavily_search.py 为单一搜索脚本，消除 70% 重复代码
-- [ ] **CONS-02**: 搜索查询定义外部化为配置（Python dict），不再硬编码在函数体中
-- [ ] **CONS-03**: 域名集合抽象为命名组（english_tech / chinese_tech / social），支持按组启用
-- [ ] **CONS-04**: 统一候选事件输出格式，消除两个脚本间的字段命名差异
+- [x] **CONS-01**: 合并 talent_search.py 和 tavily_search.py 为单一搜索脚本，消除 70% 重复代码
+- [x] **CONS-02**: 搜索查询定义外部化为配置（Python dict），不再硬编码在函数体中
+- [x] **CONS-03**: 域名集合抽象为命名组（english_tech / chinese_tech / social），支持按组启用
+- [x] **CONS-04**: 统一候选事件输出格式，消除两个脚本间的字段命名差异
 
 ### Dedup (去重增强)
 
@@ -64,10 +64,10 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CONS-01 | Phase 1 | Pending |
-| CONS-02 | Phase 1 | Pending |
-| CONS-03 | Phase 1 | Pending |
-| CONS-04 | Phase 1 | Pending |
+| CONS-01 | Phase 1 | Complete |
+| CONS-02 | Phase 1 | Complete |
+| CONS-03 | Phase 1 | Complete |
+| CONS-04 | Phase 1 | Complete |
 | DEDU-01 | Phase 2 | Pending |
 | DEDU-02 | Phase 2 | Pending |
 | DEDU-03 | Phase 2 | Pending |
