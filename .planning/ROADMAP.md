@@ -23,12 +23,11 @@
   2. 搜索查询定义在配置字典中，修改查询不需要改代码逻辑
   3. 域名集合按命名组组织（english_tech / chinese_tech / social）
   4. 候选事件输出格式统一，两个旧脚本的字段差异已消除
-**Plans**: 3 plans
+**Plans:** 2 plans
 
 Plans:
-- [ ] 01-01: 合并两个脚本的搜索逻辑到一个文件
-- [ ] 01-02: 将查询定义和域名列表外部化为配置
-- [ ] 01-03: 统一输出格式并验证兼容性
+- [ ] 01-01-PLAN.md — Create unified scripts/search.py with SEARCH_CONFIG and all helper functions
+- [ ] 01-02-PLAN.md — Create pytest test infrastructure, verify, and delete old scripts
 
 ### Phase 2: 跨批次去重
 **Goal**: 实现持久化的 URL 去重，防止同一新闻在不同日期重复出现
@@ -90,3 +89,4 @@ Plans:
 ---
 *Roadmap created: 2026-04-04*
 *Requirements: 16 total, all mapped ✓*
+*Updated: 2026-04-08 — Phase 1 plans finalized*
