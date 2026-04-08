@@ -1,0 +1,45 @@
+{
+  "queries": {
+    "english_broad": [
+      "AI researcher joins leaves OpenAI Google DeepMind Anthropic",
+      "AI talent move chief scientist leaves joins startup",
+      "top AI engineer researcher joins new company",
+      "AI lab researcher departure hiring"
+    ],
+    "english_specific": [
+      "vice president AI leaves joins",
+      "co-founder AI startup leaves",
+      "AI researcher joins leaves OpenAI Google DeepMind Anthropic Meta"
+    ],
+    "chinese_broad": [],
+    "chinese_specific": []
+  },
+  "domain_groups": {
+    "english_tech": {
+      "enabled": true,
+      "domains": [
+        "techcrunch.com",
+        "theinformation.com",
+        "bloomberg.com",
+        "reuters.com",
+        "businessinsider.com",
+        "venturebeat.com",
+        "x.com",
+        "linkedin.com",
+        "subsight.com"
+      ]
+    },
+    "chinese_tech": {
+      "enabled": false,
+      "domains": []
+    },
+    "social": {
+      "enabled": false,
+      "domains": []
+    }
+  },
+  "search_params": {
+    "search_depth": "advanced",
+    "max_results": 10
+  }
+}

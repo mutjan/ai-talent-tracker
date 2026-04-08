@@ -27,7 +27,7 @@
 
 Plans:
 - [x] 01-01-PLAN.md — Create unified scripts/search.py with SEARCH_CONFIG and all helper functions
-- [ ] 01-02-PLAN.md — Create pytest test infrastructure, verify, and delete old scripts
+- [x] 01-02-PLAN.md — Create pytest test infrastructure, verify, and delete old scripts
 
 ### Phase 2: 跨批次去重
 **Goal**: 实现持久化的 URL 去重，防止同一新闻在不同日期重复出现

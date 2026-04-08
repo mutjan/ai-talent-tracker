@@ -67,7 +67,7 @@
 | CONS-01 | Phase 1 | Complete |
 | CONS-02 | Phase 1 | Complete |
 | CONS-03 | Phase 1 | Complete |
-| CONS-04 | Phase 1 | Complete |
+| CONS-04 | Phase 1 | Complete
 | DEDU-01 | Phase 2 | Pending |
 | DEDU-02 | Phase 2 | Pending |
 | DEDU-03 | Phase 2 | Pending |
