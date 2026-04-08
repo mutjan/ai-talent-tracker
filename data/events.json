@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-ff3d9f3b",
+    "person_name": "Vu Tran",
+    "from_company": "Butterflies / Boba Video (Founder)",
+    "to_company": "Meta",
+    "role": "Meta Superintelligence Labs (MSL)",
+    "event_type": "join",
+    "source_url": "https://x.com/vu0tran/status/2041933697671462927",
+    "date_discovered": "2026-04-09",
+    "date_event": "2025-12",
+    "summary": "Vu Tran于2025年12月加入Meta Superintelligence Labs (MSL)，使命是加速个人超级智能的普及。他此前是AI社交应用Butterflies和视频生成应用Boba Video的创始人，加入Meta后已关闭这两个项目。"
+  },
+  {
     "id": "evt-ff3d9f3a",
     "person_name": "Maciej Mikula",
     "from_company": "Google DeepMind",
