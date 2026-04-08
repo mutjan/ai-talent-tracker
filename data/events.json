@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-ff3d9f3a",
+    "person_name": "Maciej Mikula",
+    "from_company": "Google DeepMind",
+    "to_company": "xAI / SpaceX",
+    "role": "Gemini Team",
+    "event_type": "join",
+    "source_url": "https://x.com/s_tworkowski/status/2041715006388199773",
+    "date_discovered": "2026-04-08",
+    "date_event": "2026-04-08",
+    "summary": "Maciej Mikula（@maciekmikula）于2026年4月8日宣布加入xAI和SpaceX。他在Google DeepMind工作多年，参与Gemini项目（包括共同创立和推出Gemini Diffusion），还贡献了Gemma、AlphaCode和Waymo项目。"
+  },
+  {
     "id": "evt-ff3d9f38",
     "person_name": "Eric Boyd",
     "from_company": "Microsoft",
