@@ -1,11 +1,28 @@
+---
+gsd_state_version: 1.0
+milestone: v1.0
+milestone_name: milestone
+current_plan: 1
+status: executing
+last_updated: "2026-04-09T09:30:33.783Z"
+progress:
+  total_phases: 5
+  completed_phases: 1
+  total_plans: 3
+  completed_plans: 3
+---
+
 # Project State
 
 ## Current Position
 
+Phase: 01 (脚本整合) — EXECUTING
+Plan: 2 of 3
+
 - **Phase:** 01-脚本整合
-- **Current Plan:** 02 (complete)
+- **Current Plan:** 1
 - **Total Plans:** 2
-- **Status:** All plans complete, pending verification
+- **Status:** Ready to execute
 
 ## Progress
 
@@ -16,7 +33,7 @@
 See: .planning/PROJECT.md (updated 2026-04-04)
 
 **Core value:** 尽可能全面、及时地发现AI人才流动消息
-**Current focus:** Phase 1 — 脚本整合
+**Current focus:** Phase 01 — 脚本整合
 
 ## Session History
 
@@ -32,6 +49,7 @@ See: .planning/PROJECT.md (updated 2026-04-04)
 |-------|------|----------|-------|-------|
 | 01-脚本整合 | 01 | 3 min | 2 | 2 |
 | 01-脚本整合 | 02 | 7 min | 2 | 5 |
+| Phase 01 P03 | 3min | 2 tasks | 4 files |
 
 ## Decisions
 
@@ -40,6 +58,8 @@ See: .planning/PROJECT.md (updated 2026-04-04)
 - Added scripts/__init__.py for module import support
 - JSON config file (not YAML) -- zero new dependencies
 - Separate config_loader.py module -- testable independently
+- [Phase 01]: Preserved SEARCH_CONFIG variable name for backward compatibility while sourcing from load_config()
+- [Phase 01]: Added sys.path fallback in search.py for direct script execution
 
 ## Artifacts
 
