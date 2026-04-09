@@ -2193,5 +2193,17 @@
       "AI 助手",
       "Scott Fitzgerald"
     ]
+  },
+  {
+    "id": "evt-ff3d9f3c",
+    "person_name": "Julia Liuson",
+    "from_company": "Microsoft",
+    "to_company": "",
+    "role": "President of Developer Division",
+    "event_type": "leave",
+    "source_url": "https://www.cnbc.com/2026/04/08/microsoft-developer-tools-head-julia-liuson-retires.html",
+    "date_discovered": "2026-04-09",
+    "date_event": "2026-06",
+    "summary": "Julia Liuson, president of Microsoft's developer division and a 34-year company veteran, announced retirement in June 2026. She has led Microsoft's Developer Division (DevDiv) since 2021, overseeing Visual Studio, .NET Framework, and Azure developer services. She joined Microsoft in 1992 as a software design engineer."
   }
 ]
