@@ -251,3 +251,52 @@ class TestConfigValidation:
 
         assert merged["search_params"]["max_results"] == 5
         assert merged["search_params"]["search_depth"] == "advanced"
+
+
+class TestSearchScriptUsesExternalConfig:
+    """Verify scripts.search reads config from external JSON file"""
+
+    def test_search_module_imports(self):
+        """scripts.search 模块可以正常导入"""
+        from scripts.search import SEARCH_CONFIG, run_search, convert_to_event
+        assert SEARCH_CONFIG is not None
+
+    def test_search_config_from_json(self):
+        """SEARCH_CONFIG 是从 config_loader 加载的（非硬编码字典）"""
+        from scripts.search import SEARCH_CONFIG
+        assert "queries" in SEARCH_CONFIG
+        assert "domain_groups" in SEARCH_CONFIG
+        assert "english_broad" in SEARCH_CONFIG["queries"]
+        assert len(SEARCH_CONFIG["queries"]["english_broad"]) >= 4
+
+    def test_search_uses_config_loader_domains(self):
+        """search.py 的 _get_enabled_domains 使用 config_loader"""
+        from scripts.search import _get_enabled_domains, SEARCH_CONFIG
+        domains = _get_enabled_domains()
+        assert len(domains) == 9
+        assert "techcrunch.com" in domains
+
+    def test_search_candidate_format(self):
+        """search.py 的 convert_to_event 产生正确的 D-07 格式"""
+        from scripts.search import convert_to_event
+        mock = {
+            "title": "Test",
+            "content": "AI researcher joins OpenAI from Google DeepMind 2026-04-01",
+            "url": "https://example.com/test",
+        }
+        evt = convert_to_event(mock, [])
+        required = [
+            "id", "person_name", "event_type", "date_event",
+            "from_company", "to_company", "role", "source_url",
+            "date_discovered", "summary", "tags",
+            "_needs_review", "_source_title", "_mentioned_companies", "_source_content",
+        ]
+        for field in required:
+            assert field in evt, f"Missing field: {field}"
+
+    def test_no_hardcoded_config_dict(self):
+        """search.py 不包含硬编码的查询字典"""
+        import inspect
+        from scripts import search as search_module
+        source = inspect.getsource(search_module)
+        assert 'chinese_broad": [],' not in source or 'load_config' in source

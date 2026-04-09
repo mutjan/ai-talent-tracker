@@ -18,47 +18,16 @@ from tavily import TavilyClient
 
 # ==================== 搜索配置 ====================
 
-SEARCH_CONFIG = {
-    "queries": {
-        "english_broad": [
-            "AI researcher joins leaves OpenAI Google DeepMind Anthropic",
-            "AI talent move chief scientist leaves joins startup",
-            "top AI engineer researcher joins new company",
-            "AI lab researcher departure hiring",
-        ],
-        "english_specific": [
-            "vice president AI leaves joins",
-            "co-founder AI startup leaves",
-            "AI researcher joins leaves OpenAI Google DeepMind Anthropic Meta",
-        ],
-        "chinese_broad": [],       # Phase 3 预留
-        "chinese_specific": [],    # Phase 3 预留
-    },
-    "domain_groups": {
-        "english_tech": {
-            "enabled": True,
-            "domains": [
-                "techcrunch.com",
-                "theinformation.com",
-                "bloomberg.com",
-                "reuters.com",
-                "businessinsider.com",
-                "venturebeat.com",
-                "x.com",
-                "linkedin.com",
-                "subsight.com",
-            ],
-        },
-        "chinese_tech": {
-            "enabled": False,
-            "domains": [],
-        },
-        "social": {
-            "enabled": False,
-            "domains": [],
-        },
-    },
-}
+# Ensure scripts/ is in path for config_loader import
+scripts_dir = str(Path(__file__).parent)
+if scripts_dir not in sys.path:
+    sys.path.insert(0, scripts_dir)
+
+from config_loader import load_config, get_enabled_domains, get_all_queries, get_search_params
+
+# Load config from external JSON file
+_CONFIG_PATH = str(Path(__file__).parent / "search_config.json")
+SEARCH_CONFIG = load_config(_CONFIG_PATH)
 
 
 # ==================== 辅助函数 ====================
@@ -150,54 +119,46 @@ def extract_person_and_companies(text: str, title: str) -> dict:
 # ==================== 搜索逻辑 ====================
 
 def _get_enabled_domains() -> list:
-    """从 SEARCH_CONFIG 中获取所有已启用的域名组"""
-    enabled_domains = []
-    for group_name, group_config in SEARCH_CONFIG["domain_groups"].items():
-        if group_config.get("enabled", False):
-            enabled_domains.extend(group_config["domains"])
-    return enabled_domains
+    """从配置中获取所有已启用的域名组域名"""
+    return get_enabled_domains(SEARCH_CONFIG)
 
 
 def run_search(client: TavilyClient, days_back: int = 1) -> list:
-    """使用 SEARCH_CONFIG 配置驱动搜索"""
+    """使用外部配置驱动搜索"""
     enabled_domains = _get_enabled_domains()
     today = datetime.now()
+    search_params_base = get_search_params(SEARCH_CONFIG)
 
     all_results = []
 
-    for group_name, queries in SEARCH_CONFIG["queries"].items():
-        if not queries:
+    for group_name, query in get_all_queries(SEARCH_CONFIG):
+        try:
+            print(f"搜索 [{group_name}]: {query}")
+
+            search_params = {
+                "query": query,
+                "search_depth": search_params_base.get("search_depth", "advanced"),
+                "max_results": search_params_base.get("max_results", 10),
+            }
+
+            if enabled_domains:
+                search_params["include_domains"] = enabled_domains
+
+            if days_back <= 1:
+                search_params["time_range"] = "day"
+
+            response = client.search(**search_params)
+            results = response.get('results', [])
+            print(f"  找到 {len(results)} 条结果")
+
+            for result in results:
+                result['_search_query'] = query
+                result['_search_time'] = today.isoformat()
+                all_results.append(result)
+
+        except Exception as e:
+            print(f"搜索失败 '{query}': {e}")
             continue
-
-        for query in queries:
-            try:
-                print(f"搜索 [{group_name}]: {query}")
-
-                search_params = {
-                    "query": query,
-                    "search_depth": "advanced",
-                    "max_results": 10,
-                }
-
-                if enabled_domains:
-                    search_params["include_domains"] = enabled_domains
-
-                if days_back <= 1:
-                    search_params["time_range"] = "day"
-
-                response = client.search(**search_params)
-
-                results = response.get('results', [])
-                print(f"  找到 {len(results)} 条结果")
-
-                for result in results:
-                    result['_search_query'] = query
-                    result['_search_time'] = today.isoformat()
-                    all_results.append(result)
-
-            except Exception as e:
-                print(f"搜索失败 '{query}': {e}")
-                continue
 
     # URL 去重
     seen_urls = set()
