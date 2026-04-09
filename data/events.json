@@ -2205,5 +2205,125 @@
     "date_discovered": "2026-04-09",
     "date_event": "2026-06",
     "summary": "Julia Liuson, president of Microsoft's developer division and a 34-year company veteran, announced retirement in June 2026. She has led Microsoft's Developer Division (DevDiv) since 2021, overseeing Visual Studio, .NET Framework, and Azure developer services. She joined Microsoft in 1992 as a software design engineer."
+  },
+  {
+    "id": "evt-20260410-1",
+    "person_name": "Peter Bailis",
+    "event_type": "move",
+    "date_event": "2026-03",
+    "from_company": "Workday",
+    "to_company": "Anthropic",
+    "role": "Member of Technical Staff",
+    "source_url": "https://www.businessinsider.com/workday-cto-trades-title-member-of-technical-staff-anthropic-openai-2026-4",
+    "date_discovered": "2026-04-10",
+    "summary": "Workday CTO Peter Bailis于2026年3月离开Workday，加入Anthropic担任技术团队成员。他此前在Google担任VP约一年半，加入Workday不到一年。",
+    "tags": [
+      "CTO",
+      "Workday",
+      "Anthropic"
+    ]
+  },
+  {
+    "id": "evt-20260410-2",
+    "person_name": "Behnam Neyshabur",
+    "event_type": "move",
+    "date_event": "2026-04",
+    "from_company": "Anthropic",
+    "to_company": "Mirendil",
+    "role": "Co-founder",
+    "source_url": "https://www.linkedin.com/pulse/meet-new-wave-iranian-americans-powering-silicon-valley-tavakoli-faqic",
+    "date_discovered": "2026-04-10",
+    "summary": "前Anthropic研究员Behnam Neyshabur联合创立Mirendil，该公司致力于构建用于AI研发和科学发现的前沿模型。",
+    "tags": [
+      "founder",
+      "Anthropic",
+      "Mirendil"
+    ]
+  },
+  {
+    "id": "evt-20260410-3",
+    "person_name": "Beibin Li",
+    "event_type": "join",
+    "date_event": "2026-04",
+    "from_company": "Microsoft / Meta",
+    "to_company": "xAI",
+    "role": "Post-training Lead for Grok Code",
+    "source_url": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+    "date_discovered": "2026-04-10",
+    "summary": "前Microsoft和Meta研究员Beibin Li加入xAI，领导Grok Code的后训练工作。",
+    "tags": [
+      "xAI",
+      "Microsoft",
+      "Meta",
+      "Grok"
+    ]
+  },
+  {
+    "id": "evt-20260410-4",
+    "person_name": "Xuhui Jia",
+    "event_type": "join",
+    "date_event": "2026-04",
+    "from_company": "Google DeepMind",
+    "to_company": "xAI",
+    "role": "Video and Image Training Lead",
+    "source_url": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+    "date_discovered": "2026-04-10",
+    "summary": "前Google DeepMind研究员Xuhui Jia加入xAI，与Yukun Zhu共同领导视频和图像训练。",
+    "tags": [
+      "xAI",
+      "Google DeepMind"
+    ]
+  },
+  {
+    "id": "evt-20260410-5",
+    "person_name": "Andrew Milich",
+    "event_type": "join",
+    "date_event": "2026-03",
+    "from_company": "Cursor",
+    "to_company": "xAI",
+    "role": "Product Team Lead",
+    "source_url": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+    "date_discovered": "2026-04-10",
+    "summary": "Andrew Milich于2026年3月从AI编程公司Cursor加入xAI，与Jason Ginsburg共同领导产品团队，负责Grok Main、Grok Voice和Grok Imagine。",
+    "tags": [
+      "xAI",
+      "Cursor",
+      "product"
+    ]
+  },
+  {
+    "id": "evt-20260410-6",
+    "person_name": "Jason Ginsburg",
+    "event_type": "join",
+    "date_event": "2026-03",
+    "from_company": "Cursor",
+    "to_company": "xAI",
+    "role": "Product Team Lead",
+    "source_url": "https://www.businessinsider.com/elon-musk-reorganizes-xai-ahead-of-spacex-ipo-2026-4",
+    "date_discovered": "2026-04-10",
+    "summary": "Jason Ginsburg于2026年3月从AI编程公司Cursor加入xAI，与Andrew Milich共同领导产品团队。",
+    "tags": [
+      "xAI",
+      "Cursor",
+      "product"
+    ]
+  },
+  {
+    "id": "evt-20260410-7",
+    "person_name": "Andrew Dai",
+    "event_type": "join",
+    "date_event": "2026-04",
+    "from_company": "Google DeepMind",
+    "to_company": "Elorian",
+    "role": "Co-founder",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-04-09/ex-google-deepmind-researchers-debut-startup-called-elorian-focused-on-visual-ai",
+    "date_discovered": "2026-04-10",
+    "summary": "前Google DeepMind研究员Andrew Dai联合创立Elorian，一家专注于视觉AI的新创公司。",
+    "tags": [
+      "founder",
+      "Google DeepMind",
+      "Elorian",
+      "visual AI"
+    ]
   }
 ]
