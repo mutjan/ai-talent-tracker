@@ -2,9 +2,9 @@
 gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
-current_plan: 1
-status: executing
-last_updated: "2026-04-09T09:30:33.783Z"
+current_plan: Not started
+status: planning
+last_updated: "2026-04-09T09:32:56.114Z"
 progress:
   total_phases: 5
   completed_phases: 1
@@ -19,10 +19,10 @@ progress:
 Phase: 01 (脚本整合) — EXECUTING
 Plan: 2 of 3
 
-- **Phase:** 01-脚本整合
-- **Current Plan:** 1
+- **Phase:** 2
+- **Current Plan:** Not started
 - **Total Plans:** 2
-- **Status:** Ready to execute
+- **Status:** Ready to plan
 
 ## Progress
 
