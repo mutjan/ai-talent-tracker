@@ -37,9 +37,9 @@
 
 ## Context
 
-- **现有搜索架构**：两个 Python 脚本（talent_search.py、tavily_search.py），都用 Tavily API，各自跑 4-6 个固定查询
-- **搜索词现状**：都是英文，如 "AI researcher joins leaves OpenAI Google DeepMind Anthropic"
-- **域名限制**：talent_search.py 限定了 9 个科技媒体域名（techcrunch、bloomberg 等），tavily_search.py 不限定域名
+- **现有搜索架构**：统一搜索脚本 `scripts/search.py`，使用 `config_loader.py` 从 `search_config.json` 加载配置，通过 Tavily API 执行搜索
+- **搜索词现状**：英文查询（7个，分 english_broad 和 english_specific 两组），配置在 search_config.json 中（Validated in Phase 01）
+- **域名限制**：9 个科技媒体域名（techcrunch、bloomberg 等），配置在 search_config.json 的 domain_groups 中（Validated in Phase 01）
 - **执行频率**：README 描述为「每日自动更新」，但 GitHub Actions 实际配置为每周一执行
 - **输出格式**：候选事件存到 .temp/candidates_*.json，需要人工审核后手动合并到 events.json
 - **已知问题**：两条 schema 版本共存（旧格式 person/type/from/to vs 新格式 person_name/event_type/from_company）
@@ -55,8 +55,8 @@
 
 | Decision | Rationale | Outcome |
 |----------|-----------|---------|
-| 继续用 Tavily 作为唯一搜索源 | 简化依赖，Tavily 已能搜中英文和 X 内容 | — Pending |
-| 混合搜索词策略 | 固定查询保底 + 动态热门词补充，平衡覆盖面和噪音 | — Pending |
+| 继续用 Tavily 作为唯一搜索源 | 简化依赖，Tavily 已能搜中英文和 X 内容 | Validated in Phase 01 |
+| 混合搜索词策略 | 固定查询保底 + 动态热门词补充，平衡覆盖面和噪音 | Validated in Phase 01 — 外部 JSON 配置支持分组查询 |
 | 当天发现即可 | 不追求实时，降低系统复杂度 | — Pending |
 
 ## Evolution
@@ -77,4 +77,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-04 after initialization
+*Last updated: 2026-04-09 after Phase 01 completion (脚本整合: unified search.py with external config, old scripts deleted)
