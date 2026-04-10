@@ -2325,5 +2325,53 @@
       "Elorian",
       "visual AI"
     ]
+  },
+  {
+    "id": "evt-mnti63fna",
+    "person_name": "Peter Hoeschele",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Stargate Data Center Executive",
+    "event_type": "leave",
+    "source_url": "https://www.theinformation.com/briefings/exclusive-openai-stargate-exec-peter-hoeschele-leaves-company",
+    "date_discovered": "2026-04-11",
+    "date_event": "2026-04-09",
+    "summary": "OpenAI Stargate数据中心项目的高管Peter Hoeschele已离开公司。他是三位帮助启动OpenAI原始Stargate数据中心计划的高级高管之一。"
+  },
+  {
+    "id": "evt-mnti63fnb",
+    "person_name": "Jonathan Ross",
+    "from_company": "Groq",
+    "to_company": "Nvidia",
+    "role": "CEO / AI Chip Architect",
+    "event_type": "move",
+    "source_url": "https://www.reuters.com/business/autos-transportation/companies-pouring-billions-advance-ai-infrastructure-2026-04-09/",
+    "date_discovered": "2026-04-11",
+    "date_event": "2026-04-09",
+    "summary": "Nvidia已同意授权Groq的芯片技术并聘请其CEO Jonathan Ross（曾帮助Google启动AI芯片项目）以及其他工程师。据CNBC报道，Nvidia同意以200亿美元收购Groq的资产。"
+  },
+  {
+    "id": "evt-mnti63fnc",
+    "person_name": "Elorian创始团队",
+    "from_company": "Google DeepMind",
+    "to_company": "Elorian",
+    "role": "Co-founders",
+    "event_type": "move",
+    "source_url": "https://www.bloomberg.com/news/articles/2026-04-09/ex-google-deepmind-researchers-debut-startup-called-elorian-focused-on-visual-ai",
+    "date_discovered": "2026-04-11",
+    "date_event": "2026-04-09",
+    "summary": "前Google DeepMind研究人员创立了一家名为Elorian的初创公司，专注于视觉AI领域。"
+  },
+  {
+    "id": "evt-mnti63fnd",
+    "person_name": "Chuck Jones",
+    "from_company": "",
+    "to_company": "Northrop Grumman",
+    "role": "VP, Chief Information & Digital Officer",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/chuckdjones_im-excited-to-share-that-ive-joined-northrop-activity-7448417170394595329-oNNj",
+    "date_discovered": "2026-04-11",
+    "date_event": "2026-04-10",
+    "summary": "Chuck Jones加入Northrop Grumman担任Defense Systems部门的副总裁兼首席信息与数字官，负责领导IT、网络安全和数字战略。"
   }
 ]
