@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-ff3d9f3c",
+    "person_name": "Halil Cetiner",
+    "from_company": "",
+    "to_company": "OpenAI",
+    "role": "",
+    "event_type": "join",
+    "source_url": "https://x.com/bayneri/status/2041498924452614160",
+    "date_discovered": "2026-04-11",
+    "date_event": "2026-04-07",
+    "summary": "Halil Cetiner于2026年4月7日宣布加入OpenAI。"
+  },
+  {
     "id": "evt-ff3d9f3b",
     "person_name": "Vu Tran",
     "from_company": "Butterflies / Boba Video (Founder)",
