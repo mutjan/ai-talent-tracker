@@ -2385,5 +2385,101 @@
     "date_discovered": "2026-04-11",
     "date_event": "2026-04-10",
     "summary": "Chuck Jones加入Northrop Grumman担任Defense Systems部门的副总裁兼首席信息与数字官，负责领导IT、网络安全和数字战略。"
+  },
+  {
+    "id": "evt-mnwb8i8b1",
+    "person_name": "Drew Blumenthal",
+    "from_company": "",
+    "to_company": "Anthropic",
+    "role": "Go-to-Market Team",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/drew-blumenthal-b612599_last-week-was-my-first-week-at-anthropic-activity-7448882599793410048-saWh",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-07",
+    "summary": "Drew Blumenthal加入Anthropic的go-to-market团队，专注于媒体、体育和娱乐行业。",
+    "tags": [
+      "Anthropic",
+      "go-to-market"
+    ]
+  },
+  {
+    "id": "evt-mnwb8i8b2",
+    "person_name": "Carrie Gott",
+    "from_company": "Snowflake",
+    "to_company": "",
+    "role": "",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/posts/cgott_i-leave-snowflake-with-a-heart-full-of-gratitude-activity-7449158746028572672-Q3dJ",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Carrie Gott在Snowflake工作7.5年后离职。",
+    "tags": [
+      "Snowflake"
+    ]
+  },
+  {
+    "id": "evt-mnwb8i8b3",
+    "person_name": "Junwan Kim",
+    "from_company": "",
+    "to_company": "Apple",
+    "role": "Scene Understanding Team Intern",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/junwan-kim-39b3aa287_im-excited-to-share-that-ill-be-joining-activity-7448943623758426112--spI",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Junwan Kim加入Apple Scene Understanding Team担任实习生，工作地点在Cupertino, CA。",
+    "tags": [
+      "Apple",
+      "intern"
+    ]
+  },
+  {
+    "id": "evt-mnwb8i8b4",
+    "person_name": "Joe FitzGerald",
+    "from_company": "Lacework",
+    "to_company": "Gong",
+    "role": "Chief Legal Officer",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/uni-network-group_intellectualproperty-digitalinnovation-activity-7448927886662598656-RjVq",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Joe FitzGerald被任命为Gong的首席法务官(CLO)，负责全球法律事务，包括公司治理、知识产权和数据隐私。他在Lacework担任CLO超过25年经验。",
+    "tags": [
+      "Gong",
+      "CLO",
+      "executive"
+    ]
+  },
+  {
+    "id": "evt-mnwb8i8b5",
+    "person_name": "Jasmin Ozeri",
+    "from_company": "Wiz",
+    "to_company": "",
+    "role": "",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/posts/jasmin-ozeri-267914128_thank-you-wiz-for-the-journey-of-a-lifetime-activity-7449133388352880640-Xlqt",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Jasmin Ozeri离开Wiz，结束了4年的旅程。4年前从以色列 relocate 到纽约加入公司。",
+    "tags": [
+      "Wiz"
+    ]
+  },
+  {
+    "id": "evt-mnwb8i8b6",
+    "person_name": "Anthony Armstrong",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "CFO",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/posts/thealibilawal_elon-musks-xai-just-lost-its-cfo-after-6-activity-7449067551759933440-grg7",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Anthony Armstrong在担任xAI CFO 6个月后离职。他于2025年10月加入，此前曾在Morgan Stanley担任TMT投行主管，并长期为Elon Musk提供顾问服务。",
+    "tags": [
+      "xAI",
+      "CFO",
+      "executive"
+    ]
   }
 ]
