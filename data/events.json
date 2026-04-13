@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-9ddfa4ae",
+    "person_name": "Jack Bai",
+    "from_company": "",
+    "to_company": "NVIDIA",
+    "role": "Research Scientist Intern",
+    "event_type": "join",
+    "source_url": "https://x.com/jackbot_cs/status/2043543552483815573",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Jack Bai宣布将于2026年夏季加入NVIDIA Bay Area担任研究科学家实习生，师从Yejin Choi教授，研究方向为基础模型和强化学习。"
+  },
+  {
     "id": "evt-ff3d9f3c",
     "person_name": "Halil Cetiner",
     "from_company": "",
