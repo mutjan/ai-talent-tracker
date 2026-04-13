@@ -325,13 +325,14 @@
   },
   {
     "id": "evt-f8f9a6b9",
-    "person": "Awni Hannun",
-    "type": "join",
-    "date": "2026-03-19",
-    "from": "",
-    "to": "Anthropic",
+    "person_name": "Awni Hannun",
+    "event_type": "join",
+    "date_event": "2026-03-19",
+    "from_company": "",
+    "to_company": "Anthropic",
     "role": "Technical Staff",
-    "source": "https://x.com/awnihannun/status/2034450989844165118?s=20",
+    "source_url": "https://x.com/awnihannun/status/2034450989844165118?s=20",
+    "date_discovered": "2026-03-19",
     "summary": "Awni Hannun加入Anthropic担任技术人员，致力于前沿建模工作。他将在这家拥有坚定价值观和时代使命的公司开展工作。",
     "tags": [
       "Anthropic",
@@ -2504,6 +2505,24 @@
       "xAI",
       "CFO",
       "executive"
+    ]
+  },
+  {
+    "id": "1776117802615",
+    "person_name": "Khartoon Weiss",
+    "event_type": "join",
+    "date_event": "2026-04-13",
+    "from_company": "TikTok",
+    "to_company": "Google",
+    "role": "VP of US Mid Market Sales (MMS), Commerce",
+    "source_url": "https://www.businessinsider.com/tiktok-former-america-ads-lead-joining-google-2026-4",
+    "date_discovered": "2026-04-13",
+    "summary": "Khartoon Weiss，前TikTok北美广告业务负责人，加入Google担任美国中端市场销售（MMS）商务副总裁。她此前在TikTok工作近六年，担任Vice President and GM of Global Business Solutions，负责覆盖90多个市场的数十亿美元广告业务。",
+    "tags": [
+      "Google",
+      "TikTok",
+      "VP",
+      "ads"
     ]
   }
 ]
