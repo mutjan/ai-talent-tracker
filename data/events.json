@@ -1,5 +1,17 @@
 [
   {
+    "id": "evt-dbacabb0",
+    "person_name": "Arshdeep Singh",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Member of Technical Staff",
+    "event_type": "leave",
+    "source_url": "https://x.com/arshdeep/status/2043579062380384348?s=20",
+    "date_discovered": "2026-04-13",
+    "date_event": "2026-04-13",
+    "summary": "Arshdeep Singh于2026年4月13日宣布离开xAI，上周是他的最后一周。他于2024年加入xAI，作为早期团队成员从零开始搭建了核心ML平台，支持了Grok-2-1212、Grok 3、Grok 4、Aurora等项目的data、training和infra。目前尚未公布下一站。"
+  },
+  {
     "id": "evt-9ddfa4ae",
     "person_name": "Jack Bai",
     "from_company": "",
