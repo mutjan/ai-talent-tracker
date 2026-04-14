@@ -2524,5 +2524,58 @@
       "VP",
       "ads"
     ]
+  },
+  {
+    "id": "evt-12jk8l9e",
+    "person_name": "Ryan Shar",
+    "event_type": "move",
+    "date_event": "2026-04-15",
+    "from_company": "Apple",
+    "to_company": "Google",
+    "role": "Software Engineer (AI Catalyst)",
+    "source_url": "https://www.linkedin.com/in/ryan-shar",
+    "date_discovered": "2026-04-15",
+    "summary": "Ryan Shar宣布离开Apple，加入Google担任Software Engineer，通过AI Catalyst项目入职。他在Apple工作了一年半，参与构建AI功能评估研究团队。",
+    "tags": [
+      "Apple",
+      "Google",
+      "Software Engineer",
+      "AI Catalyst"
+    ]
+  },
+  {
+    "id": "evt-8dhwxfez",
+    "person_name": "Henry Shevlin",
+    "event_type": "join",
+    "date_event": "2026-05",
+    "from_company": "Leverhulme Centre for the Future of Intelligence / University of Cambridge",
+    "to_company": "Google DeepMind",
+    "role": "Philosopher",
+    "source_url": "https://www.linkedin.com/posts/analytics-india-magazine_googledeepmind-aiphilosophy-machinconsciousness-activity-7449786034831392768-AEhF",
+    "date_discovered": "2026-04-15",
+    "summary": "哲学家Henry Shevlin宣布加入Google DeepMind，担任专职Philosopher职位，研究方向为机器意识、人机关系和AGI readiness。他将继续在剑桥大学兼职研究和教学。",
+    "tags": [
+      "Google DeepMind",
+      "Philosopher",
+      "machine consciousness",
+      "AGI"
+    ]
+  },
+  {
+    "id": "evt-g8cwtmx2",
+    "person_name": "Will Houghteling",
+    "event_type": "join",
+    "date_event": "2026-04",
+    "from_company": "",
+    "to_company": "Google",
+    "role": "Gemini / Google Labs",
+    "source_url": "https://www.linkedin.com/posts/will-houghteling-3b956710_when-fcacquiredstrive-many-many-moons-activity-7449831747992842240-zZFG",
+    "date_discovered": "2026-04-15",
+    "summary": "Will Houghteling加入Google，在Gemini/Google Labs团队与Josh Woodward一起构建新的AI产品。他此前是Strive创始人（后被FC收购），近期工作经历未明确提及。",
+    "tags": [
+      "Google",
+      "Gemini",
+      "Google Labs"
+    ]
   }
 ]
