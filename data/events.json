@@ -2577,5 +2577,22 @@
       "Gemini",
       "Google Labs"
     ]
+  },
+  {
+    "id": "1776207164042",
+    "person_name": "Philipp Spiess",
+    "event_type": "join",
+    "date_event": "2026-04-14",
+    "from_company": "",
+    "to_company": "OpenAI",
+    "role": "Codex team",
+    "source_url": "https://x.com/PhilippSpiess/status/2044077638717706332",
+    "date_discovered": "2026-04-14",
+    "summary": "Philipp Spiess宣布加入OpenAI，在Codex团队工作，负责开发Codex app。",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "AI coding"
+    ]
   }
 ]
