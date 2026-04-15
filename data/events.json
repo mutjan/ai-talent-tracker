@@ -2629,5 +2629,141 @@
       "Google",
       "on-device ML"
     ]
+  },
+  {
+    "id": "evt-bd81caf7",
+    "person_name": "Ryan Shar",
+    "event_type": "move",
+    "date_event": "2026-04-16",
+    "from_company": "Apple",
+    "to_company": "Google",
+    "role": "Software Engineer",
+    "source_url": "https://www.linkedin.com/in/ryan-shar",
+    "date_discovered": "2026-04-16",
+    "summary": "Ryan Shar于2026年4月16日宣布离开Apple（在Apple工作1.5年，负责AI feature evaluation研究团队），加入Google担任Software Engineer（通过AI Catalyst项目）。",
+    "tags": [
+      "Apple",
+      "Google",
+      "AI research"
+    ]
+  },
+  {
+    "id": "evt-835595cf",
+    "person_name": "Russell Dicker",
+    "event_type": "move",
+    "date_event": "2026-04-16",
+    "from_company": "Microsoft",
+    "to_company": "Zoom",
+    "role": "Chief Product Officer",
+    "source_url": "https://markets.businessinsider.com/news/stocks/zoom-appoints-russell-dicker-as-chief-product-officer-to-advance-ai-first-product-strategy-and-workflow-automation-1036024818",
+    "date_discovered": "2026-04-16",
+    "summary": "Russell Dicker于2026年4月加入Zoom担任Chief Product Officer，负责推进AI-first产品战略和工作流自动化。此前他在Microsoft担任企业副总裁，领导Microsoft Teams的产品管理和数据科学团队，还曾在Google Maps和Amazon任职。",
+    "tags": [
+      "Microsoft",
+      "Zoom",
+      "product"
+    ]
+  },
+  {
+    "id": "evt-97dfd3f7",
+    "person_name": "Avinash Paliwal",
+    "event_type": "move",
+    "date_event": "2026-03",
+    "from_company": "Morphic",
+    "to_company": "Nuance Labs",
+    "role": "Member of Technical Staff",
+    "source_url": "https://www.linkedin.com/posts/fangchangma_we-are-excited-to-announce-that-avinash-paliwal-activity-7450238562723213313-nuin",
+    "date_discovered": "2026-04-16",
+    "summary": "Avinash Paliwal于2026年3月加入Nuance Labs担任Member of Technical Staff。此前他是Morphic的Founding AI Researcher（可控视频生成模型），并在Meta担任student researcher。博士毕业于Texas A&M University。",
+    "tags": [
+      "Morphic",
+      "Nuance Labs",
+      "video generation"
+    ]
+  },
+  {
+    "id": "evt-49ebf73d",
+    "person_name": "You Liang Tan",
+    "event_type": "leave",
+    "date_event": "2026-04-16",
+    "from_company": "NVIDIA",
+    "to_company": "",
+    "role": "",
+    "source_url": "https://www.linkedin.com/in/max-rosenblattl",
+    "date_discovered": "2026-04-16",
+    "summary": "You Liang Tan于2026年4月16日宣布离开NVIDIA GEAR实验室。他在NVIDIA工作1.5年，从事机器人学习和基础模型研究。目前尚未公布下一站。",
+    "tags": [
+      "NVIDIA",
+      "robot learning",
+      "foundation models"
+    ]
+  },
+  {
+    "id": "evt-4f666f26",
+    "person_name": "Neiman Mathew",
+    "event_type": "join",
+    "date_event": "2026-04-16",
+    "from_company": "",
+    "to_company": "Greylock Partners",
+    "role": "",
+    "source_url": "https://www.linkedin.com/posts/greylock-partners_welcome-neiman-mathew-activity-7450225766883102720-OBns",
+    "date_discovered": "2026-04-16",
+    "summary": "Neiman Mathew于2026年4月加入Greylock Partners投资团队，专注于与AI-native创始人在最早阶段合作，尤其是下一代AI技术栈。",
+    "tags": [
+      "Greylock Partners",
+      "VC",
+      "AI infrastructure"
+    ]
+  },
+  {
+    "id": "evt-9ef24eaf",
+    "person_name": "Shanna Tellerman",
+    "event_type": "move",
+    "date_event": "2026-04-16",
+    "from_company": "Lennar",
+    "to_company": "New Startup (AI)",
+    "role": "Founder",
+    "source_url": "https://www.linkedin.com/posts/shannatellerman_ive-decided-to-take-the-leap-again-after-activity-7450203835907604480-xfCx",
+    "date_discovered": "2026-04-16",
+    "summary": "Shanna Tellerman于2026年4月16日宣布离开Lennar，在AI变革时刻创立下一家公司。她此前是Modsy创始人，后被Lennar收购。",
+    "tags": [
+      "Lennar",
+      "startup",
+      "founder"
+    ]
+  },
+  {
+    "id": "evt-5869728d",
+    "person_name": "Pramod R",
+    "event_type": "move",
+    "date_event": "2026-04-16",
+    "from_company": "Lowe’s",
+    "to_company": "Albertsons Companies India",
+    "role": "Director of Data Science, Pricing",
+    "source_url": "https://www.linkedin.com/posts/pramod-r-05b38212_im-excited-to-share-that-im-joining-as-activity-7450173073862942720-4CIs",
+    "date_discovered": "2026-04-16",
+    "summary": "Pramod R于2026年4月16日宣布加入Albertsons Companies India担任Director of Data Science, Pricing。此前他在Lowe’s工作。",
+    "tags": [
+      "Lowe’s",
+      "Albertsons",
+      "data science"
+    ]
+  },
+  {
+    "id": "evt-59bef18d",
+    "person_name": "Jarom Chung",
+    "event_type": "join",
+    "date_event": "2026-04-16",
+    "from_company": "",
+    "to_company": "Jump",
+    "role": "SVP of Product",
+    "source_url": "https://www.linkedin.com/posts/jaromchung_thrilled-to-share-some-exciting-news-im-activity-7450196287917817856-HN2p",
+    "date_discovered": "2026-04-16",
+    "summary": "Jarom Chung于2026年4月16日宣布加入Jump担任SVP of Product。Jump是一家为财务顾问提供AI服务的wealthtech公司，刚完成8000万美元B轮融资。",
+    "tags": [
+      "Jump",
+      "wealthtech",
+      "AI"
+    ]
   }
 ]
