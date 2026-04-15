@@ -2594,5 +2594,23 @@
       "Codex",
       "AI coding"
     ]
+  },
+  {
+    "id": "1776222822643",
+    "person_name": "Aparna Ramani",
+    "event_type": "leave",
+    "date_event": "2026-04-14",
+    "from_company": "Meta",
+    "to_company": "",
+    "role": "VP of Engineering for AI Infrastructure",
+    "source_url": "https://x.com/jyoti_mann1/status/2044157184750026906",
+    "date_discovered": "2026-04-15",
+    "summary": "Meta高管Aparna Ramani宣布离职。她担任Meta AI基础设施工程副总裁，负责Meta Superintelligence Labs的基础设施，向Alexandr Wang汇报。",
+    "tags": [
+      "Meta",
+      "VP",
+      "AI infrastructure",
+      "Superintelligence Labs"
+    ]
   }
 ]
