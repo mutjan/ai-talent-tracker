@@ -2765,5 +2765,23 @@
       "wealthtech",
       "AI"
     ]
+  },
+  {
+    "id": "1776294117718",
+    "person_name": "Chase McCoy",
+    "event_type": "join",
+    "date_event": "2026-04-15",
+    "from_company": "",
+    "to_company": "Anthropic",
+    "role": "UI Infrastructure / Design Systems",
+    "source_url": "https://x.com/chase_mccoy/status/2044452666181308912?s=20",
+    "date_discovered": "2026-04-15",
+    "summary": "Chase McCoy于2026年4月15日宣布将于下周加入Anthropic，为Claude工作，负责UI infrastructure和design systems。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "UI infrastructure",
+      "design systems"
+    ]
   }
 ]
