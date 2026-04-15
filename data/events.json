@@ -2612,5 +2612,22 @@
       "AI infrastructure",
       "Superintelligence Labs"
     ]
+  },
+  {
+    "id": "1776290523209",
+    "person_name": "Ilias Leontiadis",
+    "event_type": "move",
+    "date_event": "2026-04-16",
+    "from_company": "Meta",
+    "to_company": "Google",
+    "role": "",
+    "source_url": "https://www.linkedin.com/posts/ilias-leontiadis-1b20055_im-super-excited-to-share-that-ive-joined-activity-7450221707191013376-uD9-",
+    "date_discovered": "2026-04-15",
+    "summary": "Ilias Leontiadis于2026年4月16日宣布加入Google。此前他在Meta工作了4.5年，专注于on-device ML领域。",
+    "tags": [
+      "Meta",
+      "Google",
+      "on-device ML"
+    ]
   }
 ]
