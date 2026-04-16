@@ -17,35 +17,50 @@ const newEvent = {
   id: Date.now().toString(),
 
   // 人物姓名（必填）
-  person_name: "姓名",
+  person_name: "Chase McCoy",
 
   // 事件类型: join(加入) / leave(离职) / move(跳槽)
-  event_type: "move",
+  event_type: "join",
 
   // 日期: YYYY-MM-DD 格式
-  date_event: "2026-04-03",
+  date_event: "2026-04-15",
 
   // 原公司（leave类型可不填）
-  from_company: "原公司",
+  from_company: "",
 
   // 新公司（leave类型可不填）
-  to_company: "新公司",
+  to_company: "Anthropic",
 
   // 职位/头衔
-  role: "职位",
+  role: "UI Infrastructure / Design Systems",
 
   // 来源链接
-  source_url: "https://example.com/news",
+  source_url: "https://x.com/chase_mccoy/status/2044452666181308912?s=20",
 
   // 发现日期（自动生成）
   date_discovered: new Date().toISOString().split('T')[0],
 
   // 事件摘要
-  summary: "事件描述...",
+  summary: "Chase McCoy于2026年4月15日宣布将于下周加入Anthropic，为Claude工作，负责UI infrastructure和design systems。",
 
   // 标签
-  tags: ["标签1", "标签2"]
+  tags: ["Anthropic", "Claude", "UI infrastructure", "design systems"]
 };
+
+// 批量事件支持：通过 --batch <json-file> 传入事件数组
+function getEventsToAdd() {
+  const batchFlagIndex = process.argv.indexOf('--batch');
+  if (batchFlagIndex !== -1 && process.argv[batchFlagIndex + 1]) {
+    const batchPath = process.argv[batchFlagIndex + 1];
+    const raw = fs.readFileSync(batchPath, 'utf8');
+    const events = JSON.parse(raw);
+    if (!Array.isArray(events)) {
+      throw new Error('批量文件必须是事件数组');
+    }
+    return events;
+  }
+  return [newEvent];
+}
 // ==================== 配置区域结束 ====================
 
 // 文件路径
@@ -142,50 +157,66 @@ function displayEvent(event) {
 function main() {
   console.log('=== AI Talent Tracker - 添加事件 ===\n');
 
-  // 检查是否修改了模板
-  if (newEvent.person_name === '姓名') {
+  let eventsToAdd;
+  try {
+    eventsToAdd = getEventsToAdd();
+  } catch (err) {
+    console.error(`❌ 读取事件失败: ${err.message}`);
+    process.exit(1);
+  }
+
+  // 检查是否修改了模板（仅单条模式）
+  if (eventsToAdd.length === 1 && eventsToAdd[0].person_name === '姓名') {
     console.error('❌ 错误: 请先修改 newEvent 对象中的事件信息！');
     console.error('请编辑 add-event.js 文件，填写实际的事件数据。');
     process.exit(1);
   }
 
-  // 验证事件数据
-  const validation = validateEvent(newEvent);
-  if (!validation.valid) {
-    console.error(`❌ 验证失败: ${validation.error}`);
-    process.exit(1);
-  }
-
-  // 显示事件信息
-  displayEvent(newEvent);
-
   // 加载现有事件
   const events = loadEvents();
   console.log(`当前数据库共有 ${events.length} 条事件\n`);
 
-  // 检查重复
-  if (isDuplicate(newEvent, events)) {
-    console.error('❌ 错误: 发现重复事件！');
-    console.error(`已存在相同的人物、公司、日期组合: ${newEvent.person_name} | ${newEvent.date_event}`);
-    process.exit(1);
+  let added = 0;
+  let skipped = 0;
+
+  for (const ev of eventsToAdd) {
+    // 验证事件数据
+    const validation = validateEvent(ev);
+    if (!validation.valid) {
+      console.error(`❌ 验证失败 [${ev.person_name || '未知'}]: ${validation.error}`);
+      skipped++;
+      continue;
+    }
+
+    // 检查重复
+    if (isDuplicate(ev, events)) {
+      console.error(`⚠️  跳过重复事件: ${ev.person_name} | ${ev.date_event}`);
+      skipped++;
+      continue;
+    }
+
+    // 显示并添加
+    displayEvent(ev);
+    events.push(ev);
+    added++;
   }
 
-  // 添加事件
-  events.push(newEvent);
-
   // 保存
-  if (saveEvents(events)) {
-    console.log('✅ 事件添加成功！');
-    console.log(`\n数据库现在共有 ${events.length} 条事件`);
-    console.log('\n建议运行以下命令去重检查:');
-    console.log('  python3 scripts/deduplicate.py');
-    console.log('\n然后提交变更:');
-    console.log('  git add data/events.json');
-    console.log('  git commit -m "Add event: [人物] [事件]"');
-    console.log('  git push origin main');
+  if (added > 0) {
+    if (saveEvents(events)) {
+      console.log(`✅ 成功添加 ${added} 条事件，跳过 ${skipped} 条。数据库现在共有 ${events.length} 条事件`);
+      console.log('\n建议运行以下命令去重检查:');
+      console.log('  python3 scripts/deduplicate.py');
+      console.log('\n然后提交变更:');
+      console.log('  git add data/events.json');
+      console.log('  git commit -m "Add event: [人物] [事件]"');
+      console.log('  git push origin main');
+    } else {
+      console.error('❌ 保存失败！');
+      process.exit(1);
+    }
   } else {
-    console.error('❌ 保存失败！');
-    process.exit(1);
+    console.log('ℹ️ 没有新事件被添加。');
   }
 }
 

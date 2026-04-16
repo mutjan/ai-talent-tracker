@@ -2783,5 +2783,81 @@
       "UI infrastructure",
       "design systems"
     ]
+  },
+  {
+    "id": "evt-20260417-01",
+    "person_name": "Markus Wulfmeier",
+    "event_type": "move",
+    "date_event": "2026-04-17",
+    "from_company": "Google DeepMind",
+    "to_company": "Nomagic",
+    "role": "Chief Scientist",
+    "source_url": "https://markets.businessinsider.com/news/stocks/nomagic-hires-new-chief-scientist-from-google-deepmind-to-lead-development-of-foundational-models-for-robotics-1036029686",
+    "date_discovered": "2026-04-17",
+    "summary": "Markus Wulfmeier从Google DeepMind加入Nomagic，担任首席科学家，领导机器人基础模型的开发。他此前在DeepMind参与Gemini和机器人研究项目。",
+    "tags": [
+      "Google DeepMind",
+      "Nomagic",
+      "Chief Scientist",
+      "robotics",
+      "VLA"
+    ]
+  },
+  {
+    "id": "evt-20260417-02",
+    "person_name": "Dhruv Mahajan",
+    "event_type": "move",
+    "date_event": "2026-04-17",
+    "from_company": "Meta",
+    "to_company": "Resolve AI Labs",
+    "role": "Chief Scientist",
+    "source_url": "https://www.linkedin.com/posts/spiros_today-were-announcing-the-launch-of-resolve-activity-7450558722281705472-b6L2",
+    "date_discovered": "2026-04-17",
+    "summary": "Dhruv Mahajan离开Meta的Distinguished Research Scientist职位，加入Resolve AI Labs担任首席科学家。他此前在Meta领导大规模Llama基础模型的post-training工作。",
+    "tags": [
+      "Meta",
+      "Resolve AI Labs",
+      "Chief Scientist",
+      "Llama",
+      "post-training"
+    ]
+  },
+  {
+    "id": "evt-20260417-03",
+    "person_name": "Sean Bell",
+    "event_type": "move",
+    "date_event": "2026-04-17",
+    "from_company": "Meta",
+    "to_company": "Resolve AI Labs",
+    "role": "Founding Member",
+    "source_url": "https://www.linkedin.com/posts/seanbell3_i-am-joining-resolve-ai-labs-as-a-founding-activity-7450558702677303296-HDtH",
+    "date_discovered": "2026-04-17",
+    "summary": "Sean Bell离开Meta，作为创始成员加入Resolve AI Labs。他此前在Meta负责所有基础模型的pre-training数据工作，与Dhruv Mahajan在Llama项目上有多年合作。",
+    "tags": [
+      "Meta",
+      "Resolve AI Labs",
+      "founding member",
+      "Llama",
+      "pre-training"
+    ]
+  },
+  {
+    "id": "evt-20260417-04",
+    "person_name": "Ryan Shar",
+    "event_type": "move",
+    "date_event": "2026-04-17",
+    "from_company": "Apple",
+    "to_company": "Google",
+    "role": "Software Engineer",
+    "source_url": "https://www.linkedin.com/in/ryan-shar",
+    "date_discovered": "2026-04-17",
+    "summary": "Ryan Shar离开Apple的ML Research Scientist职位，加入Google担任Software Engineer，通过AI Catalyst项目入职。他在Apple的一年半时间里专注于AI功能评估研究团队的搭建。",
+    "tags": [
+      "Apple",
+      "Google",
+      "Software Engineer",
+      "ML Research",
+      "AI Catalyst"
+    ]
   }
 ]
