@@ -2859,5 +2859,41 @@
       "ML Research",
       "AI Catalyst"
     ]
+  },
+  {
+    "id": "evt-weil-20260417",
+    "person_name": "Kevin Weil",
+    "event_type": "leave",
+    "date_event": "2026-04-17",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Chief Product Officer / Head of OpenAI for Science",
+    "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+    "date_discovered": "2026-04-18",
+    "summary": "Kevin Weil宣布离开OpenAI。他曾任首席产品官，后转入研究团队并发起OpenAI for Science项目。离职前一天，其团队刚刚发布了GPT-Rosalind生命科学模型。OpenAI正在削减'支线任务'，包括Sora和OpenAI for Science。",
+    "tags": [
+      "OpenAI",
+      "OpenAI for Science",
+      "GPT-Rosalind",
+      "departure"
+    ]
+  },
+  {
+    "id": "evt-peebles-20260417",
+    "person_name": "Bill Peebles",
+    "event_type": "leave",
+    "date_event": "2026-04-17",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Sora Research Lead",
+    "source_url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+    "date_discovered": "2026-04-18",
+    "summary": "Bill Peebles宣布离开OpenAI。他是AI视频工具Sora背后的核心研究员。Sora已于上月关闭，每日计算成本约100万美元。Peebles表示，产生Sora这类研究需要与公司主线路线图保持一定距离的空间。",
+    "tags": [
+      "OpenAI",
+      "Sora",
+      "video AI",
+      "departure"
+    ]
   }
 ]
