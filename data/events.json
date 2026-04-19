@@ -192,42 +192,6 @@
     "summary": "Anthropic联合创始人Jack Clark于2026年3月11日转任公司公共效益负责人，同时领导新成立的Anthropic Institute。该研究所旨在研究AI对社会的影响，包括经济转型、法律系统、国家安全和全球治理等议题。"
   },
   {
-    "id": "evt-ff3d9f38",
-    "person_name": "Irina Ghose",
-    "from_company": "Microsoft",
-    "to_company": "Anthropic",
-    "role": "Managing Director for India",
-    "event_type": "join",
-    "source_url": "https://www.reuters.com/world/anthropic-appoints-microsoft-veteran-irina-ghose-india-md-2026-01-15/",
-    "date_discovered": "2026-04-07",
-    "date_event": "2026-01-15",
-    "summary": "前微软印度董事总经理Irina Ghose于2026年1月15日加入Anthropic任印度董事总经理。她曾在微软印度任职两年，负责领导Anthropic在印度的首个办公室（班加罗尔），这是Anthropic在亚洲继东京之后的第二个办公室。"
-  },
-  {
-    "id": "evt-ff3d9f39",
-    "person_name": "Jimmy Ba",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Co-founder",
-    "event_type": "leave",
-    "source_url": "https://www.siliconrepublic.com/business/jimmy-ba-tony-wu-latest-tech-co-founders-to-exit-musk-xai",
-    "date_discovered": "2026-04-07",
-    "date_event": "2026-02-11",
-    "summary": "xAI联合创始人Jimmy Ba于2026年2月11日离开xAI。他是多伦多大学副教授，也是深度学习领域的知名研究者。他的离职发生在角色范围被缩小之后，是2026年2月离开xAI的两位联合创始人之一。"
-  },
-  {
-    "id": "evt-ff3d9f3a",
-    "person_name": "Tony Wu",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Co-founder",
-    "event_type": "leave",
-    "source_url": "https://www.siliconrepublic.com/business/jimmy-ba-tony-wu-latest-tech-co-founders-to-exit-musk-xai",
-    "date_discovered": "2026-04-07",
-    "date_event": "2026-02-11",
-    "summary": "xAI联合创始人Tony Wu于2026年2月11日离开xAI。他此前曾在Google工作，是xAI创始团队中重要的研究人才之一。他的离职与Jimmy Ba同时发生，加剧了xAI联合创始人离职潮。"
-  },
-  {
     "id": "evt-7dbf2465",
     "person_name": "王炳宣",
     "from_company": "DeepSeek",
@@ -298,18 +262,6 @@
     "date_discovered": "2026-04-06",
     "date_event": "2026-03",
     "summary": "xAI Imagine团队负责人Guodong Zhang于2026年3月初离职。他领导了xAI的图像生成团队。此次离职发生在SpaceX和Tesla对xAI运营进行审计期间。"
-  },
-  {
-    "id": "evt-ff3d9f31",
-    "person_name": "Zihang Dai",
-    "from_company": "xAI",
-    "to_company": "",
-    "role": "Research Scientist / 前Google研究员",
-    "event_type": "leave",
-    "source_url": "https://tech-insider.org/xai-co-founders-exodus-spacex-acquisition-2026/",
-    "date_discovered": "2026-04-06",
-    "date_event": "2026-03",
-    "summary": "前Google研究科学家Zihang Dai于2026年3月初离开xAI。他的离职加剧了xAI核心AI研究能力的流失，使xAI在重建研究能力的同时面临与OpenAI、Anthropic、Google和DeepSeek的竞争。"
   },
   {
     "id": "evt-27aead2b",
@@ -2230,18 +2182,6 @@
       "AI 助手",
       "Scott Fitzgerald"
     ]
-  },
-  {
-    "id": "evt-ff3d9f3c",
-    "person_name": "Julia Liuson",
-    "from_company": "Microsoft",
-    "to_company": "",
-    "role": "President of Developer Division",
-    "event_type": "leave",
-    "source_url": "https://www.cnbc.com/2026/04/08/microsoft-developer-tools-head-julia-liuson-retires.html",
-    "date_discovered": "2026-04-09",
-    "date_event": "2026-06",
-    "summary": "Julia Liuson, president of Microsoft's developer division and a 34-year company veteran, announced retirement in June 2026. She has led Microsoft's Developer Division (DevDiv) since 2021, overseeing Visual Studio, .NET Framework, and Azure developer services. She joined Microsoft in 1992 as a software design engineer."
   },
   {
     "id": "evt-20260410-1",
