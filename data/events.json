@@ -2835,5 +2835,76 @@
       "video AI",
       "departure"
     ]
+  },
+  {
+    "id": "evt-narayanan-20260417",
+    "person_name": "Srinivas Narayanan",
+    "event_type": "leave",
+    "date_event": "2026-04-17",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Chief Technology Officer, B2B Applications",
+    "source_url": "https://www.businessinsider.com/openai-executive-departures-shake-up-leadership-team-2026-4",
+    "date_discovered": "2026-04-20",
+    "summary": "Srinivas Narayanan宣布离开OpenAI，他表示希望花更多时间陪伴家人。他是OpenAI B2B应用业务的首席技术官。",
+    "tags": [
+      "OpenAI",
+      "CTO",
+      "B2B",
+      "departure"
+    ]
+  },
+  {
+    "id": "evt-lock-20260417",
+    "person_name": "Michael Lock",
+    "event_type": "leave",
+    "date_event": "2026-04-17",
+    "from_company": "Upstart",
+    "to_company": "",
+    "role": "",
+    "source_url": "https://www.linkedin.com/posts/michaelhlock_goupstart-rewiring-activity-7451643359275917312-AxVc",
+    "date_discovered": "2026-04-20",
+    "summary": "Michael Lock宣布辞去在Upstart的职位，并将退出运营公司的工作。他此前曾在Google工作，在Upstart工作了6年，专注于将AI引入受监管的行业。",
+    "tags": [
+      "Upstart",
+      "AI",
+      "fintech",
+      "departure"
+    ]
+  },
+  {
+    "id": "evt-das-20260417",
+    "person_name": "Vishal Das",
+    "event_type": "join",
+    "date_event": "2026-04-17",
+    "from_company": "",
+    "to_company": "Firecrawl",
+    "role": "",
+    "source_url": "https://www.linkedin.com/posts/kindavishal_i-just-did-something-youre-generally-told-activity-7451656429758849024-oxve",
+    "date_discovered": "2026-04-20",
+    "summary": "Vishal Das在4个月求职后加入Firecrawl，一家处于快速增长阶段的AI初创公司。",
+    "tags": [
+      "Firecrawl",
+      "AI",
+      "startup",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-patel-20260419",
+    "person_name": "Yugm Patel",
+    "event_type": "join",
+    "date_event": "2026-04-19",
+    "from_company": "",
+    "to_company": "Google",
+    "role": "Senior Software Engineer",
+    "source_url": "https://www.linkedin.com/in/yugmpatel",
+    "date_discovered": "2026-04-20",
+    "summary": "Yugm Patel宣布加入Google担任高级软件工程师。",
+    "tags": [
+      "Google",
+      "software engineer",
+      "join"
+    ]
   }
 ]
