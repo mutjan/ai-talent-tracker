@@ -2923,5 +2923,77 @@
     "_source_title": "Unknown",
     "_mentioned_companies": [],
     "_source_content": ""
+  },
+  {
+    "id": "evt-1ch8zb06",
+    "person_name": "Rohan Anil",
+    "event_type": "move",
+    "date_event": "2026-04-22",
+    "from_company": "Anthropic",
+    "to_company": "Core Automation",
+    "role": "Researcher",
+    "source_url": "https://www.businessinsider.com/core-automation-ai-nerdsniped-anthropic-google-deepmind-researchers-2026-4",
+    "date_discovered": "2026-04-23",
+    "summary": "Anthropic researcher Rohan Anil announced he left Anthropic after being \"nerdsniped\" by Jerry Tworek (former OpenAI VP) to join Core Automation, a new AI lab building automated research systems.",
+    "tags": [
+      "Anthropic",
+      "Core Automation",
+      "OpenAI",
+      "AI research"
+    ]
+  },
+  {
+    "id": "evt-b790tpt3",
+    "person_name": "Chao Peng",
+    "event_type": "leave",
+    "date_event": "2026-04-22",
+    "from_company": "ByteDance",
+    "to_company": "",
+    "role": "Software Engineering Lab Lead",
+    "source_url": "https://www.linkedin.com/posts/chao-peng-uoe_i-have-made-the-difficult-decision-to-leave-activity-7452505383299993600-UWGB",
+    "date_discovered": "2026-04-23",
+    "summary": "Chao Peng announced leaving ByteDance after 4.5 years, where he built the company's first software engineering lab and jointly incubated the TRAE AI coding product. He will explore new opportunities and continue open-source research.",
+    "tags": [
+      "ByteDance",
+      "TRAE",
+      "AI Coding",
+      "China"
+    ]
+  },
+  {
+    "id": "evt-h7pa3g8n",
+    "person_name": "Yaser Sheikh",
+    "event_type": "move",
+    "date_event": "2026-04-22",
+    "from_company": "Meta",
+    "to_company": "Sooth Labs",
+    "role": "Co-founder",
+    "source_url": "https://www.linkedin.com/posts/yaser-sheikh-9847a64_ai-pioneers-back-startup-building-models-activity-7452749558205546496-IyCI",
+    "date_discovered": "2026-04-23",
+    "summary": "After a decade at Meta, Yaser Sheikh left to co-found Sooth Labs with Russ Salakhutdinov, Chuck Hoover, David LaRose, and Shih-En Wei. The startup is building models to predict events, backed by Felicis Ventures.",
+    "tags": [
+      "Meta",
+      "Sooth Labs",
+      "Felicis",
+      "AI prediction",
+      "founder"
+    ]
+  },
+  {
+    "id": "evt-841n9yf8",
+    "person_name": "Maxi Tommasi",
+    "event_type": "join",
+    "date_event": "2026-04-22",
+    "from_company": "",
+    "to_company": "David AI",
+    "role": "Founding Growth Ops Lead",
+    "source_url": "https://www.linkedin.com/posts/maximilianotommasi_excited-to-announce-ive-joined-david-ai-activity-7452705439600762880-r06P",
+    "date_discovered": "2026-04-23",
+    "summary": "Maxi Tommasi announced joining David AI as founding Growth Ops Lead, focusing on voice AI.",
+    "tags": [
+      "David AI",
+      "voice AI",
+      "Growth Ops"
+    ]
   }
 ]
