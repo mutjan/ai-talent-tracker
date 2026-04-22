@@ -2906,5 +2906,22 @@
       "software engineer",
       "join"
     ]
+  },
+  {
+    "id": "evt-6c75962c",
+    "person_name": "",
+    "event_type": "move",
+    "date_event": "2026-04-22",
+    "from_company": "",
+    "to_company": "",
+    "role": "",
+    "source_url": "https://x.com/weiyaow1/status/2046623792584417704?s=20",
+    "date_discovered": "2026-04-22",
+    "summary": "Event from https://x.com/weiyaow1/status/2046623792584417704?s=20",
+    "tags": [],
+    "_needs_review": true,
+    "_source_title": "Unknown",
+    "_mentioned_companies": [],
+    "_source_content": ""
   }
 ]
