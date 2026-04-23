@@ -1,5 +1,41 @@
 [
   {
+    "id": "evt-8a3f1c72",
+    "person_name": "Sahra Ghalebikesabi",
+    "from_company": "Google DeepMind",
+    "to_company": "OpenAI",
+    "role": "Research Scientist, Privacy Team",
+    "event_type": "move",
+    "source_url": "https://x.com/SGhalebikesabi/status/2047028568782233668?s=20",
+    "date_discovered": "2026-04-23",
+    "date_event": "2026-04-22",
+    "summary": "Sahra Ghalebikesabi离开Google DeepMind加入OpenAI隐私团队。她此前为DeepMind研究科学家、微软研究院PhD Fellow、牛津大学博士，已在OpenAI贡献的首个项目已开源。"
+  },
+  {
+    "id": "evt-27e76ebc",
+    "person_name": "Gabriel Dulac-Arnold",
+    "from_company": "Google DeepMind",
+    "to_company": "UMA Robotics",
+    "role": "RL Researcher (10+ years at DeepMind/Brain/Gemini)",
+    "event_type": "move",
+    "source_url": "https://x.com/gabepsilon/status/2047231219637600402?s=20",
+    "date_discovered": "2026-04-23",
+    "date_event": "2026-04-23",
+    "summary": "Gabriel Dulac-Arnold宣布离开Google（DeepMind/Brain/Gemini共10+年），加入UMA Robotics，投身人机交互前沿机器人领域。他在此期间专注于强化学习（RL）研究，是Gemini项目Thinking & RL方向的核心成员。"
+  },
+  {
+    "id": "evt-7638e54d",
+    "person_name": "Daniel Edrisian",
+    "from_company": "OpenAI",
+    "to_company": "Blackstar",
+    "role": "Codex Team",
+    "event_type": "move",
+    "source_url": "https://x.com/DanielEdrisian/status/2047066691142914124?s=20",
+    "date_discovered": "2026-04-23",
+    "date_event": "2026-04-22",
+    "summary": "Daniel Edrisian离开OpenAI Codex团队，创办硬件公司Blackstar，致力于构建人机交互的未来。他认为软件问题已解决，下一步需要改变操作系统和硬件。Blackstar已完成1200万美元种子轮融资，由Abstract Ventures领投，Naval Ravikant、SV Angel、Chapter One、Timeless等参与。"
+  },
+  {
     "id": "evt-dbacabb0",
     "person_name": "Arshdeep Singh",
     "from_company": "xAI",
@@ -2994,6 +3030,146 @@
       "David AI",
       "voice AI",
       "Growth Ops"
+    ]
+  },
+  {
+    "id": "evt-lp042401",
+    "person_name": "Leigh Pember",
+    "event_type": "join",
+    "date_event": "2026-04-24",
+    "from_company": "",
+    "to_company": "Liquid AI",
+    "role": "GTM Hire, On-device AI",
+    "source_url": "https://www.linkedin.com/posts/pember_excited-to-share-that-ive-joined-liquid-activity-7453048994647330816-3QCV",
+    "date_discovered": "2026-04-24",
+    "summary": "Leigh Pember加入Liquid AI，成为首批GTM（Go-to-Market）团队成员，专注端侧AI（on-device AI）方向。",
+    "tags": [
+      "Liquid AI",
+      "on-device AI",
+      "GTM"
+    ]
+  },
+  {
+    "id": "evt-tt042402",
+    "person_name": "Thomas Taylor",
+    "event_type": "join",
+    "date_event": "2026-04-24",
+    "from_company": "",
+    "to_company": "Mistral AI",
+    "role": "AI Deployment Strategist, Solutions Team",
+    "source_url": "https://www.linkedin.com/posts/tomtaylor01_im-thrilled-to-share-that-ive-joined-activity-7452985125765746688-UJEb",
+    "date_discovered": "2026-04-24",
+    "summary": "Thomas Taylor加入Mistral AI担任AI Deployment Strategist，加入Solutions团队，负责AI部署战略。",
+    "tags": [
+      "Mistral AI",
+      "AI deployment",
+      "solutions"
+    ]
+  },
+  {
+    "id": "evt-mt042403",
+    "person_name": "Maggie Tamerius",
+    "event_type": "join",
+    "date_event": "2026-05-01",
+    "from_company": "Bicycle Therapeutics",
+    "to_company": "Isomorphic Labs",
+    "role": "Senior Talent Partner",
+    "source_url": "https://www.linkedin.com/posts/maggie-tamerius_im-so-excited-to-share-that-ill-be-joining-activity-7453071329198727168-37me",
+    "date_discovered": "2026-04-24",
+    "summary": "Maggie Tamerius将于2026年5月加入Isomorphic Labs（DeepMind/Alphabet旗下AI制药公司）担任Senior Talent Partner，负责团队建设和人才招募。",
+    "tags": [
+      "Isomorphic Labs",
+      "DeepMind",
+      "Alphabet",
+      "talent partner"
+    ]
+  },
+  {
+    "id": "evt-ll042404",
+    "person_name": "Lisha Li",
+    "event_type": "move",
+    "date_event": "2026-04-24",
+    "from_company": "Rosebud AI",
+    "to_company": "a16z",
+    "role": "Partner, Infra and AI Investment",
+    "source_url": "https://www.linkedin.com/posts/lisha-li-700985a_lisha-lishali88-on-x-activity-7453113668847816704-JnM3",
+    "date_discovered": "2026-04-24",
+    "summary": "Lisha Li离开Rosebud AI（担任CEO 8年后），加入a16z成为合伙人，专注基础设施和AI领域投资。",
+    "tags": [
+      "a16z",
+      "Rosebud AI",
+      "VC",
+      "AI investment"
+    ]
+  },
+  {
+    "id": "evt-aa042405",
+    "person_name": "Akhil Arunkumar",
+    "event_type": "join",
+    "date_event": "2026-04-24",
+    "from_company": "d-Matrix",
+    "to_company": "Google",
+    "role": "Ultra-low Latency Inference Systems Engineer",
+    "source_url": "https://www.linkedin.com/posts/akhilarunkumar_after-four-incredible-years-building-ultra-low-activity-7453081590529884161-9PJb",
+    "date_discovered": "2026-04-24",
+    "summary": "Akhil Arunkumar离开d-Matrix（4年，主导超低延迟推理系统和深度HW-SW协同设计）加入Google。",
+    "tags": [
+      "Google",
+      "d-Matrix",
+      "inference",
+      "HW-SW co-design"
+    ]
+  },
+  {
+    "id": "evt-dl042406",
+    "person_name": "Dongsoo Lee",
+    "event_type": "leave",
+    "date_event": "2026-04-30",
+    "from_company": "NAVER",
+    "to_company": "",
+    "role": "AI Semiconductor Strategy Lead",
+    "source_url": "https://www.linkedin.com/posts/dongsoo-lee-45028017_as-of-april-30-i-will-be-leaving-naver-activity-7453039932266180608-HpG2",
+    "date_discovered": "2026-04-24",
+    "summary": "Dongsoo Lee宣布将于4月30日离开NAVER（5年），此前主导AI半导体战略，曾与Samsung、Intel、SK Hynix开展联合项目，推动下一代内存AI解决方案。",
+    "tags": [
+      "NAVER",
+      "AI semiconductor",
+      "Samsung",
+      "Intel"
+    ]
+  },
+  {
+    "id": "evt-ds042407",
+    "person_name": "Daniel Shapero",
+    "event_type": "join",
+    "date_event": "2026-04-24",
+    "from_company": "",
+    "to_company": "LinkedIn",
+    "role": "CEO",
+    "source_url": "https://www.linkedin.com/news/story/linkedin-names-company-veteran-daniel-shapero-as-ceo-8695770/",
+    "date_discovered": "2026-04-24",
+    "summary": "LinkedIn任命公司老将Daniel Shapero为新任CEO。Shapero从产品经理一路晋升至高管团队，在LinkedIn工作多年后成为CEO。",
+    "tags": [
+      "LinkedIn",
+      "Microsoft",
+      "CEO"
+    ]
+  },
+  {
+    "id": "evt-jt042408",
+    "person_name": "John Ternus",
+    "event_type": "join",
+    "date_event": "2026-04-24",
+    "from_company": "",
+    "to_company": "Apple",
+    "role": "CEO",
+    "source_url": "https://www.linkedin.com/posts/jasoncalacanis_apple-has-a-new-ceo-john-ternus-ternus-activity-7452884165865177089-CS4C",
+    "date_discovered": "2026-04-24",
+    "summary": "Apple任命John Ternus为新任CEO，接替Tim Cook。Ternus在Apple工作25年，以硬件背景著称，将引领Apple的AI时代战略。",
+    "tags": [
+      "Apple",
+      "CEO",
+      "Tim Cook succession"
     ]
   }
 ]
