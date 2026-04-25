@@ -3171,5 +3171,22 @@
       "CEO",
       "Tim Cook succession"
     ]
+  },
+  {
+    "id": "evt-sn20260426",
+    "person_name": "Srinivas Narayanan",
+    "event_type": "leave",
+    "date_event": "2026-04-26",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Engineering Lead",
+    "source_url": "https://x.com/snsf/status/2045261554484986155",
+    "date_discovered": "2026-04-26",
+    "summary": "OpenAI 工程负责人 Srinivas Narayanan 发文称将于下周末离开 OpenAI，计划先回印度陪伴父母后再决定下一步。",
+    "tags": [
+      "OpenAI",
+      "departure",
+      "engineering"
+    ]
   }
 ]
