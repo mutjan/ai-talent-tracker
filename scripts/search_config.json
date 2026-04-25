@@ -4,12 +4,21 @@
       "AI researcher joins leaves OpenAI Google DeepMind Anthropic",
       "AI talent move chief scientist leaves joins startup",
       "top AI engineer researcher joins new company",
-      "AI lab researcher departure hiring"
+      "AI lab researcher departure hiring",
+      "site:x.com AI researcher \"last day\" OR \"joined\" OR \"joining\"",
+      "site:linkedin.com/posts AI researcher \"excited to share\" \"joined\"",
+      "site:linkedin.com/posts \"I have joined\" \"AI\" \"researcher\"",
+      "site:x.com \"leaving\" \"OpenAI\" OR \"Anthropic\" OR \"DeepMind\""
     ],
     "english_specific": [
       "vice president AI leaves joins",
       "co-founder AI startup leaves",
-      "AI researcher joins leaves OpenAI Google DeepMind Anthropic Meta"
+      "AI researcher joins leaves OpenAI Google DeepMind Anthropic Meta",
+      "\"last day\" \"AI researcher\" OpenAI Anthropic DeepMind Meta xAI",
+      "\"joined\" \"research scientist\" OpenAI Anthropic DeepMind Meta xAI",
+      "\"leaving\" \"research scientist\" OpenAI Anthropic DeepMind Meta xAI",
+      "\"left\" \"to found\" \"AI lab\" researcher",
+      "\"joins\" \"from Google DeepMind\" \"AI\" researcher"
     ],
     "chinese_broad": [],
     "chinese_specific": []
