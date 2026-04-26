@@ -3188,5 +3188,23 @@
       "departure",
       "engineering"
     ]
+  },
+  {
+    "id": "evt-al20260425",
+    "person_name": "Akos Lada",
+    "event_type": "move",
+    "date_event": "2026-04-25",
+    "from_company": "Meta (Facebook)",
+    "to_company": "Google DeepMind",
+    "role": "Data Science Lead (Gemini App)",
+    "source_url": "https://www.linkedin.com/posts/akos-lada-737aba31_im-excited-to-join-google-deepmind-to-lead-activity-7453829956079362048-jzey",
+    "date_discovered": "2026-04-27",
+    "summary": "Akos Lada 发文称将加入 Google DeepMind，负责 Gemini App 的数据科学团队；同时表示结束在 Facebook（Meta）10+ 年的工作经历。",
+    "tags": [
+      "Google DeepMind",
+      "Gemini",
+      "Meta",
+      "move"
+    ]
   }
 ]
