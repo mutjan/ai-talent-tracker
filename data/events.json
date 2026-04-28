@@ -3223,5 +3223,22 @@
       "departure",
       "Grok"
     ]
+  },
+  {
+    "id": "evt-gn20260428",
+    "person_name": "Guanghan Ning",
+    "event_type": "move",
+    "date_event": "2026-04-28",
+    "from_company": "ByteDance Seed",
+    "to_company": "Fleet AI",
+    "role": "Member of Technical Staff (Research)",
+    "source_url": "https://x.com/quietnning/status/2049158994258972933",
+    "date_discovered": "2026-04-29",
+    "summary": "Guanghan Ning 在 X 发文称，在 ByteDance Seed 和独立研究者经历后，将加入 Fleet AI 研究团队担任 Member of Technical Staff。",
+    "tags": [
+      "Fleet AI",
+      "ByteDance",
+      "move"
+    ]
   }
 ]
