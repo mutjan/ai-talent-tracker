@@ -3206,5 +3206,22 @@
       "Meta",
       "move"
     ]
+  },
+  {
+    "id": "evt-jc20260427",
+    "person_name": "Jack Cai",
+    "event_type": "leave",
+    "date_event": "2026-04-27",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Grok Imagine",
+    "source_url": "https://x.com/JackCaiXun/status/2049249113343168814",
+    "date_discovered": "2026-04-29",
+    "summary": "Jack Cai 在 X 发文称已于前一日从 xAI 辞职，并回顾在 xAI（含 Grok Imagine）与团队共事的经历。",
+    "tags": [
+      "xAI",
+      "departure",
+      "Grok"
+    ]
   }
 ]
