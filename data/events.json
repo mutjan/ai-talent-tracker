@@ -3240,5 +3240,17 @@
       "ByteDance",
       "move"
     ]
+  },
+  {
+    "id": "evt-yd20260430",
+    "person_name": "Yihe Deng",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "",
+    "event_type": "leave",
+    "source_url": "https://x.com/Yihe__Deng/status/2049652503009210634",
+    "date_discovered": "2026-05-01",
+    "date_event": "2026-04-30",
+    "summary": "Yihe Deng 在 X 发文称 2026-04-30 是其在 xAI 的最后一天，并回顾作为应届生加入 xAI 的半年经历。"
   }
 ]
