@@ -3252,5 +3252,24 @@
     "date_discovered": "2026-05-01",
     "date_event": "2026-04-30",
     "summary": "Yihe Deng 在 X 发文称 2026-04-30 是其在 xAI 的最后一天，并回顾作为应届生加入 xAI 的半年经历。"
+  },
+  {
+    "id": "evt-lp20260501",
+    "person_name": "Lerrel Pinto",
+    "from_company": "Assured Robot Intelligence",
+    "to_company": "Meta Superintelligence Labs",
+    "role": "Robotics AI lead / Co-founder of ARI",
+    "event_type": "move",
+    "source_url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+    "date_discovered": "2026-05-03",
+    "date_event": "2026-05-01",
+    "summary": "TechCrunch 报道 Meta 收购 Assured Robot Intelligence，ARI 团队及联合创始人将加入 Meta Superintelligence Labs；Lerrel Pinto 个人主页也显示其已在 MSL 负责 frontier robotics models。",
+    "tags": [
+      "Meta",
+      "Meta Superintelligence Labs",
+      "robotics",
+      "Assured Robot Intelligence",
+      "move"
+    ]
   }
 ]
