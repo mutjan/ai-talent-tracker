@@ -3308,5 +3308,42 @@
       "physical AI",
       "move"
     ]
+  },
+  {
+    "id": "evt-ak20260504",
+    "person_name": "Atoosa Kasirzadeh",
+    "from_company": "",
+    "to_company": "Google DeepMind",
+    "role": "Full-time researcher on AGI implications for human life, science, and society",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/atoosa-kasirzadeh-86880230_big-personal-news-im-joining-googledeepmind-activity-7457029740542136320-jOph",
+    "date_discovered": "2026-05-05",
+    "date_event": "2026-05-04",
+    "summary": "Atoosa Kasirzadeh 在 LinkedIn 发文称将于本周全职加入 Google DeepMind 伦敦，研究 AGI 对人类生活、科学与社会的影响；公开页显示发布时间为 2026-05-04。",
+    "tags": [
+      "Google DeepMind",
+      "AGI",
+      "AI ethics",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-dk20260504",
+    "person_name": "Dhrupad Karwa",
+    "from_company": "Common Sense Machines",
+    "to_company": "Google DeepMind",
+    "role": "Product Lead / Common Sense Machines team",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/dkarwa_after-a-few-surreal-years-of-building-common-activity-7457077643130281984-Vn9h",
+    "date_discovered": "2026-05-05",
+    "date_event": "2026-05-04",
+    "summary": "Dhrupad Karwa 在 LinkedIn 发文称 Common Sense Machines 已被 Google DeepMind 收购，并以团队口吻确认后续将继续在 Google DeepMind 推进 worldbuilding 方向；公开页显示发布时间为 2026-05-04。",
+    "tags": [
+      "Common Sense Machines",
+      "Google DeepMind",
+      "acquisition",
+      "world models",
+      "move"
+    ]
   }
 ]
