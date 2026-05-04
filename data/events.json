@@ -3271,5 +3271,23 @@
       "Assured Robot Intelligence",
       "move"
     ]
+  },
+  {
+    "id": "evt-sa20260503",
+    "person_name": "Syed Ahmed",
+    "from_company": "",
+    "to_company": "Zero to Agent",
+    "role": "Founding Engineer",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/syed-ahmedd_im-excited-to-announce-that-i-will-be-joining-activity-7456764525103652864-4Qlk",
+    "date_discovered": "2026-05-04",
+    "date_event": "2026-05-03",
+    "summary": "Syed Ahmed 在 LinkedIn 发文称将加入 Zero to Agent 担任 founding engineer；该公司为年收入 2500 万美元以上企业构建定制 AI 解决方案，帖子公开页显示发布时间为 2026-05-03。",
+    "tags": [
+      "Zero to Agent",
+      "AI",
+      "founding engineer",
+      "join"
+    ]
   }
 ]
