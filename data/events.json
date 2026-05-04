@@ -3289,5 +3289,24 @@
       "founding engineer",
       "join"
     ]
+  },
+  {
+    "id": "evt-bh20260424",
+    "person_name": "Byron Hsu",
+    "from_company": "xAI",
+    "to_company": "Periodic Labs",
+    "role": "RL Systems / Research Engineer",
+    "event_type": "move",
+    "source_url": "https://x.com/hsu_byron/status/2047543415991333254",
+    "date_discovered": "2026-05-04",
+    "date_event": "2026-04-24",
+    "summary": "Byron Hsu 在 X 发文称，在 xAI 工作一年后将加入 Periodic Labs，负责构建面向原子与实验室场景的 RL system；帖子公开页显示发布时间为 2026-04-24 05:09。",
+    "tags": [
+      "xAI",
+      "Periodic Labs",
+      "RL",
+      "physical AI",
+      "move"
+    ]
   }
 ]
