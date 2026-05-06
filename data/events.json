@@ -3345,5 +3345,112 @@
       "world models",
       "move"
     ]
+  },
+  {
+    "id": "evt-jco20260506",
+    "person_name": "Jason Corso",
+    "from_company": "University of Michigan",
+    "to_company": "Outonomous",
+    "role": "AI & Robotics advisor / professor",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/omar-mukhtar-omar_prof-jason-corso-has-officially-joined-outonomous-activity-7457584100997242880-fVSJ",
+    "date_discovered": "2026-05-07",
+    "date_event": "2026-05-06",
+    "summary": "Omar Mukhtar 在 LinkedIn 公开发文称 Prof. Jason Corso 已正式加入 Outonomous，并介绍其为 Toyota Motor Corporation Professor of AI & Robotics；公开页显示发布时间为 2026-05-06。",
+    "tags": [
+      "Outonomous",
+      "AI robotics",
+      "Visual AI",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-sv20260506",
+    "person_name": "Sourav Verma",
+    "from_company": "Oracle",
+    "to_company": "Bayer",
+    "role": "Lead Applied AI Scientist",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/srgrace_happy-to-share-that-ive-joined-bayer-as-activity-7457798852780118016-IzUY",
+    "date_discovered": "2026-05-07",
+    "date_event": "2026-05-06",
+    "summary": "Sourav Verma 在 LinkedIn 发文称已加入 Bayer 担任 Lead Applied AI Scientist，并提到此前在 Oracle 任职三个月后被裁；公开页显示发布时间为 2026-05-06。",
+    "tags": [
+      "Bayer",
+      "Oracle",
+      "applied AI",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-er20260506",
+    "person_name": "Eman Rezk",
+    "from_company": "",
+    "to_company": "Stanford AIMI",
+    "role": "AI medicine and imaging",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/eman-rezk-16b417102_im-excited-to-share-that-ive-joined-stanford-activity-7457795123200987136-uJ-7",
+    "date_discovered": "2026-05-07",
+    "date_event": "2026-05-06",
+    "summary": "Eman Rezk 在 LinkedIn 发文称已加入 Stanford University Center for Artificial Intelligence in Medicine and Imaging，并提到此前从事 healthcare AI models；公开页显示发布时间为 2026-05-06。",
+    "tags": [
+      "Stanford AIMI",
+      "medical AI",
+      "AI imaging",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-jch20260506",
+    "person_name": "Jinnan Chen",
+    "from_company": "",
+    "to_company": "Roblox Foundation AI",
+    "role": "AI Engineer",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/jinnan-chen-146b2317b_excited-to-share-that-im-starting-my-career-activity-7457686529646272512-KPct",
+    "date_discovered": "2026-05-07",
+    "date_event": "2026-05-06",
+    "summary": "Jinnan Chen 在 LinkedIn 发文称开始在 Roblox Foundation AI 担任 AI Engineer，这是其首个全职岗位；公开页显示发布时间为 2026-05-06。",
+    "tags": [
+      "Roblox Foundation AI",
+      "AI engineer",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-af20260505",
+    "person_name": "Adam Fletcher",
+    "from_company": "MarketStreet",
+    "to_company": "Anthropic",
+    "role": "MarketStreet team",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/adam-w-fletcher_happy-to-announce-were-joining-anthropic-activity-7457575740662988800-61NG",
+    "date_discovered": "2026-05-07",
+    "date_event": "2026-05-05",
+    "summary": "Adam Fletcher 在 LinkedIn 发文称 MarketStreet 团队将加入 Anthropic，继续推进面向小企业主的 AI agent 工作；公开页显示发布时间为 2026-05-05。",
+    "tags": [
+      "MarketStreet",
+      "Anthropic",
+      "AI agents",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-tm20260506",
+    "person_name": "T.A. McCann",
+    "from_company": "Pioneer Square Labs",
+    "to_company": "Lev",
+    "role": "CEO",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/pulse/psls-ta-mccann-running-startup-again-ceo-lev-ai-co-founder-startups-1ez5c",
+    "date_discovered": "2026-05-07",
+    "date_event": "2026-05-06",
+    "summary": "GeekWire 的 LinkedIn 文章称 Pioneer Square Labs 的 T.A. McCann 正担任 Lev CEO；Lev 是 PSL spin out 的 AI-powered co-founder for early-stage entrepreneurs，公开页显示发布时间为 2026-05-06。",
+    "tags": [
+      "Pioneer Square Labs",
+      "Lev",
+      "AI startup",
+      "move"
+    ]
   }
 ]
