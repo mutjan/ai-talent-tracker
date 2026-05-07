@@ -3452,5 +3452,62 @@
       "AI startup",
       "move"
     ]
+  },
+  {
+    "id": "evt-ghc20260507",
+    "person_name": "Grace H. C.",
+    "from_company": "10a Labs",
+    "to_company": "FAR.AI",
+    "role": "Member of Technical Staff",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/grace0607_excited-to-share-that-ive-joined-farai-activity-7458205208326803456-uuNE",
+    "date_discovered": "2026-05-08",
+    "date_event": "2026-05-07",
+    "summary": "Grace H. C. 在 LinkedIn 发文称已加入 FAR.AI 担任 Member of Technical Staff，继续从事 AI safety 和 adversarial robustness 工作，并感谢此前在 10a Labs 的经历；公开页显示发布时间为 2026-05-07。",
+    "tags": [
+      "FAR.AI",
+      "10a Labs",
+      "AI safety",
+      "adversarial robustness",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-kl20260507",
+    "person_name": "Karan Lokchandani",
+    "from_company": "",
+    "to_company": "Firecrawl",
+    "role": "Search Engineer",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/karan-lokchandani_thrilled-to-share-that-ive-joined-firecrawl-activity-7458095409001979904-aaNR",
+    "date_discovered": "2026-05-08",
+    "date_event": "2026-05-07",
+    "summary": "Karan Lokchandani 在 LinkedIn 发文称已加入 Firecrawl 担任 Search Engineer，将从事 search、algorithms、vector databases、distributed systems 和 AI/ML research 交叉方向的基础设施工作；公开页显示发布时间为 2026-05-07。",
+    "tags": [
+      "Firecrawl",
+      "search",
+      "AI/ML research",
+      "AI agents",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-wy20260507",
+    "person_name": "William Yang",
+    "from_company": "Amazon Robotics",
+    "to_company": "Dyna Robotics",
+    "role": "Member of Technical Staff",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/yang-will_excited-to-share-ive-recently-joined-dyna-activity-7458235249500528641-y5eP",
+    "date_discovered": "2026-05-08",
+    "date_event": "2026-05-07",
+    "summary": "William Yang 在 LinkedIn 发文称已加入 Dyna Robotics 担任 Member of Technical Staff；Dyna Robotics 同帖确认其此前在 Amazon Robotics 担任 Applied Scientist，并从事机器人动态控制、灵巧操作与 Embodied AI 相关工作；公开页显示发布时间为 2026-05-07。",
+    "tags": [
+      "Dyna Robotics",
+      "Amazon Robotics",
+      "robotics",
+      "embodied AI",
+      "move"
+    ]
   }
 ]
