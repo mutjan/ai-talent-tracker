@@ -3509,5 +3509,62 @@
       "embodied AI",
       "move"
     ]
+  },
+  {
+    "id": "evt-ap20260509",
+    "person_name": "Alex Presani",
+    "from_company": "Meta",
+    "to_company": "AgorAI",
+    "role": "Head of Technology & R&D",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/maurizio-cortese-136193_alex-presani-we-are-honoured-to-welcome-you-activity-7458743804754395136-i6WH",
+    "date_discovered": "2026-05-10",
+    "date_event": "2026-05-09",
+    "summary": "Maurizio Cortese 在 LinkedIn 发文欢迎 Alex Presani 加入 AgorAI；公开 JSON-LD 的 sharedContent 为 Presani 本人发文，称其将加入 AgorAI 担任 Head of Technology & R&D，并提到离开 Meta、曾与 FAIR researchers 和 GenAI 产品团队共事；公开页显示发布时间为 2026-05-09。",
+    "tags": [
+      "AgorAI",
+      "Meta",
+      "FAIR",
+      "GenAI",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-dl20260509",
+    "person_name": "Dayi Lin",
+    "from_company": "Huawei Canada Research Institute",
+    "to_company": "Microsoft CoreAI",
+    "role": "Principal Applied Scientist, GitHub Copilot team",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/dayilin_after-55-years-or-2021-days-to-be-exact-activity-7458856009218994178-koLZ",
+    "date_discovered": "2026-05-10",
+    "date_event": "2026-05-09",
+    "summary": "Dayi Lin 在 LinkedIn 发文称，在 Huawei Canada Research Institute 任职 5.5 年后，2026-05-08 是其最后一天，并将加入 Microsoft CoreAI 的 GitHub Copilot 团队担任 Principal Applied Scientist，继续推进 agentic software engineering 和代码 LLM 相关研究；公开页显示发布时间为 2026-05-09。",
+    "tags": [
+      "Huawei Canada Research Institute",
+      "Microsoft CoreAI",
+      "GitHub Copilot",
+      "agentic software engineering",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-ll20260509",
+    "person_name": "Long Le",
+    "from_company": "Google",
+    "to_company": "Google DeepMind",
+    "role": "Student Researcher, Robotics team",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/long-le-a0aaa7121_personal-news-im-joining-google-deepmind-activity-7458903453596266496-HQUx",
+    "date_discovered": "2026-05-10",
+    "date_event": "2026-05-09",
+    "summary": "Long Le 在 LinkedIn 发文称将于今年夏天加入 Google DeepMind NYC Robotics team 担任 Student Researcher，研究 humanoid robot learning；其帖文同时说明 4 年前离开 Google 攻读 PhD，如今回到 Google DeepMind 做机器人研究；公开页显示发布时间为 2026-05-09。",
+    "tags": [
+      "Google DeepMind",
+      "Google",
+      "robotics",
+      "humanoid robot learning",
+      "move"
+    ]
   }
 ]
