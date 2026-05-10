@@ -3566,5 +3566,42 @@
       "humanoid robot learning",
       "move"
     ]
+  },
+  {
+    "id": "evt-bg20260510",
+    "person_name": "Behzad Golshan",
+    "from_company": "Google DeepMind",
+    "to_company": "OpenAI",
+    "role": "Researcher",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/bgolshan_last-week-i-left-google-deepmind-and-joined-activity-7459072398059937792-YoEt",
+    "date_discovered": "2026-05-11",
+    "date_event": "2026-05-10",
+    "summary": "Behzad Golshan 在 LinkedIn 发文称上周离开 Google DeepMind 并加入 OpenAI，继续在 AI frontier 附近工作；公开页显示发布时间为 2026-05-10。",
+    "tags": [
+      "Google DeepMind",
+      "OpenAI",
+      "frontier AI",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-as20260510",
+    "person_name": "Andrey Shandybin",
+    "from_company": "Bloomberg",
+    "to_company": "Elyos AI",
+    "role": "Founding Software Engineer",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/andrey-shandybin_excited-to-announce-that-ive-joinedelyos-activity-7459201742250057728-Quqv",
+    "date_discovered": "2026-05-11",
+    "date_event": "2026-05-10",
+    "summary": "Andrey Shandybin 在 LinkedIn 发文称已离开 Bloomberg 并加入 Elyos AI 担任 Founding Software Engineer，参与构建面向 trades businesses 的 AI voice agents；公开页资源时间指向 2026-05-10。",
+    "tags": [
+      "Bloomberg",
+      "Elyos AI",
+      "AI voice agents",
+      "founding engineer",
+      "move"
+    ]
   }
 ]
