@@ -3603,5 +3603,78 @@
       "founding engineer",
       "move"
     ]
+  },
+  {
+    "id": "evt-mg20260511",
+    "person_name": "Martin Gonzalez",
+    "from_company": "",
+    "to_company": "Google DeepMind",
+    "role": "Head of Organizational AI Research",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/martinjosegonzalez_ive-started-a-new-career-chapter-as-head-activity-7459628725702377472-5v5g",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Martin Gonzalez 在 LinkedIn 发文称开启新职业章节，加入 Google DeepMind 担任 Head of Organizational AI Research，负责连接 frontier AI research 与 organizational science；公开页显示发布时间为 2026-05-11。",
+    "tags": [
+      "Google DeepMind",
+      "organizational AI research",
+      "frontier AI",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-mt20260511",
+    "person_name": "Mike Takahashi",
+    "from_company": "BetterHelp",
+    "to_company": "Zenity",
+    "role": "AI Red Team Researcher",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/michaeltakahashi_today-is-my-last-day-at-betterhelp-after-activity-7459649732747976705-V3fI",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Mike Takahashi 在 LinkedIn 发文称 2026-05-11 是其在 BetterHelp 的最后一天，接下来将加入 Zenity 担任 AI Red Team Researcher；公开页显示发布时间为 2026-05-11。",
+    "tags": [
+      "BetterHelp",
+      "Zenity",
+      "AI red team",
+      "security research",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-jl20260511",
+    "person_name": "Jeremy Levy",
+    "from_company": "",
+    "to_company": "NVIDIA",
+    "role": "Senior Researcher",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/jeremy-levy-0248b9145_happy-to-share-that-i-am-starting-a-new-role-activity-7459472017864486913-wA-S",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Jeremy Levy 在 LinkedIn 发文称加入 NVIDIA 担任 Senior Researcher，将在 Nati Daniel 团队构建 healthcare foundation models；公开页显示发布时间为 2026-05-11。",
+    "tags": [
+      "NVIDIA",
+      "foundation models",
+      "healthcare AI",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-tm20260511",
+    "person_name": "Tom McLeod",
+    "from_company": "",
+    "to_company": "Google DeepMind",
+    "role": "Head of Frontier Assurance",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/tommcleod_dynamic-ai-assurance-activity-7459550439399923715-nZBT",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Tom McLeod 在 LinkedIn 发文称加入 Google DeepMind 担任 Head of Frontier Assurance，负责围绕 frontier AI 的动态 assurance 工作；公开页显示发布时间为 2026-05-11。",
+    "tags": [
+      "Google DeepMind",
+      "frontier assurance",
+      "AI safety",
+      "join"
+    ]
   }
 ]
