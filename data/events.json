@@ -3713,5 +3713,24 @@
       "agents",
       "move"
     ]
+  },
+  {
+    "id": "evt-ars20260511",
+    "person_name": "Arshdeep Singh",
+    "from_company": "xAI",
+    "to_company": "Thinking Machines Lab",
+    "role": "Member of Technical Staff, interaction models",
+    "event_type": "move",
+    "source_url": "https://x.com/arshdeep/status/2053965494580093252?s=20",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Arshdeep Singh 在 X 发文称已加入 Thinking Machines Lab，因为相信 chatbots 不是 AI 的最终形态，并参与 interaction models 发布；其公开 X profile 显示 MTS at @thinkymachines，prev at xAI。X snowflake 时间为 2026-05-11T22:28:29Z。",
+    "tags": [
+      "xAI",
+      "Thinking Machines Lab",
+      "interaction models",
+      "multimodal interaction",
+      "move"
+    ]
   }
 ]
