@@ -3676,5 +3676,23 @@
       "AI safety",
       "join"
     ]
+  },
+  {
+    "id": "evt-th20260511",
+    "person_name": "Tairan He",
+    "from_company": "",
+    "to_company": "OpenAI",
+    "role": "Robotics / physical-world AGI researcher",
+    "event_type": "join",
+    "source_url": "https://x.com/TairanHe99/status/2053917032425590795?s=20",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Tairan He 在 X 发文称已加入 OpenAI；其刚完成 Robotics 博士，将继续朝 physical-world AGI 方向工作。X snowflake 时间为 2026-05-11T19:15:55Z。",
+    "tags": [
+      "OpenAI",
+      "robotics",
+      "physical-world AGI",
+      "join"
+    ]
   }
 ]
