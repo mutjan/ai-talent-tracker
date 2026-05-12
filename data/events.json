@@ -3732,5 +3732,42 @@
       "multimodal interaction",
       "move"
     ]
+  },
+  {
+    "id": "evt-mdl20260512",
+    "person_name": "Matthias De Lange",
+    "from_company": "",
+    "to_company": "Microsoft",
+    "role": "Senior Applied Scientist, Business & Industry Copilot",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/matthiasdelange_excited-to-share-that-ive-started-as-senior-activity-7459986106625941505-e3bM",
+    "date_discovered": "2026-05-13",
+    "date_event": "2026-05-12",
+    "summary": "Matthias De Lange 在 LinkedIn 发文称已加入 Microsoft Business & Industry Copilot 团队担任 Senior Applied Scientist，将从事 agentic model development and evaluation；公开页 datePublished 为 2026-05-12T15:21:27Z。",
+    "tags": [
+      "Microsoft",
+      "Business & Industry Copilot",
+      "agentic models",
+      "applied scientist",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-jqc20260508",
+    "person_name": "Joaquin Quiñonero Candela",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "AI safety / frontier risk leader",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/posts/joaquincan_last-friday-was-my-last-day-at-openai-i-activity-7459981156227354624-7nyY",
+    "date_discovered": "2026-05-13",
+    "date_event": "2026-05-08",
+    "summary": "Joaquin Quiñonero Candela 在 LinkedIn 发文称 2026-05-08 是其在 OpenAI 的最后一天；他表示过去两年多参与了模型安全和 frontier AI catastrophic risk 相关工作。公开页 datePublished 为 2026-05-12T15:01:47Z。",
+    "tags": [
+      "OpenAI",
+      "AI safety",
+      "frontier risk",
+      "leave"
+    ]
   }
 ]
