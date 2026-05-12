@@ -3694,5 +3694,24 @@
       "physical-world AGI",
       "join"
     ]
+  },
+  {
+    "id": "evt-mc20260511",
+    "person_name": "Mu Cai",
+    "from_company": "Google DeepMind",
+    "to_company": "Thinking Machines Lab",
+    "role": "Researcher, real-time multimodal interaction",
+    "event_type": "move",
+    "source_url": "https://x.com/MuCai7/status/2053986918149632052?s=20",
+    "date_discovered": "2026-05-12",
+    "date_event": "2026-05-11",
+    "summary": "Mu Cai 在 X 发文称这是加入 Thinking Machines Lab 后的首次分享，正在与团队做 real-time multimodal interaction；其 X profile 显示 Research @thinkymachines，previous: multimodal, agents @GoogleDeepMind。X snowflake 时间为 2026-05-11T23:53:37Z。",
+    "tags": [
+      "Google DeepMind",
+      "Thinking Machines Lab",
+      "multimodal interaction",
+      "agents",
+      "move"
+    ]
   }
 ]
