@@ -3769,5 +3769,62 @@
       "frontier risk",
       "leave"
     ]
+  },
+  {
+    "id": "evt-ak20260513",
+    "person_name": "Aniruddha Kembhavi",
+    "from_company": "",
+    "to_company": "Meta",
+    "role": "AI researcher / computer vision scientist",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/aniruddha-kembhavi_excited-to-share-that-ive-joined-meta-activity-7460134245345157120-vPMj",
+    "date_discovered": "2026-05-14",
+    "date_event": "2026-05-13",
+    "summary": "Aniruddha Kembhavi 在公开 LinkedIn 发文称已加入 Meta；公开页 Published Time 为 2026-05-13T01:10:06Z，其个人主页显示其研究背景覆盖 computer vision、robotics 和 NLP。",
+    "tags": [
+      "Meta",
+      "computer vision",
+      "robotics",
+      "AI researcher",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-jcl20260513",
+    "person_name": "Jeff Clune",
+    "from_company": "",
+    "to_company": "Recursive",
+    "role": "Cofounder",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/jeff-clune-56403a26_thrilled-to-share-that-we-founded-recursive-activity-7460331125333397505-RHZN",
+    "date_discovered": "2026-05-14",
+    "date_event": "2026-05-13",
+    "summary": "Jeff Clune 在公开 LinkedIn 发文称共同创办 Recursive，目标是构建可安全进行自我改进实验的 AI；LinkedIn activity 时间解码为 2026-05-13T14:12:26Z。",
+    "tags": [
+      "Recursive",
+      "self-improving AI",
+      "AI-generating algorithms",
+      "cofounder",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-tr20260513",
+    "person_name": "Tim Rocktäschel",
+    "from_company": "",
+    "to_company": "Recursive",
+    "role": "Cofounder",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/rockt_we-are-emerging-from-stealth-with-a-bold-activity-7460256580387848192-aI4O",
+    "date_discovered": "2026-05-14",
+    "date_event": "2026-05-13",
+    "summary": "Tim Rocktäschel 在公开 LinkedIn 发文称与团队共同创办 Recursive，研究方向是 self-improving AI 和自动化科学发现；LinkedIn activity 时间解码为 2026-05-13T09:16:13Z。",
+    "tags": [
+      "Recursive",
+      "self-improving AI",
+      "automated scientific discovery",
+      "cofounder",
+      "join"
+    ]
   }
 ]
