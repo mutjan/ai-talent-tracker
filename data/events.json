@@ -2944,23 +2944,6 @@
     ]
   },
   {
-    "id": "evt-6c75962c",
-    "person_name": "",
-    "event_type": "move",
-    "date_event": "2026-04-22",
-    "from_company": "",
-    "to_company": "",
-    "role": "",
-    "source_url": "https://x.com/weiyaow1/status/2046623792584417704?s=20",
-    "date_discovered": "2026-04-22",
-    "summary": "Event from https://x.com/weiyaow1/status/2046623792584417704?s=20",
-    "tags": [],
-    "_needs_review": true,
-    "_source_title": "Unknown",
-    "_mentioned_companies": [],
-    "_source_content": ""
-  },
-  {
     "id": "evt-1ch8zb06",
     "person_name": "Rohan Anil",
     "event_type": "move",
@@ -3880,6 +3863,63 @@
       "AI researcher",
       "founder",
       "join"
+    ]
+  },
+  {
+    "id": "evt-jl20260513",
+    "person_name": "Lin Junyang (Junyang Lin)",
+    "from_company": "Alibaba Qwen",
+    "to_company": "New AI lab",
+    "role": "Founder / world-models and embodied-intelligence AI lab",
+    "event_type": "move",
+    "source_url": "https://eu.36kr.com/en/p/3807382930251523",
+    "date_discovered": "2026-05-16",
+    "date_event": "2026-05-13",
+    "summary": "林俊旸于2026-05-13被36Kr报道已离开阿里千问后创业，筹建面向world models和具身智能方向的新AI实验室。",
+    "tags": [
+      "Alibaba Qwen",
+      "New AI lab",
+      "world models",
+      "embodied AI",
+      "founder"
+    ]
+  },
+  {
+    "id": "evt-smc20260515",
+    "person_name": "Si Min Chan",
+    "from_company": "ST Engineering",
+    "to_company": "",
+    "role": "AI & Data Analytics / R&D",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/posts/si-min-chan_today-is-my-last-day-at-st-engineering-and-activity-7460940025573220353-gFYi",
+    "date_discovered": "2026-05-16",
+    "date_event": "2026-05-15",
+    "summary": "Si Min Chan在公开LinkedIn帖中表示2026-05-15是其在ST Engineering的最后一天，此前参与AI & Data Analytics、机器人、physical AI、agentic与generative AI相关工作。",
+    "tags": [
+      "ST Engineering",
+      "AI & Data Analytics",
+      "robotics",
+      "agentic AI",
+      "generative AI"
+    ]
+  },
+  {
+    "id": "evt-ab20260515",
+    "person_name": "Astik Biswas",
+    "from_company": "Oracle",
+    "to_company": "Firstsource",
+    "role": "Associate Director - Data Science, Voice-based AI solutions",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/astik-biswas_im-excited-to-share-that-i-have-joined-firstsource-activity-7461018380389683200-j9Qm",
+    "date_discovered": "2026-05-16",
+    "date_event": "2026-05-15",
+    "summary": "Astik Biswas在公开LinkedIn帖中表示已从Oracle转至Firstsource，担任Associate Director - Data Science，专注Voice-based AI solutions和AI系统。",
+    "tags": [
+      "Oracle",
+      "Firstsource",
+      "data science",
+      "voice AI",
+      "AI systems"
     ]
   }
 ]
