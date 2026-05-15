@@ -3921,5 +3921,25 @@
       "voice AI",
       "AI systems"
     ]
+  },
+  {
+    "id": "evt-sz20260515",
+    "person_name": "Shen Zhuoran",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "Grok coding / web-app alignment researcher",
+    "event_type": "leave",
+    "source_url": "https://x.com/CMS_Flash/status/2055419191453437953?s=20",
+    "date_discovered": "2026-05-16",
+    "date_event": "2026-05-15",
+    "summary": "Shen Zhuoran 在 X 发文称已于上周离开 xAI；其在 xAI 期间主要参与优化 Grok 一次性生成复杂、完整、精 polished web apps 的长期项目，并提到团队贡献了成功的 alignment recipes。X snowflake 时间为 2026-05-15T22:44:57Z。",
+    "tags": [
+      "xAI",
+      "Grok",
+      "coding agents",
+      "web apps",
+      "alignment",
+      "leave"
+    ]
   }
 ]
