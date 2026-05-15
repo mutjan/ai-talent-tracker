@@ -3826,5 +3826,60 @@
       "cofounder",
       "join"
     ]
+  },
+  {
+    "id": "evt-gl20260514",
+    "person_name": "Gary Lin",
+    "from_company": "",
+    "to_company": "OpenAI",
+    "role": "Forward deployed engineering leader",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/garymlin_excited-to-share-that-i-recently-joined-openai-activity-7460765390839844864-DXbT",
+    "date_discovered": "2026-05-15",
+    "date_event": "2026-05-14",
+    "summary": "Gary Lin 在公开 LinkedIn 发文称近期加入 OpenAI，负责帮助领导 forward deployed engineering teams；公开页 datePublished 为 2026-05-14T18:58:03Z。",
+    "tags": [
+      "OpenAI",
+      "forward deployed engineering",
+      "frontier models",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-rediett20260514",
+    "person_name": "Rediet Tadesse",
+    "from_company": "",
+    "to_company": "Accenture Federal Services",
+    "role": "Generative AI Engineer",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/rediet-tadesse-73ba2a165_excited-to-announce-that-ive-joined-accenture-activity-7460660213889736704-tbnE",
+    "date_discovered": "2026-05-15",
+    "date_event": "2026-05-14",
+    "summary": "Rediet Tadesse 在公开 LinkedIn 发文称已加入 Accenture Federal Services 担任 Generative AI Engineer；公开页 datePublished 为 2026-05-14T12:00:07Z。",
+    "tags": [
+      "Accenture Federal Services",
+      "generative AI",
+      "AI engineer",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-rs20260513",
+    "person_name": "Richard Socher",
+    "from_company": "",
+    "to_company": "Recursive",
+    "role": "Founder / AI researcher",
+    "event_type": "join",
+    "source_url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+    "date_discovered": "2026-05-15",
+    "date_event": "2026-05-13",
+    "summary": "TechCrunch 2026-05-14 报道称 Richard Socher 以 Recursive Superintelligence 加入新一代研究型 AI startup；文章称该公司 2026-05-13 公开亮相，并聚焦 recursive self-improvement。",
+    "tags": [
+      "Recursive",
+      "recursive self-improvement",
+      "AI researcher",
+      "founder",
+      "join"
+    ]
   }
 ]
