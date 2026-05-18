@@ -3941,5 +3941,159 @@
       "alignment",
       "leave"
     ]
+  },
+  {
+    "id": "evt-maw20260518",
+    "person_name": "Mary-Anne Williams",
+    "from_company": "University of New South Wales",
+    "to_company": "CommBank",
+    "role": "Chief AI Scientist",
+    "event_type": "move",
+    "source_url": "https://www.commbank.com.au/articles/newsroom/2026/05/commonwealth-bank-appoints-first-chief-ai-scientist.html",
+    "date_discovered": "2026-05-19",
+    "date_event": "2026-05-18",
+    "summary": "CommBank宣布任命Professor Mary-Anne Williams为首任Chief AI Scientist；她从UNSW加入，研究背景覆盖AI、agentic AI、human-AI collaboration与创新。",
+    "tags": [
+      "CommBank",
+      "UNSW",
+      "Chief AI Scientist",
+      "agentic AI",
+      "AI research"
+    ]
+  },
+  {
+    "id": "evt-abrown20260518",
+    "person_name": "Andrew Brown",
+    "from_company": "Meta",
+    "to_company": "AMI - Advanced Machine Intelligence",
+    "role": "Member of Technical Staff",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/andrew-brown-6b4193115_so-today-is-my-last-day-at-meta-after-i-activity-7461999587885469696-oXAh",
+    "date_discovered": "2026-05-19",
+    "date_event": "2026-05-18",
+    "summary": "Andrew Brown在公开LinkedIn帖中表示2026-05-18是其在Meta的最后一天；此前在FAIR从事视频生成研究，下一站加入AMI - Advanced Machine Intelligence担任Member of Technical Staff，继续研究world models。",
+    "tags": [
+      "Meta",
+      "FAIR",
+      "AMI",
+      "world models",
+      "video generation",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-wd20260518",
+    "person_name": "Wesley Deng",
+    "from_company": "CMU Human-Computer Interaction Institute",
+    "to_company": "Microsoft Research",
+    "role": "Senior Researcher",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/wesley-deng-891961231_2026-marks-a-decade-since-i-moved-to-the-activity-7462143712752467969-5yFo",
+    "date_discovered": "2026-05-19",
+    "date_event": "2026-05-18",
+    "summary": "Wesley Deng在公开LinkedIn帖中表示已获得CMU Human-Computer Interaction Institute博士学位，并加入Microsoft Research纽约担任Senior Researcher，研究方向包括FATE、AI evaluation与responsible AI。",
+    "tags": [
+      "Microsoft Research",
+      "CMU HCII",
+      "responsible AI",
+      "AI evaluation",
+      "FATE",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-mf20260517",
+    "person_name": "Matan Friedmann",
+    "from_company": "Clearly Labs",
+    "to_company": "Confido",
+    "role": "Head of AI",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/matanf_im-happy-to-share-that-ive-recently-joined-activity-7461838290212765697-Iwne",
+    "date_discovered": "2026-05-18",
+    "date_event": "2026-05-17",
+    "summary": "Matan Friedmann在公开LinkedIn帖中表示已从共同创办的Clearly Labs转至Confido担任Head of AI；Clearly Labs此前构建agentic AI用于复杂文档工作流。",
+    "tags": [
+      "Clearly Labs",
+      "Confido",
+      "agentic AI",
+      "document workflows",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-wp20260517",
+    "person_name": "William Pang",
+    "from_company": "",
+    "to_company": "Dandelion Health",
+    "role": "NLP Data Scientist",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/william-pang-lh_excited-to-share-that-i-have-joined-dandelion-activity-7461642675864211456-Q9tI",
+    "date_discovered": "2026-05-18",
+    "date_event": "2026-05-17",
+    "summary": "William Pang在公开LinkedIn帖中表示已加入Dandelion Health担任NLP Data Scientist，负责从非结构化数据抽象洞察并支持多模态数据集与multimodal AI platform建设。",
+    "tags": [
+      "Dandelion Health",
+      "NLP",
+      "data science",
+      "multimodal AI",
+      "health AI"
+    ]
+  },
+  {
+    "id": "evt-nn20260517",
+    "person_name": "Nadia Nahar",
+    "from_company": "",
+    "to_company": "Microsoft",
+    "role": "Senior Applied Scientist",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/nadia-nahar-iit_excited-to-finally-share-that-ill-be-joining-activity-7461599440064315392-dRGI",
+    "date_discovered": "2026-05-18",
+    "date_event": "2026-05-17",
+    "summary": "Nadia Nahar在公开LinkedIn帖中表示将加入Microsoft担任Senior Applied Scientist，工作方向位于AI、machine learning systems与真实产品开发交叉处。",
+    "tags": [
+      "Microsoft",
+      "applied science",
+      "AI",
+      "machine learning systems",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-mc20260517",
+    "person_name": "Manon Chossegros",
+    "from_company": "",
+    "to_company": "Mistral AI",
+    "role": "Applied Scientist",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/manon-chossegros-7a5aba172_im-happy-to-share-that-ive-started-a-few-activity-7461732754842439680-S6Yo",
+    "date_discovered": "2026-05-18",
+    "date_event": "2026-05-17",
+    "summary": "Manon Chossegros在公开LinkedIn帖中表示已开始在Mistral AI担任Applied Scientist；帖子发布时间窗口为2026-05-17，原文称已开始数月。",
+    "tags": [
+      "Mistral AI",
+      "applied science",
+      "AI research",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-wchai20260518",
+    "person_name": "Wenhao Chai",
+    "from_company": "Princeton University",
+    "to_company": "Google DeepMind",
+    "role": "Student Researcher, multimodal long-context modeling",
+    "event_type": "move",
+    "source_url": "https://x.com/wenhaocha1/status/2056482794348699741?s=20",
+    "date_discovered": "2026-05-19",
+    "date_event": "2026-05-18",
+    "summary": "Wenhao Chai在X一手发文称将于2026年夏季加入Google DeepMind担任Student Researcher；其公开X profile标注Princeton CS博士生、Google DeepMind和multimodal long-context modeling方向。X snowflake时间为2026-05-18T21:11:20Z。",
+    "tags": [
+      "Google DeepMind",
+      "Princeton",
+      "student researcher",
+      "multimodal",
+      "long-context modeling",
+      "move"
+    ]
   }
 ]
