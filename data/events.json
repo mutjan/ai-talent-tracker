@@ -4095,5 +4095,24 @@
       "long-context modeling",
       "move"
     ]
+  },
+  {
+    "id": "evt-qy20260518",
+    "person_name": "Qingyu Yin",
+    "from_company": "",
+    "to_company": "MiniMax",
+    "role": "Post-training team, M3",
+    "event_type": "join",
+    "source_url": "https://x.com/MikaStars39/status/2056346193043800299?s=20",
+    "date_discovered": "2026-05-19",
+    "date_event": "2026-05-18",
+    "summary": "Qingyu Yin（X handle @MikaStars39）在X一手发文称已加入MiniMax post-training team并参与M3；其个人站将该handle与Qingyu Yin对应，并标注Currently: MiniMax Post-Train Team。X snowflake时间为2026-05-18T12:08:32Z。",
+    "tags": [
+      "MiniMax",
+      "post-training",
+      "M3",
+      "foundation models",
+      "join"
+    ]
   }
 ]
