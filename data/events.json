@@ -4114,5 +4114,67 @@
       "foundation models",
       "join"
     ]
+  },
+  {
+    "id": "evt-ak20260519",
+    "person_name": "Andrej Karpathy",
+    "from_company": "Eureka Labs",
+    "to_company": "Anthropic",
+    "role": "Pre-training R&D",
+    "event_type": "move",
+    "source_url": "https://x.com/karpathy/status/2056753169888334312",
+    "date_discovered": "2026-05-20",
+    "date_event": "2026-05-19",
+    "summary": "Andrej Karpathy在X一手发文称已加入Anthropic，并表示将回到前沿LLM研发；TechCrunch报道称其将加入Anthropic pre-training团队，建立使用Claude加速pre-training研究的团队。",
+    "tags": [
+      "Anthropic",
+      "Eureka Labs",
+      "pre-training",
+      "LLM",
+      "AI research",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-cr20260519",
+    "person_name": "Chris Rohlf",
+    "from_company": "Meta",
+    "to_company": "Anthropic",
+    "role": "Frontier Red Team",
+    "event_type": "move",
+    "source_url": "https://x.com/chrisrohlf/status/2056744653165092983",
+    "date_discovered": "2026-05-20",
+    "date_event": "2026-05-19",
+    "summary": "Chris Rohlf在X一手发文称已加入Anthropic Frontier Red Team；TechCrunch/Forbes报道补充其此前在Meta工作，并将参与面向严重威胁的前沿模型红队测试。",
+    "tags": [
+      "Anthropic",
+      "Meta",
+      "frontier red team",
+      "AI safety",
+      "cybersecurity",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-hf20260519",
+    "person_name": "Haoquan Fang",
+    "from_company": "Allen Institute for AI",
+    "to_company": "NVIDIA Cosmos Lab",
+    "role": "PhD Research Intern, robotics / world models",
+    "event_type": "move",
+    "source_url": "https://x.com/hq_fang/status/2056751744009539693?s=20",
+    "date_discovered": "2026-05-20",
+    "date_event": "2026-05-19",
+    "summary": "Haoquan Fang在X一手发文称将于2026年夏季加入NVIDIA Cosmos Lab担任PhD Research Intern；其公开主页显示他是Stanford CS incoming PhD、Ai2 Student Researcher，研究方向为robot learning、VLA与generalist robotic manipulation。X snowflake时间为2026-05-19T15:00:03Z。",
+    "tags": [
+      "NVIDIA",
+      "Cosmos Lab",
+      "Ai2",
+      "Stanford",
+      "robot learning",
+      "VLA",
+      "research intern",
+      "move"
+    ]
   }
 ]
