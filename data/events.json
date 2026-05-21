@@ -4176,5 +4176,25 @@
       "research intern",
       "move"
     ]
+  },
+  {
+    "id": "evt-eh20260520",
+    "person_name": "Ethan He",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "World model lead, Grok Imagine",
+    "event_type": "leave",
+    "source_url": "https://x.com/EthanHe_42/status/2057155024334323873?s=20",
+    "date_discovered": "2026-05-21",
+    "date_event": "2026-05-20",
+    "summary": "Ethan He在X一手发文称已离开xAI，并回顾其加入时参与从0到1搭建Grok Imagine、三个月后发布多模态视频模型、reference-to-video和video extension；同页公开profile标注其为ex world model lead @xAI @Grok @Imagine。",
+    "tags": [
+      "xAI",
+      "Grok Imagine",
+      "world model",
+      "video generation",
+      "multimodal",
+      "leave"
+    ]
   }
 ]
