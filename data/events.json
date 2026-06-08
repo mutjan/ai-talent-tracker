@@ -4196,5 +4196,45 @@
       "multimodal",
       "leave"
     ]
+  },
+  {
+    "id": "evt-cc20260607",
+    "person_name": "Clive Chan",
+    "from_company": "OpenAI",
+    "to_company": "Anthropic",
+    "role": "Member of Technical Staff / custom AI chip program",
+    "event_type": "move",
+    "source_url": "https://officechai.com/ai/second-hire-from-openais-chip-hardware-team-departs-to-join-anthropic/",
+    "date_discovered": "2026-06-08",
+    "date_event": "2026-06-06",
+    "summary": "Clive Chan announced on X that he left OpenAI and joined Anthropic this week. He was OpenAI's second hardware hire on its custom chip program and had worked on AI accelerator infrastructure; OfficeChai quoted the announcement and reported the move on 2026-06-07.",
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "AI infrastructure",
+      "custom chips",
+      "hardware",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-sa20260607",
+    "person_name": "Samar Abedrabbo",
+    "from_company": "xAI",
+    "to_company": "",
+    "role": "STEM/Biology Human Data Expert Team Lead",
+    "event_type": "leave",
+    "source_url": "https://x.com/samar_abedrabbo/status/2063700463435100510",
+    "date_discovered": "2026-06-08",
+    "date_event": "2026-06-07",
+    "summary": "Samar Abedrabbo announced she left xAI after joining from academia in November 2024. At xAI she started as an AI STEM Specialist Trainer, later became Human Data Expert Team Lead, and helped build biology and medicine expert teams for Grok evaluations and training data.",
+    "tags": [
+      "xAI",
+      "Grok",
+      "biology AI",
+      "human data",
+      "evaluation",
+      "leave"
+    ]
   }
 ]
