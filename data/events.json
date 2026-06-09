@@ -4236,5 +4236,64 @@
       "evaluation",
       "leave"
     ]
+  },
+  {
+    "id": "evt-jlf20260608",
+    "person_name": "Jonas Lau Frandsen",
+    "from_company": "Netcompany",
+    "to_company": "HEYRA",
+    "role": "Senior AI Engineer",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/laufrandsen_proving-whats-possible-and-building-it-for-activity-7469663748895424513-nKI0",
+    "date_discovered": "2026-06-09",
+    "date_event": "2026-06-08",
+    "summary": "HEYRA announced on LinkedIn that Jonas Lau Frandsen joined as a Senior AI Engineer. The post says he had most recently been building agentic AI and classic machine-learning systems; his public profile/CV identifies his prior role as a Netcompany data-science consultant focused on AI/ML proof-of-concepts.",
+    "tags": [
+      "HEYRA",
+      "Netcompany",
+      "AI engineer",
+      "agentic AI",
+      "machine learning",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-cb20260608",
+    "person_name": "Conrad Borchers",
+    "from_company": "Carnegie Mellon University",
+    "to_company": "Vanderbilt University",
+    "role": "Tenure-track Assistant Professor of Artificial Intelligence in Education",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/conrad-borchers-9a8786169_i-am-delighted-to-share-that-i-will-be-joining-activity-7469682203770126338-eZ38",
+    "date_discovered": "2026-06-09",
+    "date_event": "2026-06-08",
+    "summary": "Conrad Borchers announced on LinkedIn that he will join Vanderbilt University as a tenure-track Assistant Professor of Artificial Intelligence in Education in Peabody College and the College of Connected Computing, beginning in Fall 2026. His public site describes him as an incoming Vanderbilt assistant professor and current CMU PhD candidate.",
+    "tags": [
+      "Vanderbilt University",
+      "Carnegie Mellon University",
+      "AI education",
+      "learning sciences",
+      "assistant professor",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-bc20260608",
+    "person_name": "Bobby Celestin",
+    "from_company": "Meta",
+    "to_company": "Scout AI",
+    "role": "Team member",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/bobscelestin_after-an-incredible-run-at-meta-im-excited-activity-7469783305400385536-5PMn",
+    "date_discovered": "2026-06-09",
+    "date_event": "2026-06-08",
+    "summary": "Bobby Celestin announced on LinkedIn that after an incredible run at Meta he had moved on and joined Scout AI. Scout AI is a defense robotics AI startup building Fury, a foundation model for intelligent autonomous systems.",
+    "tags": [
+      "Meta",
+      "Scout AI",
+      "defense robotics",
+      "autonomous systems",
+      "move"
+    ]
   }
 ]
