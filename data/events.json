@@ -4295,5 +4295,24 @@
       "autonomous systems",
       "move"
     ]
+  },
+  {
+    "id": "evt-sk20260612",
+    "person_name": "Sanjay Kairam",
+    "from_company": "OpenAI",
+    "to_company": "Simile",
+    "role": "AI systems evaluation",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/skairam_after-an-extraordinary-chapter-at-openai-activity-7471264267779059713-BuM_",
+    "date_discovered": "2026-06-13",
+    "date_event": "2026-06-12",
+    "summary": "Sanjay Kairam announced on LinkedIn that after an extraordinary chapter at OpenAI, he has joined Simile to help define rigorous evaluations for AI systems. The LinkedIn activity timestamp decodes to 2026-06-12T18:16:50Z.",
+    "tags": [
+      "OpenAI",
+      "Simile",
+      "AI evaluation",
+      "AI systems",
+      "move"
+    ]
   }
 ]
