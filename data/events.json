@@ -4314,5 +4314,45 @@
       "AI systems",
       "move"
     ]
+  },
+  {
+    "id": "evt-kj20260613",
+    "person_name": "Kaiyi Jiang",
+    "from_company": "Amgen",
+    "to_company": "Princeton University",
+    "role": "Assistant Professor of Bioengineering",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/kaiyi-jiang-ba8744140_home-my-site-activity-7471367818857529344-ZAH4",
+    "date_discovered": "2026-06-14",
+    "date_event": "2026-06-13",
+    "summary": "Kaiyi Jiang announced on LinkedIn that he joined Princeton University as an Assistant Professor at the Omenn-Darling Bioengineering Institute and is launching Jiang Lab. His post says the lab works at the intersection of AI and molecular engineering; his lab profile says he previously joined Amgen as the inaugural Amgen Science Fellow. The LinkedIn activity timestamp decodes to 2026-06-13T01:08:19Z.",
+    "tags": [
+      "Princeton University",
+      "Amgen",
+      "AI for biology",
+      "molecular engineering",
+      "assistant professor",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-rr20260613",
+    "person_name": "Rucchi Ryan",
+    "from_company": "",
+    "to_company": "University of Cambridge",
+    "role": "Research Associate, AIMI: AI for Maternal Immunisation feasibility study",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/rucchi-ryan-5983b6151_excited-to-share-that-ive-started-a-new-activity-7471543371413676032-KmFY",
+    "date_discovered": "2026-06-14",
+    "date_event": "2026-06-13",
+    "summary": "Rucchi Ryan announced on LinkedIn that she started a new role as a Research Associate at the University of Cambridge Department of Public Health and Primary Care, working on AIMI, an AI for Maternal Immunisation feasibility study using an NHS-based AI-enabled chatbot. The LinkedIn activity timestamp decodes to 2026-06-13T12:45:54Z.",
+    "tags": [
+      "University of Cambridge",
+      "AI for health",
+      "maternal immunisation",
+      "chatbot",
+      "research associate",
+      "join"
+    ]
   }
 ]
