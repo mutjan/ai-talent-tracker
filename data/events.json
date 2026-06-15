@@ -4354,5 +4354,25 @@
       "research associate",
       "join"
     ]
+  },
+  {
+    "id": "evt-zg20260614",
+    "person_name": "Zachary Gleicher",
+    "from_company": "Google",
+    "to_company": "Anthropic",
+    "role": "Research PM, pre-training and inference",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/zachary-gleicher-88163360_after-nearly-ten-years-at-google-and-my-activity-7472026264451661824-_Lzq",
+    "date_discovered": "2026-06-16",
+    "date_event": "2026-06-14",
+    "summary": "Zachary Gleicher announced on LinkedIn that after nearly ten years at Google, he has joined Anthropic as a Research PM working on pre-training and inference. His post says it was his first week at Anthropic, and the LinkedIn activity timestamp decodes to 2026-06-14T20:44:44Z.",
+    "tags": [
+      "Google",
+      "Anthropic",
+      "pre-training",
+      "inference",
+      "research PM",
+      "move"
+    ]
   }
 ]
