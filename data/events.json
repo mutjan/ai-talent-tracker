@@ -4374,5 +4374,26 @@
       "research PM",
       "move"
     ]
+  },
+  {
+    "id": "evt-ns20260618",
+    "person_name": "Noam Shazeer",
+    "from_company": "Google",
+    "to_company": "OpenAI",
+    "role": "VP of Engineering / Gemini co-lead",
+    "event_type": "move",
+    "source_url": "https://x.com/NoamShazeer/status/2067400851438932297",
+    "date_discovered": "2026-06-19",
+    "date_event": "2026-06-18",
+    "summary": "Noam Shazeer announced on X that he is leaving Google and joining OpenAI. Multiple reports identified him as Google VP of Engineering and a Gemini co-lead, and noted his role as a Transformer co-author and Character.AI co-founder.",
+    "tags": [
+      "Google",
+      "OpenAI",
+      "Gemini",
+      "LLM",
+      "Transformer",
+      "AI research",
+      "move"
+    ]
   }
 ]
