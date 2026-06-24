@@ -4415,5 +4415,65 @@
       "Nobel Prize",
       "move"
     ]
+  },
+  {
+    "id": "evt-ac20260624",
+    "person_name": "Arthur Conmy",
+    "from_company": "Google DeepMind",
+    "to_company": "Anthropic",
+    "role": "AI alignment researcher",
+    "event_type": "move",
+    "source_url": "https://x.com/ArthurConmy/status/2069820098890674334",
+    "date_discovered": "2026-06-25",
+    "date_event": "2026-06-24",
+    "summary": "Arthur Conmy announced on X that he is joining Anthropic to work on aligning upcoming models as they are trained. His prior public LinkedIn announcement says he joined Google DeepMind's alignment team to research and scale AI interpretability.",
+    "tags": [
+      "Google DeepMind",
+      "Anthropic",
+      "AI alignment",
+      "interpretability",
+      "model safety",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-ja20260624",
+    "person_name": "Jonas Adler",
+    "from_company": "Google",
+    "to_company": "Anthropic",
+    "role": "Gemini contributor / AI coding",
+    "event_type": "move",
+    "source_url": "https://news.bloomberglaw.com/daily-labor-report/google-poised-to-lose-two-high-profile-ai-staffers-to-anthropic",
+    "date_discovered": "2026-06-25",
+    "date_event": "2026-06-24",
+    "summary": "Bloomberg reported that Jonas Adler, viewed internally as a key contributor to Google's Gemini AI model and someone who worked on Google's AI coding effort, is set to move to Anthropic. The report said Adler is one of two leading AI researchers Google is poised to lose to Anthropic.",
+    "tags": [
+      "Google",
+      "Anthropic",
+      "Gemini",
+      "AI coding",
+      "AI research",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-ap20260624",
+    "person_name": "Alexander Pritzel",
+    "from_company": "Google",
+    "to_company": "Anthropic",
+    "role": "Gemini contributor / AI training systems",
+    "event_type": "move",
+    "source_url": "https://news.bloomberglaw.com/daily-labor-report/google-poised-to-lose-two-high-profile-ai-staffers-to-anthropic",
+    "date_discovered": "2026-06-25",
+    "date_event": "2026-06-24",
+    "summary": "Bloomberg reported that Alexander Pritzel, viewed internally as a key contributor to Google's Gemini AI model and involved in training artificial intelligence systems, is set to move to Anthropic. The report said Pritzel and Jonas Adler are both expected to join the Claude maker.",
+    "tags": [
+      "Google",
+      "Anthropic",
+      "Gemini",
+      "AI training",
+      "AI research",
+      "move"
+    ]
   }
 ]
