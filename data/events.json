@@ -4423,10 +4423,10 @@
     "to_company": "Anthropic",
     "role": "AI alignment researcher",
     "event_type": "move",
-    "source_url": "https://x.com/ArthurConmy/status/2069820098890674334",
+    "source_url": "https://news.bloomberglaw.com/daily-labor-report/google-poised-to-lose-two-high-profile-ai-staffers-to-anthropic",
     "date_discovered": "2026-06-25",
     "date_event": "2026-06-24",
-    "summary": "Arthur Conmy announced on X that he is joining Anthropic to work on aligning upcoming models as they are trained. His prior public LinkedIn announcement says he joined Google DeepMind's alignment team to research and scale AI interpretability.",
+    "summary": "Bloomberg reported that Arthur Conmy wrote on X that he was set to join Anthropic to work on AI safety. Conmy was a senior research engineer at Google DeepMind, where his public profile described work on alignment and interpretability.",
     "tags": [
       "Google DeepMind",
       "Anthropic",
