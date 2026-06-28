@@ -4475,5 +4475,25 @@
       "AI research",
       "move"
     ]
+  },
+  {
+    "id": "evt-pm20260626",
+    "person_name": "Paul Meade",
+    "from_company": "Apple",
+    "to_company": "OpenAI",
+    "role": "Vice President, Vision Pro and smart glasses",
+    "event_type": "move",
+    "source_url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai",
+    "date_discovered": "2026-06-29",
+    "date_event": "2026-06-26",
+    "summary": "TechCrunch, citing Bloomberg's Mark Gurman, reported that Paul Meade, the Apple vice president in charge of Vision Pro and reportedly Apple's AI-powered smart glasses work, is leaving Apple to join OpenAI's hardware team.",
+    "tags": [
+      "Apple",
+      "OpenAI",
+      "Vision Pro",
+      "AI hardware",
+      "smart glasses",
+      "move"
+    ]
   }
 ]
