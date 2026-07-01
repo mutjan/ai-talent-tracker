@@ -4495,5 +4495,25 @@
       "smart glasses",
       "move"
     ]
+  },
+  {
+    "id": "evt-ds20260625",
+    "person_name": "Dawn Song",
+    "from_company": "Virtue AI",
+    "to_company": "Meta",
+    "role": "Vice President of AI Research",
+    "event_type": "join",
+    "source_url": "https://x.com/dawnsongtweets/status/2070191051873345910",
+    "date_discovered": "2026-07-02",
+    "date_event": "2026-06-25",
+    "summary": "Dawn Song announced on X that she will join Meta Superintelligence Labs as Vice President of AI Research, together with many members of the Virtue AI team, to work on AI safety and AI security for frontier models and agentic AI systems.",
+    "tags": [
+      "Virtue AI",
+      "Meta",
+      "Meta Superintelligence Labs",
+      "AI safety",
+      "AI security",
+      "join"
+    ]
   }
 ]
