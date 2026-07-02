@@ -4515,5 +4515,45 @@
       "AI security",
       "join"
     ]
+  },
+  {
+    "id": "evt-bl20260625",
+    "person_name": "Bo Li",
+    "from_company": "Virtue AI",
+    "to_company": "Meta",
+    "role": "Virtue AI co-founder / AI security researcher",
+    "event_type": "join",
+    "source_url": "https://www.axios.com/2026/06/25/meta-hires-virtue-ai-founders-security",
+    "date_discovered": "2026-07-03",
+    "date_event": "2026-06-25",
+    "summary": "Axios reported that Meta hired Virtue AI's three co-founders, including Bo Li, to help its new superintelligence lab with AI safety and security work.",
+    "tags": [
+      "Virtue AI",
+      "Meta",
+      "Meta Superintelligence Labs",
+      "AI safety",
+      "AI security",
+      "join"
+    ]
+  },
+  {
+    "id": "evt-sko20260625",
+    "person_name": "Sanmi Koyejo",
+    "from_company": "Virtue AI",
+    "to_company": "Meta",
+    "role": "Virtue AI co-founder / AI safety researcher",
+    "event_type": "join",
+    "source_url": "https://www.axios.com/2026/06/25/meta-hires-virtue-ai-founders-security",
+    "date_discovered": "2026-07-03",
+    "date_event": "2026-06-25",
+    "summary": "Axios reported that Meta hired Virtue AI's three co-founders, including Sanmi Koyejo, to help its new superintelligence lab with AI safety and security work.",
+    "tags": [
+      "Virtue AI",
+      "Meta",
+      "Meta Superintelligence Labs",
+      "AI safety",
+      "AI security",
+      "join"
+    ]
   }
 ]
