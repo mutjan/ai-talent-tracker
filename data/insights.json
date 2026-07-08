@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "type": "alert",
+      "date": "2026-07-09",
+      "label": "Agent更新",
+      "tag": "安全人才流失",
+      "tag_type": "alert",
+      "title": "OpenAI 安全与长期治理人才继续外流，Joshua Achiam 成为最新信号",
+      "paragraphs": [
+        "WIRED 报道 OpenAI 首席未来学家 Joshua Achiam 已通知同事将在 7 月晚些时候离职。Achiam 在 OpenAI 工作近 9 年，曾任 AI safety research scientist，这让此次离职不只是普通高管变动，而是安全、政策与长期治理能力的一次明显流失。",
+        "放到近期数据库里看，OpenAI 相关外流已经从研究、评估扩展到硬件和长期治理：Clive Chan 转向 Anthropic，Sanjay Kairam 转向 Simile，Achiam 则成为最新的安全/政策侧离职样本。OpenAI 仍在吸纳人才，但关键治理岗位的连续流动值得单独追踪。"
+      ],
+      "stats": [
+        { "label": "新增离职", "value": "1人" },
+        { "label": "OpenAI近期外流", "value": "3条" },
+        { "label": "数据库总量", "value": "307条" }
+      ],
+      "people": [
+        { "name": "Joshua Achiam", "company": "OpenAI → 待定" },
+        { "name": "Clive Chan", "company": "OpenAI → Anthropic" },
+        { "name": "Sanjay Kairam", "company": "OpenAI → Simile" }
+      ],
+      "sources": [
+        { "label": "WIRED", "url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/" },
+        { "label": "OfficeChai", "url": "https://officechai.com/ai/second-hire-from-openais-chip-hardware-team-departs-to-join-anthropic/" },
+        { "label": "LinkedIn", "url": "https://www.linkedin.com/posts/skairam_after-an-extraordinary-chapter-at-openai-activity-7471264267779059713-BuM_" }
+      ]
+    },
+    {
+      "type": "highlight",
+      "date": "2026-07-09",
+      "label": "趋势追踪",
+      "tag": "重磅挖角",
+      "tag_type": "highlight",
+      "title": "Meta 从单点挖人升级为团队式吸纳，Virtue AI 三位创始人进入超级智能版图",
+      "paragraphs": [
+        "Meta 最新一轮人才动作不再只是高薪挖单个明星研究员，而是直接吸收 AI safety 和 AI security 小团队。Dawn Song、Bo Li、Sanmi Koyejo 三位 Virtue AI 创始人进入 Meta Superintelligence Labs 相关体系，形成安全研究、模型安全和学术影响力的组合补强。",
+        "这类团队式流动比单点跳槽更值得关注：它意味着大厂在补齐 frontier model 能力时，正在把安全、红队、治理和基础研究打包纳入超级智能竞争，而不是把安全视为上线后的附属环节。"
+      ],
+      "stats": [
+        { "label": "Virtue AI流向Meta", "value": "3人" },
+        { "label": "方向", "value": "AI safety/security" },
+        { "label": "Meta近期入库", "value": "3条" }
+      ],
+      "people": [
+        { "name": "Dawn Song", "company": "Virtue AI → Meta" },
+        { "name": "Bo Li", "company": "Virtue AI → Meta" },
+        { "name": "Sanmi Koyejo", "company": "Virtue AI → Meta" }
+      ],
+      "sources": [
+        { "label": "Dawn Song on X", "url": "https://x.com/dawnsongtweets/status/2070191051873345910" },
+        { "label": "Axios", "url": "https://www.axios.com/2026/06/25/meta-hires-virtue-ai-founders-security" }
+      ]
+    },
+    {
+      "type": "highlight",
+      "date": "2026-07-09",
+      "label": "趋势追踪",
+      "tag": "DeepMind失血",
+      "tag_type": "highlight",
+      "title": "Google/DeepMind 仍是最主要人才输出方，Anthropic 和 OpenAI 分别拿走核心模型能力",
+      "paragraphs": [
+        "6 月以来，Google 与 Google DeepMind 在数据库中贡献了 6 条流出记录，目的地高度集中在 Anthropic 和 OpenAI。John Jumper、Arthur Conmy、Jonas Adler、Alexander Pritzel 等流向 Anthropic，Noam Shazeer 则转向 OpenAI。",
+        "这组流动的共同点不是普通岗位变动，而是模型能力链条上的关键环节：AlphaFold、Gemini、AI alignment、AI coding 和训练系统。换句话说，前沿实验室竞争已经进入“直接争夺模型生产能力”的阶段。"
+      ],
+      "stats": [
+        { "label": "Google系近期流出", "value": "6条" },
+        { "label": "流向Anthropic", "value": "5条" },
+        { "label": "流向OpenAI", "value": "1条" }
+      ],
+      "people": [
+        { "name": "John Jumper", "company": "Google DeepMind → Anthropic" },
+        { "name": "Arthur Conmy", "company": "Google DeepMind → Anthropic" },
+        { "name": "Noam Shazeer", "company": "Google → OpenAI" },
+        { "name": "Alexander Pritzel", "company": "Google → Anthropic" }
+      ],
+      "sources": [
+        { "label": "Reuters", "url": "https://www.reuters.com/technology/us-scientist-john-jumper-leave-google-deepmind-anthropic-2026-06-19" },
+        { "label": "Bloomberg Law", "url": "https://news.bloomberglaw.com/daily-labor-report/google-poised-to-lose-two-high-profile-ai-staffers-to-anthropic" },
+        { "label": "Noam Shazeer on X", "url": "https://x.com/NoamShazeer/status/2067400851438932297" }
+      ]
+    }
+  ]
+}

@@ -135,6 +135,10 @@ h1 {
   padding: 40px 0;
 }
 
+.insights-section:empty {
+  display: none;
+}
+
 .insight-entry {
   position: relative;
   padding-left: 32px;
@@ -421,29 +425,31 @@ footer a:hover { text-decoration: underline; }
 
   <!-- SUMMARY -->
   <div class="summary-box">
-    <div class="summary-title">本期更新概览 · 2026年4月3日</div>
+    <div class="summary-title">本期更新概览 · 2026年7月9日</div>
     <div class="summary-grid">
       <div class="summary-item">
-        <div class="summary-label">新增事件</div>
-        <div class="summary-value up">+48</div>
+        <div class="summary-label">4月后新增</div>
+        <div class="summary-value up">+158</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">数据库总量</div>
-        <div class="summary-value">149</div>
+        <div class="summary-value">307</div>
       </div>
       <div class="summary-item">
-        <div class="summary-label">xAI创始人离职</div>
-        <div class="summary-value">12/12</div>
+        <div class="summary-label">6月后新增</div>
+        <div class="summary-value">19</div>
       </div>
       <div class="summary-item">
         <div class="summary-label">待追踪去向</div>
-        <div class="summary-value">43人</div>
+        <div class="summary-value">69人</div>
       </div>
     </div>
   </div>
 
   <!-- INSIGHTS LOG -->
-  <div class="insights-section">
+  <div class="insights-section" id="dynamicInsights"></div>
+
+  <div class="insights-section" id="legacyInsights">
 
     <!-- Entry -29 (New 2026-04-03) -->
     <div class="insight-entry highlight">
@@ -1919,14 +1925,62 @@ footer a:hover { text-decoration: underline; }
 
   <!-- FOOTER -->
   <footer>
-    <p>洞察基于自动化搜索与人工分析生成</p>
+    <p>洞察基于自动化搜索、Agent审核与分析生成</p>
     <p>由 <a href="https://github.com/mutjan/ai-talent-tracker" target="_blank">LobsterAI</a> 驱动 · <a href="index.html">返回追踪器</a></p>
   </footer>
 </div>
 
 <script>
-// Make person-chips clickable
-document.addEventListener('DOMContentLoaded', function() {
+function escapeHtml(str) {
+  if (!str) return '';
+  const div = document.createElement('div');
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function renderInsight(item) {
+  const stats = (item.stats || []).map(stat => `
+    <span class="stat-pill">${escapeHtml(stat.label)}: <strong>${escapeHtml(stat.value)}</strong></span>
+  `).join('');
+  const people = (item.people || []).map(person => `
+    <span class="person-chip">${escapeHtml(person.name)} <span class="company">${escapeHtml(person.company || '')}</span></span>
+  `).join('');
+  const sources = (item.sources || []).map(source => `
+    <a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.label || source.url)}</a>
+  `).join(', ');
+  const paragraphs = (item.paragraphs || []).map(paragraph => `<p>${escapeHtml(paragraph)}</p>`).join('');
+
+  return `
+    <div class="insight-entry ${escapeHtml(item.type || '')}">
+      <div class="insight-date">${escapeHtml(item.date || '')} · ${escapeHtml(item.label || 'Agent更新')}</div>
+      <div class="insight-card">
+        <div class="insight-header">
+          <span class="insight-tag tag-${escapeHtml(item.tag_type || item.type || 'trend')}">${escapeHtml(item.tag || '趋势')}</span>
+          <span class="insight-title">${escapeHtml(item.title || '')}</span>
+        </div>
+        <div class="insight-content">${paragraphs}</div>
+        ${stats ? `<div class="insight-stats">${stats}</div>` : ''}
+        ${people ? `<div class="insight-people">${people}</div>` : ''}
+        ${sources ? `<div class="insight-source">来源: ${sources}</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+async function loadDynamicInsights() {
+  try {
+    const res = await fetch('data/insights.json');
+    if (!res.ok) return;
+    const data = await res.json();
+    const items = Array.isArray(data) ? data : (data.items || []);
+    if (!items.length) return;
+    document.getElementById('dynamicInsights').innerHTML = items.map(renderInsight).join('');
+  } catch (err) {
+    console.warn('Failed to load dynamic insights:', err);
+  }
+}
+
+function bindPersonChips() {
   const personChips = document.querySelectorAll('.person-chip');
   personChips.forEach(chip => {
     chip.style.cursor = 'pointer';
@@ -1938,6 +1992,12 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+}
+
+// Make person-chips clickable
+document.addEventListener('DOMContentLoaded', async function() {
+  await loadDynamicInsights();
+  bindPersonChips();
 });
 </script>
 
