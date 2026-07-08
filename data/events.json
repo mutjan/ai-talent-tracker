@@ -4555,5 +4555,23 @@
       "AI security",
       "join"
     ]
+  },
+  {
+    "id": "evt-ja20260707",
+    "person_name": "Joshua Achiam",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "Chief Futurist / AI safety research scientist",
+    "event_type": "leave",
+    "source_url": "https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/",
+    "date_discovered": "2026-07-09",
+    "date_event": "2026-07-07",
+    "summary": "WIRED reported that Joshua Achiam, OpenAI's chief futurist and a former AI safety research scientist, notified colleagues on July 7 that he is leaving OpenAI later in July after nearly nine years.",
+    "tags": [
+      "OpenAI",
+      "AI safety",
+      "policy",
+      "leave"
+    ]
   }
 ]
