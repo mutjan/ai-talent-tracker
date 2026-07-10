@@ -4573,5 +4573,23 @@
       "policy",
       "leave"
     ]
+  },
+  {
+    "id": "evt-fs20260709",
+    "person_name": "Fidji Simo",
+    "from_company": "OpenAI",
+    "to_company": "",
+    "role": "CEO of AGI Deployment / CEO of Applications",
+    "event_type": "leave",
+    "source_url": "https://x.com/fidjissimo/status/2075353170927304861",
+    "date_discovered": "2026-07-11",
+    "date_event": "2026-07-09",
+    "summary": "Fidji Simo announced that she is leaving her full-time role at OpenAI and transitioning to a part-time advisor role after an extended medical leave. Reuters, Bloomberg, TechCrunch and Business Insider also reported the move as a step-down from her AGI deployment/applications leadership role.",
+    "tags": [
+      "OpenAI",
+      "executive",
+      "leadership",
+      "leave"
+    ]
   }
 ]
