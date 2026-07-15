@@ -4591,5 +4591,24 @@
       "leadership",
       "leave"
     ]
+  },
+  {
+    "id": "evt-mw20260714",
+    "person_name": "Miles Wang",
+    "from_company": "OpenAI",
+    "to_company": "AI drug discovery startup",
+    "role": "Researcher, AI for science and biology",
+    "event_type": "move",
+    "source_url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b",
+    "date_discovered": "2026-07-16",
+    "date_event": "2026-07-14",
+    "summary": "TechCrunch reported that OpenAI researcher Miles Wang is leaving the company to launch a startup focused on AI models for drug discovery, citing four people with knowledge of his plans. Wang's work at OpenAI included using AI to accelerate scientific and biological discovery.",
+    "tags": [
+      "OpenAI",
+      "AI drug discovery",
+      "AI for science",
+      "startup",
+      "move"
+    ]
   }
 ]
