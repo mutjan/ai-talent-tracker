@@ -4610,5 +4610,41 @@
       "startup",
       "move"
     ]
+  },
+  {
+    "id": "evt-at20260715",
+    "person_name": "Alex Turner",
+    "from_company": "Google DeepMind",
+    "to_company": "",
+    "role": "Research Scientist, AI safety",
+    "event_type": "leave",
+    "source_url": "https://turntrout.com/why-i-left-google-deepmind",
+    "date_discovered": "2026-07-17",
+    "date_event": "2026-07-15",
+    "summary": "Alex Turner在2026年7月15日发布的个人文章中确认，他因不认同Google DeepMind与美国政府签署的军事AI协议而离职，目前独立开展AI安全与安保研究并寻找下一步方向。",
+    "tags": [
+      "Google DeepMind",
+      "AI safety",
+      "military AI",
+      "leave"
+    ]
+  },
+  {
+    "id": "evt-db20260715",
+    "person_name": "Dave Brown",
+    "from_company": "Amazon Web Services",
+    "to_company": "",
+    "role": "SVP, AWS Compute & Machine Learning Services",
+    "event_type": "leave",
+    "source_url": "https://www.aboutamazon.com/news/company-news/aws-dave-treadwell-replaces-dave-brown-compute-ml-services",
+    "date_discovered": "2026-07-17",
+    "date_event": "2026-07-15",
+    "summary": "Amazon官方公告称，AWS Compute & Machine Learning Services高级副总裁Dave Brown在AWS工作近19年后将离开公司，转任外部新职位；他将在7月底前协助交接。",
+    "tags": [
+      "Amazon Web Services",
+      "machine learning",
+      "executive",
+      "leave"
+    ]
   }
 ]
