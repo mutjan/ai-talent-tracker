@@ -4646,5 +4646,24 @@
       "executive",
       "leave"
     ]
+  },
+  {
+    "id": "evt-gw20260722",
+    "person_name": "Guangsen Wang",
+    "from_company": "",
+    "to_company": "Salesforce Research Asia",
+    "role": "Applied AI Research Scientist",
+    "event_type": "join",
+    "source_url": "https://www.linkedin.com/posts/guangsen-wang-4071003b_excited-to-share-that-ive-recently-joined-activity-7473991487308079104-1l_W",
+    "date_discovered": "2026-07-22",
+    "date_event": "2026-07-22",
+    "summary": "Guangsen Wang在公开LinkedIn帖子中宣布加入Salesforce Research Asia，担任Applied AI Research Scientist，参与企业级agentic AI研究。",
+    "tags": [
+      "Salesforce Research Asia",
+      "Applied AI",
+      "agentic AI",
+      "research",
+      "join"
+    ]
   }
 ]
