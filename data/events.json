@@ -4665,5 +4665,43 @@
       "research",
       "join"
     ]
+  },
+  {
+    "id": "evt-sb20260805",
+    "person_name": "Soumen Basu",
+    "from_company": "Meta",
+    "to_company": "IIT Kharagpur",
+    "role": "Assistant Professor, Department of Artificial Intelligence",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/ai-iitkgp_the-department-of-artificial-intelligence-activity-7490236769787977728-VRTX",
+    "date_discovered": "2026-08-05",
+    "date_event": "2026-08-05",
+    "summary": "IIT Kharagpur人工智能系在公开LinkedIn公告中宣布，前Meta基础AI研究科学家Soumen Basu加入该系担任助理教授。",
+    "tags": [
+      "Meta",
+      "IIT Kharagpur",
+      "AI research",
+      "computer vision",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-aa20260805",
+    "person_name": "Abhinav Atrishi",
+    "from_company": "Mach9",
+    "to_company": "Apple",
+    "role": "Machine Learning Engineer",
+    "event_type": "move",
+    "source_url": "https://www.linkedin.com/posts/abhinav-atrishi_im-excited-to-share-that-ive-joined-apple-activity-7490432665565741056-FDvK",
+    "date_discovered": "2026-08-05",
+    "date_event": "2026-08-05",
+    "summary": "Abhinav Atrishi在公开LinkedIn帖子中宣布从Mach9加入Apple，转向机器学习与图形学交叉方向；其公开资料显示其为机器学习工程师。",
+    "tags": [
+      "Mach9",
+      "Apple",
+      "machine learning",
+      "computer vision",
+      "move"
+    ]
   }
 ]
