@@ -4703,5 +4703,100 @@
       "computer vision",
       "move"
     ]
+  },
+  {
+    "id": "evt-jd20260805",
+    "person_name": "Jeff Dean",
+    "from_company": "Google",
+    "to_company": "Discovery Loop",
+    "role": "Chief Scientist, Google DeepMind and Google Research",
+    "event_type": "move",
+    "source_url": "https://x.com/MeghanBobrowsky/status/2085035574734545307",
+    "date_discovered": "2026-08-06",
+    "date_event": "2026-08-05",
+    "summary": "Wall Street Journal technology reporter Meghan Bobrowsky reported on X that Google chief scientist Jeff Dean is leaving Google to co-found Discovery Loop, an AI startup focused on scientific discovery.",
+    "tags": [
+      "Google",
+      "Discovery Loop",
+      "AI research",
+      "startup",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-sg20260805",
+    "person_name": "Sanjay Ghemawat",
+    "from_company": "Google",
+    "to_company": "Discovery Loop",
+    "role": "Senior Fellow, Google",
+    "event_type": "move",
+    "source_url": "https://x.com/MeghanBobrowsky/status/2085035574734545307",
+    "date_discovered": "2026-08-06",
+    "date_event": "2026-08-05",
+    "summary": "Meghan Bobrowsky reported that Google senior fellow and engineer Sanjay Ghemawat is leaving Google to co-found Discovery Loop with Jeff Dean and other Google AI researchers.",
+    "tags": [
+      "Google",
+      "Discovery Loop",
+      "AI research",
+      "startup",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-ql20260805",
+    "person_name": "Quoc Le",
+    "from_company": "Google",
+    "to_company": "Discovery Loop",
+    "role": "AI Researcher, Google Brain co-founder",
+    "event_type": "move",
+    "source_url": "https://x.com/MeghanBobrowsky/status/2085035574734545307",
+    "date_discovered": "2026-08-06",
+    "date_event": "2026-08-05",
+    "summary": "Meghan Bobrowsky reported that Google AI researcher and Google Brain co-founder Quoc Le is leaving Google to co-found Discovery Loop with Jeff Dean and other Google researchers.",
+    "tags": [
+      "Google",
+      "Discovery Loop",
+      "AI research",
+      "startup",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-ov20260805",
+    "person_name": "Oriol Vinyals",
+    "from_company": "Google DeepMind",
+    "to_company": "Discovery Loop",
+    "role": "VP of Research and Gemini Technical Lead",
+    "event_type": "move",
+    "source_url": "https://x.com/MeghanBobrowsky/status/2085035574734545307",
+    "date_discovered": "2026-08-06",
+    "date_event": "2026-08-05",
+    "summary": "Meghan Bobrowsky reported that Google DeepMind research leader Oriol Vinyals is leaving Google to co-found Discovery Loop with Jeff Dean and other Google AI researchers.",
+    "tags": [
+      "Google DeepMind",
+      "Discovery Loop",
+      "AI research",
+      "startup",
+      "move"
+    ]
+  },
+  {
+    "id": "evt-dh20260805",
+    "person_name": "Demis Hassabis",
+    "from_company": "Google DeepMind",
+    "to_company": "Google DeepMind",
+    "role": "CEO → Chair / Alphabet Chief Scientist",
+    "event_type": "move",
+    "source_url": "https://x.com/demishassabis/status/2085042592576901192",
+    "date_discovered": "2026-08-06",
+    "date_event": "2026-08-05",
+    "summary": "Demis Hassabis announced on X that he is moving from day-to-day leadership as Google DeepMind CEO into a Chair of Google DeepMind and Chief Scientist of Alphabet role focused on long-term AGI strategy and scientific breakthroughs.",
+    "tags": [
+      "Google DeepMind",
+      "Alphabet",
+      "AI research",
+      "leadership",
+      "move"
+    ]
   }
 ]
