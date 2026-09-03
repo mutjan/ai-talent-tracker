@@ -4798,5 +4798,37 @@
       "leadership",
       "move"
     ]
+  },
+  {
+    "id": "evt-71d6b05a",
+    "person_name": "Luis Sentis",
+    "from_company": "",
+    "to_company": "Si-Ware Systems",
+    "role": "Independent Scientific Advisor",
+    "event_type": "join",
+    "source_url": "https://www.si-ware.com/our-news/si-ware-systems-advances-physical-ai-strategy-with-dr-luis-sentis-as-scientific-advisor",
+    "date_discovered": "2026-09-04",
+    "date_event": "2026-09-03",
+    "summary": "Luis Sentis于2026-09-03加入Si-Ware Systems，职位/方向为Independent Scientific Advisor。",
+    "tags": [
+      "Si-Ware Systems",
+      "research"
+    ]
+  },
+  {
+    "id": "evt-da03458e",
+    "person_name": "Ray Kurzweil",
+    "from_company": "",
+    "to_company": "Subsense",
+    "role": "Product and Vision Advisor",
+    "event_type": "join",
+    "source_url": "https://fortune.com/2026/09/03/ai-visionary-ray-kurzweil-is-joining-a-silicon-valley-startup-developing-a-brain-computer-system-that-involves-snorting-nano-particles/",
+    "date_discovered": "2026-09-04",
+    "date_event": "2026-09-03",
+    "summary": "Ray Kurzweil于2026-09-03加入Subsense，职位/方向为Product and Vision Advisor。",
+    "tags": [
+      "Subsense",
+      "research"
+    ]
   }
 ]
