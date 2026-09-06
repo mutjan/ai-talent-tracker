@@ -4830,5 +4830,72 @@
       "Subsense",
       "research"
     ]
+  },
+  {
+    "id": "evt-9f3a7c21",
+    "person_name": "Amit Sharma",
+    "from_company": "Microsoft Research",
+    "to_company": "",
+    "role": "",
+    "event_type": "leave",
+    "source_url": "https://in.linkedin.com/in/amitshar",
+    "date_discovered": "2026-09-07",
+    "date_event": "2026-09-06",
+    "summary": "Amit Sharma于2026-09-06离开Microsoft Research，下一站暂未明确。",
+    "tags": [
+      "Microsoft Research",
+      "research"
+    ]
+  },
+  {
+    "id": "evt-4b8e1d63",
+    "person_name": "George Athanasiou",
+    "from_company": "The Cyprus Institute",
+    "to_company": "University of Cyprus",
+    "role": "XM Chair in AI",
+    "event_type": "move",
+    "source_url": "https://gr.linkedin.com/in/athanasiou",
+    "date_discovered": "2026-09-07",
+    "date_event": "2026-09-07",
+    "summary": "George Athanasiou于2026-09-07从The Cyprus Institute加入University of Cyprus，担任XM Chair in AI。",
+    "tags": [
+      "The Cyprus Institute",
+      "University of Cyprus",
+      "research",
+      "AI"
+    ]
+  },
+  {
+    "id": "evt-c6d2a4f8",
+    "person_name": "Weiwei Yang",
+    "from_company": "Microsoft Research",
+    "to_company": "",
+    "role": "",
+    "event_type": "leave",
+    "source_url": "https://www.linkedin.com/posts/weiwei-yang-32717528_today-is-my-last-day-at-microsoft-research-activity-7501688098796294145-LxgI",
+    "date_discovered": "2026-09-07",
+    "date_event": "2026-09-06",
+    "summary": "Weiwei Yang于2026-09-06离开Microsoft Research，下一站暂未明确。",
+    "tags": [
+      "Microsoft Research",
+      "research"
+    ]
+  },
+  {
+    "id": "evt-7a1e5d90",
+    "person_name": "Arpan Mukherjee",
+    "from_company": "",
+    "to_company": "Google DeepMind",
+    "role": "Research Scientist",
+    "event_type": "join",
+    "source_url": "https://in.linkedin.com/in/arpan-mukherjee-75b287b6",
+    "date_discovered": "2026-09-07",
+    "date_event": "2026-09-07",
+    "summary": "Arpan Mukherjee于2026-09-07加入Google DeepMind，担任Research Scientist，研究方向为autonomous agents。",
+    "tags": [
+      "Google DeepMind",
+      "research",
+      "agents"
+    ]
   }
 ]
